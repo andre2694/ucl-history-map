@@ -118,7 +118,9 @@
         <div class="meta">vs ${a.opponent} · ${a.venue}, ${a.city}
           ${a.wikiUrl ? ` · <a href="${a.wikiUrl}" target="_blank" rel="noopener">full match report ↗</a>` : ''}
         </div>
-        ${a.scorers ? `<div class="scorers">⚽ ${a.scorers}</div>` : ''}
+        ${a.scorers ? `<div class="scorers">⚽ ${club.name}: ${a.scorers}</div>` : ''}
+        ${a.opponentScorers ? `<div class="scorers">⚽ ${a.opponent}: ${a.opponentScorers}</div>` : ''}
+        ${a.unassignedScorers ? `<div class="scorers">⚽ ${a.unassignedScorers}</div>` : ''}
       </li>`;
     }).join('');
 
