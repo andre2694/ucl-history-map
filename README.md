@@ -23,21 +23,32 @@ stage / early rounds) — that needs a richer source. See [ROADMAP.md](ROADMAP.m
 
 ```
 data/
-  finals_raw.json     — one row per final: season, winner, score, runner-up, venue, city
-  club_coords.json    — manual lat/lon + country lookup per club (v0; swap for geocoding API later)
-  clubs.json          — GENERATED: per-club aggregation (titles, runner-ups, appearances)
+  finals_raw.json        — one row per final: season, winner, score, runner-up, venue, city
+  club_coords.json       — manual lat/lon + country lookup for the 42 finalist clubs
+  clubs.json             — GENERATED: what the map actually reads (finals-only, v0)
+  raw_html/               — GENERATED: cached RSSSF season pages (committed, so we don't
+                             re-hit their server on every run -- see scripts/scrape_rsssf.py)
+  participation_raw.json — GENERATED: round-by-round participation, all 70 seasons (v1, not
+                             yet wired into the map -- see ROADMAP.md)
+  clubs_full.json        — GENERATED: v1 aggregated by best-ever round, 899 club names,
+                             only 38 have coordinates so far
 scripts/
-  build_data.py        — finals_raw.json + club_coords.json -> clubs.json
-index.html              — the map (Leaflet.js via CDN, no build step)
+  build_data.py           — finals_raw.json + club_coords.json (+ RSSSF final-round text
+                             for goal scorers) -> clubs.json
+  scrape_rsssf.py         — RSSSF season pages -> participation_raw.json
+  build_full_data.py      — participation_raw.json -> clubs_full.json
+index.html                — the map (Leaflet.js via CDN, no build step)
 ```
 
 ## Regenerating the data
 
 ```bash
-python scripts/build_data.py
+python scripts/build_data.py        # what the live map reads
+python scripts/scrape_rsssf.py      # refresh full participation history (v1, ~70s, hits rsssf.org)
+python scripts/build_full_data.py   # aggregate it (depends on scrape_rsssf.py's output)
 ```
 
-Re-run this any time `data/finals_raw.json` or `data/club_coords.json` changes.
+Re-run `build_data.py` any time `data/finals_raw.json` or `data/club_coords.json` changes.
 
 ## Running locally
 
@@ -49,6 +60,13 @@ python -m http.server 8000
 ```
 
 Then open http://localhost:8000.
+
+## Features
+
+- Click a club marker to drill into its full run of finals: score, venue,
+  a link to the Wikipedia match report, and goal scorers (parsed from
+  RSSSF's final-round text, not team-attributed -- see `build_data.py`'s
+  `extract_scorers()` docstring for why).
 
 ## Data notes / caveats
 

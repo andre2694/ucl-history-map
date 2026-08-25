@@ -120,7 +120,7 @@ def clean_line(raw: str) -> str:
 def extract_cc_section(html: str) -> str:
     """Isolate the Champions League block: from the 'NAME="cc"' anchor up
     to the next competition's <H2> (UEFA/Europa/Conference/Super Cup)."""
-    m = re.search(r'name="cc"', html, re.I)
+    m = re.search(r'name=["\']?cc["\']?[\s>]', html, re.I)
     if not m:
         return ""
     start = m.start()
@@ -225,8 +225,11 @@ def main():
     all_seasons = {}
     qa_report = []
     for start_year in range(1955, 2026):
-        clubs, qa = parse_season(start_year)
         label = f"{start_year}-{(start_year+1)%100:02d}"
+        try:
+            clubs, qa = parse_season(start_year)
+        except requests.exceptions.HTTPError as e:
+            clubs, qa = None, {"season": start_year, "error": f"fetch failed: {e}"}
         if clubs:
             all_seasons[label] = clubs
         qa_report.append(qa)
