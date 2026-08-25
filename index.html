@@ -85,7 +85,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-  const map = L.map('map', { worldCopyJump: true }).setView([48, 8], 4);
+  const map = L.map('map', { worldCopyJump: true }).setView([54, 15], 4);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
@@ -132,11 +132,19 @@
     .then(r => r.json())
     .then(clubs => {
       clubs.sort((a, b) => (a.bestResult === 'Winner' ? 0 : 1) - (b.bestResult === 'Winner' ? 0 : 1));
+      const points = [];
       clubs.forEach(club => {
         const m = markerFor(club).addTo(map);
         m.bindTooltip(`${club.name} — ${club.titles}× title${club.titles === 1 ? '' : 's'}, ${club.runnerUps}× runner-up`);
         m.on('click', () => renderDetail(club));
+        points.push([club.lat, club.lon]);
       });
+      if (points.length) {
+        requestAnimationFrame(() => {
+          map.invalidateSize();
+          map.fitBounds(L.latLngBounds(points), { padding: [30, 30] });
+        });
+      }
     })
     .catch(err => {
       document.getElementById('detail').innerHTML =
