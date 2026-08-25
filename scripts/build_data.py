@@ -16,6 +16,17 @@ from collections import defaultdict
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
+
+def wiki_url(season: str) -> str:
+    """Wikipedia's per-final article, e.g. '1955–56' -> '1956 European Cup
+    final', '1999–2000' -> '2000 UEFA Champions League final'. The
+    competition was rebranded for the 1992-93 season."""
+    start = int(season.split("–")[0])
+    final_year = start + 1
+    comp = "European Cup final" if start <= 1991 else "UEFA Champions League final"
+    return "https://en.wikipedia.org/wiki/" + f"{final_year} {comp}".replace(" ", "_")
+
+
 def main():
     finals = json.loads((DATA / "finals_raw.json").read_text(encoding="utf-8"))
     coords = json.loads((DATA / "club_coords.json").read_text(encoding="utf-8"))
@@ -28,11 +39,13 @@ def main():
         clubs[winner]["appearances"].append({
             "season": f["season"], "result": "Winner", "score": f["score"],
             "opponent": runner, "venue": f["venue"], "city": f["city"],
+            "wikiUrl": wiki_url(f["season"]),
         })
         clubs[runner]["runnerUps"] += 1
         clubs[runner]["appearances"].append({
             "season": f["season"], "result": "Runner-up", "score": f["score"],
             "opponent": winner, "venue": f["venue"], "city": f["city"],
+            "wikiUrl": wiki_url(f["season"]),
         })
 
     missing_coords = sorted(set(clubs) - set(coords))

@@ -63,6 +63,8 @@
   #detail li .result.win { color: var(--gold); }
   #detail li .result.lose { color: var(--silver); }
   #detail li .meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
+  #detail li .meta a { color: #7fb0ff; text-decoration: none; }
+  #detail li .meta a:hover { text-decoration: underline; }
   .leaflet-popup-content-wrapper { background: var(--panel); color: var(--text); }
   .leaflet-popup-tip { background: var(--panel); }
 </style>
@@ -112,7 +114,9 @@
       return `<li>
         <div class="season">${a.season}</div>
         <div class="result ${win ? 'win' : 'lose'}">${win ? '🏆 Winner' : '🥈 Runner-up'} — ${a.score}</div>
-        <div class="meta">vs ${a.opponent} · ${a.venue}, ${a.city}</div>
+        <div class="meta">vs ${a.opponent} · ${a.venue}, ${a.city}
+          ${a.wikiUrl ? ` · <a href="${a.wikiUrl}" target="_blank" rel="noopener">full match report ↗</a>` : ''}
+        </div>
       </li>`;
     }).join('');
 
