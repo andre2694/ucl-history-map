@@ -1,0 +1,1600 @@
+[
+  {
+    "name": "Ajax",
+    "country": "Netherlands",
+    "lat": 52.3143,
+    "lon": 4.9419,
+    "bestResult": "Winner",
+    "titles": 4,
+    "runnerUps": 2,
+    "appearances": [
+      {
+        "season": "1968–69",
+        "result": "Runner-up",
+        "score": "4–1",
+        "opponent": "Milan",
+        "venue": "Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      {
+        "season": "1970–71",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Panathinaikos",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "1971–72",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Inter Milan",
+        "venue": "De Kuip",
+        "city": "Rotterdam"
+      },
+      {
+        "season": "1972–73",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Juventus",
+        "venue": "Red Star Stadium",
+        "city": "Belgrade"
+      },
+      {
+        "season": "1994–95",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Milan",
+        "venue": "Ernst-Happel-Stadion",
+        "city": "Vienna"
+      },
+      {
+        "season": "1995–96",
+        "result": "Runner-up",
+        "score": "1–1 (pens)",
+        "opponent": "Juventus",
+        "venue": "Stadio Olimpico",
+        "city": "Rome"
+      }
+    ]
+  },
+  {
+    "name": "Arsenal",
+    "country": "England",
+    "lat": 51.5549,
+    "lon": -0.1084,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 2,
+    "appearances": [
+      {
+        "season": "2005–06",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Barcelona",
+        "venue": "Stade de France",
+        "city": "Saint-Denis"
+      },
+      {
+        "season": "2025–26",
+        "result": "Runner-up",
+        "score": "1–1 (pens)",
+        "opponent": "Paris Saint-Germain",
+        "venue": "Puskás Aréna",
+        "city": "Budapest"
+      }
+    ]
+  },
+  {
+    "name": "Aston Villa",
+    "country": "England",
+    "lat": 52.5092,
+    "lon": -1.8848,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 0,
+    "appearances": [
+      {
+        "season": "1981–82",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Bayern Munich",
+        "venue": "De Kuip",
+        "city": "Rotterdam"
+      }
+    ]
+  },
+  {
+    "name": "Atlético Madrid",
+    "country": "Spain",
+    "lat": 40.4362,
+    "lon": -3.5995,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 3,
+    "appearances": [
+      {
+        "season": "1973–74",
+        "result": "Runner-up",
+        "score": "1–1, replay 4–0",
+        "opponent": "Bayern Munich",
+        "venue": "Heysel Stadium",
+        "city": "Brussels"
+      },
+      {
+        "season": "2013–14",
+        "result": "Runner-up",
+        "score": "4–1",
+        "opponent": "Real Madrid",
+        "venue": "Estádio da Luz",
+        "city": "Lisbon"
+      },
+      {
+        "season": "2015–16",
+        "result": "Runner-up",
+        "score": "1–1 (pens)",
+        "opponent": "Real Madrid",
+        "venue": "San Siro",
+        "city": "Milan"
+      }
+    ]
+  },
+  {
+    "name": "Barcelona",
+    "country": "Spain",
+    "lat": 41.3809,
+    "lon": 2.1228,
+    "bestResult": "Winner",
+    "titles": 5,
+    "runnerUps": 3,
+    "appearances": [
+      {
+        "season": "1960–61",
+        "result": "Runner-up",
+        "score": "3–2",
+        "opponent": "Benfica",
+        "venue": "Wankdorf Stadium",
+        "city": "Bern"
+      },
+      {
+        "season": "1985–86",
+        "result": "Runner-up",
+        "score": "0–0 (pens)",
+        "opponent": "Steaua București",
+        "venue": "Ramón Sánchez Pizjuán",
+        "city": "Seville"
+      },
+      {
+        "season": "1991–92",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Sampdoria",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "1993–94",
+        "result": "Runner-up",
+        "score": "4–0",
+        "opponent": "Milan",
+        "venue": "Olympic Stadium",
+        "city": "Athens"
+      },
+      {
+        "season": "2005–06",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Arsenal",
+        "venue": "Stade de France",
+        "city": "Saint-Denis"
+      },
+      {
+        "season": "2008–09",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Manchester United",
+        "venue": "Stadio Olimpico",
+        "city": "Rome"
+      },
+      {
+        "season": "2010–11",
+        "result": "Winner",
+        "score": "3–1",
+        "opponent": "Manchester United",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "2014–15",
+        "result": "Winner",
+        "score": "3–1",
+        "opponent": "Juventus",
+        "venue": "Olympiastadion",
+        "city": "Berlin"
+      }
+    ]
+  },
+  {
+    "name": "Bayer Leverkusen",
+    "country": "Germany",
+    "lat": 51.0382,
+    "lon": 7.0023,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "2001–02",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Real Madrid",
+        "venue": "Hampden Park",
+        "city": "Glasgow"
+      }
+    ]
+  },
+  {
+    "name": "Bayern Munich",
+    "country": "Germany",
+    "lat": 48.2188,
+    "lon": 11.6247,
+    "bestResult": "Winner",
+    "titles": 6,
+    "runnerUps": 5,
+    "appearances": [
+      {
+        "season": "1973–74",
+        "result": "Winner",
+        "score": "1–1, replay 4–0",
+        "opponent": "Atlético Madrid",
+        "venue": "Heysel Stadium",
+        "city": "Brussels"
+      },
+      {
+        "season": "1974–75",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Leeds United",
+        "venue": "Parc des Princes",
+        "city": "Paris"
+      },
+      {
+        "season": "1975–76",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Saint-Étienne",
+        "venue": "Hampden Park",
+        "city": "Glasgow"
+      },
+      {
+        "season": "1981–82",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Aston Villa",
+        "venue": "De Kuip",
+        "city": "Rotterdam"
+      },
+      {
+        "season": "1986–87",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Porto",
+        "venue": "Praterstadion",
+        "city": "Vienna"
+      },
+      {
+        "season": "1998–99",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Manchester United",
+        "venue": "Camp Nou",
+        "city": "Barcelona"
+      },
+      {
+        "season": "2000–01",
+        "result": "Winner",
+        "score": "1–1 (pens)",
+        "opponent": "Valencia",
+        "venue": "San Siro",
+        "city": "Milan"
+      },
+      {
+        "season": "2009–10",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Inter Milan",
+        "venue": "Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      {
+        "season": "2011–12",
+        "result": "Runner-up",
+        "score": "1–1 (pens)",
+        "opponent": "Chelsea",
+        "venue": "Allianz Arena",
+        "city": "Munich"
+      },
+      {
+        "season": "2012–13",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Borussia Dortmund",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "2019–20",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Paris Saint-Germain",
+        "venue": "Estádio da Luz",
+        "city": "Lisbon"
+      }
+    ]
+  },
+  {
+    "name": "Benfica",
+    "country": "Portugal",
+    "lat": 38.7527,
+    "lon": -9.1846,
+    "bestResult": "Winner",
+    "titles": 2,
+    "runnerUps": 5,
+    "appearances": [
+      {
+        "season": "1960–61",
+        "result": "Winner",
+        "score": "3–2",
+        "opponent": "Barcelona",
+        "venue": "Wankdorf Stadium",
+        "city": "Bern"
+      },
+      {
+        "season": "1961–62",
+        "result": "Winner",
+        "score": "5–3",
+        "opponent": "Real Madrid",
+        "venue": "Olympisch Stadion",
+        "city": "Amsterdam"
+      },
+      {
+        "season": "1962–63",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Milan",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "1964–65",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Inter Milan",
+        "venue": "San Siro",
+        "city": "Milan"
+      },
+      {
+        "season": "1967–68",
+        "result": "Runner-up",
+        "score": "4–1",
+        "opponent": "Manchester United",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "1987–88",
+        "result": "Runner-up",
+        "score": "0–0 (pens)",
+        "opponent": "PSV Eindhoven",
+        "venue": "Neckarstadion",
+        "city": "Stuttgart"
+      },
+      {
+        "season": "1989–90",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Milan",
+        "venue": "Praterstadion",
+        "city": "Vienna"
+      }
+    ]
+  },
+  {
+    "name": "Borussia Dortmund",
+    "country": "Germany",
+    "lat": 51.4926,
+    "lon": 7.4518,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 2,
+    "appearances": [
+      {
+        "season": "1996–97",
+        "result": "Winner",
+        "score": "3–1",
+        "opponent": "Juventus",
+        "venue": "Olympiastadion",
+        "city": "Munich"
+      },
+      {
+        "season": "2012–13",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Bayern Munich",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "2023–24",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Real Madrid",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      }
+    ]
+  },
+  {
+    "name": "Borussia Mönchengladbach",
+    "country": "Germany",
+    "lat": 51.1741,
+    "lon": 6.3868,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1976–77",
+        "result": "Runner-up",
+        "score": "3–1",
+        "opponent": "Liverpool",
+        "venue": "Stadio Olimpico",
+        "city": "Rome"
+      }
+    ]
+  },
+  {
+    "name": "Celtic",
+    "country": "Scotland",
+    "lat": 55.8497,
+    "lon": -4.2058,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1966–67",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Inter Milan",
+        "venue": "Estádio Nacional",
+        "city": "Lisbon"
+      },
+      {
+        "season": "1969–70",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Feyenoord",
+        "venue": "San Siro",
+        "city": "Milan"
+      }
+    ]
+  },
+  {
+    "name": "Chelsea",
+    "country": "England",
+    "lat": 51.4816,
+    "lon": -0.1909,
+    "bestResult": "Winner",
+    "titles": 2,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "2007–08",
+        "result": "Runner-up",
+        "score": "1–1 (pens)",
+        "opponent": "Manchester United",
+        "venue": "Luzhniki Stadium",
+        "city": "Moscow"
+      },
+      {
+        "season": "2011–12",
+        "result": "Winner",
+        "score": "1–1 (pens)",
+        "opponent": "Bayern Munich",
+        "venue": "Allianz Arena",
+        "city": "Munich"
+      },
+      {
+        "season": "2020–21",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Manchester City",
+        "venue": "Estádio do Dragão",
+        "city": "Porto"
+      }
+    ]
+  },
+  {
+    "name": "Club Brugge",
+    "country": "Belgium",
+    "lat": 51.2093,
+    "lon": 3.2247,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1977–78",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Liverpool",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      }
+    ]
+  },
+  {
+    "name": "Eintracht Frankfurt",
+    "country": "Germany",
+    "lat": 50.0684,
+    "lon": 8.6455,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1959–60",
+        "result": "Runner-up",
+        "score": "7–3",
+        "opponent": "Real Madrid",
+        "venue": "Hampden Park",
+        "city": "Glasgow"
+      }
+    ]
+  },
+  {
+    "name": "Feyenoord",
+    "country": "Netherlands",
+    "lat": 51.8935,
+    "lon": 4.5233,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 0,
+    "appearances": [
+      {
+        "season": "1969–70",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Celtic",
+        "venue": "San Siro",
+        "city": "Milan"
+      }
+    ]
+  },
+  {
+    "name": "Fiorentina",
+    "country": "Italy",
+    "lat": 43.7808,
+    "lon": 11.2822,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1956–57",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Real Madrid",
+        "venue": "Santiago Bernabéu",
+        "city": "Madrid"
+      }
+    ]
+  },
+  {
+    "name": "Hamburger SV",
+    "country": "Germany",
+    "lat": 53.5872,
+    "lon": 9.8985,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1979–80",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Nottingham Forest",
+        "venue": "Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      {
+        "season": "1982–83",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Juventus",
+        "venue": "Olympic Stadium",
+        "city": "Athens"
+      }
+    ]
+  },
+  {
+    "name": "Inter Milan",
+    "country": "Italy",
+    "lat": 45.4781,
+    "lon": 9.124,
+    "bestResult": "Winner",
+    "titles": 3,
+    "runnerUps": 4,
+    "appearances": [
+      {
+        "season": "1963–64",
+        "result": "Winner",
+        "score": "3–1",
+        "opponent": "Real Madrid",
+        "venue": "Praterstadion",
+        "city": "Vienna"
+      },
+      {
+        "season": "1964–65",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Benfica",
+        "venue": "San Siro",
+        "city": "Milan"
+      },
+      {
+        "season": "1966–67",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Celtic",
+        "venue": "Estádio Nacional",
+        "city": "Lisbon"
+      },
+      {
+        "season": "1971–72",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Ajax",
+        "venue": "De Kuip",
+        "city": "Rotterdam"
+      },
+      {
+        "season": "2009–10",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Bayern Munich",
+        "venue": "Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      {
+        "season": "2022–23",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Manchester City",
+        "venue": "Atatürk Olympic Stadium",
+        "city": "Istanbul"
+      },
+      {
+        "season": "2024–25",
+        "result": "Runner-up",
+        "score": "5–0",
+        "opponent": "Paris Saint-Germain",
+        "venue": "Allianz Arena",
+        "city": "Munich"
+      }
+    ]
+  },
+  {
+    "name": "Juventus",
+    "country": "Italy",
+    "lat": 45.1096,
+    "lon": 7.6413,
+    "bestResult": "Winner",
+    "titles": 2,
+    "runnerUps": 7,
+    "appearances": [
+      {
+        "season": "1972–73",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Ajax",
+        "venue": "Red Star Stadium",
+        "city": "Belgrade"
+      },
+      {
+        "season": "1982–83",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Hamburger SV",
+        "venue": "Olympic Stadium",
+        "city": "Athens"
+      },
+      {
+        "season": "1984–85",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Liverpool",
+        "venue": "Heysel Stadium",
+        "city": "Brussels"
+      },
+      {
+        "season": "1995–96",
+        "result": "Winner",
+        "score": "1–1 (pens)",
+        "opponent": "Ajax",
+        "venue": "Stadio Olimpico",
+        "city": "Rome"
+      },
+      {
+        "season": "1996–97",
+        "result": "Runner-up",
+        "score": "3–1",
+        "opponent": "Borussia Dortmund",
+        "venue": "Olympiastadion",
+        "city": "Munich"
+      },
+      {
+        "season": "1997–98",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Real Madrid",
+        "venue": "Amsterdam Arena",
+        "city": "Amsterdam"
+      },
+      {
+        "season": "2002–03",
+        "result": "Runner-up",
+        "score": "0–0 (pens)",
+        "opponent": "Milan",
+        "venue": "Old Trafford",
+        "city": "Manchester"
+      },
+      {
+        "season": "2014–15",
+        "result": "Runner-up",
+        "score": "3–1",
+        "opponent": "Barcelona",
+        "venue": "Olympiastadion",
+        "city": "Berlin"
+      },
+      {
+        "season": "2016–17",
+        "result": "Runner-up",
+        "score": "4–1",
+        "opponent": "Real Madrid",
+        "venue": "Millennium Stadium",
+        "city": "Cardiff"
+      }
+    ]
+  },
+  {
+    "name": "Leeds United",
+    "country": "England",
+    "lat": 53.7778,
+    "lon": -1.5722,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1974–75",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Bayern Munich",
+        "venue": "Parc des Princes",
+        "city": "Paris"
+      }
+    ]
+  },
+  {
+    "name": "Liverpool",
+    "country": "England",
+    "lat": 53.4308,
+    "lon": -2.9608,
+    "bestResult": "Winner",
+    "titles": 6,
+    "runnerUps": 4,
+    "appearances": [
+      {
+        "season": "1976–77",
+        "result": "Winner",
+        "score": "3–1",
+        "opponent": "Borussia Mönchengladbach",
+        "venue": "Stadio Olimpico",
+        "city": "Rome"
+      },
+      {
+        "season": "1977–78",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Club Brugge",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "1980–81",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Real Madrid",
+        "venue": "Parc des Princes",
+        "city": "Paris"
+      },
+      {
+        "season": "1983–84",
+        "result": "Winner",
+        "score": "1–1 (pens)",
+        "opponent": "Roma",
+        "venue": "Stadio Olimpico",
+        "city": "Rome"
+      },
+      {
+        "season": "1984–85",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Juventus",
+        "venue": "Heysel Stadium",
+        "city": "Brussels"
+      },
+      {
+        "season": "2004–05",
+        "result": "Winner",
+        "score": "3–3 (pens)",
+        "opponent": "Milan",
+        "venue": "Atatürk Olympic Stadium",
+        "city": "Istanbul"
+      },
+      {
+        "season": "2006–07",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Milan",
+        "venue": "Olympic Stadium",
+        "city": "Athens"
+      },
+      {
+        "season": "2017–18",
+        "result": "Runner-up",
+        "score": "3–1",
+        "opponent": "Real Madrid",
+        "venue": "NSC Olimpiyskiy Stadium",
+        "city": "Kyiv"
+      },
+      {
+        "season": "2018–19",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Tottenham Hotspur",
+        "venue": "Metropolitano Stadium",
+        "city": "Madrid"
+      },
+      {
+        "season": "2021–22",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Real Madrid",
+        "venue": "Stade de France",
+        "city": "Saint-Denis"
+      }
+    ]
+  },
+  {
+    "name": "Malmö FF",
+    "country": "Sweden",
+    "lat": 55.605,
+    "lon": 13.0038,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1978–79",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Nottingham Forest",
+        "venue": "Olympiastadion",
+        "city": "Munich"
+      }
+    ]
+  },
+  {
+    "name": "Manchester City",
+    "country": "England",
+    "lat": 53.4831,
+    "lon": -2.2004,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "2020–21",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Chelsea",
+        "venue": "Estádio do Dragão",
+        "city": "Porto"
+      },
+      {
+        "season": "2022–23",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Inter Milan",
+        "venue": "Atatürk Olympic Stadium",
+        "city": "Istanbul"
+      }
+    ]
+  },
+  {
+    "name": "Manchester United",
+    "country": "England",
+    "lat": 53.4631,
+    "lon": -2.2913,
+    "bestResult": "Winner",
+    "titles": 3,
+    "runnerUps": 2,
+    "appearances": [
+      {
+        "season": "1967–68",
+        "result": "Winner",
+        "score": "4–1",
+        "opponent": "Benfica",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "1998–99",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Bayern Munich",
+        "venue": "Camp Nou",
+        "city": "Barcelona"
+      },
+      {
+        "season": "2007–08",
+        "result": "Winner",
+        "score": "1–1 (pens)",
+        "opponent": "Chelsea",
+        "venue": "Luzhniki Stadium",
+        "city": "Moscow"
+      },
+      {
+        "season": "2008–09",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Barcelona",
+        "venue": "Stadio Olimpico",
+        "city": "Rome"
+      },
+      {
+        "season": "2010–11",
+        "result": "Runner-up",
+        "score": "3–1",
+        "opponent": "Barcelona",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      }
+    ]
+  },
+  {
+    "name": "Marseille",
+    "country": "France",
+    "lat": 43.2696,
+    "lon": 5.3958,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1990–91",
+        "result": "Runner-up",
+        "score": "0–0 (pens)",
+        "opponent": "Red Star Belgrade",
+        "venue": "Stadio San Nicola",
+        "city": "Bari"
+      },
+      {
+        "season": "1992–93",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Milan",
+        "venue": "Olympiastadion",
+        "city": "Munich"
+      }
+    ]
+  },
+  {
+    "name": "Milan",
+    "country": "Italy",
+    "lat": 45.4781,
+    "lon": 9.124,
+    "bestResult": "Winner",
+    "titles": 7,
+    "runnerUps": 4,
+    "appearances": [
+      {
+        "season": "1957–58",
+        "result": "Runner-up",
+        "score": "3–2",
+        "opponent": "Real Madrid",
+        "venue": "Heysel Stadium",
+        "city": "Brussels"
+      },
+      {
+        "season": "1962–63",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Benfica",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      },
+      {
+        "season": "1968–69",
+        "result": "Winner",
+        "score": "4–1",
+        "opponent": "Ajax",
+        "venue": "Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      {
+        "season": "1988–89",
+        "result": "Winner",
+        "score": "4–0",
+        "opponent": "Steaua București",
+        "venue": "Camp Nou",
+        "city": "Barcelona"
+      },
+      {
+        "season": "1989–90",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Benfica",
+        "venue": "Praterstadion",
+        "city": "Vienna"
+      },
+      {
+        "season": "1992–93",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Marseille",
+        "venue": "Olympiastadion",
+        "city": "Munich"
+      },
+      {
+        "season": "1993–94",
+        "result": "Winner",
+        "score": "4–0",
+        "opponent": "Barcelona",
+        "venue": "Olympic Stadium",
+        "city": "Athens"
+      },
+      {
+        "season": "1994–95",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Ajax",
+        "venue": "Ernst-Happel-Stadion",
+        "city": "Vienna"
+      },
+      {
+        "season": "2002–03",
+        "result": "Winner",
+        "score": "0–0 (pens)",
+        "opponent": "Juventus",
+        "venue": "Old Trafford",
+        "city": "Manchester"
+      },
+      {
+        "season": "2004–05",
+        "result": "Runner-up",
+        "score": "3–3 (pens)",
+        "opponent": "Liverpool",
+        "venue": "Atatürk Olympic Stadium",
+        "city": "Istanbul"
+      },
+      {
+        "season": "2006–07",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Liverpool",
+        "venue": "Olympic Stadium",
+        "city": "Athens"
+      }
+    ]
+  },
+  {
+    "name": "Monaco",
+    "country": "Monaco",
+    "lat": 43.7276,
+    "lon": 7.4152,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "2003–04",
+        "result": "Runner-up",
+        "score": "3–0",
+        "opponent": "Porto",
+        "venue": "Arena AufSchalke",
+        "city": "Gelsenkirchen"
+      }
+    ]
+  },
+  {
+    "name": "Nottingham Forest",
+    "country": "England",
+    "lat": 52.94,
+    "lon": -1.1328,
+    "bestResult": "Winner",
+    "titles": 2,
+    "runnerUps": 0,
+    "appearances": [
+      {
+        "season": "1978–79",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Malmö FF",
+        "venue": "Olympiastadion",
+        "city": "Munich"
+      },
+      {
+        "season": "1979–80",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Hamburger SV",
+        "venue": "Santiago Bernabéu",
+        "city": "Madrid"
+      }
+    ]
+  },
+  {
+    "name": "PSV Eindhoven",
+    "country": "Netherlands",
+    "lat": 51.4416,
+    "lon": 5.4677,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 0,
+    "appearances": [
+      {
+        "season": "1987–88",
+        "result": "Winner",
+        "score": "0–0 (pens)",
+        "opponent": "Benfica",
+        "venue": "Neckarstadion",
+        "city": "Stuttgart"
+      }
+    ]
+  },
+  {
+    "name": "Panathinaikos",
+    "country": "Greece",
+    "lat": 37.993,
+    "lon": 23.777,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1970–71",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Ajax",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      }
+    ]
+  },
+  {
+    "name": "Paris Saint-Germain",
+    "country": "France",
+    "lat": 48.8414,
+    "lon": 2.253,
+    "bestResult": "Winner",
+    "titles": 2,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "2019–20",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Bayern Munich",
+        "venue": "Estádio da Luz",
+        "city": "Lisbon"
+      },
+      {
+        "season": "2024–25",
+        "result": "Winner",
+        "score": "5–0",
+        "opponent": "Inter Milan",
+        "venue": "Allianz Arena",
+        "city": "Munich"
+      },
+      {
+        "season": "2025–26",
+        "result": "Winner",
+        "score": "1–1 (pens)",
+        "opponent": "Arsenal",
+        "venue": "Puskás Aréna",
+        "city": "Budapest"
+      }
+    ]
+  },
+  {
+    "name": "Partizan",
+    "country": "Serbia",
+    "lat": 44.7889,
+    "lon": 20.46,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1965–66",
+        "result": "Runner-up",
+        "score": "2–1",
+        "opponent": "Real Madrid",
+        "venue": "Heysel Stadium",
+        "city": "Brussels"
+      }
+    ]
+  },
+  {
+    "name": "Porto",
+    "country": "Portugal",
+    "lat": 41.1617,
+    "lon": -8.5839,
+    "bestResult": "Winner",
+    "titles": 2,
+    "runnerUps": 0,
+    "appearances": [
+      {
+        "season": "1986–87",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Bayern Munich",
+        "venue": "Praterstadion",
+        "city": "Vienna"
+      },
+      {
+        "season": "2003–04",
+        "result": "Winner",
+        "score": "3–0",
+        "opponent": "Monaco",
+        "venue": "Arena AufSchalke",
+        "city": "Gelsenkirchen"
+      }
+    ]
+  },
+  {
+    "name": "Real Madrid",
+    "country": "Spain",
+    "lat": 40.4531,
+    "lon": -3.6883,
+    "bestResult": "Winner",
+    "titles": 15,
+    "runnerUps": 3,
+    "appearances": [
+      {
+        "season": "1955–56",
+        "result": "Winner",
+        "score": "4–3",
+        "opponent": "Reims",
+        "venue": "Parc des Princes",
+        "city": "Paris"
+      },
+      {
+        "season": "1956–57",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Fiorentina",
+        "venue": "Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      {
+        "season": "1957–58",
+        "result": "Winner",
+        "score": "3–2",
+        "opponent": "Milan",
+        "venue": "Heysel Stadium",
+        "city": "Brussels"
+      },
+      {
+        "season": "1958–59",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Reims",
+        "venue": "Neckarstadion",
+        "city": "Stuttgart"
+      },
+      {
+        "season": "1959–60",
+        "result": "Winner",
+        "score": "7–3",
+        "opponent": "Eintracht Frankfurt",
+        "venue": "Hampden Park",
+        "city": "Glasgow"
+      },
+      {
+        "season": "1961–62",
+        "result": "Runner-up",
+        "score": "5–3",
+        "opponent": "Benfica",
+        "venue": "Olympisch Stadion",
+        "city": "Amsterdam"
+      },
+      {
+        "season": "1963–64",
+        "result": "Runner-up",
+        "score": "3–1",
+        "opponent": "Inter Milan",
+        "venue": "Praterstadion",
+        "city": "Vienna"
+      },
+      {
+        "season": "1965–66",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Partizan",
+        "venue": "Heysel Stadium",
+        "city": "Brussels"
+      },
+      {
+        "season": "1980–81",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Liverpool",
+        "venue": "Parc des Princes",
+        "city": "Paris"
+      },
+      {
+        "season": "1997–98",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Juventus",
+        "venue": "Amsterdam Arena",
+        "city": "Amsterdam"
+      },
+      {
+        "season": "1999–2000",
+        "result": "Winner",
+        "score": "3–0",
+        "opponent": "Valencia",
+        "venue": "Stade de France",
+        "city": "Saint-Denis"
+      },
+      {
+        "season": "2001–02",
+        "result": "Winner",
+        "score": "2–1",
+        "opponent": "Bayer Leverkusen",
+        "venue": "Hampden Park",
+        "city": "Glasgow"
+      },
+      {
+        "season": "2013–14",
+        "result": "Winner",
+        "score": "4–1",
+        "opponent": "Atlético Madrid",
+        "venue": "Estádio da Luz",
+        "city": "Lisbon"
+      },
+      {
+        "season": "2015–16",
+        "result": "Winner",
+        "score": "1–1 (pens)",
+        "opponent": "Atlético Madrid",
+        "venue": "San Siro",
+        "city": "Milan"
+      },
+      {
+        "season": "2016–17",
+        "result": "Winner",
+        "score": "4–1",
+        "opponent": "Juventus",
+        "venue": "Millennium Stadium",
+        "city": "Cardiff"
+      },
+      {
+        "season": "2017–18",
+        "result": "Winner",
+        "score": "3–1",
+        "opponent": "Liverpool",
+        "venue": "NSC Olimpiyskiy Stadium",
+        "city": "Kyiv"
+      },
+      {
+        "season": "2021–22",
+        "result": "Winner",
+        "score": "1–0",
+        "opponent": "Liverpool",
+        "venue": "Stade de France",
+        "city": "Saint-Denis"
+      },
+      {
+        "season": "2023–24",
+        "result": "Winner",
+        "score": "2–0",
+        "opponent": "Borussia Dortmund",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      }
+    ]
+  },
+  {
+    "name": "Red Star Belgrade",
+    "country": "Serbia",
+    "lat": 44.7822,
+    "lon": 20.4614,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 0,
+    "appearances": [
+      {
+        "season": "1990–91",
+        "result": "Winner",
+        "score": "0–0 (pens)",
+        "opponent": "Marseille",
+        "venue": "Stadio San Nicola",
+        "city": "Bari"
+      }
+    ]
+  },
+  {
+    "name": "Reims",
+    "country": "France",
+    "lat": 49.2489,
+    "lon": 4.0392,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 2,
+    "appearances": [
+      {
+        "season": "1955–56",
+        "result": "Runner-up",
+        "score": "4–3",
+        "opponent": "Real Madrid",
+        "venue": "Parc des Princes",
+        "city": "Paris"
+      },
+      {
+        "season": "1958–59",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Real Madrid",
+        "venue": "Neckarstadion",
+        "city": "Stuttgart"
+      }
+    ]
+  },
+  {
+    "name": "Roma",
+    "country": "Italy",
+    "lat": 41.9339,
+    "lon": 12.4547,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1983–84",
+        "result": "Runner-up",
+        "score": "1–1 (pens)",
+        "opponent": "Liverpool",
+        "venue": "Stadio Olimpico",
+        "city": "Rome"
+      }
+    ]
+  },
+  {
+    "name": "Saint-Étienne",
+    "country": "France",
+    "lat": 45.4397,
+    "lon": 4.39,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1975–76",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Bayern Munich",
+        "venue": "Hampden Park",
+        "city": "Glasgow"
+      }
+    ]
+  },
+  {
+    "name": "Sampdoria",
+    "country": "Italy",
+    "lat": 44.4163,
+    "lon": 8.9743,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1991–92",
+        "result": "Runner-up",
+        "score": "1–0",
+        "opponent": "Barcelona",
+        "venue": "Wembley Stadium",
+        "city": "London"
+      }
+    ]
+  },
+  {
+    "name": "Steaua București",
+    "country": "Romania",
+    "lat": 44.4267,
+    "lon": 26.0961,
+    "bestResult": "Winner",
+    "titles": 1,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "1985–86",
+        "result": "Winner",
+        "score": "0–0 (pens)",
+        "opponent": "Barcelona",
+        "venue": "Ramón Sánchez Pizjuán",
+        "city": "Seville"
+      },
+      {
+        "season": "1988–89",
+        "result": "Runner-up",
+        "score": "4–0",
+        "opponent": "Milan",
+        "venue": "Camp Nou",
+        "city": "Barcelona"
+      }
+    ]
+  },
+  {
+    "name": "Tottenham Hotspur",
+    "country": "England",
+    "lat": 51.6043,
+    "lon": -0.0664,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 1,
+    "appearances": [
+      {
+        "season": "2018–19",
+        "result": "Runner-up",
+        "score": "2–0",
+        "opponent": "Liverpool",
+        "venue": "Metropolitano Stadium",
+        "city": "Madrid"
+      }
+    ]
+  },
+  {
+    "name": "Valencia",
+    "country": "Spain",
+    "lat": 39.4747,
+    "lon": -0.3583,
+    "bestResult": "Runner-up",
+    "titles": 0,
+    "runnerUps": 2,
+    "appearances": [
+      {
+        "season": "1999–2000",
+        "result": "Runner-up",
+        "score": "3–0",
+        "opponent": "Real Madrid",
+        "venue": "Stade de France",
+        "city": "Saint-Denis"
+      },
+      {
+        "season": "2000–01",
+        "result": "Runner-up",
+        "score": "1–1 (pens)",
+        "opponent": "Bayern Munich",
+        "venue": "San Siro",
+        "city": "Milan"
+      }
+    ]
+  }
+]
