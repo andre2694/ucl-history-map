@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>European Cup &amp; Champions League — Finalists Map</title>
+<title>European Cup &amp; Champions League — History Map</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   :root {
@@ -39,13 +39,13 @@
   header h1 { font-size: 16px; margin: 0 0 4px; }
   header p { font-size: 12px; color: var(--muted); margin: 0; line-height: 1.4; }
   .legend {
-    display: flex; gap: 14px; padding: 12px 18px; border-bottom: 1px solid var(--border);
-    font-size: 12px; color: var(--muted);
+    padding: 10px 18px; border-bottom: 1px solid var(--border);
+    font-size: 11px; color: var(--muted);
   }
-  .legend span { display: inline-flex; align-items: center; gap: 6px; }
-  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
-  .dot.gold { background: var(--gold); }
-  .dot.silver { background: var(--silver); }
+  .legend-scale { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-bottom: 6px; }
+  .legend-scale span, .legend-note { display: inline-flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; background: var(--gold); }
+  .dot.ring { background: var(--gold); border: 2px solid #fff; width: 8px; height: 8px; }
   #detail { padding: 18px; overflow-y: auto; flex: 1; }
   #detail .placeholder { color: var(--muted); font-size: 13px; }
   #detail h2 { margin: 0 0 2px; font-size: 18px; }
@@ -62,6 +62,11 @@
   #detail li .result { font-weight: 600; }
   #detail li .result.win { color: var(--gold); }
   #detail li .result.lose { color: var(--silver); }
+  #detail li .result.plain { color: var(--text); font-weight: 500; opacity: 0.85; }
+  #detail .best-badge {
+    display: inline-block; font-size: 11px; color: var(--gold); border: 1px solid var(--gold);
+    border-radius: 4px; padding: 2px 8px; margin-bottom: 14px;
+  }
   #detail li .meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
   #detail li .meta a { color: #7fb0ff; text-decoration: none; }
   #detail li .meta a:hover { text-decoration: underline; }
@@ -82,11 +87,17 @@
   <div id="sidebar">
     <header>
       <h1>🏆 European Cup &amp; Champions League</h1>
-      <p>Every club that has reached a final, 1955–56 to present. Gold = won the title at least once. Silver = runner-up only. Click a marker to drill into a club's finals history.</p>
+      <p>Every club that has ever entered, 1955–56 to present — 628 clubs across all rounds, from qualifying to the final. Brighter = deeper run. Click a marker to drill into a club's history.</p>
     </header>
     <div class="legend">
-      <span><i class="dot gold"></i> Winner</span>
-      <span><i class="dot silver"></i> Runner-up only</span>
+      <div class="legend-scale">
+        <span><i class="dot" style="opacity:1"></i> Final</span>
+        <span><i class="dot" style="opacity:.8"></i> Semifinal</span>
+        <span><i class="dot" style="opacity:.6"></i> Quarterfinal</span>
+        <span><i class="dot" style="opacity:.42"></i> Round of 16</span>
+        <span><i class="dot" style="opacity:.25"></i> Group / qualifying</span>
+      </div>
+      <div class="legend-note"><i class="dot ring"></i> white ring = won the title at least once</div>
     </div>
     <div id="detail"><p class="placeholder">Select a club on the map to see its full run of finals.</p></div>
     <footer>
@@ -107,55 +118,92 @@
     maxZoom: 19,
   }).addTo(map);
 
-  function markerFor(club) {
-    const color = club.bestResult === 'Winner' ? '#d4af37' : '#b9c2cf';
-    const radius = club.bestResult === 'Winner' ? 8 : 6;
+  // Single hue (gold) whose *opacity* encodes depth of run -- strong for
+  // knockout rounds, weak for group stage / qualifying. distFromFinal:
+  // 0=Final, 1=Semifinal, 2=Quarterfinal, 3=Round of 16, 4+=earlier.
+  const TIERS = [
+    { max: 0, opacity: 1.00, radius: 7.5 },
+    { max: 1, opacity: 0.80, radius: 6.8 },
+    { max: 2, opacity: 0.60, radius: 6.0 },
+    { max: 3, opacity: 0.42, radius: 5.2 },
+    { max: Infinity, opacity: 0.25, radius: 4.2 },
+  ];
+  const tierFor = dist => TIERS.find(t => dist <= t.max);
+  const cleanRoundLabel = name => name.replace(/\s*\(.*$/, '').trim();
+
+  function markerFor(club, hasWon) {
+    const tier = tierFor(club.bestDistFromFinal);
     return L.circleMarker([club.lat, club.lon], {
-      radius,
-      color: '#0b1220',
-      weight: 1,
-      fillColor: color,
-      fillOpacity: 0.95,
+      radius: tier.radius,
+      color: hasWon ? '#ffffff' : '#0b1220',
+      weight: hasWon ? 2 : 1,
+      fillColor: '#d4af37',
+      fillOpacity: tier.opacity,
     });
   }
 
-  function renderDetail(club) {
+  // richByKey: "club||season" -> the rich finals.json appearance (score,
+  // venue, scorers, wiki link) -- only exists for the 42 clubs that have
+  // ever reached a final. titlesByName: club -> title count, for the
+  // winner-ring marker.
+  function renderDetail(club, richByKey, titlesByName) {
     const el = document.getElementById('detail');
     const rows = club.appearances.map(a => {
-      const win = a.result === 'Winner';
+      const rich = a.roundName === 'Final' ? richByKey.get(club.name + '||' + a.season) : null;
+      if (rich) {
+        const win = rich.result === 'Winner';
+        return `<li>
+          <div class="season">${a.season}</div>
+          <div class="result ${win ? 'win' : 'lose'}">${win ? '🏆 Winner' : '🥈 Runner-up'} — ${rich.score}</div>
+          <div class="meta">vs ${rich.opponent} · ${rich.venue}, ${rich.city}
+            ${rich.wikiUrl ? ` · <a href="${rich.wikiUrl}" target="_blank" rel="noopener">full match report ↗</a>` : ''}
+          </div>
+          ${rich.scorers ? `<div class="scorers">⚽ ${club.name}: ${rich.scorers}</div>` : ''}
+          ${rich.opponentScorers ? `<div class="scorers">⚽ ${rich.opponent}: ${rich.opponentScorers}</div>` : ''}
+          ${rich.unassignedScorers ? `<div class="scorers">⚽ ${rich.unassignedScorers}</div>` : ''}
+        </li>`;
+      }
       return `<li>
         <div class="season">${a.season}</div>
-        <div class="result ${win ? 'win' : 'lose'}">${win ? '🏆 Winner' : '🥈 Runner-up'} — ${a.score}</div>
-        <div class="meta">vs ${a.opponent} · ${a.venue}, ${a.city}
-          ${a.wikiUrl ? ` · <a href="${a.wikiUrl}" target="_blank" rel="noopener">full match report ↗</a>` : ''}
-        </div>
-        ${a.scorers ? `<div class="scorers">⚽ ${club.name}: ${a.scorers}</div>` : ''}
-        ${a.opponentScorers ? `<div class="scorers">⚽ ${a.opponent}: ${a.opponentScorers}</div>` : ''}
-        ${a.unassignedScorers ? `<div class="scorers">⚽ ${a.unassignedScorers}</div>` : ''}
+        <div class="result plain">${cleanRoundLabel(a.roundName)}</div>
       </li>`;
     }).join('');
 
+    const titles = titlesByName.get(club.name) || 0;
     el.innerHTML = `
       <h2>${club.name}</h2>
-      <div class="country">${club.country}</div>
+      <div class="country">${club.country || ''}</div>
+      <div class="best-badge">Best result: ${club.bestRound}</div>
       <div class="stats">
-        <div class="stat"><div class="n">${club.titles}</div><div class="l">Titles</div></div>
-        <div class="stat"><div class="n">${club.runnerUps}</div><div class="l">Runner-up</div></div>
-        <div class="stat"><div class="n">${club.appearances.length}</div><div class="l">Finals</div></div>
+        <div class="stat"><div class="n">${titles}</div><div class="l">Titles</div></div>
+        <div class="stat"><div class="n">${club.seasonsPlayed}</div><div class="l">Seasons</div></div>
       </div>
       <ul>${rows}</ul>
     `;
   }
 
-  fetch('data/clubs.json')
-    .then(r => r.json())
-    .then(clubs => {
-      clubs.sort((a, b) => (a.bestResult === 'Winner' ? 0 : 1) - (b.bestResult === 'Winner' ? 0 : 1));
+  Promise.all([
+    fetch('data/clubs_final.json').then(r => r.json()),
+    fetch('data/clubs.json').then(r => r.json()),
+  ])
+    .then(([clubs, finalsRich]) => {
+      const richByKey = new Map();
+      const titlesByName = new Map();
+      finalsRich.forEach(c => {
+        titlesByName.set(c.name, c.titles);
+        c.appearances.forEach(a => richByKey.set(c.name + '||' + a.season, a));
+      });
+
+      // weakest (highest distFromFinal) first, so strong/notable markers
+      // are added last and render on top of the crowd when they overlap
+      clubs.sort((a, b) => b.bestDistFromFinal - a.bestDistFromFinal);
+
       const points = [];
       clubs.forEach(club => {
-        const m = markerFor(club).addTo(map);
-        m.bindTooltip(`${club.name} — ${club.titles}× title${club.titles === 1 ? '' : 's'}, ${club.runnerUps}× runner-up`);
-        m.on('click', () => renderDetail(club));
+        const hasWon = (titlesByName.get(club.name) || 0) > 0;
+        const m = markerFor(club, hasWon).addTo(map);
+        m.bindTooltip(`${club.name} — best: ${club.bestRound} (${club.seasonsPlayed} seasons)`);
+        m.on('click', () => renderDetail(club, richByKey, titlesByName));
         points.push([club.lat, club.lon]);
       });
       if (points.length) {
@@ -167,7 +215,7 @@
     })
     .catch(err => {
       document.getElementById('detail').innerHTML =
-        `<p class="placeholder">Could not load data/clubs.json (${err}). If you're opening this file directly, run it through a local server instead — browsers block fetch() on file:// URLs.</p>`;
+        `<p class="placeholder">Could not load the club data (${err}). If you're opening this file directly, run it through a local server instead — browsers block fetch() on file:// URLs.</p>`;
     });
 </script>
 </body>
