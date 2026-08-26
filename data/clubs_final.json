@@ -233,8 +233,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 50.080336111111,
@@ -600,7 +600,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 35.168,
@@ -1653,7 +1653,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -2333,8 +2333,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 46.9484742,
@@ -2378,7 +2378,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 42.38,
@@ -3422,8 +3422,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 44.4922,
@@ -3450,7 +3450,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 44.7761,
@@ -4282,7 +4282,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 46.246667,
@@ -4509,7 +4509,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -5027,8 +5027,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 44.78333,
@@ -5188,13 +5188,13 @@
   {
     "name": "Decic (Tuzi)",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 42.3599,
@@ -5296,13 +5296,13 @@
   {
     "name": "Differdange 03",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 49.513932,
@@ -5324,7 +5324,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 41.812981,
@@ -5613,7 +5613,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "lat": 50.433333333333,
@@ -5699,7 +5699,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 53.895138888889,
@@ -6376,7 +6376,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 55.7392,
@@ -6858,7 +6858,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 59.421292,
@@ -6868,14 +6868,14 @@
   },
   {
     "name": "FC Girona",
-    "bestRound": "Qualifying Phase 4",
-    "bestDistFromFinal": 4,
+    "bestRound": "League Stage",
+    "bestDistFromFinal": 5,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 41.961389,
@@ -7248,13 +7248,13 @@
   {
     "name": "FC Lugano",
     "bestRound": "Qualifying Phase 2",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 8,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 46.023611,
@@ -7335,7 +7335,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "lat": 56.11666667,
@@ -7858,7 +7858,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 52.236666666667,
@@ -8092,7 +8092,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 44.4372,
@@ -8389,7 +8389,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 67.2775,
@@ -8574,7 +8574,7 @@
   {
     "name": "FK Rigas Futbola Skola",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 7,
     "seasonsPlayed": 2,
     "appearances": [
       {
@@ -8585,7 +8585,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 56.9332,
@@ -9061,7 +9061,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 41.006381,
@@ -9118,7 +9118,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 47.475277777778,
@@ -9675,7 +9675,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "lat": 41.10338888888889,
@@ -10220,7 +10220,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 60.1875,
@@ -10421,7 +10421,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 35.8873,
@@ -11441,13 +11441,13 @@
   {
     "name": "Jagiellonia Białystok",
     "bestRound": "Qualifying Phase 3",
-    "bestDistFromFinal": 5,
+    "bestDistFromFinal": 7,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 53.105556,
@@ -11653,7 +11653,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -11713,13 +11713,13 @@
   {
     "name": "KF Egnatia",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 41.076111111111,
@@ -12219,7 +12219,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 62.2254921,
@@ -12363,7 +12363,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 54.84980278,
@@ -12850,7 +12850,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 36.149356,
@@ -13353,7 +13353,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 43.53361111,
@@ -13656,7 +13656,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 32.05173,
@@ -13785,7 +13785,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "country": "Sweden",
@@ -13870,7 +13870,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -14419,7 +14419,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -14640,7 +14640,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -14949,8 +14949,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 45.818858333333,
@@ -15788,13 +15788,13 @@
   {
     "name": "Ordabasi Shimkent",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 42.3417,
@@ -15934,7 +15934,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 40.613839,
@@ -16550,13 +16550,13 @@
   {
     "name": "Petrocub Hîncești",
     "bestRound": "Qualifying Phase 2",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 8,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 46.825284,
@@ -17012,7 +17012,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 40.22111111,
@@ -17074,7 +17074,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "lat": 40.4212,
@@ -17120,8 +17120,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 51.345833,
@@ -17747,7 +17747,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 55.85305555555556,
@@ -18244,8 +18244,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 47.81625,
@@ -19239,7 +19239,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "lat": 50.109741,
@@ -19295,8 +19295,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 47.07083333333333,
@@ -20086,8 +20086,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 48.020833,
@@ -20213,7 +20213,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 53.2835,
@@ -20853,8 +20853,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 48.1516988,
@@ -21078,7 +21078,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -21106,13 +21106,13 @@
   },
   {
     "name": "Stade Brestois",
-    "bestRound": "Qualifying Phase 4",
+    "bestRound": "Intermediate Round",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -21520,7 +21520,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 41.1775,
@@ -21895,7 +21895,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 52.8759,
@@ -22244,13 +22244,13 @@
   {
     "name": "UE Santa Coloma",
     "bestRound": "Qualifying Phase 2",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 8,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "lat": 42.476389,
@@ -22442,7 +22442,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "lat": 50.8178,
@@ -22990,8 +22990,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 48.792222,
@@ -23146,7 +23146,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 64.117222,
@@ -23251,13 +23251,13 @@
   {
     "name": "Virtus AC",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "lat": 43.95,

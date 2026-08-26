@@ -179,8 +179,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Czech Republic"
@@ -548,7 +548,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Cyprus"
@@ -1542,7 +1542,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -2164,8 +2164,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Switzerland"
@@ -2203,7 +2203,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Kosovo"
@@ -3291,8 +3291,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Italy"
@@ -3300,7 +3300,7 @@
   {
     "name": "Borac (Banja Luka)",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 7,
     "seasonsPlayed": 2,
     "appearances": [
       {
@@ -3311,7 +3311,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Bosnia and Herzegovina"
@@ -4150,7 +4150,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Slovenia"
@@ -4374,7 +4374,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -4895,8 +4895,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Serbia"
@@ -5032,13 +5032,13 @@
   {
     "name": "Decic (Tuzi)",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Montenegro"
@@ -5128,13 +5128,13 @@
   {
     "name": "Differdange 03",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Luxembourg"
@@ -5153,7 +5153,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Georgia"
@@ -5611,8 +5611,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Croatia"
@@ -5998,7 +5998,7 @@
   {
     "name": "Dynama Minsk",
     "bestRound": "Qualifying Phase 1 (Jul 13 and 20)",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 7,
     "seasonsPlayed": 2,
     "appearances": [
       {
@@ -6009,7 +6009,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Belarus"
@@ -6180,7 +6180,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Ukraine"
@@ -6316,7 +6316,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Lithuania"
@@ -6858,21 +6858,21 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Estonia"
   },
   {
     "name": "FC Girona",
-    "bestRound": "Qualifying Phase 4",
-    "bestDistFromFinal": 4,
+    "bestRound": "League Stage",
+    "bestDistFromFinal": 5,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ]
   },
@@ -7192,13 +7192,13 @@
   {
     "name": "FC Lugano",
     "bestRound": "Qualifying Phase 2",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 8,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Switzerland"
@@ -7279,7 +7279,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Denmark"
@@ -7658,7 +7658,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Netherlands"
@@ -7826,7 +7826,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Romania"
@@ -8099,7 +8099,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Norway"
@@ -8245,7 +8245,7 @@
   {
     "name": "FK Rigas Futbola Skola",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 7,
     "seasonsPlayed": 2,
     "appearances": [
       {
@@ -8256,7 +8256,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Latvia"
@@ -8633,7 +8633,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Turkey"
@@ -8716,7 +8716,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Hungary"
@@ -9097,7 +9097,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Turkey"
@@ -9788,7 +9788,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Finland"
@@ -10031,7 +10031,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Malta"
@@ -10964,13 +10964,13 @@
   {
     "name": "Jagiellonia Białystok",
     "bestRound": "Qualifying Phase 3",
-    "bestDistFromFinal": 5,
+    "bestDistFromFinal": 7,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Poland"
@@ -11202,7 +11202,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -11256,13 +11256,13 @@
   {
     "name": "KF Egnatia",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Albania"
@@ -11716,7 +11716,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Faroe Islands"
@@ -11867,7 +11867,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Northern Ireland"
@@ -12372,7 +12372,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Gibraltar"
@@ -12899,7 +12899,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Bulgaria"
@@ -13184,7 +13184,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Israel"
@@ -13307,7 +13307,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "country": "Sweden",
@@ -13392,7 +13392,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -13895,7 +13895,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -14101,7 +14101,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -15180,13 +15180,13 @@
   {
     "name": "Ordabasi Shimkent",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Kazakhstan"
@@ -15319,7 +15319,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Greece"
@@ -15940,13 +15940,13 @@
   {
     "name": "Petrocub Hîncești",
     "bestRound": "Qualifying Phase 2",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 8,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Moldova"
@@ -16372,7 +16372,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Armenia"
@@ -16431,7 +16431,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Azerbaijan"
@@ -16474,8 +16474,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Germany"
@@ -17078,7 +17078,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Scotland"
@@ -17556,8 +17556,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Austria"
@@ -18483,7 +18483,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Czech Republic"
@@ -18536,8 +18536,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Austria"
@@ -19297,8 +19297,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Ukraine"
@@ -19424,7 +19424,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Ireland"
@@ -20028,8 +20028,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Slovakia"
@@ -20415,7 +20415,7 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -20461,13 +20461,13 @@
   },
   {
     "name": "Stade Brestois",
-    "bestRound": "Qualifying Phase 4",
+    "bestRound": "Intermediate Round",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
+        "roundName": "Intermediate Round",
         "distFromFinal": 4
       }
     ],
@@ -20785,7 +20785,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "North Macedonia"
@@ -21115,7 +21115,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Wales"
@@ -21428,13 +21428,13 @@
   {
     "name": "UE Santa Coloma",
     "bestRound": "Qualifying Phase 2",
-    "bestDistFromFinal": 6,
+    "bestDistFromFinal": 8,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "distFromFinal": 8
       }
     ],
     "countryHint": "Andorra"
@@ -21603,7 +21603,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "distFromFinal": 7
       }
     ],
     "countryHint": "Belgium"
@@ -22172,8 +22172,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
+        "roundName": "League Stage",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Germany"
@@ -22303,7 +22303,7 @@
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "Iceland"
@@ -22399,13 +22399,13 @@
   {
     "name": "Virtus AC",
     "bestRound": "Qualifying Phase 1",
-    "bestDistFromFinal": 7,
+    "bestDistFromFinal": 9,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "distFromFinal": 9
       }
     ],
     "countryHint": "San Marino"

@@ -288,7 +288,7 @@
         "venue": "Olympiastadion",
         "city": "Berlin",
         "wikiUrl": "https://en.wikipedia.org/wiki/2015_UEFA_Champions_League_final",
-        "scorers": "Rakitic 4' · Suárez 68' · 7' Neymar 90'",
+        "scorers": "Rakitic 4' · Suárez 68' · Neymar 90+7'",
         "opponentScorers": "Morata 55'",
         "unassignedScorers": ""
       }
@@ -924,7 +924,7 @@
         "city": "Munich",
         "wikiUrl": "https://en.wikipedia.org/wiki/2025_UEFA_Champions_League_final",
         "scorers": "",
-        "opponentScorers": ". Hakimi 12' · . 20' · . Doué 63' · . Kvaratskhelia 73' · . Mayulu 86'",
+        "opponentScorers": "Hakimi 12' · Doué 20', 63' · Kvaratskhelia 73' · Mayulu 86'",
         "unassignedScorers": ""
       }
     ]
@@ -1031,7 +1031,7 @@
         "city": "Berlin",
         "wikiUrl": "https://en.wikipedia.org/wiki/2015_UEFA_Champions_League_final",
         "scorers": "Morata 55'",
-        "opponentScorers": "Rakitic 4' · Suárez 68' · 7' Neymar 90'",
+        "opponentScorers": "Rakitic 4' · Suárez 68' · Neymar 90+7'",
         "unassignedScorers": ""
       },
       {
@@ -1161,7 +1161,7 @@
         "city": "Athens",
         "wikiUrl": "https://en.wikipedia.org/wiki/2007_UEFA_Champions_League_final",
         "scorers": "Dirk Kuyt 89'",
-        "opponentScorers": "Filippo Inzaghi 45' · 2 8'",
+        "opponentScorers": "Filippo Inzaghi 45', 82'",
         "unassignedScorers": ""
       },
       {
@@ -1503,7 +1503,7 @@
         "venue": "Olympic Stadium",
         "city": "Athens",
         "wikiUrl": "https://en.wikipedia.org/wiki/2007_UEFA_Champions_League_final",
-        "scorers": "Filippo Inzaghi 45' · 2 8'",
+        "scorers": "Filippo Inzaghi 45', 82'",
         "opponentScorers": "Dirk Kuyt 89'",
         "unassignedScorers": ""
       }
@@ -1642,7 +1642,7 @@
         "venue": "Allianz Arena",
         "city": "Munich",
         "wikiUrl": "https://en.wikipedia.org/wiki/2025_UEFA_Champions_League_final",
-        "scorers": ". Hakimi 12' · . 20' · . Doué 63' · . Kvaratskhelia 73' · . Mayulu 86'",
+        "scorers": "Hakimi 12' · Doué 20', 63' · Kvaratskhelia 73' · Mayulu 86'",
         "opponentScorers": "",
         "unassignedScorers": ""
       },

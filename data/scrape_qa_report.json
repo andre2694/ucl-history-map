@@ -1482,13 +1482,15 @@
       "Qualifying Phase 2",
       "Qualifying Phase 3",
       "Qualifying Phase 4",
+      "League Stage",
+      "Intermediate Round",
       "1/8 Finals",
       "Quarter-Finals",
       "Semi-Finals",
       "Final (May 31, Allianz Arena, München)"
     ],
     "matches_parsed": 210,
-    "unparsed_lines": 89,
+    "unparsed_lines": 87,
     "sample_unparsed": [
       "(Jul 9 and 16)",
       "(Jul 9 and 17)",

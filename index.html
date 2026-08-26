@@ -206,11 +206,27 @@
     fetch('data/clubs.json').then(r => r.json()),
   ])
     .then(([clubs, finalsRich]) => {
+      const clubByName = new Map(clubs.map(c => [c.name, c]));
       const richByKey = new Map();
       const titlesByName = new Map();
       finalsRich.forEach(c => {
         titlesByName.set(c.name, c.titles);
-        c.appearances.forEach(a => richByKey.set(c.name + '||' + a.season, a));
+        c.appearances.forEach(a => {
+          richByKey.set(c.name + '||' + a.season, a);
+          // RSSSF (the participation source) lags the actual football
+          // calendar by months, so the season's final can be missing from
+          // clubs_final.json entirely even though we already know the
+          // result from finals_raw.json -- patch it in rather than
+          // silently drop a club's most recent final.
+          const club = clubByName.get(c.name);
+          if (club && !club.appearances.some(x => x.season === a.season)) {
+            club.appearances.push({ season: a.season, roundName: 'Final', distFromFinal: 0 });
+            club.appearances.sort((x, y) => x.season.localeCompare(y.season));
+            club.bestDistFromFinal = Math.min(club.bestDistFromFinal, 0);
+            club.bestRound = 'Final';
+            club.seasonsPlayed = club.appearances.length;
+          }
+        });
       });
 
       // weakest (highest distFromFinal) first, so strong/notable markers

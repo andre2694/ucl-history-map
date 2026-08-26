@@ -42,10 +42,17 @@ _COACH_LINE_RE = re.compile(r"^(Tr\.?|Trainer|Coach)\s*:", re.I)
 _SKIP_RE = re.compile(r"(won|win) .* on penalties", re.I)
 _BRACKET_RE = re.compile(r"^\[(.+)\]$")
 _OLD_GOAL_RE = re.compile(r"^(\d+)['+,]*\s+[\d\-]+\s+([A-Za-z]{1,4}):\s*(.+)$")
-_BRACKET_ITEM_RE = re.compile(r"^(\d+)['+,]*\s*(.+)$")
+# minute, optionally with stoppage time ("90+7"); captured as a string (not
+# int) so display can keep the "+7" precision -- see _minute_sort_key()
+_MIN = r"\d+(?:\+\d+)?"
+_BRACKET_ITEM_RE = re.compile(rf"^({_MIN})[.'+,]*\s*([A-Za-zÀ-ÿ].*)$")
 # rarer variant: "Filippo Inzaghi 45" (name first, one minute)
-_BRACKET_NAME_FIRST_RE = re.compile(r"^([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'.\- ]*?)\s+(\d+)['+]*$")
-_BARE_MINUTE_RE = re.compile(r"^(\d+)['+]*$")
+_BRACKET_NAME_FIRST_RE = re.compile(rf"^([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'.\- ]*?)\s+({_MIN})['.+]*$")
+_BARE_MINUTE_RE = re.compile(rf"^({_MIN})['.+]*$")
+
+
+def _minute_sort_key(m):
+    return int(str(m).split("+")[0])
 _PEN_ANNOTATION_RE = re.compile(r"\s*\(?pen\.?\)?\s*$", re.I)
 
 
@@ -177,26 +184,48 @@ def extract_scorers(start_year: int, winner: str, runner: str, winner_goals: int
             #  - "Filippo Inzaghi 45, 82"              (name-first, 1+ minutes)
             # Comma-separated items are ambiguous on their own: "Inzaghi 45,
             # 82" is one player with two minutes, but "Eto'o 76, Belletti
-            # 81" is two different players. Disambiguate with a small state
-            # machine: a bare number continues the *previous* item's name.
+            # 81" is two different players -- and a bare minute can name its
+            # player either *before* it ("Inzaghi 45, 82") or *after*
+            # ("20., 63. Doué" = Doué scored at both 20' and 63'). A pending
+            # buffer handles both directions: a bare minute with no name yet
+            # queues up, and gets flushed onto whichever name comes next.
+            # A bare minute's owner depends on which style came before it:
+            # after a "Name 45" (name-first) entry, a bare minute is a
+            # forward continuation ("Inzaghi 45, 82" -- both his goals).
+            # After a "12. Name" (minute-first) entry, a bare minute is
+            # NOT a continuation of that name -- it's waiting for whichever
+            # name comes *next* ("20., 63. Doué" -- Doué scored both).
             last_name = None
+            last_style = None
+            pending_minutes = []
             for item in re.split(r"[,;]", m.group(1)):
                 item = item.strip()
                 if not item:
                     continue
-                im = _BRACKET_ITEM_RE.match(item)  # "59' Name" (minute-first)
+                im = _BRACKET_ITEM_RE.match(item)  # "12. Name" (minute-first, own name)
                 if im:
-                    raw.append((int(im.group(1)), im.group(2).strip(), None))
-                    last_name = None
+                    name = im.group(2).strip()
+                    for pm in pending_minutes:
+                        raw.append((pm, name, None))
+                    pending_minutes = []
+                    raw.append((im.group(1), name, None))
+                    last_name, last_style = name, "minute_first"
                     continue
-                bare = _BARE_MINUTE_RE.match(item)  # continuation: "82"
-                if bare and last_name:
-                    raw.append((int(bare.group(1)), last_name, None))
+                bare = _BARE_MINUTE_RE.match(item)  # bare: "82" or "20."
+                if bare:
+                    if last_name and last_style == "name_first":
+                        raw.append((bare.group(1), last_name, None))
+                    else:
+                        pending_minutes.append(bare.group(1))
                     continue
                 nf = _BRACKET_NAME_FIRST_RE.match(item)  # "Name 45"
                 if nf:
                     last_name = nf.group(1).strip()
-                    raw.append((int(nf.group(2)), last_name, None))
+                    for pm in pending_minutes:
+                        raw.append((pm, last_name, None))
+                    pending_minutes = []
+                    raw.append((nf.group(2), last_name, None))
+                    last_style = "name_first"
             continue
         m2 = _OLD_GOAL_RE.match(line)
         if m2:
@@ -250,7 +279,7 @@ def format_scorers(goals, label):
             order.append(g["name"])
         by_name[g["name"]].append(g["minute"])
     return " · ".join(
-        f"{name} " + ", ".join(f"{m}'" for m in sorted(mins))
+        f"{name} " + ", ".join(f"{m}'" for m in sorted(mins, key=_minute_sort_key))
         for name, mins in ((n, by_name[n]) for n in order)
     )
 

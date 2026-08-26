@@ -91,7 +91,8 @@ HT_SCORE_RE = re.compile(
 # so it's robust across RSSSF's 70 years of formatting drift.
 ROUND_HEADER_RE = re.compile(
     r"^(Preliminary Round|Qualifying (Round|Phase) ?\d*|Play-?offs?( Round)?|"
-    r"Group (Phase|Stage) ?\d*|1/\d+[\s-]?Finals?|Round of \d+|"
+    r"Group (Phase|Stage) ?\d*|League (Phase|Stage)|Intermediate Round|"
+    r"1/\d+[\s-]?Finals?|Round of \d+|"
     r"(First|Second|Third|Fourth) Round|Quarter-?finals?|Semi-?finals?|Final)\b",
     re.I,
 )
