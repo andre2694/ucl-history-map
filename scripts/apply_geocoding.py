@@ -58,6 +58,8 @@ def main():
         if hit and "lat" in hit:
             c["lat"], c["lon"] = hit["lat"], hit["lon"]
             c["geocodeSource"] = hit.get("source")
+            if "country" in hit:
+                c["country"] = hit["country"]
             c.pop("countryHint", None)
             with_coords.append(c)
         else:

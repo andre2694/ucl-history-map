@@ -53,13 +53,30 @@ COUNTRY_CODES = {
     "Sma","Smr","Srb","Sui","Svk","Svn","Swe","Tch","Tur","Ukr","Urs","Wal",
     "Yug","Fyr",
 }
-# code preceded by whitespace OR a lowercase/accented letter (handles RSSSF's
-# occasional missing-space typos like "AmmóchostosCyp"), followed by
-# whitespace/end.
-CC_RE = re.compile(
+# Code preceded by whitespace, followed by whitespace/end. This is the
+# correct default -- use it first.
+STRICT_CC_RE = re.compile(
+    r"(?<=\s)(" + "|".join(sorted(COUNTRY_CODES, key=len, reverse=True)) + r")(?=\s|$)",
+    re.IGNORECASE,
+)
+# Fallback only: also allow the code to be glued directly onto the previous
+# word (handles RSSSF's occasional missing-space typos like
+# "AmmóchostosCyp"). Dangerous on its own -- e.g. it'll happily match "Kos"
+# (Kosovo) inside "Olympia**kos**" -- so only use it when STRICT_CC_RE finds
+# fewer than 2 codes on a line.
+LOOSE_CC_RE = re.compile(
     r"(?<=[\sa-zà-öø-ÿ])(" + "|".join(sorted(COUNTRY_CODES, key=len, reverse=True)) + r")(?=\s|$)",
     re.IGNORECASE,
 )
+
+
+def find_country_codes(text: str):
+    """STRICT_CC_RE first; only fall back to the glued-word-safe LOOSE_CC_RE
+    if that doesn't find at least 2 codes (a valid two-club tie line)."""
+    strict = list(STRICT_CC_RE.finditer(text))
+    if len(strict) >= 2:
+        return strict
+    return list(LOOSE_CC_RE.finditer(text))
 
 TAG_RE = re.compile(r"<[^>]+>")
 NOTE_REF_RE = re.compile(r"[¹²³⁴⁵⁶⁷⁸⁹¹²³]")
@@ -156,11 +173,9 @@ def parse_clubs_from_line(raw_line: str):
         a, b = m.group(1).strip(), m.group(2).strip()
         return (a, b) if a and b and len(a) > 1 and len(b) > 1 else None
 
-    if not CC_RE.search(line):
-        return None
     score_start = re.search(r"\(\d+\)\s*\d+|\d+\s*-\s*\d+", line)
     head = line[: score_start.start()] if score_start else line
-    codes = list(CC_RE.finditer(head))
+    codes = find_country_codes(head)
     if len(codes) < 2:
         return None
     a = NOTE_REF_RE.sub("", head[: codes[0].start()]).strip(" -¹")

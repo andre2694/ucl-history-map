@@ -53,6 +53,25 @@ ALIASES = {
     "Stade de Reims": "Reims",
     "UC Sampdoria": "Sampdoria",
     "Sampdoria UC": "Sampdoria",
+    # spelling variants that escaped dedupe_full_data.py's clustering (a
+    # digraph difference and a typo, respectively) but are unambiguously
+    # the same club as one that already geocoded successfully
+    "Djurgaardens IF": "Djurgardens IF",
+    "Ferncvárosi TC": "Ferencvárosi TC",
+    "Omonia Lefkosia": "Omonia (Lefkosia)",
+}
+
+# Parser artifacts that survived dedupe_full_data.py's looks_bogus() filter
+# -- all traced to one RSSSF footnote describing a Panathinaikos
+# crowd-trouble incident ("...having been hit by a beer can...") that got
+# fragmented across several false "club name" extractions. Not clubs.
+KNOWN_GARBAGE = {
+    "Champions' League ma", "Cyprus, 4 years ago)", "Meier; France",
+    "Sep 13: Dinamo Kyiv v. Panathinai", "The group winners",
+    "[Banel Nicol", "[referees:", "abando", "at home to Panathinai",
+    "by an object thrown f", "having been hit by a beer can. The ma",
+    "home ma", "the crowd; ma", "the stands; ma", "the two b",
+    "with Panathinai", "union", "x ma",
 }
 
 
@@ -73,6 +92,8 @@ def main():
     for season, club_map in participation.items():
         season_label = season.replace("-", "–", 1)  # match finals_raw.json style
         for raw_name, info in club_map.items():
+            if raw_name in KNOWN_GARBAGE:
+                continue
             name = canonical(raw_name)
             dist = info["distFromFinal"]
             rec = clubs[name]

@@ -27,15 +27,15 @@
       "Semi-Finals",
       "Final, Bernabau, Madrid, 30 May 1957, att 124000"
     ],
-    "matches_parsed": 20,
-    "unparsed_lines": 25,
+    "matches_parsed": 21,
+    "unparsed_lines": 24,
     "sample_unparsed": [
-      "Dinamo Bucharest Rom Galatasaray Tur 3-1 1-2 4-3",
       "x 1st leg in Copenhagen",
       "y playoff in Dortmund",
       "Byes: Real Madrid, SK Rapid Vienna, Rangers, Honved, Rapid JC Heerlen, Red Star Belgrade),",
       "CDNA (Sofia), Grasshopper-Club Zurich, AC Fiorentina, IFK Norrkoping",
-      "u playoff in Madrid"
+      "u playoff in Madrid",
+      "v playoff in Paris"
     ]
   },
   {
@@ -127,15 +127,15 @@
       "Semi-Finals",
       "Final, Olympisch Stadion, Amsterdam, 2 May 1962, att 65000"
     ],
-    "matches_parsed": 27,
-    "unparsed_lines": 30,
+    "matches_parsed": 28,
+    "unparsed_lines": 29,
     "sample_unparsed": [
-      "Panathinaikos Gre Juventus Ita 1-1 1-2 2-3",
       "Byes: SL Benfica (exempt), Fenerbahce, Valkeakosken Haka",
       "x 1st leg in Chorzow",
       "y 2nd leg in Oslo",
       "z Linfield withdrew after 1st leg (Vorwaerts were denied visa to UK and Linfield",
-      "could not afford to travel to an alternative venue)"
+      "could not afford to travel to an alternative venue)",
+      "x 2nd leg in Malmo, Sweden, Vorwaerts refused entry visas to UK; 2nd leg abandoned at 1-0"
     ]
   },
   {
@@ -147,15 +147,15 @@
       "Semi-Finals",
       "Final, Wembley Stadium, London, 22 May 1963, att 45000"
     ],
-    "matches_parsed": 28,
-    "unparsed_lines": 25,
+    "matches_parsed": 29,
+    "unparsed_lines": 24,
     "sample_unparsed": [
-      "Dinamo Bucharest Rom Galatasaray Tur 1-1 0-3 1-4",
       "Byes: Stade de Reims, SL Benfica (exempt)",
       "x 1st leg in Chorzow",
       "y playoff in Dusseldorf",
       "w 1st leg in Chorzow",
-      "x playoff in Antwerp"
+      "x playoff in Antwerp",
+      "y 2nd leg in Paris"
     ]
   },
   {
@@ -167,15 +167,15 @@
       "Semi-Finals",
       "Final, Prater Stadium, Vienna, 27 May 1964, att 72000"
     ],
-    "matches_parsed": 28,
-    "unparsed_lines": 26,
+    "matches_parsed": 30,
+    "unparsed_lines": 24,
     "sample_unparsed": [
-      "Dinamo Bucharest Rom CS Motor Jena GDR 2-0 1-0 3-0",
       "Bye: AC Milan",
       "x 1st leg in Nice",
       "y 1st leg in Chorzow, playoff in Vienna",
       "z 1st leg in Dublin",
-      "Dinamo Bucharest Rom Real Madrid Esp 1-3 3-5 4-8"
+      "x 2nd leg in Marseille",
+      "y 1st leg in Chorzow"
     ]
   },
   {
@@ -187,15 +187,15 @@
       "Semi-Finals",
       "Final, San Siro Stadium, Milan, 27 May 1965, att 85000"
     ],
-    "matches_parsed": 29,
-    "unparsed_lines": 20,
+    "matches_parsed": 30,
+    "unparsed_lines": 19,
     "sample_unparsed": [
       "Bye: Internazionale",
       "w playoff in Highbury, London",
       "x playoff in Barcelona, Anderlecht progressed on a coin toss",
       "y 1st leg in Chorzow, playoff in Duisburg, Dukla progressed on a coin toss",
       "z 1st leg in Luxembourg",
-      "Panathinaikos Gre 1.FC Cologne FRG 1-1 1-2 2-3"
+      "* playoff in Rotterdam, Liverpool progressed on a coin toss"
     ]
   },
   {
@@ -207,15 +207,15 @@
       "Semi-Finals",
       "Final, Heysel Stadium, Brussels, 11 May 1966, att 55000"
     ],
-    "matches_parsed": 27,
-    "unparsed_lines": 26,
+    "matches_parsed": 30,
+    "unparsed_lines": 23,
     "sample_unparsed": [
-      "Panathinaikos Gre Sliema Wanderers Mlt 4-1 0-1 4-2",
-      "Dinamo Bucharest Rom B1909 (Odense) Den 4-0 3-2 7-2",
       "Bye: Internazionale",
       "w 1st leg in Reykjavik",
       "x 1st leg in Esch",
-      "y 2nd leg in Chorzow"
+      "y 2nd leg in Chorzow",
+      "z 1st leg in Hamburg",
+      "x Derry withdrew after 1st leg, Anderlecht walkover"
     ]
   },
   {
@@ -268,15 +268,15 @@
       "Semi-Finals",
       "Final, Bernabeu Stadium, Madrid, 28 May 1969, att 31000"
     ],
-    "matches_parsed": 26,
-    "unparsed_lines": 32,
+    "matches_parsed": 27,
+    "unparsed_lines": 31,
     "sample_unparsed": [
-      "Steaua Bucharest Rom Spartak Trnava Tch 3-1 0-4 3-5",
       "Red Star (Belgrade) walkover, FC Carl Zeiss Jena withdrew",
       "FC Levski (Sofia), Ferencvarosi, Dinamo Kiev and Ruch Chorzow withdrew",
       "withdrew in protest to a redraw by UEFA of the first round keeping clubs",
       "from Eastern and Western Europe apart, after western countries had",
-      "threatened a boycot due to the Soviet invasion in Czechoslovakia; clubs"
+      "threatened a boycot due to the Soviet invasion in Czechoslovakia; clubs",
+      "from Czechoslovakia, Romania and Yugoslavia remained in the competition;"
     ]
   },
   {
@@ -310,15 +310,15 @@
       "Semi-Finals",
       "Final, Wembley Stadium, London, 2 Jun 1971, att 83000"
     ],
-    "matches_parsed": 31,
-    "unparsed_lines": 15,
+    "matches_parsed": 32,
+    "unparsed_lines": 14,
     "sample_unparsed": [
       "x 2nd leg in Reykjavík",
       "y 1st leg in Augsburg",
-      "Panathinaikos Gre Slovan Bratislava Tch 3-0 1-2 4-2",
       "x 1st leg in Dublin",
       "5' 1-0 A: Van Dijk",
-      "87' 2-0 A: Kapsis og"
+      "87' 2-0 A: Kapsis og",
+      "Ajax (trainer Michels)"
     ]
   },
   {
@@ -331,15 +331,15 @@
       "Semi-Finals",
       "Final, Feyenoord Stadium, Rotterdam, 31 May 1972, att 61000"
     ],
-    "matches_parsed": 31,
-    "unparsed_lines": 26,
+    "matches_parsed": 33,
+    "unparsed_lines": 24,
     "sample_unparsed": [
-      "Dinamo Bucharest Rom Spartak Trnava Tch 0-0 2-2 *2-2",
       "w 2nd leg in Rotterdam",
       "x 1st leg in Oslo",
       "y 2nd leg in Katowice",
       "z 1st leg in Malta",
-      "Dinamo Bucharest Rom Feyenoord Ned 0-3 0-2 0-5"
+      "x Borussia Monchengladbach were originally drawn at home and won the first",
+      "leg 7-1. During the match, Roberto Boninsegna was carried off, allegedly"
     ]
   },
   {
@@ -372,15 +372,15 @@
       "Final, Heysel Stadium, Brussels, 15 May 1974, att 49000",
       "Final Replay, Heysel Stadium, Brussels, 17 May 1974, att 23000"
     ],
-    "matches_parsed": 29,
-    "unparsed_lines": 33,
+    "matches_parsed": 31,
+    "unparsed_lines": 31,
     "sample_unparsed": [
-      "SG Dynamo Dresden GDR Juventus Ita 2-0 2-3 4-3",
       "Bye: Ajax",
       "x 1st leg in Dublin",
       "y 2nd leg in Krakow",
       "z 2nd leg in Olten",
-      "Dinamo Bucharest Rom Atletico Madrid Esp 0-2 2-2 2-4"
+      "114' 0-1 AM: Luis",
+      "119' 1-1 BM: Schwarzenbeck"
     ]
   },
   {
@@ -432,15 +432,15 @@
       "Semi-Finals",
       "Final, Stadio Olimpico, Rome, 25 May 1977, att 52000"
     ],
-    "matches_parsed": 29,
-    "unparsed_lines": 28,
+    "matches_parsed": 31,
+    "unparsed_lines": 26,
     "sample_unparsed": [
-      "SG Dynamo Dresden GDR SL Benfica Por 2-0 0-0 2-0",
       "x 1st leg in Reykjavik",
       "y 2nd leg in Valencia",
       "z 1st leg in Kobenhavn",
       "w 1st leg in Gzira",
-      "Trabzonspor Tur Liverpool Eng 1-0 0-3 1-3"
+      "x 1st leg in Malaga",
+      "y 2nd leg in Dusseldorf"
     ]
   },
   {
@@ -452,15 +452,15 @@
       "Semi-Finals",
       "Final, Wembley Stadium, London, 10 May 1978, att 92000"
     ],
-    "matches_parsed": 27,
-    "unparsed_lines": 23,
+    "matches_parsed": 30,
+    "unparsed_lines": 20,
     "sample_unparsed": [
-      "SG Dynamo Dresden GDR Halmstads BK Swe 2-0 1-2 3-2",
-      "Trabzonspor Tur B1903 (Copenhagen) Den 1-0 0-2 1-2",
-      "Dinamo Bucharest Rom Atletico Madrid Esp 2-1 0-2 2-3",
       "Bye: Liverpool",
       "x 2nd leg in Salzburg",
-      "y 1st leg in Gzira"
+      "y 1st leg in Gzira",
+      "z 1st leg in Oslo",
+      "x 2nd leg in Salzburg",
+      "64' 1-0 L: Dalglish"
     ]
   },
   {
@@ -473,15 +473,15 @@
       "Semi-Finals",
       "Final, Olympic Stadium, Munich, 30 May 1979, att 57000"
     ],
-    "matches_parsed": 29,
-    "unparsed_lines": 26,
+    "matches_parsed": 32,
+    "unparsed_lines": 23,
     "sample_unparsed": [
-      "Nottingham Forest Eng Liverpool Eng 2-0 0-0 2-0",
       "x 2nd leg in Oslo",
       "y 2nd leg in Differdange",
       "z 2nd leg in Reykjavik",
       "v 1st leg in Tampere, 2nd leg in Kharkov",
-      "w 2nd leg in Cork"
+      "w 2nd leg in Cork",
+      "x 1st leg in Kharkov"
     ]
   },
   {
@@ -494,15 +494,15 @@
       "Semi-Finals",
       "Final, Bernabeu Stadium, Madrid, 28 May 1980, att 50000"
     ],
-    "matches_parsed": 27,
-    "unparsed_lines": 21,
+    "matches_parsed": 32,
+    "unparsed_lines": 16,
     "sample_unparsed": [
       "x 2nd leg in Haarlem (Netherlands)",
-      "Nottingham Forest Eng Osters IF Vaxjo Swe 2-0 1-1 3-1",
-      "Hajduk Split Yug Trabzonspor Tur 1-0 1-0 2-0",
-      "Nottingham Forest Eng Arges Pitesti Rom 2-0 2-1 4-1",
-      "Nottingham Forest Eng BFC Dynamo (Berlin) GDR 0-1 3-1 3-2",
-      "Nottingham Forest Eng Ajax Ned 2-0 0-1 2-1"
+      "21' 1-0 N: Robertson",
+      "Nottingham Forest (trainer Clough)",
+      "Shilton; Anderson, Gray (Gunn 78), Lloyd, Burns, Clark; O'Neill, McGovern,",
+      "Bowyer, Mills (O'Hare 67), Robertson; Birtles",
+      "Hamburger SV (trainer Zebec)"
     ]
   },
   {
@@ -515,15 +515,15 @@
       "Semi-Finals",
       "Final, Parc des Princes, Paris, 27 May 1981, att 48360"
     ],
-    "matches_parsed": 31,
-    "unparsed_lines": 19,
+    "matches_parsed": 32,
+    "unparsed_lines": 18,
     "sample_unparsed": [
-      "Trabzonspor Tur Szombierki Bytom Pol 2-1 0-3 2-4",
       "x 1st leg in Haarlem",
       "y 1st leg in Dublin",
       "x 1st leg in Tbilisi",
       "82' 1-0 L: A.Kennedy",
-      "Liverpool (trainer Paisley)"
+      "Liverpool (trainer Paisley)",
+      "Clemence; Neal, Thompson, Hansen, A.Kennedy; Lee, McDermott, Souness,"
     ]
   },
   {
@@ -577,15 +577,15 @@
       "Semi-Finals",
       "Final, Stadio Olimpico, Roma, 30 May 1984, att 69693"
     ],
-    "matches_parsed": 30,
-    "unparsed_lines": 20,
+    "matches_parsed": 31,
+    "unparsed_lines": 19,
     "sample_unparsed": [
       "x Hamburger walkover, Vllaznia withdrew",
-      "Olympiakos Gre SL Benfica Por 1-0 0-3 1-3",
       "x 1st leg in Tbilisi",
       "13' 1-0 L: Neal",
       "42' 1-1 R: Pruzzo",
-      "Liverpool won 4-2 on penalties"
+      "Liverpool won 4-2 on penalties",
+      "Liverpool (trainer Fagan)"
     ]
   },
   {
@@ -597,15 +597,15 @@
       "Semi-Finals",
       "Final, Heysel Stadium, Bruxelles, 29 May 1985, att 58000"
     ],
-    "matches_parsed": 29,
-    "unparsed_lines": 22,
+    "matches_parsed": 31,
+    "unparsed_lines": 20,
     "sample_unparsed": [
-      "Trabzonspor Tur Dnepr Dnepropetrovsk URS 1-0 0-3 1-3x",
       "x 2nd leg in Krivoy Rog",
       "y 1st leg in Reykjavík",
       "z 1st leg in Luxembourg",
-      "Panathinaikos Gre Linfield Nir 2-1 3-3 5-4",
-      "x 2nd leg in Krivoy Rog"
+      "x 2nd leg in Krivoy Rog",
+      "x 2nd leg in Krivoy Rog",
+      "56' 1-0 J: Platini (pen)"
     ]
   },
   {
@@ -657,15 +657,15 @@
       "Semi-Finals",
       "Final, Neckarstadion, Stuttgart, 25 May 1988, att 70000"
     ],
-    "matches_parsed": 27,
-    "unparsed_lines": 25,
+    "matches_parsed": 31,
+    "unparsed_lines": 21,
     "sample_unparsed": [
-      "Steaua Bucharest Rom MTK-VM (Budapest) Hun 4-0 0-2 4-2",
       "x 1st leg played behind closed doors",
       "y Partizani expelled from competition by UEFA, Benfica walkover",
-      "Steaua Bucharest Rom Omonia (Nicosia) Cyp 3-1 2-0 5-1",
       "x 1st leg played in Valencia",
-      "Steaua Bucharest Rom Rangers Sco 2-0 1-2 3-2"
+      "PSV won 6-5 on penalties",
+      "PSV (Eindhoven) (trainer Hiddink)",
+      "Van Breukelen; Gerets, Van Aerle, R.Koeman, Nielsen, Heintze; Vanenburg,"
     ]
   },
   {
@@ -677,15 +677,15 @@
       "Semi-Finals",
       "Final, Nou Camp Stadium, Barcelona, 24 May 1989, att 97000"
     ],
-    "matches_parsed": 28,
-    "unparsed_lines": 23,
+    "matches_parsed": 30,
+    "unparsed_lines": 21,
     "sample_unparsed": [
       "Bye: PSV (Eindhoven)",
-      "Steaua Bucharest Rom Spartak Moscow URS 3-0 2-1 5-1",
       "x 2nd leg in Cologne",
-      "Steaua Bucharest Rom Galatasaray Tur 4-0 1-1 5-1x",
       "x 2nd leg in Izmir",
-      "17' 1-0 M: Gullit"
+      "17' 1-0 M: Gullit",
+      "26' 2-0 M: Van Basten",
+      "38' 3-0 M: Gullit"
     ]
   },
   {
@@ -697,15 +697,15 @@
       "Semi-Finals",
       "Final, Prater Stadium, Vienna, 23 May 1990, att 57500"
     ],
-    "matches_parsed": 28,
-    "unparsed_lines": 20,
+    "matches_parsed": 31,
+    "unparsed_lines": 17,
     "sample_unparsed": [
-      "Steaua Bucharest Rom Fram (Reykjavik) Isl 4-0 1-0 5-0",
-      "1.FC Dynamo Dresden GDR AEK (Athens) Gre 1-0 3-5 4-5",
       "x 1st leg in Wrexham",
       "y 1st leg in Saarbrucken",
       "z 2nd leg in Brussels",
-      "Steaua Bucharest Rom PSV (Eindhoven) Ned 1-0 1-5 2-5"
+      "x 1st leg in Trnava",
+      "68' 1-0 M: Rijkaard",
+      "AC Milan (trainer Sacchi)"
     ]
   },
   {
@@ -717,15 +717,15 @@
       "Semi-Finals",
       "Final, Stadio San Nicola, Bari, 29 May 1991, att 56000"
     ],
-    "matches_parsed": 27,
-    "unparsed_lines": 26,
+    "matches_parsed": 30,
+    "unparsed_lines": 23,
     "sample_unparsed": [
-      "Dinamo Bucharest Rom St. Patrick's Athletic Irl 4-0 1-1 5-1",
       "Bye: AC Milan",
       "x 1st leg in Setubal",
-      "Dinamo Bucharest Rom FC Porto Por 0-0 0-4 0-4",
-      "1.FC Dynamo Dresden GDR Malmo FF Swe 1-1 1-1 2-2 5-4p",
-      "x Floodlights failed with 2 mins remaining with Marseille leading 1-0. Milan"
+      "x Floodlights failed with 2 mins remaining with Marseille leading 1-0. Milan",
+      "refused to return to the field when power was restored, match awarded",
+      "to Marseille.",
+      "y 2nd leg abandoned after 78 minutes due to rioting with Red Star leading 2-1,"
     ]
   },
   {
@@ -736,15 +736,15 @@
       "Quarter-Finals",
       "Final, Wembley Stadium, London, 20 May 1992, att 70827"
     ],
-    "matches_parsed": 48,
-    "unparsed_lines": 33,
+    "matches_parsed": 49,
+    "unparsed_lines": 32,
     "sample_unparsed": [
       "x 2nd leg in Berne",
       "y 1st leg in Szeged",
-      "Panathinaikos Gre IFK Gothenburg Swe 2-0 2-2 4-2",
       "x 1st leg in Szeged",
       "Group A",
-      "P W D L F A Pts"
+      "P W D L F A Pts",
+      "UC SAMPDORIA 6 3 2 1 10 5 8"
     ]
   },
   {
@@ -775,15 +775,15 @@
       "Semi-Finals",
       "Final, Spiros Louis Stadium, Athens, 18 May 1994, att 70000"
     ],
-    "matches_parsed": 60,
-    "unparsed_lines": 40,
+    "matches_parsed": 61,
+    "unparsed_lines": 39,
     "sample_unparsed": [
       "x Dinamo Tbilisi disqualified for match fixing, Linfield re-instated",
-      "Steaua Bucharest Rom Croatia Zagreb Cro 1-2 3-2 *4-4x",
       "x 2nd leg in Ljubljana",
       "UEFA Champions' League Group A",
       "P W D L F A Pts",
-      "FC BARCELONA 6 4 2 0 13 3 10"
+      "FC BARCELONA 6 4 2 0 13 3 10",
+      "AS MONACO 6 3 1 2 9 4 7"
     ]
   },
   {
@@ -794,15 +794,15 @@
       "Semi-Finals",
       "Final, Ernst Happel Stadium, Vienna, 24 May 1995"
     ],
-    "matches_parsed": 62,
-    "unparsed_lines": 49,
+    "matches_parsed": 64,
+    "unparsed_lines": 47,
     "sample_unparsed": [
-      "Steaua Bucharest Rom Servette FC Geneva Sui 4-1 1-1 5-2",
       "x 2nd leg in Izmir",
       "y 2nd leg in Budapest",
       "z 1st leg in Jablonec",
       "Byes: FC Barcelona, Manchester United, Spartak Moscow, Bayern Munich, SL Benfica,",
-      "RSC Anderlecht, Ajax, AC Milan"
+      "RSC Anderlecht, Ajax, AC Milan",
+      "UEFA Champions' League"
     ]
   },
   {
@@ -813,15 +813,15 @@
       "Semi-Finals (Apr 3 & 17)",
       "Final, Stadio Olimpico, Roma, 22 May 1996, att 80000"
     ],
-    "matches_parsed": 65,
-    "unparsed_lines": 64,
+    "matches_parsed": 66,
+    "unparsed_lines": 63,
     "sample_unparsed": [
-      "Panathinaikos Gre Hajduk Split Cro 0-0 1-1 *1-1 c",
       "a AaB later admitted to Champions' League after Dinamo Kyiv was excluded because",
       "of an alleged bribery attempt in their first",
       "b 2nd leg in Szeged",
       "c 2nd leg in Rijeka",
-      "Byes: Ajax, Juventus , FC Nantes-Atlantique, Borussia Dortmund, Real Madrid,"
+      "Byes: Ajax, Juventus , FC Nantes-Atlantique, Borussia Dortmund, Real Madrid,",
+      "Blackburn Rovers, FC Porto, Spartak Moskva"
     ]
   },
   {
@@ -833,15 +833,15 @@
       "Semi-Finals ( Apr 9 & 23 )",
       "Final, Olympia-Stadion, München, 28 May 1997, att 59000"
     ],
-    "matches_parsed": 14,
-    "unparsed_lines": 100,
+    "matches_parsed": 15,
+    "unparsed_lines": 99,
     "sample_unparsed": [
-      "Panathinaikos Gre Rosenborg BK Nor 1-0 0-3 1-3 aet",
       "a 1st leg at Norrköpings Idrottsparken, Norrköping",
       "Byes: Juventus, Milan, AJ Auxerroise, Borussia Dortmund, Atlético Madrid, Ajax,",
       "Manchester United, FC Porto",
       "Champions' League (Sep 11, Sep 25, Oct 16, Oct 30, Nov 20, Dec 4)",
-      "Consists of four groups of four clubs playing each other home and away."
+      "Consists of four groups of four clubs playing each other home and away.",
+      "Three points are awarded for a win, one point for a draw. Teams level on"
     ]
   },
   {
@@ -852,8 +852,8 @@
       "Semi-Finals (Apr 1 and 15)",
       "Final, Amsterdam ArenA, Amsterdam, 20 May 1998, att 50000"
     ],
-    "matches_parsed": 38,
-    "unparsed_lines": 141,
+    "matches_parsed": 39,
+    "unparsed_lines": 140,
     "sample_unparsed": [
       "Byes: Parma, Barcelona, Paris Saint-Germain, Bayer Leverkusen, Feyenoord,",
       "Sporting CP (Lisboa), Newcastle United, Galatasaray, Besiktas, Olympiakos",
@@ -918,8 +918,8 @@
       "Semi-Finals (May 2 and 9)",
       "Final (Giuseppe Meazza, San Siro, Milano, May 23; att: 74000)"
     ],
-    "matches_parsed": 190,
-    "unparsed_lines": 278,
+    "matches_parsed": 191,
+    "unparsed_lines": 277,
     "sample_unparsed": [
       "4:2 (4.Baseggio, 15., 28. and 59.J.Koller - 10.Pavlovic, 90.Papavasilou) 0:0",
       "1:0 (81.Nouma) 1:1 (35.Havutcu - 64.Markov)",
@@ -941,8 +941,8 @@
       "Semi-Finals (Apr 23 and May 1)",
       "Final (Hampden Park, Glasgow, May 15; att: 51,456)"
     ],
-    "matches_parsed": 188,
-    "unparsed_lines": 312,
+    "matches_parsed": 190,
+    "unparsed_lines": 310,
     "sample_unparsed": [
       "[Terziev 7, Ivanov 20, 73 pen, Markov 28]",
       "[Ashvetia 70]",
@@ -964,15 +964,15 @@
       "Semi-Finals (May 7 and 13)",
       "Final (Old Trafford, Manchester, May 28)"
     ],
-    "matches_parsed": 176,
-    "unparsed_lines": 271,
+    "matches_parsed": 178,
+    "unparsed_lines": 269,
     "sample_unparsed": [
       "Hibernians Mal Shelbourne Ire 2-2 1-0 3-2",
-      "Sheriff Tiraspol Mol Zhenis Astana Kaz 2-1 2-3 *4-4",
       "x 1st leg in Luxembourg",
       "y 2nd leg in Barysau",
       "Zalaegerszegi TE Hon NK Zagreb Cro 1-0 1-2 *2-2y",
-      "Boavista FC (Porto) Por Hibernians Mal 4-0 3-3 7-3"
+      "Boavista FC (Porto) Por Hibernians Mal 4-0 3-3 7-3",
+      "x 1st leg in Lefkosia, 2nd leg in Barysau"
     ]
   },
   {
@@ -987,15 +987,15 @@
       "Semi-Finals ( Apr 21 and May 4 )",
       "Final ( May 26, Arena auf Schalke, Gelsenkirchen )"
     ],
-    "matches_parsed": 145,
-    "unparsed_lines": 76,
+    "matches_parsed": 147,
+    "unparsed_lines": 74,
     "sample_unparsed": [
-      "Sheriff Tiraspol Mol Flora Tallinn Est 1-0 1-1 2-1",
       "Sliema Wanderers Mal Skonto Riga Lat 2-0 1-3 *3-3b",
       "a 1st leg in Luxembourg",
       "b 1st leg in Corradino",
       "c 2nd leg in Vantaa",
-      "Sheriff Tiraspol Mol Shakhtar Donets'k Ukr 0-0 0-2 0-2"
+      "Partizan Beograd SeM Djurgårdens IF Swe 1-1 2-2 *3-3a",
+      "FC København Den Sliema Wanderers Mal 4-1 6-0 10-1b"
     ]
   },
   {
@@ -1009,8 +1009,8 @@
       "Semi-Finals ( Apr 26 and May 4 )",
       "Final ( May 25, Atatürk Olympic stadium, Istanbul )"
     ],
-    "matches_parsed": 151,
-    "unparsed_lines": 297,
+    "matches_parsed": 153,
+    "unparsed_lines": 295,
     "sample_unparsed": [
       "[Sigurgeirsson 47, Ólafsson 54; Moore 83, Sigurdsson 86og]",
       "[Mihails Miholaps 10, 56, IgnasDedura 65, Aleksejs Vinakovs 78]",
@@ -1055,15 +1055,15 @@
       "Semi-Finals (Apr 24 and May 2)",
       "Final (May 23, Athinai, Olympic Stadium)"
     ],
-    "matches_parsed": 149,
-    "unparsed_lines": 71,
+    "matches_parsed": 150,
+    "unparsed_lines": 70,
     "sample_unparsed": [
       "x 1st leg Jul 11",
       "y 1st leg Jul 11, 2nd leg Jul 18",
       "Cork City Ire Crvena zvezda (Beograd) Ser 0-1 0-3 0-4",
-      "Sheriff Tiraspol Mol Spartak Moskva Rus 1-1 0-0 1-1*",
       "x 1st leg Jul 25",
-      "y 2nd leg Aug 1"
+      "y 2nd leg Aug 1",
+      "Milan AC Ita Crvena zvezda (Beograd) Ser 1-0 2-1 3-1y"
     ]
   },
   {
@@ -1078,15 +1078,15 @@
       "Semi-Finals (Apr 22 and Apr 30)",
       "Final (May 21, Luzhniki Stadium, Moskva)"
     ],
-    "matches_parsed": 152,
-    "unparsed_lines": 79,
+    "matches_parsed": 153,
+    "unparsed_lines": 78,
     "sample_unparsed": [
-      "Sheriff Tiraspol Mol Ranger's And 2-0 3-0 5-0z",
       "x 1st leg Jul 17",
       "y 1st leg Jul 17, 2nd leg Jul 24",
       "z 2nd leg Jul 24",
       "Crvena zvezda (Beograd) Ser Levadia Tallinn Est 1-0 1-2 *2-2",
-      "x 1st leg Jul 31"
+      "x 1st leg Jul 31",
+      "y 1st leg Jul 31, 2nd leg Aug 7"
     ]
   },
   {
@@ -1101,15 +1101,15 @@
       "Semi-Finals (Apr 28 and May 6)",
       "Final (May 27, Stadio Olimpico, Roma)"
     ],
-    "matches_parsed": 151,
-    "unparsed_lines": 69,
+    "matches_parsed": 153,
+    "unparsed_lines": 67,
     "sample_unparsed": [
       "x 1st leg Jul 16",
       "y 2nd leg Jul 22",
       "z 1st leg Jul 16, 2nd leg Jul 22",
       "Inter Baki Aze Partizan (Beograd) Ser 1-1 0-2 1-3x",
-      "Panathinaikos Gre Dinamo Tbilisi Geo 3-0 0-0 3-0",
-      "Sheriff Tiraspol Mol AC Sparta Praha Cze 0-1 0-2 0-3"
+      "x 1st leg Jul 29",
+      "y 2nd leg Aug 5"
     ]
   },
   {
@@ -1124,8 +1124,8 @@
       "Semi-Finals",
       "Final (May 22, Santiago Bernabeu, Madrid)"
     ],
-    "matches_parsed": 150,
-    "unparsed_lines": 81,
+    "matches_parsed": 153,
+    "unparsed_lines": 78,
     "sample_unparsed": [
       "x 1st leg Jun 30, 2nd leg in Podgorica",
       "y 2nd leg Jul 7",
@@ -1147,15 +1147,15 @@
       "Semi-Finals",
       "Final (May 28, Wembley Stadium, London)"
     ],
-    "matches_parsed": 150,
-    "unparsed_lines": 77,
+    "matches_parsed": 152,
+    "unparsed_lines": 75,
     "sample_unparsed": [
       "a 2nd leg in Podgorica",
       "x 1st leg Jun 29; awarded 0-3; 2nd leg Jul 6",
-      "Sheriff Tiraspol Mol Dinamo Tiranë Alb 3-1 0-1 3-2z",
       "Partizan (Beograd) Ser Pyunik Yerevan Arm 3-1 1-0 4-1x",
       "a 2nd leg Jul 20 in Nova Gorica",
-      "b 2nd leg Jul 20 in Oswestry (England)"
+      "b 2nd leg Jul 20 in Oswestry (England)",
+      "x 1st leg Jul 14"
     ]
   },
   {
@@ -1193,8 +1193,8 @@
       "Semi-Finals",
       "Final (May 25, Wembley Stadium, London)"
     ],
-    "matches_parsed": 152,
-    "unparsed_lines": 79,
+    "matches_parsed": 153,
+    "unparsed_lines": 78,
     "sample_unparsed": [
       "Valletta Mlt Partizan (Beograd) Ser 1-4 1-3 2-7",
       "a 2nd leg in Kiryat Ono",
@@ -1216,15 +1216,15 @@
       "Semi-Finals",
       "Final (May 24, Estádio da Luz, Lisboa)"
     ],
-    "matches_parsed": 151,
-    "unparsed_lines": 92,
+    "matches_parsed": 153,
+    "unparsed_lines": 90,
     "sample_unparsed": [
       "x 2nd leg in Tórshavn",
-      "Sheriff Tiraspol Mol Sutjeska Niksic Mng 1-1 5-0 6-1",
       "Shirak Giumri Arm Partizan (Beograd) Ser 1-1 0-0 1-1*c",
       "a 1st leg Jul 17",
       "b 2nd leg Jul 24",
-      "c 1st leg Jul 17, 2nd leg Jul 24"
+      "c 1st leg Jul 17, 2nd leg Jul 24",
+      "w 1st leg Jul 17 in Wrexham, 2nd leg Jul 24"
     ]
   },
   {
@@ -1239,15 +1239,15 @@
       "Semi-Finals",
       "Final ( Jun 6, Olympiastadion, Berlin )"
     ],
-    "matches_parsed": 150,
-    "unparsed_lines": 85,
+    "matches_parsed": 152,
+    "unparsed_lines": 83,
     "sample_unparsed": [
-      "La Fiorita SMa Levadia Tallinn Est 0-1 0-7 0-8",
       "x 1st leg Jul 2",
-      "Sheriff Tiraspol Mol Sutjeska Niksic Mng 2-0 3-0 5-0",
       "Partizan (Beograd) Ser HB (Tórshavn) Far 3-0 3-1 6-1",
       "Strømsgodset IF (Drammen)Nor Steaua Bucuresti Rom 0-1 0-2 0-3c",
-      "a 1st leg Jul 16"
+      "a 1st leg Jul 16",
+      "b 2nd leg Jul 23",
+      "c 1st leg Jul 16, 2nd leg Jul 23"
     ]
   },
   {
@@ -1262,15 +1262,15 @@
       "Semi-Finals",
       "Final (May 28, Giuseppe Meazza-San Siro, Milano)"
     ],
-    "matches_parsed": 149,
-    "unparsed_lines": 92,
+    "matches_parsed": 152,
+    "unparsed_lines": 89,
     "sample_unparsed": [
       "x 1st leg Jul 1",
-      "FC Midtjylland Den Lincoln Gib 1-0 2-0 3-0",
       "The New Saints Wal Videoton (Székesfehérvár)Hun 0-1 1-1 1-2a aet",
       "Partizan (Beograd) Ser Dila Gori Geo 1-0 2-0 3-0",
       "a 1st leg in Oswestry, 2nd leg Jul 22",
-      "b 1st leg in Zilina, 2nd leg Jul 22"
+      "b 1st leg in Zilina, 2nd leg Jul 22",
+      "c 2nd leg Jul 22"
     ]
   },
   {
@@ -1308,8 +1308,8 @@
       "Semi-Finals",
       "Final (May 26, Olimpiyskiy Stadium, Kyiv)"
     ],
-    "matches_parsed": 156,
-    "unparsed_lines": 84,
+    "matches_parsed": 157,
+    "unparsed_lines": 83,
     "sample_unparsed": [
       "(Jun 27 and Jul 4)",
       "(Jun 28 and Jul 4)",
@@ -1360,15 +1360,15 @@
       "Semi-Finals (all matches in Lisboa)",
       "Final (Aug 23, Estadio da Luz, Lisboa)"
     ],
-    "matches_parsed": 153,
-    "unparsed_lines": 96,
+    "matches_parsed": 154,
+    "unparsed_lines": 95,
     "sample_unparsed": [
       "NB: all matches in Prishtinë",
       "(Jul 9 and 16)",
       "Suduva Marijampole Lit Crvena zvezda (Beograd) Ser 0-0 1-2 1-2",
       "(Jul 9 and 17)",
       "(Jul 10 and 16)",
-      "Sheriff Tiraspol Mol Saburtalo Tbilisi Geo 0-3 3-1 3-4"
+      "(Jul 10 and 17)"
     ]
   },
   {
@@ -1386,15 +1386,15 @@
       "Semi-Finals",
       "Final (May 29, Estadio do Dragão, Porto)"
     ],
-    "matches_parsed": 150,
-    "unparsed_lines": 96,
+    "matches_parsed": 155,
+    "unparsed_lines": 91,
     "sample_unparsed": [
-      "Drita Kos Inter d'Escaldes And 2-1",
-      "Drita Kos Linfield Nir 0-3x",
       "x awarded 0-3, Drita forfeited after several positive tests on Covid-19",
       "NB: all matches in Nyon",
       "(Aug 18)",
-      "Dynama Brest Bls FK Astana Kaz 6-3"
+      "Crvena zvezda (Beograd) Ser Europa FC Gib 5-0",
+      "(Aug 19)",
+      "(Aug 21)"
     ]
   },
   {
@@ -1412,8 +1412,8 @@
       "Semi-Finals",
       "Final (May 28, Stade de France, Paris Saint-Denis)"
     ],
-    "matches_parsed": 156,
-    "unparsed_lines": 101,
+    "matches_parsed": 157,
+    "unparsed_lines": 100,
     "sample_unparsed": [
       "NB: both losers to Conference League Qualifying Round 2",
       "x in Elbasan",
@@ -1438,15 +1438,15 @@
       "Semi-Finals",
       "Final (Jun 10, Atatürk Olympic stadium, Istanbul)"
     ],
-    "matches_parsed": 153,
-    "unparsed_lines": 111,
+    "matches_parsed": 155,
+    "unparsed_lines": 109,
     "sample_unparsed": [
-      "La Fiorita SMa Inter d'Escaldes And 1-2x",
       "NB: both losers to Conference League Qualifying Round 2",
       "NB: losers to Conference League Qualifying Round 2",
       "(Jul 5 and 12)",
       "(Jul 5 and 13)",
-      "(Jul 6 and 12)"
+      "(Jul 6 and 12)",
+      "(Jul 6 and 13)"
     ]
   },
   {
@@ -1464,8 +1464,8 @@
       "Semi-Finals",
       "Final (Jun 1, Wembley Stadium, London)"
     ],
-    "matches_parsed": 155,
-    "unparsed_lines": 94,
+    "matches_parsed": 156,
+    "unparsed_lines": 93,
     "sample_unparsed": [
       "NB: both losers to Conference League Qualifying Round 2",
       "NB: losers to Conference League Qualifying Round 2",

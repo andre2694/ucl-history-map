@@ -94,6 +94,14 @@
       "roundName": "Preliminary Round",
       "distFromFinal": 4
     },
+    "Dinamo Bucharest": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Galatasaray": {
+      "roundName": "Preliminary Round",
+      "distFromFinal": 4
+    },
     "Slovan Bratislava": {
       "roundName": "Round of 16",
       "distFromFinal": 3
@@ -129,10 +137,6 @@
     "CDNA (Sofia)": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
-    },
-    "Dinamo Buchar": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     },
     "Grasshopper-Club Zurich": {
       "roundName": "Quarterfinal",
@@ -384,13 +388,13 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Olympia": {
+    "Olympiakos (Pireus)": {
       "roundName": "Qualifying Round",
       "distFromFinal": 4
     },
-    "(Pireus)": {
-      "roundName": "Qualifying Round",
-      "distFromFinal": 4
+    "AC Milan": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "CDNA (Sofia)": {
       "roundName": "Qualifying Round",
@@ -437,10 +441,6 @@
       "distFromFinal": 0
     },
     "Red Star (Belgrade)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "AC Milan": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -546,7 +546,7 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Hambur": {
+    "Hamburger SV": {
       "roundName": "Semifinal",
       "distFromFinal": 1
     },
@@ -558,7 +558,7 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -648,6 +648,14 @@
       "roundName": "Preliminary Round",
       "distFromFinal": 4
     },
+    "Panathinaikos": {
+      "roundName": "Preliminary Round",
+      "distFromFinal": 4
+    },
+    "Juventus": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
     "CA Spora Luxembourg": {
       "roundName": "Preliminary Round",
       "distFromFinal": 4
@@ -680,10 +688,6 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Juventus": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
-    },
     "B 1913 (Odense)": {
       "roundName": "Round of 16",
       "distFromFinal": 3
@@ -706,11 +710,19 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
+    "Dinamo Bucharest": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
+    "Galatasaray": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
     "Polonia Bytom": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -793,10 +805,6 @@
     "FK Partizani (Tirane)": {
       "roundName": "First Round",
       "distFromFinal": 4
-    },
-    "Galatasaray": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
     },
     "Stade de Reims": {
       "roundName": "Quarterfinal",
@@ -912,6 +920,14 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
+    "Dinamo Bucharest": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "CS Motor Jena": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
     "Rangers": {
       "roundName": "First Round",
       "distFromFinal": 4
@@ -930,7 +946,7 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Dinamo Buchar": {
+    "Dinamo Bucharest": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -954,9 +970,9 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Panathinai": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Panathinaikos": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "KS Partizani (Tirane)": {
       "roundName": "First Round",
@@ -1084,6 +1100,14 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
+    "Panathinaikos": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Sliema Wanderers": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
     "IBK (Keflavik)": {
       "roundName": "First Round",
       "distFromFinal": 4
@@ -1091,6 +1115,14 @@
     "Ferencvarosi": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
+    },
+    "Dinamo Bucharest": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "B1909 (Odense)": {
+      "roundName": "First Round",
+      "distFromFinal": 4
     },
     "HJK (Helsinki)": {
       "roundName": "First Round",
@@ -1155,10 +1187,6 @@
     "FC Nantes": {
       "roundName": "First Round",
       "distFromFinal": 4
-    },
-    "Panathinai": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     },
     "Internazionale": {
       "roundName": "Semifinal",
@@ -1258,7 +1286,7 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Olympia": {
+    "Olympiakos (Pireus)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -1304,13 +1332,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Olympia": {
+    "Olympiakos (Nicosia)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "(Nicosia)": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "FK Sarajevo": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Gornik Zabrze": {
       "roundName": "Quarterfinal",
@@ -1360,15 +1388,19 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "(Pireus)": {
+    "Olympiakos (Pireus)": {
       "roundName": "First Round",
       "distFromFinal": 4
+    },
+    "Juventus": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
     },
     "FC Botev (Plovdiv)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Rapid Buchar": {
+    "Rapid Bucharest": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -1412,14 +1444,6 @@
       "roundName": "Final",
       "distFromFinal": 0
     },
-    "FK Sarajevo": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Juventus": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
-    },
     "Eintracht Brunswick": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
@@ -1462,7 +1486,7 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Lah": {
+    "Lahden Reipas": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -1506,6 +1530,14 @@
       "roundName": "Final",
       "distFromFinal": 0
     },
+    "Steaua Bucharest": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
+    "Spartak Trnava": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
+    },
     "Malmo FF": {
       "roundName": "First Round",
       "distFromFinal": 4
@@ -1533,14 +1565,6 @@
     "Red Star (Belgrade)": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "Reipas": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Spartak Trnava": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
     }
   },
   "1969-70": {
@@ -1580,7 +1604,7 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Olympia": {
+    "Olympiakos (Nicosia)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -1648,7 +1672,7 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -1664,7 +1688,7 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Ave": {
+    "Avenir Beggen": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -1694,13 +1718,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Panathinai": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
+    "Panathinaikos": {
+      "roundName": "Final",
+      "distFromFinal": 0
     },
     "Slovan Bratislava": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "B1903 (København)": {
       "roundName": "First Round",
@@ -1813,10 +1837,6 @@
     "Ajax": {
       "roundName": "Final",
       "distFromFinal": 0
-    },
-    "Panathinaikos": {
-      "roundName": "Final",
-      "distFromFinal": 0
     }
   },
   "1971-72": {
@@ -1856,7 +1876,7 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Olympia": {
+    "Olympiakos (Nicosia)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -1900,7 +1920,7 @@
       "roundName": "Final",
       "distFromFinal": 0
     },
-    "SG Dynamo Dres": {
+    "SG Dynamo Dresden": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -1911,6 +1931,14 @@
     "Arsenal": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
+    },
+    "Dinamo Bucharest": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Spartak Trnava": {
+      "roundName": "First Round",
+      "distFromFinal": 4
     },
     "Olympique Marseille": {
       "roundName": "Round of 16",
@@ -1928,23 +1956,19 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Lah": {
+    "Lahden Reipas": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Reipas": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Grasshopper-Club Zurich": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "IA (Akranes)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
     "Sliema Wanderers": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Grasshopper-Club Zurich": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -2026,7 +2050,7 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -2100,7 +2124,7 @@
       "roundName": "Second Round",
       "distFromFinal": 4
     },
-    "Olympia": {
+    "Olympiakos (Pireus)": {
       "roundName": "First Round",
       "distFromFinal": 5
     },
@@ -2111,6 +2135,14 @@
     "Celtic": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
+    },
+    "SG Dynamo Dresden": {
+      "roundName": "Second Round",
+      "distFromFinal": 4
+    },
+    "Juventus": {
+      "roundName": "First Round",
+      "distFromFinal": 5
     },
     "Zarja Voroshilovgrad": {
       "roundName": "Second Round",
@@ -2188,15 +2220,11 @@
       "roundName": "First Round",
       "distFromFinal": 5
     },
-    "Dinamo Buchar": {
-      "roundName": "First Round",
-      "distFromFinal": 5
-    },
-    "Ajax": {
+    "Dinamo Bucharest": {
       "roundName": "Second Round",
       "distFromFinal": 4
     },
-    "SG Dynamo Dres": {
+    "Ajax": {
       "roundName": "Second Round",
       "distFromFinal": 4
     }
@@ -2214,7 +2242,7 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Olympia": {
+    "Olympiakos (Pireus)": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -2290,13 +2318,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "SK VO": {
+    "SK VOEST (Linz)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "(Linz)": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "FC Barcelona": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
     },
     "NK Hajduk (Split)": {
       "roundName": "Round of 16",
@@ -2313,10 +2341,6 @@
     "1.FC Magdeburg": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "FC Barcelona": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
     },
     "Cork Celtic": {
       "roundName": "Round of 16",
@@ -2388,13 +2412,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Olympia": {
+    "Olympiakos (Peiraías)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "(Peiraías)": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Dinamo Kijev": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "Rangers": {
       "roundName": "Round of 16",
@@ -2451,10 +2475,6 @@
     "IA (Akranes)": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "Dinamo Kijev": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
     }
   },
   "1976-77": {
@@ -2462,9 +2482,9 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Trabzons": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Trabzonspor": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Austria/WAC": {
       "roundName": "First Round",
@@ -2478,7 +2498,7 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Steaua Buchar": {
+    "Steaua Bucharest": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -2489,6 +2509,14 @@
     "AS Saint-Etienne": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
+    },
+    "SG Dynamo Dresden": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
+    "SL Benfica": {
+      "roundName": "First Round",
+      "distFromFinal": 4
     },
     "Dundalk": {
       "roundName": "First Round",
@@ -2577,10 +2605,6 @@
     "TPS (Turku)": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "SG Dynamo Dres": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
     }
   },
   "1977-78": {
@@ -2608,6 +2632,14 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
+    "SG Dynamo Dresden": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Halmstads BK": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
     "Dukla Prague": {
       "roundName": "First Round",
       "distFromFinal": 4
@@ -2620,7 +2652,7 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -2640,13 +2672,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Lillest": {
+    "Lillestrom SK": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "SK": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Ajax": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "Omonia (Nicosia)": {
       "roundName": "First Round",
@@ -2664,6 +2696,14 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
+    "Trabzonspor": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
+    "B1903 (Copenhagen)": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
     "Vasas SC": {
       "roundName": "First Round",
       "distFromFinal": 4
@@ -2680,25 +2720,17 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "B1903 (Copenhagen)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+    "Dinamo Bucharest": {
+      "roundName": "First Round",
+      "distFromFinal": 4
     },
-    "Ajax": {
+    "Atletico Madrid": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
     "Liverpool": {
       "roundName": "Final",
       "distFromFinal": 0
-    },
-    "SG Dynamo Dres": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Atletico Madrid": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
     }
   },
   "1978-79": {
@@ -2706,9 +2738,17 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Steaua Buchar": {
+    "Steaua Bucharest": {
       "roundName": "Preliminary Round",
       "distFromFinal": 5
+    },
+    "Nottingham Forest": {
+      "roundName": "Final",
+      "distFromFinal": 0
+    },
+    "Liverpool": {
+      "roundName": "First Round",
+      "distFromFinal": 4
     },
     "Juventus": {
       "roundName": "First Round",
@@ -2722,7 +2762,7 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Lillest": {
+    "Lillestrom SK": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -2763,8 +2803,8 @@
       "distFromFinal": 0
     },
     "1.FC Koln": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
+      "roundName": "Semifinal",
+      "distFromFinal": 1
     },
     "IA (Akranes)": {
       "roundName": "First Round",
@@ -2782,13 +2822,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Dynamo Dres": {
+    "Dynamo Dresden": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
     "Grasshopper-Club Zurich": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "Valletta": {
       "roundName": "First Round",
@@ -2825,14 +2865,6 @@
     "Bohemians (Dublin)": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "Nottingham For": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Nottingham Forest": {
-      "roundName": "Final",
-      "distFromFinal": 0
     }
   },
   "1979-80": {
@@ -2849,6 +2881,14 @@
       "distFromFinal": 4
     },
     "Dynamo Tbilisi": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Nottingham Forest": {
+      "roundName": "Final",
+      "distFromFinal": 0
+    },
+    "Osters IF Vaxjo": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -2873,8 +2913,8 @@
       "distFromFinal": 1
     },
     "Arges Pitesti": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "AEK (Athens)": {
       "roundName": "First Round",
@@ -2889,8 +2929,8 @@
       "distFromFinal": 2
     },
     "BFC Dynamo (Berlin)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "Ruch Chorzow": {
       "roundName": "First Round",
@@ -2917,16 +2957,24 @@
       "distFromFinal": 4
     },
     "Ajax": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
+      "roundName": "Semifinal",
+      "distFromFinal": 1
     },
     "Valur (Reykjavik)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Hambur": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
+    "Hamburger SV": {
+      "roundName": "Final",
+      "distFromFinal": 0
+    },
+    "Hajduk Split": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
+    "Trabzonspor": {
+      "roundName": "First Round",
+      "distFromFinal": 4
     },
     "Vejle BK": {
       "roundName": "Round of 16",
@@ -2951,22 +2999,6 @@
     "SK Beveren": {
       "roundName": "First Round",
       "distFromFinal": 4
-    },
-    "SV": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
-    },
-    "Hajduk Sp": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Nottingham Forest": {
-      "roundName": "Final",
-      "distFromFinal": 0
-    },
-    "Hamburger SV": {
-      "roundName": "Final",
-      "distFromFinal": 0
     }
   },
   "1980-81": {
@@ -3006,7 +3038,7 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Nottingham For": {
+    "Nottingham Forest": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -3050,13 +3082,13 @@
       "roundName": "Final",
       "distFromFinal": 0
     },
-    "Olympia": {
+    "Olympiakos (Pireus)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "(Pireus)": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Bayern Munich": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
     },
     "OPS (Oulu)": {
       "roundName": "First Round",
@@ -3069,6 +3101,14 @@
     "Sporting CP (Lisbon)": {
       "roundName": "First Round",
       "distFromFinal": 4
+    },
+    "Trabzonspor": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
+    "Szombierki Bytom": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Viking (Stavanger)": {
       "roundName": "First Round",
@@ -3091,14 +3131,6 @@
       "distFromFinal": 4
     },
     "Esbjerg fB": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Bayern Munich": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
-    },
-    "Szombierki Bytom": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     }
@@ -3136,7 +3168,7 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Trabzons": {
+    "Trabzonspor": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -3208,7 +3240,7 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Olympia": {
+    "Olympiakos (Peiraías)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -3254,15 +3286,15 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Hambur": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
+    "Hamburger SV": {
+      "roundName": "Final",
+      "distFromFinal": 0
     },
-    "Olympia": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Olympiakos (Peiraías)": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
-    "(Peiraías)": {
+    "Östers IF": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -3322,13 +3354,13 @@
       "roundName": "Semifinal",
       "distFromFinal": 1
     },
-    "Ave": {
+    "Avenir Beggen": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Beggen": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "SK Rapid (Wien)": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Omonia (Lefkosía)": {
       "roundName": "First Round",
@@ -3373,18 +3405,6 @@
     "Juventus": {
       "roundName": "Final",
       "distFromFinal": 0
-    },
-    "SV": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "SK Rapid (Wien)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Hamburger SV": {
-      "roundName": "Final",
-      "distFromFinal": 0
     }
   },
   "1983-84": {
@@ -3408,9 +3428,9 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Olympia": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Olympiakos": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "SL Benfica": {
       "roundName": "Quarterfinal",
@@ -3436,11 +3456,11 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Hambur": {
+    "Hamburger SV": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "SV": {
+    "KS Vllaznia (Shkodër)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -3550,6 +3570,14 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
+    "Trabzonspor": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
+    "Dnepr Dnepropetrovsk": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
     "FC Levski-Spartak": {
       "roundName": "Round of 16",
       "distFromFinal": 3
@@ -3578,13 +3606,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "Semifinal",
       "distFromFinal": 1
     },
     "Linfield": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Shamrock Rovers": {
       "roundName": "First Round",
@@ -3598,13 +3626,13 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Ave": {
+    "Avenir Beggen": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Beggen": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "IFK Göteborg": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "FK Austria (Wien)": {
       "roundName": "Quarterfinal",
@@ -3637,14 +3665,6 @@
     "Liverpool": {
       "roundName": "Final",
       "distFromFinal": 0
-    },
-    "Dnepr Dnepropetrovsk": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
-    },
-    "IFK Göteborg": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
     }
   },
   "1985-86": {
@@ -3790,13 +3810,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Ave": {
+    "Avenir Beggen": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Beggen": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "FK Austria (Vienna)": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Juventus": {
       "roundName": "Round of 16",
@@ -3810,7 +3830,7 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -3894,11 +3914,7 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "FK Austria (Vienna)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Steaua Buchar": {
+    "Steaua Bucharest": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     }
@@ -3925,8 +3941,8 @@
       "distFromFinal": 4
     },
     "Omonia (Nicosia)": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Real Madrid": {
       "roundName": "Semifinal",
@@ -3944,13 +3960,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Olympia": {
+    "Olympiakos (Pireus)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "(Pireus)": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Gornik Zabrze": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Fram (Reykjavik)": {
       "roundName": "First Round",
@@ -3960,13 +3976,13 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Lillest": {
+    "Lillestrom SK": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "SK": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+    "Linfield": {
+      "roundName": "First Round",
+      "distFromFinal": 4
     },
     "PSV (Eindhoven)": {
       "roundName": "Final",
@@ -4000,6 +4016,14 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
+    "Steaua Bucharest": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
+    },
+    "MTK-VM (Budapest)": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
     "Malmo FF": {
       "roundName": "First Round",
       "distFromFinal": 4
@@ -4021,12 +4045,8 @@
       "distFromFinal": 4
     },
     "Rangers": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Gornik Zabrze": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     }
   },
   "1988-89": {
@@ -4042,9 +4062,9 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Steaua Buchar": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
+    "Steaua Bucharest": {
+      "roundName": "Final",
+      "distFromFinal": 0
     },
     "Real Madrid": {
       "roundName": "Semifinal",
@@ -4054,13 +4074,13 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Pezopori": {
+    "Pezoporikos (Larnaca)": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "(Larnaca)": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "IFK Gothenburg": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "Club Brugge KV": {
       "roundName": "Round of 16",
@@ -4083,12 +4103,12 @@
       "distFromFinal": 4
     },
     "Galatasaray": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
+      "roundName": "Semifinal",
+      "distFromFinal": 1
     },
     "Spartak Moscow": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Glentoran": {
       "roundName": "First Round",
@@ -4153,14 +4173,6 @@
     "PSV (Eindhoven)": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
-    },
-    "IFK Gothenburg": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
-    },
-    "Steaua Bucharest": {
-      "roundName": "Final",
-      "distFromFinal": 0
     }
   },
   "1989-90": {
@@ -4260,6 +4272,14 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
+    "Steaua Bucharest": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Fram (Reykjavik)": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
     "Malmo FF": {
       "roundName": "Round of 16",
       "distFromFinal": 3
@@ -4273,6 +4293,10 @@
       "distFromFinal": 3
     },
     "Fenerbahce": {
+      "roundName": "First Round",
+      "distFromFinal": 4
+    },
+    "1.FC Dynamo Dresden": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -4334,7 +4358,7 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "1.FC Dynamo Dres": {
+    "1.FC Dynamo Dresden": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
@@ -4346,19 +4370,19 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Lillest": {
+    "Lillestrom SK": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "SK": {
-      "roundName": "First Round",
-      "distFromFinal": 4
+    "Club Brugge KV": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Lech Poznan": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "First Round",
       "distFromFinal": 4
     },
@@ -4370,9 +4394,17 @@
       "roundName": "First Round",
       "distFromFinal": 4
     },
-    "Malmo FF": {
+    "Dinamo Bucharest": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "St. Patrick's Athletic": {
       "roundName": "First Round",
       "distFromFinal": 4
+    },
+    "Malmo FF": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Besiktas": {
       "roundName": "First Round",
@@ -4397,10 +4429,6 @@
     "AC Milan": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
-    },
-    "Club Brugge KV": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     }
   },
   "1991-92": {
@@ -4472,13 +4500,13 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Panathinai": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+    "Panathinaikos": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
     },
     "IFK Gothenburg": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "SK Flamurtari (Vlore)": {
       "roundName": "Round of 16",
@@ -4531,10 +4559,6 @@
     "Rosenborg BK": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "Panathinaikos": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
     }
   },
   "1992-93": {
@@ -4542,7 +4566,7 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Tavria Simfero": {
+    "Tavria Simferopol": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
@@ -4713,8 +4737,8 @@
       "distFromFinal": 4
     },
     "Croatia Zagreb": {
-      "roundName": "Preliminary Round",
-      "distFromFinal": 4
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Skonto Riga": {
       "roundName": "Round of 16",
@@ -4740,13 +4764,13 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Ave": {
+    "Avenir Beggen": {
       "roundName": "Preliminary Round",
       "distFromFinal": 4
     },
-    "Beggen": {
-      "roundName": "Preliminary Round",
-      "distFromFinal": 4
+    "Rosenborg BK": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "SK Partizani (Tirane)": {
       "roundName": "Preliminary Round",
@@ -4836,9 +4860,9 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Rosenborg BK": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+    "Steaua Bucharest": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "FK Austria (Vienna)": {
       "roundName": "Quarterfinal",
@@ -4859,10 +4883,6 @@
     "Lech Poznan": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
-    },
-    "Steaua Buchar": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
     }
   },
   "1994-95": {
@@ -4874,11 +4894,11 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Ave": {
+    "Avenir Beggen": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Beggen": {
+    "Galatasaray": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -4886,9 +4906,9 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Hajduk Sp": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+    "Hajduk Split": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "Maccabi Haifa": {
       "roundName": "Round of 16",
@@ -4922,13 +4942,17 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
+    "Steaua Bucharest": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Servette FC Geneva": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
     "FC Barcelona": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
-    },
-    "Galatasaray": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     },
     "Manchester United": {
       "roundName": "Round of 16",
@@ -4946,19 +4970,15 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Steaua Bucharest": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Hajduk Split": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
     "SL Benfica": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
     "Benfica": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Hajduk Sp": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -5028,6 +5048,14 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
+    "Panathinaikos": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
+    },
+    "Hajduk Split": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
     "Champions' League ma": {
       "roundName": "Round of 16",
       "distFromFinal": 3
@@ -5049,10 +5077,6 @@
       "distFromFinal": 3
     },
     "ma": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "Panathinaikos": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -5088,10 +5112,6 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Panathinai": {
-      "roundName": "Semifinal",
-      "distFromFinal": 1
-    },
     "Spartak Moskva": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
@@ -5110,9 +5130,17 @@
       "roundName": "Qualifying Round ( Aug 7 and 21 )",
       "distFromFinal": 4
     },
-    "Alania Vladikav": {
+    "Alania Vladikavkaz": {
       "roundName": "Qualifying Round ( Aug 7 and 21 )",
       "distFromFinal": 4
+    },
+    "Panathinaikos": {
+      "roundName": "Qualifying Round ( Aug 7 and 21 )",
+      "distFromFinal": 4
+    },
+    "Rosenborg BK": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "IFK Göteborg": {
       "roundName": "Qualifying Round ( Aug 7 and 21 )",
@@ -5167,10 +5195,6 @@
       "distFromFinal": 1
     },
     "Atlético Madrid": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
-    },
-    "Rosenborg BK": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
@@ -5317,6 +5341,10 @@
       "distFromFinal": 3
     },
     "Galatasaray": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Olympiakos": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -5594,9 +5622,9 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Panathinai": {
-      "roundName": "Qualifying Round (Aug 12 and 26)",
-      "distFromFinal": 4
+    "Panathinaikos": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Ajax": {
       "roundName": "Round of 16",
@@ -5607,8 +5635,8 @@
       "distFromFinal": 3
     },
     "Olympiakos (Peiraías)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "Porto": {
       "roundName": "Round of 16",
@@ -5658,15 +5686,7 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Panathinaikos": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
     "1.FC Kaiserslautern": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
-    },
-    "Olympia": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     }
@@ -6086,6 +6106,14 @@
       "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
       "distFromFinal": 6
     },
+    "Hajduk Split": {
+      "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
+      "distFromFinal": 6
+    },
+    "Dunaferr FC": {
+      "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
+      "distFromFinal": 5
+    },
     "FC Tirol Innsbruck": {
       "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
       "distFromFinal": 5
@@ -6106,9 +6134,9 @@
       "roundName": "Group Phase 1 (Sep 12/13, 19/20, 26/27, Oct 17/18, 24/25, Nov 7/8)",
       "distFromFinal": 4
     },
-    "Hambur": {
-      "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
-      "distFromFinal": 5
+    "Hamburger SV": {
+      "roundName": "Group Phase 1 (Sep 12/13, 19/20, 26/27, Oct 17/18, 24/25, Nov 7/8)",
+      "distFromFinal": 4
     },
     "Internazionale FC": {
       "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
@@ -6134,9 +6162,9 @@
       "roundName": "Group Phase 1 (Sep 12/13, 19/20, 26/27, Oct 17/18, 24/25, Nov 7/8)",
       "distFromFinal": 4
     },
-    "Panathinai": {
-      "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
-      "distFromFinal": 5
+    "Panathinaikos": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Leeds United": {
       "roundName": "Semifinal",
@@ -6147,10 +6175,6 @@
       "distFromFinal": 5
     },
     "Feyenoord": {
-      "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
-      "distFromFinal": 5
-    },
-    "Dunaferr FC": {
       "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
       "distFromFinal": 5
     },
@@ -6226,17 +6250,9 @@
       "roundName": "Group Phase 1 (Sep 12/13, 19/20, 26/27, Oct 17/18, 24/25, Nov 7/8)",
       "distFromFinal": 4
     },
-    "Hamburger SV": {
-      "roundName": "Group Phase 1 (Sep 12/13, 19/20, 26/27, Oct 17/18, 24/25, Nov 7/8)",
-      "distFromFinal": 4
-    },
     "Juventus": {
       "roundName": "Group Phase 1 (Sep 12/13, 19/20, 26/27, Oct 17/18, 24/25, Nov 7/8)",
       "distFromFinal": 4
-    },
-    "Panathinaikos": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     },
     "Deportivo (La Coruña)": {
       "roundName": "Round of 16",
@@ -6392,7 +6408,7 @@
       "roundName": "Qualifying Phase 1 (Jul 11 and 18)",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
+    "Sheriff Tiraspol": {
       "roundName": "Qualifying Phase 2 (Jul 25 and Aug 1)",
       "distFromFinal": 6
     },
@@ -6404,9 +6420,9 @@
       "roundName": "Qualifying Phase 2 (Jul 25 and Aug 1)",
       "distFromFinal": 6
     },
-    "Hajduk Sp": {
-      "roundName": "Qualifying Phase 2 (Jul 25 and Aug 1)",
-      "distFromFinal": 6
+    "Hajduk Split": {
+      "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
+      "distFromFinal": 5
     },
     "Halmstads BK": {
       "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
@@ -6504,9 +6520,9 @@
       "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
       "distFromFinal": 5
     },
-    "Panathinai": {
-      "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
-      "distFromFinal": 5
+    "Panathinaikos": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "Parma": {
       "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
@@ -6528,6 +6544,10 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
+    "RCD Mallorca": {
+      "roundName": "Group Phase 1 (Sep 11/12, 18/19, 25/26, Oct 16/17, 23/24, 30/1)",
+      "distFromFinal": 4
+    },
     "AS Roma": {
       "roundName": "Round of 16",
       "distFromFinal": 3
@@ -6541,14 +6561,6 @@
       "distFromFinal": 3
     },
     "Schalke 04": {
-      "roundName": "Group Phase 1 (Sep 11/12, 18/19, 25/26, Oct 16/17, 23/24, 30/1)",
-      "distFromFinal": 4
-    },
-    "Panathinaikos": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "RCD Mallorca": {
       "roundName": "Group Phase 1 (Sep 11/12, 18/19, 25/26, Oct 16/17, 23/24, 30/1)",
       "distFromFinal": 4
     },
@@ -6690,6 +6702,14 @@
       "roundName": "Qualifying Phase 1 (Jul 17 and 24)",
       "distFromFinal": 7
     },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Jul 31 and Aug 7)",
+      "distFromFinal": 6
+    },
+    "Zhenis Astana": {
+      "roundName": "Qualifying Phase 1 (Jul 17 and 24)",
+      "distFromFinal": 7
+    },
     "Club Brugge KV": {
       "roundName": "Group Phase 1 (Sep 17/18, 24/25, Oct 1/2, 22/23, 29/30, Nov 12/13)",
       "distFromFinal": 4
@@ -6743,6 +6763,10 @@
       "distFromFinal": 5
     },
     "AC Sparta Praha": {
+      "roundName": "Qualifying Phase 3 (Aug 14 and 28)",
+      "distFromFinal": 5
+    },
+    "Grazer AK": {
       "roundName": "Qualifying Phase 3 (Aug 14 and 28)",
       "distFromFinal": 5
     },
@@ -6813,10 +6837,6 @@
     "AJ Auxerre": {
       "roundName": "Group Phase 1 (Sep 17/18, 24/25, Oct 1/2, 22/23, 29/30, Nov 12/13)",
       "distFromFinal": 4
-    },
-    "Grazer AK": {
-      "roundName": "Qualifying Phase 3 (Aug 14 and 28)",
-      "distFromFinal": 5
     },
     "Lokomotiv Moskva": {
       "roundName": "Round of 16",
@@ -6912,6 +6932,14 @@
       "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
       "distFromFinal": 7
     },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+      "distFromFinal": 6
+    },
+    "Flora Tallinn": {
+      "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
+      "distFromFinal": 7
+    },
     "HB (Tórshavn)": {
       "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
       "distFromFinal": 7
@@ -6984,6 +7012,10 @@
       "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
       "distFromFinal": 5
     },
+    "Shakhtar Donets'k": {
+      "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
+      "distFromFinal": 5
+    },
     "MSK Zilina": {
       "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
       "distFromFinal": 5
@@ -7049,10 +7081,6 @@
       "distFromFinal": 4
     },
     "Borussia Dortmund": {
-      "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
-      "distFromFinal": 5
-    },
-    "Shakhtar Donets'k": {
       "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
       "distFromFinal": 5
     },
@@ -7214,6 +7242,14 @@
       "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
       "distFromFinal": 5
     },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
+      "distFromFinal": 5
+    },
+    "Jeunesse d'Esch": {
+      "roundName": "Qualifying Phase 1 (Jul 14 and 21)",
+      "distFromFinal": 6
+    },
     "WIT Georgia Tbilisi": {
       "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
       "distFromFinal": 5
@@ -7254,10 +7290,6 @@
       "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
       "distFromFinal": 4
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
-      "distFromFinal": 5
-    },
     "FC København": {
       "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
       "distFromFinal": 5
@@ -7278,7 +7310,7 @@
       "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
       "distFromFinal": 4
     },
-    "Trabzons": {
+    "Trabzonspor": {
       "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
       "distFromFinal": 4
     },
@@ -7293,6 +7325,10 @@
     "Ferencváros (Budapest)": {
       "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
       "distFromFinal": 4
+    },
+    "Hajduk Split": {
+      "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
+      "distFromFinal": 5
     },
     "Djurgårdens IF": {
       "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
@@ -7600,7 +7636,7 @@
       "roundName": "Qualifying Phase 1 (Jul 13 and 20)",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
+    "Sheriff Tiraspol": {
       "roundName": "Qualifying Phase 1 (Jul 13 and 20)",
       "distFromFinal": 7
     },
@@ -7612,7 +7648,7 @@
       "roundName": "Qualifying Phase 3 (Aug 10 and 24)",
       "distFromFinal": 5
     },
-    "Hajduk Sp": {
+    "Hajduk Split": {
       "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
       "distFromFinal": 6
     },
@@ -7644,9 +7680,9 @@
       "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
       "distFromFinal": 6
     },
-    "FC T": {
-      "roundName": "Qualifying Phase 3 (Aug 10 and 24)",
-      "distFromFinal": 5
+    "FC Thun": {
+      "roundName": "Group Phase (Sep 13/14, 27/28, Oct 18/19, Nov 1/2, 22/23, Dec 6/7)",
+      "distFromFinal": 4
     },
     "Malmö FF": {
       "roundName": "Qualifying Phase 3 (Aug 10 and 24)",
@@ -7668,7 +7704,7 @@
       "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
       "distFromFinal": 6
     },
-    "Trabzons": {
+    "Trabzonspor": {
       "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
       "distFromFinal": 6
     },
@@ -7740,7 +7776,7 @@
       "roundName": "Qualifying Phase 3 (Aug 10 and 24)",
       "distFromFinal": 5
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "Qualifying Phase 3 (Aug 10 and 24)",
       "distFromFinal": 5
     },
@@ -7755,10 +7791,6 @@
     "Arsenal": {
       "roundName": "Final",
       "distFromFinal": 0
-    },
-    "FC Thun": {
-      "roundName": "Group Phase (Sep 13/14, 27/28, Oct 18/19, Nov 1/2, 22/23, Dec 6/7)",
-      "distFromFinal": 4
     },
     "AC Sparta Praha": {
       "roundName": "Group Phase (Sep 13/14, 27/28, Oct 18/19, Nov 1/2, 22/23, Dec 6/7)",
@@ -7914,9 +7946,9 @@
       "roundName": "Qualifying Phase 1 (Jul 12 and 19)",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 1 (Jul 12 and 19)",
-      "distFromFinal": 7
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
+      "distFromFinal": 6
     },
     "Steaua Bucuresti": {
       "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
@@ -7958,6 +7990,10 @@
       "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
       "distFromFinal": 6
     },
+    "Spartak Moskva": {
+      "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
+      "distFromFinal": 4
+    },
     "Dynamo Kyiv": {
       "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
       "distFromFinal": 4
@@ -7981,10 +8017,6 @@
     "FC Slovan Liberec": {
       "roundName": "Qualifying Phase 3 (Aug 9 and 23)",
       "distFromFinal": 5
-    },
-    "Spartak Moskva": {
-      "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
-      "distFromFinal": 4
     },
     "Shakhtar Donetsk": {
       "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
@@ -8030,11 +8062,11 @@
       "roundName": "Qualifying Phase 3 (Aug 9 and 23)",
       "distFromFinal": 5
     },
-    "Hambur": {
-      "roundName": "Qualifying Phase 3 (Aug 9 and 23)",
-      "distFromFinal": 5
+    "Hamburger SV": {
+      "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
+      "distFromFinal": 4
     },
-    "SV": {
+    "CA Osasuna (Pamplona)": {
       "roundName": "Qualifying Phase 3 (Aug 9 and 23)",
       "distFromFinal": 5
     },
@@ -8113,10 +8145,6 @@
     "FC Porto": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "Hamburger SV": {
-      "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
-      "distFromFinal": 4
     },
     "RSC Anderlecht": {
       "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
@@ -8204,6 +8232,14 @@
       "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
       "distFromFinal": 6
     },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
+      "distFromFinal": 6
+    },
+    "Ranger's": {
+      "roundName": "Qualifying Phase 1 (Jul 18 and 25)",
+      "distFromFinal": 7
+    },
     "Marsaxlokk": {
       "roundName": "Qualifying Phase 1 (Jul 18 and 25)",
       "distFromFinal": 7
@@ -8285,10 +8321,6 @@
       "distFromFinal": 4
     },
     "Besiktas JK": {
-      "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
-      "distFromFinal": 6
-    },
-    "Sheriff Tiras": {
       "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
       "distFromFinal": 6
     },
@@ -8389,8 +8421,8 @@
       "distFromFinal": 2
     },
     "Olympiakos (Piraeus)": {
-      "roundName": "Group Phase (Sep 18/19, Oct 2/3, 23/24, Nov 6/7, 7/28, Dec 4/11/12)",
-      "distFromFinal": 4
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Lazio": {
       "roundName": "Group Phase (Sep 18/19, Oct 2/3, 23/24, Nov 6/7, 7/28, Dec 4/11/12)",
@@ -8447,14 +8479,6 @@
     "CSKA Moskva": {
       "roundName": "Group Phase (Sep 18/19, Oct 2/3, 23/24, Nov 6/7, 7/28, Dec 4/11/12)",
       "distFromFinal": 4
-    },
-    "Olympia": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "(Piraeus)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     }
   },
   "2008-09": {
@@ -8475,8 +8499,8 @@
       "distFromFinal": 5
     },
     "Dinamo Tbilisi": {
-      "roundName": "Qualifying Phase 1 (Jul 15 and 23)",
-      "distFromFinal": 7
+      "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+      "distFromFinal": 6
     },
     "NSÍ (Runavík)": {
       "roundName": "Qualifying Phase 1 (Jul 15 and 23)",
@@ -8550,9 +8574,9 @@
       "roundName": "Qualifying Phase 1 (Jul 15 and 23)",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 1 (Jul 15 and 23)",
-      "distFromFinal": 7
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+      "distFromFinal": 6
     },
     "Drogheda United": {
       "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
@@ -8582,9 +8606,17 @@
       "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
       "distFromFinal": 6
     },
+    "Panathinaikos": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
     "FC Basel": {
       "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
       "distFromFinal": 4
+    },
+    "AC Sparta Praha": {
+      "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
+      "distFromFinal": 5
     },
     "Dynamo Kyiv": {
       "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
@@ -8614,7 +8646,7 @@
       "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
       "distFromFinal": 4
     },
-    "Olympia": {
+    "Olympiakos (Piraeus)": {
       "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
       "distFromFinal": 5
     },
@@ -8686,14 +8718,6 @@
       "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
       "distFromFinal": 4
     },
-    "AC Sparta Praha": {
-      "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
-      "distFromFinal": 5
-    },
-    "Panathinai": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
     "Chelsea": {
       "roundName": "Semifinal",
       "distFromFinal": 1
@@ -8711,10 +8735,6 @@
       "distFromFinal": 4
     },
     "Werder Bremen": {
-      "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
-      "distFromFinal": 4
-    },
-    "Panathinaikos": {
       "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
       "distFromFinal": 4
     },
@@ -8824,9 +8844,9 @@
       "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
       "distFromFinal": 6
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
-      "distFromFinal": 6
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
+      "distFromFinal": 4
     },
     "WIT Georgia Tbilisi": {
       "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
@@ -8904,15 +8924,15 @@
       "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
       "distFromFinal": 5
     },
-    "Panathinai": {
-      "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
-      "distFromFinal": 5
+    "Panathinaikos": {
+      "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
+      "distFromFinal": 4
     },
     "RSC Anderlecht": {
       "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
       "distFromFinal": 4
     },
-    "Sivass": {
+    "Sivasspor": {
       "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
       "distFromFinal": 5
     },
@@ -8924,7 +8944,11 @@
       "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
       "distFromFinal": 4
     },
-    "Olympia": {
+    "SK Slavia Praha": {
+      "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
+      "distFromFinal": 5
+    },
+    "Olympiakos (Piraeus)": {
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
@@ -8963,6 +8987,10 @@
     "Olympique Lyonnais": {
       "roundName": "Semifinal",
       "distFromFinal": 1
+    },
+    "Atlético Madrid": {
+      "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
+      "distFromFinal": 4
     },
     "Juventus": {
       "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
@@ -9004,10 +9032,6 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Atlético Madrid": {
-      "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
-      "distFromFinal": 4
-    },
     "Chelsea": {
       "roundName": "Round of 16",
       "distFromFinal": 3
@@ -9048,10 +9072,6 @@
       "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
       "distFromFinal": 4
     },
-    "Olympiakos (Piraeus)": {
-      "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
-      "distFromFinal": 4
-    },
     "AZ (Alkmaar)": {
       "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
       "distFromFinal": 4
@@ -9059,10 +9079,6 @@
     "Standard CL (Liège)": {
       "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
       "distFromFinal": 4
-    },
-    "(Piraeus)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     }
   },
   "2010-11": {
@@ -9147,8 +9163,8 @@
       "distFromFinal": 6
     },
     "Dinamo Zagreb": {
-      "roundName": "Qualifying Phase 1 (Jul 13 and 21)",
-      "distFromFinal": 6
+      "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
+      "distFromFinal": 5
     },
     "Koper": {
       "roundName": "Qualifying Phase 1 (Jul 13 and 21)",
@@ -9183,6 +9199,14 @@
       "distFromFinal": 6
     },
     "HJK (Helsinki)": {
+      "roundName": "Qualifying Phase 1 (Jul 13 and 21)",
+      "distFromFinal": 6
+    },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 3 (Aug 18 and 24)",
+      "distFromFinal": 4
+    },
+    "Dinamo Tiranë": {
       "roundName": "Qualifying Phase 1 (Jul 13 and 21)",
       "distFromFinal": 6
     },
@@ -9253,10 +9277,6 @@
     "Tottenham Hotspur": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
-    },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 3 (Aug 18 and 24)",
-      "distFromFinal": 4
     },
     "Sevilla FC": {
       "roundName": "Qualifying Phase 3 (Aug 18 and 24)",
@@ -9524,7 +9544,7 @@
       "roundName": "Qualifying Phase 3 (Aug 17 and 23)",
       "distFromFinal": 4
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
       "distFromFinal": 5
     },
@@ -9540,9 +9560,9 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Trabzons": {
-      "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
-      "distFromFinal": 5
+    "Trabzonspor": {
+      "roundName": "Qualifying Phase 3 (Aug 17 and 23)",
+      "distFromFinal": 4
     },
     "Arsenal": {
       "roundName": "Round of 16",
@@ -9579,10 +9599,6 @@
     "Internazionale": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "Trabzonspor": {
-      "roundName": "Qualifying Phase 3 (Aug 17 and 23)",
-      "distFromFinal": 4
     },
     "Lille OSC": {
       "roundName": "Qualifying Phase 3 (Aug 17 and 23)",
@@ -9686,9 +9702,9 @@
       "roundName": "Qualifying Phase 1 (Jul 17 and 24)",
       "distFromFinal": 6
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 1 (Jul 17 and 24)",
-      "distFromFinal": 6
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
+      "distFromFinal": 5
     },
     "Flora Tallinn": {
       "roundName": "Qualifying Phase 1 (Jul 17 and 24)",
@@ -9814,7 +9830,7 @@
       "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
       "distFromFinal": 5
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "Qualifying Phase 3 (Aug 22 and 28)",
       "distFromFinal": 4
     },
@@ -10004,6 +10020,14 @@
       "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
       "distFromFinal": 5
     },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+      "distFromFinal": 5
+    },
+    "Sutjeska Niksic": {
+      "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
+      "distFromFinal": 6
+    },
     "Birkirkara": {
       "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
       "distFromFinal": 6
@@ -10100,15 +10124,19 @@
       "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
       "distFromFinal": 4
     },
+    "FC Nordsjælland": {
+      "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+      "distFromFinal": 5
+    },
+    "Zenit Sankt Peterburg": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
     "PAOK (Thessaloniki)": {
       "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
       "distFromFinal": 4
     },
     "Metalist Kharkiv": {
-      "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
-      "distFromFinal": 5
-    },
-    "Sheriff Tiras": {
       "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
       "distFromFinal": 5
     },
@@ -10135,10 +10163,6 @@
     "Paços de Ferreira": {
       "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
       "distFromFinal": 4
-    },
-    "Zenit Sankt Peterburg": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     },
     "Olympique Lyonnais": {
       "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
@@ -10205,8 +10229,8 @@
       "distFromFinal": 4
     },
     "Olympiakos (Piraeus)": {
-      "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
-      "distFromFinal": 4
+      "roundName": "Round of 16",
+      "distFromFinal": 3
     },
     "Paris Saint-Germain FC": {
       "roundName": "Quarterfinal",
@@ -10255,14 +10279,6 @@
     "Ajax": {
       "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
       "distFromFinal": 4
-    },
-    "Olympia": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
-    },
-    "(Piraeus)": {
-      "roundName": "Round of 16",
-      "distFromFinal": 3
     }
   },
   "2014-15": {
@@ -10273,6 +10289,14 @@
     "Banants Yerevan": {
       "roundName": "Preliminary Round (Jul 1 and 8)",
       "distFromFinal": 7
+    },
+    "La Fiorita": {
+      "roundName": "Preliminary Round (Jul 1 and 8)",
+      "distFromFinal": 7
+    },
+    "Levadia Tallinn": {
+      "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
+      "distFromFinal": 6
     },
     "Lincoln": {
       "roundName": "Preliminary Round (Jul 1 and 8)",
@@ -10303,6 +10327,14 @@
       "distFromFinal": 4
     },
     "Skënderbeu Korçë": {
+      "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
+      "distFromFinal": 6
+    },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+      "distFromFinal": 5
+    },
+    "Sutjeska Niksic": {
       "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
       "distFromFinal": 6
     },
@@ -10346,10 +10378,6 @@
       "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
       "distFromFinal": 5
     },
-    "Levadia Tallinn": {
-      "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
-      "distFromFinal": 6
-    },
     "KR (Reykjavík)": {
       "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
       "distFromFinal": 6
@@ -10389,10 +10417,6 @@
     "Saint Patrick's Athletic": {
       "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
       "distFromFinal": 6
-    },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
-      "distFromFinal": 5
     },
     "Steaua Bucuresti": {
       "roundName": "Qualifying Phase 3 (Aug 19 and 27)",
@@ -10434,7 +10458,7 @@
       "roundName": "Qualifying Phase 3 (Aug 19 and 27)",
       "distFromFinal": 4
     },
-    "Panathinai": {
+    "Panathinaikos": {
       "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
       "distFromFinal": 5
     },
@@ -10565,8 +10589,8 @@
       "distFromFinal": 7
     },
     "Lincoln": {
-      "roundName": "Preliminary Round (Jun 30 and Jul 7)",
-      "distFromFinal": 7
+      "roundName": "Qualifying Phase 1 (Jul 14 and 21)",
+      "distFromFinal": 6
     },
     "FC Santa Coloma": {
       "roundName": "Preliminary Round (Jun 30 and Jul 7)",
@@ -10603,6 +10627,10 @@
     "Vardar Skopje": {
       "roundName": "Qualifying Phase 1 (Jul 14 and 21)",
       "distFromFinal": 6
+    },
+    "FC Midtjylland": {
+      "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
+      "distFromFinal": 5
     },
     "Ludogorets Razgrad": {
       "roundName": "Qualifying Phase 1 (Jul 14 and 21)",
@@ -10712,6 +10740,14 @@
       "roundName": "Qualifying Phase 3 (Aug 18 and 26)",
       "distFromFinal": 4
     },
+    "Panathinaikos": {
+      "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
+      "distFromFinal": 5
+    },
+    "Club Brugge KV": {
+      "roundName": "Qualifying Phase 3 (Aug 18 and 26)",
+      "distFromFinal": 4
+    },
     "BSC Young Boys (Bern)": {
       "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
       "distFromFinal": 5
@@ -10745,10 +10781,6 @@
       "distFromFinal": 4
     },
     "Manchester United": {
-      "roundName": "Qualifying Phase 3 (Aug 18 and 26)",
-      "distFromFinal": 4
-    },
-    "Club Brugge KV": {
       "roundName": "Qualifying Phase 3 (Aug 18 and 26)",
       "distFromFinal": 4
     },
@@ -10898,7 +10930,7 @@
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 4
     },
-    "Sheriff Tiras": {
+    "Sheriff Tiraspol": {
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 6
     },
@@ -11046,11 +11078,7 @@
       "roundName": "Semifinal",
       "distFromFinal": 1
     },
-    "Olympia": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 5
-    },
-    "(Piraeus)": {
+    "Olympiakos (Piraeus)": {
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 5
     },
@@ -11176,7 +11204,7 @@
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 6
     },
-    "Info": {
+    "Infonet Tallinn": {
       "roundName": "Preliminary Round",
       "distFromFinal": 7
     },
@@ -11200,7 +11228,7 @@
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 6
     },
-    "La Fior": {
+    "La Fiorita": {
       "roundName": "Preliminary Round",
       "distFromFinal": 7
     },
@@ -11213,8 +11241,8 @@
       "distFromFinal": 6
     },
     "Rijeka": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 5
+      "roundName": "Qualifying Phase 3",
+      "distFromFinal": 4
     },
     "Red Bull Salzburg": {
       "roundName": "Qualifying Phase 2",
@@ -11268,6 +11296,14 @@
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 4
     },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2",
+      "distFromFinal": 5
+    },
+    "Kukësi": {
+      "roundName": "Qualifying Phase 1",
+      "distFromFinal": 6
+    },
     "IFK Mariehamn": {
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 6
@@ -11304,10 +11340,6 @@
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 4
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 5
-    },
     "Slavia Praha": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 4
@@ -11317,8 +11349,8 @@
       "distFromFinal": 5
     },
     "(Piraeus)": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 4
+      "roundName": "Qualifying Phase 2",
+      "distFromFinal": 5
     },
     "Viitorul Constanta": {
       "roundName": "Qualifying Phase 2",
@@ -11344,7 +11376,7 @@
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 5
     },
-    "Istan": {
+    "Istanbul Basaksehir FK": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 4
     },
@@ -11364,7 +11396,7 @@
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 5
     },
-    "Olympia": {
+    "Olympiakos (Piraeus)": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 4
     },
@@ -11384,9 +11416,9 @@
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 4
     },
-    "Basaksehir FK": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 4
+    "Sevilla FC": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
     },
     "SL Benfica (Lisboa)": {
       "roundName": "Qualifying Phase 3",
@@ -11429,14 +11461,6 @@
       "distFromFinal": 2
     },
     "Juventus": {
-      "roundName": "Quarterfinal",
-      "distFromFinal": 2
-    },
-    "Olympiakos (Piraeus)": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 4
-    },
-    "Sevilla FC": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
@@ -11490,7 +11514,7 @@
       "roundName": "Semifinals (Jun 26)",
       "distFromFinal": 9
     },
-    "Dr": {
+    "Drita (Gjilanë)": {
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
@@ -11498,7 +11522,7 @@
       "roundName": "Final (Jun 29)",
       "distFromFinal": 8
     },
-    "La Fior": {
+    "La Fiorita": {
       "roundName": "Semifinals (Jun 26)",
       "distFromFinal": 9
     },
@@ -11542,15 +11566,15 @@
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
     },
-    "(Gjilanë)": {
-      "roundName": "Qualifying Phase 1",
-      "distFromFinal": 7
+    "Malmö FF": {
+      "roundName": "Qualifying Phase 3",
+      "distFromFinal": 5
     },
     "Torpedo Kutaisi": {
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
+    "Sheriff Tiraspol": {
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
     },
@@ -11622,17 +11646,13 @@
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
-    "FC Midtjyll": {
+    "FC Midtjylland (Herning)": {
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
     },
     "CFR 1907 Cluj": {
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
-    },
-    "Malmö FF": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 5
     },
     "BATE Barysau": {
       "roundName": "Qualifying Phase 4",
@@ -11872,6 +11892,14 @@
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 1",
+      "distFromFinal": 7
+    },
+    "Saburtalo Tbilisi": {
+      "roundName": "Qualifying Phase 2",
+      "distFromFinal": 6
+    },
     "Partizani Tiranë": {
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
@@ -11928,10 +11956,6 @@
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
-    "Saburtalo Tbilisi": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 6
-    },
     "Dinamo Zagreb": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
@@ -11952,7 +11976,7 @@
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
     },
-    "Olympia": {
+    "Olympiakos (Piraeus)": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
@@ -11981,18 +12005,14 @@
       "distFromFinal": 5
     },
     "FK Krasnodar": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 5
+      "roundName": "Qualifying Phase 4",
+      "distFromFinal": 4
     },
     "FC Porto": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
-    "Istan": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 5
-    },
-    "Basaksehir FK": {
+    "Istanbul Basaksehir FK": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
@@ -12001,10 +12021,6 @@
       "distFromFinal": 4
     },
     "Slavia Praha": {
-      "roundName": "Qualifying Phase 4",
-      "distFromFinal": 4
-    },
-    "(Piraeus)": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
@@ -12019,10 +12035,6 @@
     "Real Madrid": {
       "roundName": "Round of 16",
       "distFromFinal": 3
-    },
-    "Olympiakos (Piraeus)": {
-      "roundName": "Qualifying Phase 4",
-      "distFromFinal": 4
     },
     "Tottenham Hotspur": {
       "roundName": "Round of 16",
@@ -12134,6 +12146,14 @@
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
+    "Drita": {
+      "roundName": "Final (Aug 11)",
+      "distFromFinal": 8
+    },
+    "Inter d'Escaldes": {
+      "roundName": "Semifinals (Aug 8)",
+      "distFromFinal": 9
+    },
     "Qarabag Agdam": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
@@ -12145,6 +12165,14 @@
     "Legia Warszawa": {
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
+    },
+    "Dynama Brest": {
+      "roundName": "Qualifying Phase 3",
+      "distFromFinal": 5
+    },
+    "FK Astana": {
+      "roundName": "Qualifying Phase 1",
+      "distFromFinal": 7
     },
     "Celtic (Glasgow)": {
       "roundName": "Qualifying Phase 2",
@@ -12159,8 +12187,8 @@
       "distFromFinal": 7
     },
     "Omonia Lefkosia": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 6
+      "roundName": "Qualifying Phase 4",
+      "distFromFinal": 4
     },
     "Molde FK": {
       "roundName": "Qualifying Phase 4",
@@ -12223,6 +12251,14 @@
       "distFromFinal": 7
     },
     "FK Sarajevo": {
+      "roundName": "Qualifying Phase 2",
+      "distFromFinal": 6
+    },
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2",
+      "distFromFinal": 6
+    },
+    "Fola Esch": {
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
@@ -12242,11 +12278,7 @@
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 6
-    },
-    "FC Midtjyll": {
+    "FC Midtjylland (Herning)": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
@@ -12255,8 +12287,8 @@
       "distFromFinal": 5
     },
     "BSC Young Boys (Bern)": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 6
+      "roundName": "Qualifying Phase 3",
+      "distFromFinal": 5
     },
     "PAOK (Thessaloniki)": {
       "roundName": "Qualifying Phase 4",
@@ -12282,14 +12314,6 @@
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
-    "Dynama Br": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 5
-    },
-    "(Herning)": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 5
-    },
     "Dynamo Kyiv": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
@@ -12310,11 +12334,7 @@
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
-    "Olympia": {
-      "roundName": "Qualifying Phase 4",
-      "distFromFinal": 4
-    },
-    "(Piraeus)": {
+    "Olympiakos (Piraeus)": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
@@ -12358,10 +12378,6 @@
       "roundName": "Quarterfinal",
       "distFromFinal": 2
     },
-    "Olympiakos (Piraeus)": {
-      "roundName": "Qualifying Phase 4",
-      "distFromFinal": 4
-    },
     "Olympique Marseille": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
@@ -12373,10 +12389,6 @@
     "Liverpool": {
       "roundName": "Quarterfinal",
       "distFromFinal": 2
-    },
-    "FC Midtjylland (Herning)": {
-      "roundName": "Qualifying Phase 4",
-      "distFromFinal": 4
     },
     "Atalanta (Bergamo)": {
       "roundName": "Round of 16",
@@ -12513,8 +12525,8 @@
       "distFromFinal": 7
     },
     "Dinamo Zagreb": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 5
+      "roundName": "Qualifying Phase 4",
+      "distFromFinal": 4
     },
     "Valur (Reykjavík)": {
       "roundName": "Qualifying Phase 1",
@@ -12540,17 +12552,17 @@
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 6
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 4",
+      "distFromFinal": 4
     },
     "Dinamo Tbilisi": {
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
     "Neftçi Baki": {
-      "roundName": "Qualifying Phase 1",
-      "distFromFinal": 7
+      "roundName": "Qualifying Phase 2",
+      "distFromFinal": 6
     },
     "FK Bodø/Glimt": {
       "roundName": "Qualifying Phase 1",
@@ -12584,11 +12596,7 @@
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
-    "Olympia": {
-      "roundName": "Qualifying Phase 3",
-      "distFromFinal": 5
-    },
-    "(Piraeus)": {
+    "Olympiakos (Piraeus)": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
@@ -12604,7 +12612,7 @@
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
     },
-    "FC Midtjyll": {
+    "FC Midtjylland (Herning)": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
@@ -12700,10 +12708,6 @@
       "roundName": "Round of 16",
       "distFromFinal": 3
     },
-    "Sheriff Tiraspol": {
-      "roundName": "Qualifying Phase 4",
-      "distFromFinal": 4
-    },
     "Internazionale": {
       "roundName": "Round of 16",
       "distFromFinal": 3
@@ -12766,6 +12770,14 @@
     }
   },
   "2022-23": {
+    "La Fiorita": {
+      "roundName": "Semifinals (Jun 21, in Reykjavík)",
+      "distFromFinal": 9
+    },
+    "Inter d'Escaldes": {
+      "roundName": "Final (Jun 24, in Reykjavík)",
+      "distFromFinal": 8
+    },
     "Víkingur (Reykjavík)": {
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
@@ -12773,10 +12785,6 @@
     "FCI Levadia Tallinn": {
       "roundName": "Semifinals (Jun 21, in Reykjavík)",
       "distFromFinal": 9
-    },
-    "Inter d'Escaldes": {
-      "roundName": "Final (Jun 24, in Reykjavík)",
-      "distFromFinal": 8
     },
     "Malmö FF": {
       "roundName": "Qualifying Phase 2",
@@ -12858,9 +12866,9 @@
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 6
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 3",
+      "distFromFinal": 5
     },
     "Tobil Qostanay": {
       "roundName": "Qualifying Phase 1",
@@ -12910,15 +12918,15 @@
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
-    "Olympia": {
+    "Olympiakos (Piraeus)": {
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
     },
-    "FC Midtjyll": {
+    "FC Midtjylland (Herning)": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
-    "(Herning)": {
+    "AEK Larnaka": {
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
     },
@@ -12962,7 +12970,7 @@
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
-    "Trabzons": {
+    "Trabzonspor": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
@@ -13144,9 +13152,9 @@
       "roundName": "Qualifying Phase 1",
       "distFromFinal": 7
     },
-    "Sheriff Tiras": {
-      "roundName": "Qualifying Phase 1",
-      "distFromFinal": 7
+    "Sheriff Tiraspol": {
+      "roundName": "Qualifying Phase 2",
+      "distFromFinal": 6
     },
     "Olimpija Ljubljana": {
       "roundName": "Qualifying Phase 3",
@@ -13228,7 +13236,7 @@
       "roundName": "Qualifying Phase 2",
       "distFromFinal": 6
     },
-    "Panathinai": {
+    "Panathinaikos (Athinai)": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
@@ -13260,7 +13268,7 @@
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
-    "(Athinai)": {
+    "Olympique Marseille": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
@@ -13511,8 +13519,8 @@
       "distFromFinal": 5
     },
     "Ferencváros": {
-      "roundName": "Qualifying Phase 2",
-      "distFromFinal": 6
+      "roundName": "Qualifying Phase 3",
+      "distFromFinal": 5
     },
     "Qarabag Agdam": {
       "roundName": "Qualifying Phase 4",
@@ -13526,7 +13534,7 @@
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
     },
-    "FC Midtjyll": {
+    "FC Midtjylland (Herning)": {
       "roundName": "Qualifying Phase 4",
       "distFromFinal": 4
     },
@@ -13545,10 +13553,6 @@
     "Fenerbahçe (Istanbul)": {
       "roundName": "Qualifying Phase 3",
       "distFromFinal": 5
-    },
-    "(Herning)": {
-      "roundName": "Qualifying Phase 4",
-      "distFromFinal": 4
     },
     "Lille OSC": {
       "roundName": "Round of 16",

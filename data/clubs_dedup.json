@@ -298,6 +298,20 @@
     "countryHint": "Greece"
   },
   {
+    "name": "AEK Larnaka",
+    "bestRound": "Qualifying Phase 2",
+    "bestDistFromFinal": 6,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2022–23",
+        "roundName": "Qualifying Phase 2",
+        "distFromFinal": 6
+      }
+    ],
+    "countryHint": "Cyprus"
+  },
+  {
     "name": "AEL (Limassol)",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
@@ -896,8 +910,8 @@
       },
       {
         "season": "1979–80",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
+        "roundName": "Semifinal",
+        "distFromFinal": 1
       },
       {
         "season": "1980–81",
@@ -1045,7 +1059,7 @@
     "lon": 4.9419
   },
   {
-    "name": "Alania Vladikav",
+    "name": "Alania Vladikavkaz",
     "bestRound": "Qualifying Round ( Aug 7 and 21 )",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 1,
@@ -1056,7 +1070,7 @@
         "distFromFinal": 4
       }
     ],
-    "countryHint": "Kazakhstan"
+    "countryHint": "Russia"
   },
   {
     "name": "Alashkert",
@@ -1295,14 +1309,14 @@
   },
   {
     "name": "Arges Pitesti",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
+    "bestRound": "Round of 16",
+    "bestDistFromFinal": 3,
     "seasonsPlayed": 1,
     "appearances": [
       {
         "season": "1979–80",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
     "countryHint": "Romania"
@@ -1801,7 +1815,7 @@
     "countryHint": "Austria"
   },
   {
-    "name": "Ave",
+    "name": "Avenir Beggen",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
     "seasonsPlayed": 6,
@@ -1837,7 +1851,7 @@
         "distFromFinal": 3
       }
     ],
-    "countryHint": "Northern Ireland"
+    "countryHint": "Luxembourg"
   },
   {
     "name": "B 1913 (Odense)",
@@ -1895,7 +1909,7 @@
     "name": "B1909 (Odense)",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "1959–60",
@@ -1904,6 +1918,11 @@
       },
       {
         "season": "1964–65",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1965–66",
         "roundName": "First Round",
         "distFromFinal": 4
       }
@@ -2072,14 +2091,14 @@
   },
   {
     "name": "BFC Dynamo (Berlin)",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
+    "bestRound": "Quarterfinal",
+    "bestDistFromFinal": 2,
     "seasonsPlayed": 2,
     "appearances": [
       {
         "season": "1979–80",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       },
       {
         "season": "1980–81",
@@ -2175,8 +2194,8 @@
       },
       {
         "season": "2020–21",
-        "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "roundName": "Qualifying Phase 3",
+        "distFromFinal": 5
       },
       {
         "season": "2021–22",
@@ -2493,25 +2512,6 @@
     "countryHint": "Wales"
   },
   {
-    "name": "Basaksehir FK",
-    "bestRound": "Qualifying Phase 3",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "2017–18",
-        "roundName": "Qualifying Phase 3",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2019–20",
-        "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
-      }
-    ],
-    "countryHint": "Turkey"
-  },
-  {
     "name": "Bayer 04 Leverkusen",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
@@ -2818,40 +2818,6 @@
     "lon": 11.6247
   },
   {
-    "name": "Beggen",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 5,
-    "appearances": [
-      {
-        "season": "1982–83",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1984–85",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1986–87",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1993–94",
-        "roundName": "Preliminary Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1994–95",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Luxembourg"
-  },
-  {
     "name": "Beitar Jerusalem",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
@@ -2898,7 +2864,7 @@
     "name": "Benfica",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 27,
+    "seasonsPlayed": 28,
     "appearances": [
       {
         "season": "1957–58",
@@ -2969,6 +2935,11 @@
         "season": "1975–76",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "1976–77",
+        "roundName": "First Round",
+        "distFromFinal": 4
       },
       {
         "season": "1977–78",
@@ -3769,6 +3740,20 @@
     ]
   },
   {
+    "name": "CA Osasuna (Pamplona)",
+    "bestRound": "Qualifying Phase 3 (Aug 9 and 23)",
+    "bestDistFromFinal": 5,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2006–07",
+        "roundName": "Qualifying Phase 3 (Aug 9 and 23)",
+        "distFromFinal": 5
+      }
+    ],
+    "countryHint": "Spain"
+  },
+  {
     "name": "CA Spora Luxembourg",
     "bestRound": "Preliminary Round",
     "bestDistFromFinal": 4,
@@ -3953,6 +3938,20 @@
       }
     ],
     "countryHint": "Luxembourg"
+  },
+  {
+    "name": "CS Motor Jena",
+    "bestRound": "First Round",
+    "bestDistFromFinal": 4,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "1963–64",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      }
+    ],
+    "countryHint": "Germany"
   },
   {
     "name": "CSKA (Sofia)",
@@ -4439,20 +4438,6 @@
     "lon": -4.2058
   },
   {
-    "name": "Champions' League ma",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1995–96",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Czech Republic"
-  },
-  {
     "name": "Chelsea",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
@@ -4848,8 +4833,8 @@
     "appearances": [
       {
         "season": "1993–94",
-        "roundName": "Preliminary Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "1997–98",
@@ -4998,20 +4983,6 @@
       }
     ],
     "countryHint": "Wales"
-  },
-  {
-    "name": "Cyprus, 4 years ago)",
-    "bestRound": "Qualifying Phase 3 (Aug 11 and 25)",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2004–05",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Andorra"
   },
   {
     "name": "DOS (Utrecht)",
@@ -5257,13 +5228,23 @@
     "countryHint": "Georgia"
   },
   {
-    "name": "Dinamo Buchar",
+    "name": "Dinamo Bucharest",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 9,
     "appearances": [
       {
         "season": "1956–57",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1962–63",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1963–64",
         "roundName": "Round of 16",
         "distFromFinal": 3
       },
@@ -5273,12 +5254,32 @@
         "distFromFinal": 3
       },
       {
+        "season": "1965–66",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1971–72",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
         "season": "1973–74",
+        "roundName": "Second Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1977–78",
         "roundName": "First Round",
-        "distFromFinal": 5
+        "distFromFinal": 4
+      },
+      {
+        "season": "1990–91",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
-    "countryHint": "Estonia"
+    "countryHint": "Romania"
   },
   {
     "name": "Dinamo Bucuresti",
@@ -5516,8 +5517,8 @@
       },
       {
         "season": "2008–09",
-        "roundName": "Qualifying Phase 1 (Jul 15 and 23)",
-        "distFromFinal": 7
+        "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+        "distFromFinal": 6
       },
       {
         "season": "2013–14",
@@ -5556,7 +5557,7 @@
     "name": "Dinamo Tiranë",
     "bestRound": "Qualifying Phase 2 (Jul 31 and Aug 7)",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2002–03",
@@ -5567,6 +5568,11 @@
         "season": "2008–09",
         "roundName": "Qualifying Phase 1 (Jul 15 and 23)",
         "distFromFinal": 7
+      },
+      {
+        "season": "2010–11",
+        "roundName": "Qualifying Phase 1 (Jul 13 and 21)",
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Albania"
@@ -5609,8 +5615,8 @@
       },
       {
         "season": "2010–11",
-        "roundName": "Qualifying Phase 1 (Jul 13 and 21)",
-        "distFromFinal": 6
+        "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
+        "distFromFinal": 5
       },
       {
         "season": "2011–12",
@@ -5659,8 +5665,8 @@
       },
       {
         "season": "2021–22",
-        "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "roundName": "Qualifying Phase 4",
+        "distFromFinal": 4
       },
       {
         "season": "2022–23",
@@ -5695,29 +5701,20 @@
     "countryHint": "Northern Ireland"
   },
   {
-    "name": "Djurgaardens IF",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1965–66",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Sweden"
-  },
-  {
     "name": "Djurgardens IF",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "1955–56",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "1965–66",
+        "roundName": "First Round",
+        "distFromFinal": 4
       },
       {
         "season": "1967–68",
@@ -5807,6 +5804,34 @@
       }
     ],
     "countryHint": "Slovenia"
+  },
+  {
+    "name": "Drita",
+    "bestRound": "Final (Aug 11)",
+    "bestDistFromFinal": 8,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2020–21",
+        "roundName": "Final (Aug 11)",
+        "distFromFinal": 8
+      }
+    ],
+    "countryHint": "Kosovo"
+  },
+  {
+    "name": "Drita (Gjilanë)",
+    "bestRound": "Qualifying Phase 1",
+    "bestDistFromFinal": 7,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2018–19",
+        "roundName": "Qualifying Phase 1",
+        "distFromFinal": 7
+      }
+    ],
+    "countryHint": "Kosovo"
   },
   {
     "name": "Drogheda United",
@@ -6026,7 +6051,7 @@
     "countryHint": "Scotland"
   },
   {
-    "name": "Dynama Br",
+    "name": "Dynama Brest",
     "bestRound": "Qualifying Phase 3",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 1,
@@ -6037,7 +6062,7 @@
         "distFromFinal": 5
       }
     ],
-    "countryHint": "Estonia"
+    "countryHint": "Belarus"
   },
   {
     "name": "Dynama Minsk",
@@ -6073,7 +6098,7 @@
     "countryHint": "Albania"
   },
   {
-    "name": "Dynamo Dres",
+    "name": "Dynamo Dresden",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
     "seasonsPlayed": 1,
@@ -6084,7 +6109,7 @@
         "distFromFinal": 2
       }
     ],
-    "countryHint": "Denmark"
+    "countryHint": "Germany"
   },
   {
     "name": "Dynamo Kiev",
@@ -6237,8 +6262,8 @@
     "appearances": [
       {
         "season": "1979–80",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "1997–98",
@@ -6246,7 +6271,7 @@
         "distFromFinal": 3
       }
     ],
-    "countryHint": "Georgia"
+    "countryHint": "Russia"
   },
   {
     "name": "EB/Streymur",
@@ -6837,7 +6862,7 @@
     "name": "FC Flora Tallinn",
     "bestRound": "Preliminary Round (Jul 22 and 29)",
     "bestDistFromFinal": 5,
-    "seasonsPlayed": 12,
+    "seasonsPlayed": 13,
     "appearances": [
       {
         "season": "1998–99",
@@ -6852,6 +6877,11 @@
       {
         "season": "2002–03",
         "roundName": "Qualifying Phase 1 (Jul 17 and 24)",
+        "distFromFinal": 7
+      },
+      {
+        "season": "2003–04",
+        "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
         "distFromFinal": 7
       },
       {
@@ -7276,7 +7306,21 @@
     "countryHint": "France"
   },
   {
-    "name": "FC Midtjyll",
+    "name": "FC Midtjylland",
+    "bestRound": "Qualifying Phase 2 (Jul 29 and Aug 5)",
+    "bestDistFromFinal": 5,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2015–16",
+        "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
+        "distFromFinal": 5
+      }
+    ],
+    "countryHint": "Denmark"
+  },
+  {
+    "name": "FC Midtjylland (Herning)",
     "bestRound": "Qualifying Phase 2",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 5,
@@ -7307,20 +7351,7 @@
         "distFromFinal": 4
       }
     ],
-    "countryHint": "Andorra"
-  },
-  {
-    "name": "FC Midtjylland (Herning)",
-    "bestRound": "Qualifying Phase 4",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2020–21",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      }
-    ]
+    "countryHint": "Denmark"
   },
   {
     "name": "FC Nantes",
@@ -7384,6 +7415,20 @@
       }
     ],
     "countryHint": "France"
+  },
+  {
+    "name": "FC Nordsjælland",
+    "bestRound": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+    "bestDistFromFinal": 5,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2013–14",
+        "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+        "distFromFinal": 5
+      }
+    ],
+    "countryHint": "Denmark"
   },
   {
     "name": "FC Nordsjælland (Farum)",
@@ -7583,20 +7628,6 @@
     "countryHint": "Bulgaria"
   },
   {
-    "name": "FC T",
-    "bestRound": "Qualifying Phase 3 (Aug 10 and 24)",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2005–06",
-        "roundName": "Qualifying Phase 3 (Aug 10 and 24)",
-        "distFromFinal": 5
-      }
-    ],
-    "countryHint": "Hungary"
-  },
-  {
     "name": "FC Thun",
     "bestRound": "Group Phase (Sep 13/14, 27/28, Oct 18/19, Nov 1/2, 22/23, Dec 6/7)",
     "bestDistFromFinal": 4,
@@ -7607,7 +7638,8 @@
         "roundName": "Group Phase (Sep 13/14, 27/28, Oct 18/19, Nov 1/2, 22/23, Dec 6/7)",
         "distFromFinal": 4
       }
-    ]
+    ],
+    "countryHint": "Switzerland"
   },
   {
     "name": "FC Timisoara",
@@ -7955,7 +7987,7 @@
     "name": "FK Astana",
     "bestRound": "Qualifying Phase 2 (Aug 1 and 8)",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 7,
+    "seasonsPlayed": 8,
     "appearances": [
       {
         "season": "2007–08",
@@ -7984,6 +8016,11 @@
       },
       {
         "season": "2019–20",
+        "roundName": "Qualifying Phase 1",
+        "distFromFinal": 7
+      },
+      {
+        "season": "2020–21",
         "roundName": "Qualifying Phase 1",
         "distFromFinal": 7
       },
@@ -8152,14 +8189,14 @@
   },
   {
     "name": "FK Krasnodar",
-    "bestRound": "Qualifying Phase 3",
+    "bestRound": "Qualifying Phase 4",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 2,
     "appearances": [
       {
         "season": "2019–20",
-        "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
+        "roundName": "Qualifying Phase 4",
+        "distFromFinal": 4
       },
       {
         "season": "2020–21",
@@ -8340,8 +8377,8 @@
       },
       {
         "season": "2020–21",
-        "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "roundName": "Qualifying Phase 2",
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Bosnia and Herzegovina"
@@ -8747,8 +8784,8 @@
       },
       {
         "season": "2024–25",
-        "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "roundName": "Qualifying Phase 3",
+        "distFromFinal": 5
       }
     ],
     "countryHint": "Hungary"
@@ -8771,8 +8808,13 @@
     "name": "Ferencvárosi TC",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
+      {
+        "season": "1981–82",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
       {
         "season": "1995–96",
         "roundName": "Round of 16",
@@ -8781,20 +8823,6 @@
       {
         "season": "1996–97",
         "roundName": "Qualifying Round ( Aug 7 and 21 )",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Hungary"
-  },
-  {
-    "name": "Ferncvárosi TC",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1981–82",
-        "roundName": "First Round",
         "distFromFinal": 4
       }
     ],
@@ -8999,7 +9027,7 @@
     "name": "Fola Esch",
     "bestRound": "Qualifying Phase 1 (Jul 16 and 23)",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 4,
     "appearances": [
       {
         "season": "2013–14",
@@ -9010,6 +9038,11 @@
         "season": "2015–16",
         "roundName": "Qualifying Phase 1 (Jul 14 and 21)",
         "distFromFinal": 6
+      },
+      {
+        "season": "2020–21",
+        "roundName": "Qualifying Phase 1",
+        "distFromFinal": 7
       },
       {
         "season": "2021–22",
@@ -9051,7 +9084,7 @@
     "name": "Fram (Reykjavik)",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 4,
     "appearances": [
       {
         "season": "1973–74",
@@ -9060,6 +9093,11 @@
       },
       {
         "season": "1987–88",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1989–90",
         "roundName": "First Round",
         "distFromFinal": 4
       },
@@ -9135,10 +9173,15 @@
   },
   {
     "name": "Galatasaray SK",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 26,
+    "bestRound": "Semifinal",
+    "bestDistFromFinal": 1,
+    "seasonsPlayed": 27,
     "appearances": [
+      {
+        "season": "1956–57",
+        "roundName": "Preliminary Round",
+        "distFromFinal": 4
+      },
       {
         "season": "1962–63",
         "roundName": "Quarterfinal",
@@ -9176,8 +9219,8 @@
       },
       {
         "season": "1988–89",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
+        "roundName": "Semifinal",
+        "distFromFinal": 1
       },
       {
         "season": "1993–94",
@@ -9509,8 +9552,8 @@
       },
       {
         "season": "1978–79",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       },
       {
         "season": "1982–83",
@@ -9871,35 +9914,6 @@
     "name": "Hajduk Sp",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 4,
-    "appearances": [
-      {
-        "season": "1979–80",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1994–95",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "2001–02",
-        "roundName": "Qualifying Phase 2 (Jul 25 and Aug 1)",
-        "distFromFinal": 6
-      },
-      {
-        "season": "2005–06",
-        "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
-        "distFromFinal": 6
-      }
-    ],
-    "countryHint": "Lithuania"
-  },
-  {
-    "name": "Hajduk Split",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
     "seasonsPlayed": 1,
     "appearances": [
       {
@@ -9907,7 +9921,52 @@
         "roundName": "Round of 16",
         "distFromFinal": 3
       }
-    ]
+    ],
+    "countryHint": "Lithuania"
+  },
+  {
+    "name": "Hajduk Split",
+    "bestRound": "Quarterfinal",
+    "bestDistFromFinal": 2,
+    "seasonsPlayed": 7,
+    "appearances": [
+      {
+        "season": "1979–80",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "1994–95",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "1995–96",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "2000–01",
+        "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2001–02",
+        "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2004–05",
+        "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2005–06",
+        "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
+        "distFromFinal": 6
+      }
+    ],
+    "countryHint": "Croatia"
   },
   {
     "name": "Haka Valkeakoski",
@@ -9927,8 +9986,13 @@
     "name": "Halmstads BK",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 4,
     "appearances": [
+      {
+        "season": "1977–78",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
       {
         "season": "1980–81",
         "roundName": "First Round",
@@ -9948,9 +10012,9 @@
     "countryHint": "Sweden"
   },
   {
-    "name": "Hambur",
-    "bestRound": "Semifinal",
-    "bestDistFromFinal": 1,
+    "name": "Hamburger SV",
+    "bestRound": "Final",
+    "bestDistFromFinal": 0,
     "seasonsPlayed": 6,
     "appearances": [
       {
@@ -9960,47 +10024,18 @@
       },
       {
         "season": "1979–80",
-        "roundName": "Semifinal",
-        "distFromFinal": 1
+        "roundName": "Final",
+        "distFromFinal": 0
       },
       {
         "season": "1982–83",
-        "roundName": "Semifinal",
-        "distFromFinal": 1
+        "roundName": "Final",
+        "distFromFinal": 0
       },
       {
         "season": "1983–84",
         "roundName": "Round of 16",
         "distFromFinal": 3
-      },
-      {
-        "season": "2000–01",
-        "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2006–07",
-        "roundName": "Qualifying Phase 3 (Aug 9 and 23)",
-        "distFromFinal": 5
-      }
-    ],
-    "countryHint": "Germany"
-  },
-  {
-    "name": "Hamburger SV",
-    "bestRound": "Final",
-    "bestDistFromFinal": 0,
-    "seasonsPlayed": 4,
-    "appearances": [
-      {
-        "season": "1979–80",
-        "roundName": "Final",
-        "distFromFinal": 0
-      },
-      {
-        "season": "1982–83",
-        "roundName": "Final",
-        "distFromFinal": 0
       },
       {
         "season": "2000–01",
@@ -10548,8 +10583,8 @@
       },
       {
         "season": "1991–92",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       },
       {
         "season": "1994–95",
@@ -10704,7 +10739,7 @@
     "countryHint": "Finland"
   },
   {
-    "name": "Info",
+    "name": "Infonet Tallinn",
     "bestRound": "Preliminary Round",
     "bestDistFromFinal": 7,
     "seasonsPlayed": 1,
@@ -10715,7 +10750,7 @@
         "distFromFinal": 7
       }
     ],
-    "countryHint": "Netherlands"
+    "countryHint": "Estonia"
   },
   {
     "name": "Inter Baki",
@@ -10883,10 +10918,15 @@
   },
   {
     "name": "Inter d'Escaldes",
-    "bestRound": "Final (Jun 25)",
+    "bestRound": "Semifinals (Aug 8)",
     "bestDistFromFinal": 8,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
+      {
+        "season": "2020–21",
+        "roundName": "Semifinals (Aug 8)",
+        "distFromFinal": 9
+      },
       {
         "season": "2021–22",
         "roundName": "Final (Jun 25)",
@@ -10967,10 +11007,10 @@
     "countryHint": "Kazakhstan"
   },
   {
-    "name": "Istan",
+    "name": "Istanbul Basaksehir FK",
     "bestRound": "Qualifying Phase 3",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2017–18",
@@ -10981,22 +11021,14 @@
         "season": "2019–20",
         "roundName": "Qualifying Phase 3",
         "distFromFinal": 5
-      }
-    ],
-    "countryHint": "Bulgaria"
-  },
-  {
-    "name": "Istanbul Basaksehir FK",
-    "bestRound": "Qualifying Phase 4",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
+      },
       {
         "season": "2020–21",
         "roundName": "Qualifying Phase 4",
         "distFromFinal": 4
       }
-    ]
+    ],
+    "countryHint": "Turkey"
   },
   {
     "name": "Jagiellonia Białystok",
@@ -11016,7 +11048,7 @@
     "name": "Jeunesse d'Esch",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 4,
     "appearances": [
       {
         "season": "1980–81",
@@ -11027,6 +11059,11 @@
         "season": "1997–98",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2004–05",
+        "roundName": "Qualifying Phase 1 (Jul 14 and 21)",
+        "distFromFinal": 6
       },
       {
         "season": "2010–11",
@@ -11040,7 +11077,7 @@
     "name": "Juventus",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 38,
+    "seasonsPlayed": 39,
     "appearances": [
       {
         "season": "1958–59",
@@ -11066,6 +11103,11 @@
         "season": "1972–73",
         "roundName": "Final",
         "distFromFinal": 0
+      },
+      {
+        "season": "1973–74",
+        "roundName": "First Round",
+        "distFromFinal": 5
       },
       {
         "season": "1975–76",
@@ -11489,10 +11531,15 @@
   },
   {
     "name": "KS Vllaznia (Shkodër)",
-    "bestRound": "Preliminary Round (Jul 22 and 29)",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 1,
+    "bestRound": "First Round",
+    "bestDistFromFinal": 4,
+    "seasonsPlayed": 2,
     "appearances": [
+      {
+        "season": "1983–84",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
       {
         "season": "1998–99",
         "roundName": "Preliminary Round (Jul 22 and 29)",
@@ -11692,10 +11739,15 @@
   },
   {
     "name": "Kukësi",
-    "bestRound": "Qualifying Phase 2",
+    "bestRound": "Qualifying Phase 1",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 1,
+    "seasonsPlayed": 2,
     "appearances": [
+      {
+        "season": "2017–18",
+        "roundName": "Qualifying Phase 1",
+        "distFromFinal": 6
+      },
       {
         "season": "2018–19",
         "roundName": "Qualifying Phase 2",
@@ -11795,11 +11847,16 @@
     "countryHint": "Switzerland"
   },
   {
-    "name": "La Fior",
-    "bestRound": "Preliminary Round",
+    "name": "La Fiorita",
+    "bestRound": "Preliminary Round (Jul 1 and 8)",
     "bestDistFromFinal": 7,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 4,
     "appearances": [
+      {
+        "season": "2014–15",
+        "roundName": "Preliminary Round (Jul 1 and 8)",
+        "distFromFinal": 7
+      },
       {
         "season": "2017–18",
         "roundName": "Preliminary Round",
@@ -11809,12 +11866,17 @@
         "season": "2018–19",
         "roundName": "Semifinals (Jun 26)",
         "distFromFinal": 9
+      },
+      {
+        "season": "2022–23",
+        "roundName": "Semifinals (Jun 21, in Reykjavík)",
+        "distFromFinal": 9
       }
     ],
-    "countryHint": "Italy"
+    "countryHint": "San Marino"
   },
   {
-    "name": "Lah",
+    "name": "Lahden Reipas",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
     "seasonsPlayed": 2,
@@ -11830,7 +11892,7 @@
         "distFromFinal": 4
       }
     ],
-    "countryHint": "Denmark"
+    "countryHint": "Finland"
   },
   {
     "name": "Lantana Tallinn",
@@ -12269,10 +12331,10 @@
     "countryHint": "France"
   },
   {
-    "name": "Lillest",
+    "name": "Lillestrom SK",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 4,
+    "seasonsPlayed": 5,
     "appearances": [
       {
         "season": "1977–78",
@@ -12293,16 +12355,7 @@
         "season": "1990–91",
         "roundName": "First Round",
         "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Romania"
-  },
-  {
-    "name": "Lillestrøm SK",
-    "bestRound": "Qualifying Phase 2 (Jul 31 and Aug 7)",
-    "bestDistFromFinal": 6,
-    "seasonsPlayed": 1,
-    "appearances": [
+      },
       {
         "season": "2002–03",
         "roundName": "Qualifying Phase 2 (Jul 31 and Aug 7)",
@@ -12352,8 +12405,8 @@
       },
       {
         "season": "2015–16",
-        "roundName": "Preliminary Round (Jun 30 and Jul 7)",
-        "distFromFinal": 7
+        "roundName": "Qualifying Phase 1 (Jul 14 and 21)",
+        "distFromFinal": 6
       },
       {
         "season": "2016–17",
@@ -12397,7 +12450,7 @@
     "name": "Linfield",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 30,
+    "seasonsPlayed": 31,
     "appearances": [
       {
         "season": "1959–60",
@@ -12461,8 +12514,8 @@
       },
       {
         "season": "1984–85",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "1985–86",
@@ -12471,6 +12524,11 @@
       },
       {
         "season": "1986–87",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1987–88",
         "roundName": "First Round",
         "distFromFinal": 4
       },
@@ -12589,7 +12647,7 @@
     "name": "Liverpool",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 27,
+    "seasonsPlayed": 28,
     "appearances": [
       {
         "season": "1964–65",
@@ -12615,6 +12673,11 @@
         "season": "1977–78",
         "roundName": "Final",
         "distFromFinal": 0
+      },
+      {
+        "season": "1978–79",
+        "roundName": "First Round",
+        "distFromFinal": 4
       },
       {
         "season": "1979–80",
@@ -13054,6 +13117,20 @@
     "countryHint": "Hungary"
   },
   {
+    "name": "MTK-VM (Budapest)",
+    "bestRound": "First Round",
+    "bestDistFromFinal": 4,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "1987–88",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      }
+    ],
+    "countryHint": "Hungary"
+  },
+  {
     "name": "Maccabi Haifa",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
@@ -13253,8 +13330,8 @@
       },
       {
         "season": "1990–91",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "2005–06",
@@ -13614,7 +13691,7 @@
     "name": "Marseille",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 15,
+    "seasonsPlayed": 16,
     "appearances": [
       {
         "season": "1971–72",
@@ -13690,25 +13767,16 @@
         "season": "2022–23",
         "roundName": "Qualifying Phase 4",
         "distFromFinal": 4
+      },
+      {
+        "season": "2023–24",
+        "roundName": "Qualifying Phase 3",
+        "distFromFinal": 5
       }
     ],
     "country": "France",
     "lat": 43.2696,
     "lon": 5.3958
-  },
-  {
-    "name": "Meier; France",
-    "bestRound": "Final",
-    "bestDistFromFinal": 0,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2001–02",
-        "roundName": "Final",
-        "distFromFinal": 0
-      }
-    ],
-    "countryHint": "Scotland"
   },
   {
     "name": "Metalist Kharkiv",
@@ -14399,7 +14467,7 @@
   {
     "name": "NK Rijeka",
     "bestRound": "Qualifying Phase 2 (Jul 28 and Aug 4)",
-    "bestDistFromFinal": 5,
+    "bestDistFromFinal": 4,
     "seasonsPlayed": 2,
     "appearances": [
       {
@@ -14409,8 +14477,8 @@
       },
       {
         "season": "2017–18",
-        "roundName": "Qualifying Phase 2",
-        "distFromFinal": 5
+        "roundName": "Qualifying Phase 3",
+        "distFromFinal": 4
       }
     ],
     "countryHint": "Croatia"
@@ -14509,8 +14577,8 @@
       },
       {
         "season": "2021–22",
-        "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "roundName": "Qualifying Phase 2",
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Azerbaijan"
@@ -14581,7 +14649,7 @@
     "name": "Nottingham Forest",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "1978–79",
@@ -14592,6 +14660,11 @@
         "season": "1979–80",
         "roundName": "Final",
         "distFromFinal": 0
+      },
+      {
+        "season": "1980–81",
+        "roundName": "First Round",
+        "distFromFinal": 4
       }
     ],
     "country": "England",
@@ -14728,10 +14801,63 @@
     "countryHint": "Slovenia"
   },
   {
-    "name": "Olympia",
+    "name": "Olympiakos",
+    "bestRound": "Round of 16",
+    "bestDistFromFinal": 3,
+    "seasonsPlayed": 4,
+    "appearances": [
+      {
+        "season": "1983–84",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1997–98",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "2001–02",
+        "roundName": "Group Phase 1 (Sep 11/12, 18/19, 25/26, Oct 16/17, 23/24, 30/1)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2002–03",
+        "roundName": "Group Phase 1 (Sep 17/18, 24/25, Oct 1/2, 22/23, 29/30, Nov 12/13)",
+        "distFromFinal": 4
+      }
+    ],
+    "countryHint": "Greece"
+  },
+  {
+    "name": "Olympiakos (Nicosia)",
+    "bestRound": "First Round",
+    "bestDistFromFinal": 4,
+    "seasonsPlayed": 3,
+    "appearances": [
+      {
+        "season": "1967–68",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1969–70",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1971–72",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      }
+    ],
+    "countryHint": "Cyprus"
+  },
+  {
+    "name": "Olympiakos (Peiraías)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 24,
+    "seasonsPlayed": 29,
     "appearances": [
       {
         "season": "1959–60",
@@ -14745,16 +14871,6 @@
       },
       {
         "season": "1967–68",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1969–70",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1971–72",
         "roundName": "First Round",
         "distFromFinal": 4
       },
@@ -14785,13 +14901,8 @@
       },
       {
         "season": "1982–83",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1983–84",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "1987–88",
@@ -14802,6 +14913,26 @@
         "season": "1998–99",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "2003–04",
+        "roundName": "Group Phase 1",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2004–05",
+        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2005–06",
+        "roundName": "Group Phase (Sep 13/14, 27/28, Oct 18/19, Nov 1/2, 22/23, Dec 6/7)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2006–07",
+        "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
+        "distFromFinal": 4
       },
       {
         "season": "2007–08",
@@ -14819,9 +14950,29 @@
         "distFromFinal": 3
       },
       {
+        "season": "2011–12",
+        "roundName": "Qualifying Phase 3 (Aug 17 and 23)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2012–13",
+        "roundName": "Qualifying Phase 3 (Aug 22 and 28)",
+        "distFromFinal": 4
+      },
+      {
         "season": "2013–14",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2014–15",
+        "roundName": "Qualifying Phase 3 (Aug 19 and 27)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2015–16",
+        "roundName": "Qualifying Phase 3 (Aug 18 and 26)",
+        "distFromFinal": 4
       },
       {
         "season": "2016–17",
@@ -14854,108 +15005,7 @@
         "distFromFinal": 6
       }
     ],
-    "countryHint": "Kosovo"
-  },
-  {
-    "name": "Olympiakos",
-    "bestRound": "Group Phase 1 (Sep 11/12, 18/19, 25/26, Oct 16/17, 23/24, 30/1)",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "2001–02",
-        "roundName": "Group Phase 1 (Sep 11/12, 18/19, 25/26, Oct 16/17, 23/24, 30/1)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2002–03",
-        "roundName": "Group Phase 1 (Sep 17/18, 24/25, Oct 1/2, 22/23, 29/30, Nov 12/13)",
-        "distFromFinal": 4
-      }
-    ]
-  },
-  {
-    "name": "Olympiakos (Peiraías)",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 15,
-    "appearances": [
-      {
-        "season": "1998–99",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "2003–04",
-        "roundName": "Group Phase 1",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2004–05",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2005–06",
-        "roundName": "Group Phase (Sep 13/14, 27/28, Oct 18/19, Nov 1/2, 22/23, Dec 6/7)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2006–07",
-        "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2007–08",
-        "roundName": "Group Phase (Sep 18/19, Oct 2/3, 23/24, Nov 6/7, 7/28, Dec 4/11/12)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2009–10",
-        "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2011–12",
-        "roundName": "Qualifying Phase 3 (Aug 17 and 23)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2012–13",
-        "roundName": "Qualifying Phase 3 (Aug 22 and 28)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2013–14",
-        "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2014–15",
-        "roundName": "Qualifying Phase 3 (Aug 19 and 27)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2015–16",
-        "roundName": "Qualifying Phase 3 (Aug 18 and 26)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2017–18",
-        "roundName": "Qualifying Phase 3",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2019–20",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2020–21",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      }
-    ]
+    "countryHint": "Greece"
   },
   {
     "name": "Olympiakos (Peraías)",
@@ -15106,7 +15156,7 @@
     "name": "Omonia (Lefkosia)",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 16,
+    "seasonsPlayed": 19,
     "appearances": [
       {
         "season": "1966–67",
@@ -15170,8 +15220,8 @@
       },
       {
         "season": "1987–88",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "1989–90",
@@ -15187,16 +15237,7 @@
         "season": "2003–04",
         "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
         "distFromFinal": 6
-      }
-    ],
-    "countryHint": "Cyprus"
-  },
-  {
-    "name": "Omonia Lefkosia",
-    "bestRound": "Qualifying Phase 2 (Jul 28 and Aug 4)",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 3,
-    "appearances": [
+      },
       {
         "season": "2010–11",
         "roundName": "Qualifying Phase 2 (Jul 28 and Aug 4)",
@@ -15204,8 +15245,8 @@
       },
       {
         "season": "2020–21",
-        "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "roundName": "Qualifying Phase 4",
+        "distFromFinal": 4
       },
       {
         "season": "2021–22",
@@ -15261,7 +15302,7 @@
     "name": "Osters IF",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "1969–70",
@@ -15270,6 +15311,25 @@
       },
       {
         "season": "1981–82",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1982–83",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      }
+    ],
+    "countryHint": "Sweden"
+  },
+  {
+    "name": "Osters IF Vaxjo",
+    "bestRound": "First Round",
+    "bestDistFromFinal": 4,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "1979–80",
         "roundName": "First Round",
         "distFromFinal": 4
       }
@@ -15532,15 +15592,20 @@
     "lon": 5.4677
   },
   {
-    "name": "Panathinai",
-    "bestRound": "Semifinal",
-    "bestDistFromFinal": 1,
-    "seasonsPlayed": 23,
+    "name": "Panathinaikos",
+    "bestRound": "Final",
+    "bestDistFromFinal": 0,
+    "seasonsPlayed": 27,
     "appearances": [
       {
         "season": "1960–61",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "1961–62",
+        "roundName": "Preliminary Round",
+        "distFromFinal": 4
       },
       {
         "season": "1962–63",
@@ -15549,8 +15614,8 @@
       },
       {
         "season": "1964–65",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "1965–66",
@@ -15564,8 +15629,8 @@
       },
       {
         "season": "1970–71",
-        "roundName": "Semifinal",
-        "distFromFinal": 1
+        "roundName": "Final",
+        "distFromFinal": 0
       },
       {
         "season": "1972–73",
@@ -15594,8 +15659,8 @@
       },
       {
         "season": "1991–92",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
+        "roundName": "Semifinal",
+        "distFromFinal": 1
       },
       {
         "season": "1995–96",
@@ -15603,19 +15668,29 @@
         "distFromFinal": 1
       },
       {
-        "season": "1998–99",
-        "roundName": "Qualifying Round (Aug 12 and 26)",
+        "season": "1996–97",
+        "roundName": "Qualifying Round ( Aug 7 and 21 )",
         "distFromFinal": 4
       },
       {
+        "season": "1998–99",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
         "season": "2000–01",
-        "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
-        "distFromFinal": 5
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "2001–02",
-        "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
-        "distFromFinal": 5
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "2003–04",
+        "roundName": "Group Phase 1",
+        "distFromFinal": 4
       },
       {
         "season": "2005–06",
@@ -15629,8 +15704,13 @@
       },
       {
         "season": "2009–10",
-        "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
-        "distFromFinal": 5
+        "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2010–11",
+        "roundName": "Qualifying Phase 3 (Aug 18 and 24)",
+        "distFromFinal": 4
       },
       {
         "season": "2011–12",
@@ -15648,63 +15728,9 @@
         "distFromFinal": 5
       },
       {
-        "season": "2023–24",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Kosovo"
-  },
-  {
-    "name": "Panathinaikos",
-    "bestRound": "Final",
-    "bestDistFromFinal": 0,
-    "seasonsPlayed": 9,
-    "appearances": [
-      {
-        "season": "1970–71",
-        "roundName": "Final",
-        "distFromFinal": 0
-      },
-      {
-        "season": "1991–92",
-        "roundName": "Semifinal",
-        "distFromFinal": 1
-      },
-      {
-        "season": "1995–96",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1998–99",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "2000–01",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "2001–02",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "2003–04",
-        "roundName": "Group Phase 1",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2008–09",
-        "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2010–11",
-        "roundName": "Qualifying Phase 3 (Aug 18 and 24)",
-        "distFromFinal": 4
+        "season": "2015–16",
+        "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
+        "distFromFinal": 5
       }
     ],
     "country": "Greece",
@@ -15715,7 +15741,7 @@
     "name": "Panathinaikos",
     "bestRound": "Qualifying Phase 3 (Aug 11 and 25)",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2004–05",
@@ -15725,6 +15751,11 @@
       {
         "season": "2005–06",
         "roundName": "Group Phase (Sep 13/14, 27/28, Oct 18/19, Nov 1/2, 22/23, Dec 6/7)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2023–24",
+        "roundName": "Qualifying Phase 4",
         "distFromFinal": 4
       }
     ],
@@ -16043,7 +16074,7 @@
     "countryHint": "Romania"
   },
   {
-    "name": "Pezopori",
+    "name": "Pezoporikos (Larnaca)",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 1,
@@ -16054,7 +16085,7 @@
         "distFromFinal": 4
       }
     ],
-    "countryHint": "Kosovo"
+    "countryHint": "Cyprus"
   },
   {
     "name": "Piast Gliwice",
@@ -16944,6 +16975,20 @@
     "countryHint": "Poland"
   },
   {
+    "name": "Ranger's",
+    "bestRound": "Qualifying Phase 1 (Jul 18 and 25)",
+    "bestDistFromFinal": 7,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2007–08",
+        "roundName": "Qualifying Phase 1 (Jul 18 and 25)",
+        "distFromFinal": 7
+      }
+    ],
+    "countryHint": "Andorra"
+  },
+  {
     "name": "Rangers",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
@@ -16996,8 +17041,8 @@
       },
       {
         "season": "1987–88",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       },
       {
         "season": "1989–90",
@@ -17137,7 +17182,7 @@
     "countryHint": "Scotland"
   },
   {
-    "name": "Rapid Buchar",
+    "name": "Rapid Bucharest",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
     "seasonsPlayed": 1,
@@ -17148,7 +17193,7 @@
         "distFromFinal": 3
       }
     ],
-    "countryHint": "Estonia"
+    "countryHint": "Romania"
   },
   {
     "name": "Rapid Bucuresti",
@@ -17723,25 +17768,6 @@
     "lon": 4.0392
   },
   {
-    "name": "Reipas",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "1968–69",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1971–72",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Finland"
-  },
-  {
     "name": "Reipas (Lahti)",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
@@ -18256,7 +18282,7 @@
     "countryHint": "Norway"
   },
   {
-    "name": "SG Dynamo Dres",
+    "name": "SG Dynamo Dresden",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
     "seasonsPlayed": 4,
@@ -18282,7 +18308,7 @@
         "distFromFinal": 3
       }
     ],
-    "countryHint": "Denmark"
+    "countryHint": "Germany"
   },
   {
     "name": "SJK (Seinäjoki)",
@@ -18485,7 +18511,7 @@
     "name": "SK Slavia Praha",
     "bestRound": "Qualifying Round ( Aug 7 and 21 )",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 13,
+    "seasonsPlayed": 14,
     "appearances": [
       {
         "season": "1996–97",
@@ -18520,6 +18546,11 @@
       {
         "season": "2008–09",
         "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2009–10",
+        "roundName": "Qualifying Phase 2 (Jul 29 and Aug 5)",
         "distFromFinal": 5
       },
       {
@@ -18610,7 +18641,7 @@
     "countryHint": "Austria"
   },
   {
-    "name": "SK VO",
+    "name": "SK VOEST (Linz)",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 1,
@@ -18621,7 +18652,7 @@
         "distFromFinal": 4
       }
     ],
-    "countryHint": "Estonia"
+    "countryHint": "Austria"
   },
   {
     "name": "SL Benfica (Lisboa)",
@@ -19097,20 +19128,6 @@
     "countryHint": "Georgia"
   },
   {
-    "name": "Sep 13: Dinamo Kyiv v. Panathinai",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1995–96",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Kosovo"
-  },
-  {
     "name": "Servette FC",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
@@ -19150,14 +19167,19 @@
   },
   {
     "name": "Servette FC Geneva",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
+    "bestRound": "Round of 16",
+    "bestDistFromFinal": 3,
+    "seasonsPlayed": 2,
     "appearances": [
       {
         "season": "1962–63",
         "roundName": "First Round",
         "distFromFinal": 4
+      },
+      {
+        "season": "1994–95",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
     "countryHint": "Switzerland"
@@ -19558,14 +19580,24 @@
     "countryHint": "Ireland"
   },
   {
-    "name": "Sheriff Tiras",
+    "name": "Sheriff Tiraspol",
     "bestRound": "Qualifying Phase 2 (Jul 25 and Aug 1)",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 18,
+    "seasonsPlayed": 21,
     "appearances": [
       {
         "season": "2001–02",
         "roundName": "Qualifying Phase 2 (Jul 25 and Aug 1)",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2002–03",
+        "roundName": "Qualifying Phase 2 (Jul 31 and Aug 7)",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2003–04",
+        "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
         "distFromFinal": 6
       },
       {
@@ -19580,8 +19612,8 @@
       },
       {
         "season": "2006–07",
-        "roundName": "Qualifying Phase 1 (Jul 12 and 19)",
-        "distFromFinal": 7
+        "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
+        "distFromFinal": 6
       },
       {
         "season": "2007–08",
@@ -19590,13 +19622,13 @@
       },
       {
         "season": "2008–09",
-        "roundName": "Qualifying Phase 1 (Jul 15 and 23)",
-        "distFromFinal": 7
+        "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+        "distFromFinal": 6
       },
       {
         "season": "2009–10",
-        "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
-        "distFromFinal": 6
+        "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
+        "distFromFinal": 4
       },
       {
         "season": "2010–11",
@@ -19605,8 +19637,8 @@
       },
       {
         "season": "2012–13",
-        "roundName": "Qualifying Phase 1 (Jul 17 and 24)",
-        "distFromFinal": 6
+        "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
+        "distFromFinal": 5
       },
       {
         "season": "2013–14",
@@ -19634,40 +19666,32 @@
         "distFromFinal": 6
       },
       {
+        "season": "2019–20",
+        "roundName": "Qualifying Phase 1",
+        "distFromFinal": 7
+      },
+      {
         "season": "2020–21",
         "roundName": "Qualifying Phase 2",
         "distFromFinal": 6
       },
       {
         "season": "2021–22",
-        "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "roundName": "Qualifying Phase 4",
+        "distFromFinal": 4
       },
       {
         "season": "2022–23",
-        "roundName": "Qualifying Phase 2",
-        "distFromFinal": 6
+        "roundName": "Qualifying Phase 3",
+        "distFromFinal": 5
       },
       {
         "season": "2023–24",
-        "roundName": "Qualifying Phase 1",
-        "distFromFinal": 7
+        "roundName": "Qualifying Phase 2",
+        "distFromFinal": 6
       }
     ],
-    "countryHint": "Poland"
-  },
-  {
-    "name": "Sheriff Tiraspol",
-    "bestRound": "Qualifying Phase 4",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2021–22",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      }
-    ]
+    "countryHint": "Moldova"
   },
   {
     "name": "Shirak Giumri",
@@ -19802,7 +19826,7 @@
     "countryHint": "Bosnia and Herzegovina"
   },
   {
-    "name": "Sivass",
+    "name": "Sivasspor",
     "bestRound": "Qualifying Phase 2 (Jul 29 and Aug 5)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 1,
@@ -19813,7 +19837,7 @@
         "distFromFinal": 5
       }
     ],
-    "countryHint": "Portugal"
+    "countryHint": "Turkey"
   },
   {
     "name": "Skonto Riga",
@@ -19945,10 +19969,15 @@
     "name": "Sliema Wanderers",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 7,
+    "seasonsPlayed": 8,
     "appearances": [
       {
         "season": "1964–65",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1965–66",
         "roundName": "First Round",
         "distFromFinal": 4
       },
@@ -20036,8 +20065,8 @@
       },
       {
         "season": "1970–71",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "1974–75",
@@ -20207,8 +20236,8 @@
       },
       {
         "season": "1988–89",
-        "roundName": "First Round",
-        "distFromFinal": 4
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
       {
         "season": "1990–91",
@@ -20321,7 +20350,7 @@
     "name": "Spartak Trnava",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "1968–69",
@@ -20332,6 +20361,11 @@
         "season": "1969–70",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "1971–72",
+        "roundName": "First Round",
+        "distFromFinal": 4
       },
       {
         "season": "1972–73",
@@ -20496,10 +20530,15 @@
   },
   {
     "name": "St. Patrick's Athletic",
-    "bestRound": "Preliminary Round (Jul 22 and 29)",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 2,
+    "bestRound": "First Round",
+    "bestDistFromFinal": 4,
+    "seasonsPlayed": 3,
     "appearances": [
+      {
+        "season": "1990–91",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
       {
         "season": "1998–99",
         "roundName": "Preliminary Round (Jul 22 and 29)",
@@ -20686,11 +20725,16 @@
     "countryHint": "Norway"
   },
   {
-    "name": "Steaua Buchar",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 5,
+    "name": "Steaua București",
+    "bestRound": "Final",
+    "bestDistFromFinal": 0,
+    "seasonsPlayed": 23,
     "appearances": [
+      {
+        "season": "1968–69",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
       {
         "season": "1976–77",
         "roundName": "First Round",
@@ -20702,38 +20746,34 @@
         "distFromFinal": 5
       },
       {
-        "season": "1986–87",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1988–89",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "1993–94",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      }
-    ],
-    "countryHint": "Estonia"
-  },
-  {
-    "name": "Steaua București",
-    "bestRound": "Final",
-    "bestDistFromFinal": 0,
-    "seasonsPlayed": 16,
-    "appearances": [
-      {
         "season": "1985–86",
         "roundName": "Final",
         "distFromFinal": 0
       },
       {
+        "season": "1986–87",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1987–88",
+        "roundName": "Semifinal",
+        "distFromFinal": 1
+      },
+      {
         "season": "1988–89",
         "roundName": "Final",
         "distFromFinal": 0
+      },
+      {
+        "season": "1989–90",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1993–94",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       },
       {
         "season": "1994–95",
@@ -20896,6 +20936,25 @@
         "season": "2022–23",
         "roundName": "Qualifying Phase 1",
         "distFromFinal": 7
+      }
+    ],
+    "countryHint": "Montenegro"
+  },
+  {
+    "name": "Sutjeska Niksic",
+    "bestRound": "Qualifying Phase 1 (Jul 16 and 23)",
+    "bestDistFromFinal": 6,
+    "seasonsPlayed": 2,
+    "appearances": [
+      {
+        "season": "2013–14",
+        "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2014–15",
+        "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
+        "distFromFinal": 6
       }
     ],
     "countryHint": "Montenegro"
@@ -21076,7 +21135,7 @@
     "countryHint": "Finland"
   },
   {
-    "name": "Tavria Simfero",
+    "name": "Tavria Simferopol",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
     "seasonsPlayed": 1,
@@ -21087,7 +21146,7 @@
         "distFromFinal": 2
       }
     ],
-    "countryHint": "Poland"
+    "countryHint": "Ukraine"
   },
   {
     "name": "Teuta Durrës",
@@ -21176,20 +21235,6 @@
       }
     ],
     "countryHint": "Wales"
-  },
-  {
-    "name": "The group winners",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1997–98",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Andorra"
   },
   {
     "name": "Tobil Qostanay",
@@ -21333,18 +21378,38 @@
     "countryHint": "France"
   },
   {
-    "name": "Trabzons",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 6,
+    "name": "Trabzonspor",
+    "bestRound": "Round of 16",
+    "bestDistFromFinal": 3,
+    "seasonsPlayed": 10,
     "appearances": [
       {
         "season": "1976–77",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1977–78",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1979–80",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1980–81",
         "roundName": "First Round",
         "distFromFinal": 4
       },
       {
         "season": "1981–82",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1984–85",
         "roundName": "First Round",
         "distFromFinal": 4
       },
@@ -21360,8 +21425,8 @@
       },
       {
         "season": "2011–12",
-        "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
-        "distFromFinal": 5
+        "roundName": "Qualifying Phase 3 (Aug 17 and 23)",
+        "distFromFinal": 4
       },
       {
         "season": "2022–23",
@@ -21369,20 +21434,7 @@
         "distFromFinal": 4
       }
     ],
-    "countryHint": "Portugal"
-  },
-  {
-    "name": "Trabzonspor",
-    "bestRound": "Qualifying Phase 3 (Aug 17 and 23)",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2011–12",
-        "roundName": "Qualifying Phase 3 (Aug 17 and 23)",
-        "distFromFinal": 4
-      }
-    ]
+    "countryHint": "Turkey"
   },
   {
     "name": "Tre Fiori",
@@ -23083,6 +23135,20 @@
     "countryHint": "Montenegro"
   },
   {
+    "name": "Zhenis Astana",
+    "bestRound": "Qualifying Phase 1 (Jul 17 and 24)",
+    "bestDistFromFinal": 7,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2002–03",
+        "roundName": "Qualifying Phase 1 (Jul 17 and 24)",
+        "distFromFinal": 7
+      }
+    ],
+    "countryHint": "Kazakhstan"
+  },
+  {
     "name": "Zimbru Chisinau",
     "bestRound": "Preliminary Round",
     "bestDistFromFinal": 4,
@@ -23110,197 +23176,6 @@
       }
     ],
     "countryHint": "Moldova"
-  },
-  {
-    "name": "[Banel Nicol",
-    "bestRound": "Qualifying Phase 2 (Jul 27 and Aug 3)",
-    "bestDistFromFinal": 6,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2005–06",
-        "roundName": "Qualifying Phase 2 (Jul 27 and Aug 3)",
-        "distFromFinal": 6
-      }
-    ],
-    "countryHint": "Italy"
-  },
-  {
-    "name": "[referees:",
-    "bestRound": "Final",
-    "bestDistFromFinal": 0,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2001–02",
-        "roundName": "Final",
-        "distFromFinal": 0
-      }
-    ],
-    "countryHint": "Russia"
-  },
-  {
-    "name": "abando",
-    "bestRound": "Qualifying Phase 3 (Aug 11 and 25)",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "2004–05",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2013–14",
-        "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Netherlands"
-  },
-  {
-    "name": "at home to Panathinai",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1995–96",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Kosovo"
-  },
-  {
-    "name": "by an object thrown f",
-    "bestRound": "Qualifying Phase 3 (Aug 11 and 25)",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2004–05",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Romania"
-  },
-  {
-    "name": "having been hit by a beer can. The ma",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1971–72",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Czech Republic"
-  },
-  {
-    "name": "home ma",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1995–96",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Czech Republic"
-  },
-  {
-    "name": "the crowd; ma",
-    "bestRound": "Qualifying Phase 3 (Aug 11 and 25)",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2004–05",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Czech Republic"
-  },
-  {
-    "name": "the stands; ma",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2004–05",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      }
-    ],
-    "countryHint": "Czech Republic"
-  },
-  {
-    "name": "the two b",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1997–98",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Estonia"
-  },
-  {
-    "name": "union",
-    "bestRound": "Qualifying Phase 4",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2023–24",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      }
-    ]
-  },
-  {
-    "name": "with Panathinai",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1995–96",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Kosovo"
-  },
-  {
-    "name": "x ma",
-    "bestRound": "Qualifying Phase 3 (Aug 11 and 25)",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "2004–05",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2013–14",
-        "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
-        "distFromFinal": 4
-      }
-    ],
-    "countryHint": "Czech Republic"
   },
   {
     "name": "Újpesti TE",

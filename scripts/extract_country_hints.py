@@ -16,7 +16,7 @@ from collections import Counter, defaultdict
 
 from scrape_rsssf import (
     fetch, season_slug, extract_cc_section, find_round_headers, clean_line,
-    CC_RE, NOTE_REF_RE, ROUND_HEADER_RE,
+    find_country_codes, NOTE_REF_RE, ROUND_HEADER_RE,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -50,11 +50,11 @@ CODE_TO_COUNTRY = {
 
 def parse_pair_with_codes(raw_line: str):
     line = clean_line(raw_line)
-    if not line or ROUND_HEADER_RE.match(line) or not CC_RE.search(line):
+    if not line or ROUND_HEADER_RE.match(line):
         return None
     score_start = re.search(r"\(\d+\)\s*\d+|\d+\s*-\s*\d+", line)
     head = line[: score_start.start()] if score_start else line
-    codes = list(CC_RE.finditer(head))
+    codes = find_country_codes(head)
     if len(codes) < 2:
         return None
     a = NOTE_REF_RE.sub("", head[: codes[0].start()]).strip(" -¹")

@@ -3870,16 +3870,28 @@
     "qid": "Q244595"
   },
   "Alashkert Yerevan": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 40.1792,
+    "lon": 44.4991,
+    "source": "manual",
+    "country": "Armenia"
   },
   "Anorthosis of Ammóchostas": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 34.9167,
+    "lon": 33.6333,
+    "source": "manual",
+    "country": "Cyprus"
   },
   "Anorthosis of Ammóchostos": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 34.9167,
+    "lon": 33.6333,
+    "source": "manual",
+    "country": "Cyprus"
   },
   "Ararat-Armenia Yerevan": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 40.1792,
+    "lon": 44.4991,
+    "source": "manual",
+    "country": "Armenia"
   },
   "BSC Young Boys": {
     "lat": 46.962778,
@@ -3888,7 +3900,10 @@
     "qid": "Q190526"
   },
   "Belshyna Babruisk": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 53.1383,
+    "lon": 29.2214,
+    "source": "manual",
+    "country": "Belarus"
   },
   "Champions' League ma": {
     "error": "no results from wikidata or nominatim"
@@ -3900,16 +3915,28 @@
     "error": "no results from wikidata or nominatim"
   },
   "Dnepr Dnepropetrovsk": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 48.4647,
+    "lon": 35.0462,
+    "source": "manual",
+    "country": "Ukraine"
   },
   "Dnepr-Transmash Mogilev": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 53.9006,
+    "lon": 30.3319,
+    "source": "manual",
+    "country": "Belarus"
   },
   "FC Basle": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 47.5596,
+    "lon": 7.5886,
+    "source": "manual",
+    "country": "Switzerland"
   },
   "FC Levski-Spartak": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 42.6977,
+    "lon": 23.3219,
+    "source": "manual",
+    "country": "Bulgaria"
   },
   "FK Homel": {
     "lat": 52.436527777778,
@@ -3927,10 +3954,16 @@
     "error": "no results from wikidata or nominatim"
   },
   "Folgore": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 43.96,
+    "lon": 12.465,
+    "source": "manual",
+    "country": "San Marino"
   },
   "Folgore/Falciano": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 43.96,
+    "lon": 12.465,
+    "source": "manual",
+    "country": "San Marino"
   },
   "Hambur": {
     "lat": 53.586944,
@@ -3951,7 +3984,10 @@
     "qid": "Q1353661"
   },
   "Ironi Kiriat-Shmona": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 33.2075,
+    "lon": 35.5697,
+    "source": "manual",
+    "country": "Israel"
   },
   "Istan": {
     "error": "no results from wikidata or nominatim"
@@ -3969,7 +4005,10 @@
     "error": "no results from wikidata or nominatim"
   },
   "Modrica Maksima": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 44.9564,
+    "lon": 18.3053,
+    "source": "manual",
+    "country": "Bosnia and Herzegovina"
   },
   "Olympia": {
     "error": "no results from wikidata or nominatim"
@@ -3978,13 +4017,22 @@
     "error": "no results from wikidata or nominatim"
   },
   "Ordabasi Shimkent": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 42.3417,
+    "lon": 69.5901,
+    "source": "manual",
+    "country": "Kazakhstan"
   },
   "Rapid JC Heerlen": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 50.8882,
+    "lon": 5.9795,
+    "source": "manual",
+    "country": "Netherlands"
   },
   "Renova Cepciste": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 42.0106,
+    "lon": 20.9714,
+    "source": "manual",
+    "country": "North Macedonia"
   },
   "Sep 13: Dinamo Kyiv v. Panathinai": {
     "error": "no results from wikidata or nominatim"
@@ -3996,31 +4044,55 @@
     "qid": "Q10329"
   },
   "Shakhtar Donets'k": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 48.0159,
+    "lon": 37.8028,
+    "source": "manual",
+    "country": "Ukraine"
   },
   "Shakhtsyor Salihorsk": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 52.7877,
+    "lon": 27.5411,
+    "source": "manual",
+    "country": "Belarus"
   },
   "Shakhtyor Qaraghandi": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 49.8047,
+    "lon": 73.1094,
+    "source": "manual",
+    "country": "Kazakhstan"
   },
   "Spartak Hradec Kralove": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 50.2092,
+    "lon": 15.8328,
+    "source": "manual",
+    "country": "Czech Republic"
   },
   "Spartaks Jurmala": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 56.9682,
+    "lon": 23.771,
+    "source": "manual",
+    "country": "Latvia"
   },
   "Struga Trim & Lum": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 41.1775,
+    "lon": 20.6789,
+    "source": "manual",
+    "country": "North Macedonia"
   },
   "The group winners": {
     "error": "no results from wikidata or nominatim"
   },
   "Tre Penne": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 43.9539,
+    "lon": 12.4756,
+    "source": "manual",
+    "country": "San Marino"
   },
   "Ulysses Yerevan": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 40.1792,
+    "lon": 44.4991,
+    "source": "manual",
+    "country": "Armenia"
   },
   "[Banel Nicol": {
     "error": "no results from wikidata or nominatim"
@@ -4054,5 +4126,173 @@
   },
   "with Panathinai": {
     "error": "no results from wikidata or nominatim"
+  },
+  "AEK Larnaka": {
+    "lat": 34.925556,
+    "lon": 33.599722,
+    "source": "wikidata:venue",
+    "qid": "Q291447"
+  },
+  "Alania Vladikavkaz": {
+    "lat": 43.023056,
+    "lon": 44.695,
+    "source": "wikidata:venue",
+    "qid": "Q240438"
+  },
+  "Avenir Beggen": {
+    "lat": 49.646388888889,
+    "lon": 6.1352777777778,
+    "source": "wikidata:venue",
+    "qid": "Q1333583"
+  },
+  "CA Osasuna (Pamplona)": {
+    "lat": 42.796667,
+    "lon": -1.636944,
+    "source": "wikidata:venue",
+    "qid": "Q10286"
+  },
+  "CS Motor Jena": {
+    "lat": 50.915833,
+    "lon": 11.582778,
+    "source": "wikidata:venue",
+    "qid": "Q155186"
+  },
+  "Dinamo Bucharest": {
+    "lat": 44.455083,
+    "lon": 26.102444,
+    "source": "wikidata:venue",
+    "qid": "Q204237"
+  },
+  "Drita": {
+    "lat": 42.466667,
+    "lon": 21.464444,
+    "source": "wikidata:venue",
+    "qid": "Q1718607"
+  },
+  "Drita (Gjilanë)": {
+    "lat": 42.466667,
+    "lon": 21.464444,
+    "source": "wikidata:venue",
+    "qid": "Q1718607"
+  },
+  "Dynama Brest": {
+    "lat": 52.089722222222,
+    "lon": 23.68375,
+    "source": "wikidata:venue",
+    "qid": "Q772725"
+  },
+  "Dynamo Dresden": {
+    "lat": 51.040278,
+    "lon": 13.747778,
+    "source": "wikidata:venue",
+    "qid": "Q141931"
+  },
+  "FC Midtjylland": {
+    "lat": 56.11666667,
+    "lon": 8.95166667,
+    "source": "wikidata:venue",
+    "qid": "Q618520"
+  },
+  "FC Nordsjælland": {
+    "lat": 55.815847,
+    "lon": 12.353289,
+    "source": "wikidata:venue",
+    "qid": "Q210025"
+  },
+  "Infonet Tallinn": {
+    "lat": 59.437222222222,
+    "lon": 24.745,
+    "source": "wikidata:headquarters",
+    "qid": "Q1387188"
+  },
+  "La Fiorita": {
+    "lat": 43.97125,
+    "lon": 12.476972,
+    "source": "wikidata:venue",
+    "qid": "Q918146"
+  },
+  "Lahden Reipas": {
+    "lat": 60.9803806,
+    "lon": 25.654988,
+    "source": "wikidata:headquarters",
+    "qid": "Q3826148"
+  },
+  "Lillestrom SK": {
+    "lat": 59.962752,
+    "lon": 11.063458,
+    "source": "wikidata:venue",
+    "qid": "Q214374"
+  },
+  "MTK-VM (Budapest)": {
+    "lat": 47.490919444444,
+    "lon": 19.106725,
+    "source": "wikidata:venue",
+    "qid": "Q208406"
+  },
+  "Olympiakos (Nicosia)": {
+    "lat": 37.946169,
+    "lon": 23.664536,
+    "source": "wikidata:venue",
+    "qid": "Q19628"
+  },
+  "Osters IF Vaxjo": {
+    "lat": 56.889029924861,
+    "lon": 14.802795326212,
+    "source": "wikidata:headquarters",
+    "qid": "Q306787"
+  },
+  "Pezoporikos (Larnaca)": {
+    "lat": 34.914167,
+    "lon": 33.628333,
+    "source": "wikidata:venue",
+    "qid": "Q2277220"
+  },
+  "Ranger's": {
+    "lat": 24.8495272,
+    "lon": 67.0202885,
+    "source": "nominatim",
+    "displayName": "Ranger's, Dr. Ziauddin Road (Katchery Road), لیاری ٹاؤن, ضلع کراچی, کراچی ڈویژن, سندھ, 75530, پاکستان"
+  },
+  "Rapid Bucharest": {
+    "lat": 44.455888888888886,
+    "lon": 26.056805555555556,
+    "source": "wikidata:venue",
+    "qid": "Q245162"
+  },
+  "SG Dynamo Dresden": {
+    "lat": 51.040278,
+    "lon": 13.747778,
+    "source": "wikidata:venue",
+    "qid": "Q141931"
+  },
+  "SK VOEST (Linz)": {
+    "lat": 48.293333,
+    "lon": 14.276389,
+    "source": "wikidata:venue",
+    "qid": "Q392310"
+  },
+  "Sivasspor": {
+    "lat": 39.728612,
+    "lon": 36.984065,
+    "source": "wikidata:venue",
+    "qid": "Q372599"
+  },
+  "Sutjeska Niksic": {
+    "lat": 42.7731,
+    "lon": 18.94446,
+    "source": "wikidata:headquarters",
+    "qid": "Q26884736"
+  },
+  "Tavria Simferopol": {
+    "lat": 44.943611,
+    "lon": 34.089722,
+    "source": "wikidata:venue",
+    "qid": "Q326156"
+  },
+  "Zhenis Astana": {
+    "lat": 51.162739,
+    "lon": 71.413312,
+    "source": "wikidata:venue",
+    "qid": "Q753004"
   }
 }
