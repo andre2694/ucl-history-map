@@ -7,7 +7,7 @@
 
 ## v1 — full participation history (the "smart drill-down")
 
-**Status: scraping, cleanup, and geocoding all done. Not wired into the map UI yet.**
+**Status: data pipeline 100% done (628/628 clubs geocoded). Not wired into the map UI yet.**
 
 - [x] `scripts/scrape_rsssf.py` pulls round-by-round results for all 70
   completed seasons (1955–56 → 2024–25) from [RSSSF](https://www.rsssf.org/ec/),
@@ -49,9 +49,17 @@
   resolves historical renames, e.g. "17 Nentori" → modern "KF Tirana"),
   then follow its home venue/headquarters to get coordinates. Nominatim
   survives only as a last-resort fallback searching a city name, never a
-  club abbreviation. → `data/clubs_final.json`, **606/652 clubs geocoded
-  (93%)**, up from the original 42. The 46 unresolved are mostly parser
-  garbage or genuinely obscure one-off qualifying entrants.
+  club abbreviation.
+- [x] **Final cleanup.** Found and fixed a real bug along the way: the
+  country-code regex's permissive fallback was matching "Kos" (Kosovo)
+  inside "Olympia**kos**", silently truncating every Olympiakos appearance
+  for as long as the scraper existed. Also dropped 18 confirmed parser
+  artifacts (traced to one RSSSF footnote), aliased 3 duplicate spelling
+  variants, and hand-added coordinates for 24 real clubs geocoding
+  couldn't resolve (Basel, Donetsk, several Yerevan/Minsk/Almaty-area
+  clubs, San Marino sides) — clearly tagged `source: manual`.
+  → `data/clubs_final.json`, **628/628 clubs geocoded (100%)**, up from
+  the original 42.
 - [ ] **Map UI.** `clubs_final.json` isn't wired into `index.html` yet.
   Needs: swap binary gold/silver for a multi-tier color scale (winner →
   gold, finalist → silver, semifinal → bronze, QF/R16 → muted blue, group/
