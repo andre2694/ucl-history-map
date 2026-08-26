@@ -80,7 +80,14 @@ def find_country_codes(text: str):
 
 TAG_RE = re.compile(r"<[^>]+>")
 NOTE_REF_RE = re.compile(r"[¹²³⁴⁵⁶⁷⁸⁹¹²³]")
-GROUP_SUBHEADER_RE = re.compile(r"^Group\s+[A-Za-z0-9]+$", re.I)
+# "Group A"/"Group B" are sub-headers to skip, but "Group Phase"/"Group
+# Stage" (the ACTUAL top-level round header some seasons use, with no
+# trailing number -- unlike "Group Phase 1"/"Group Phase 2") look
+# identical by this pattern alone (single word after "Group"), so the
+# lookahead explicitly excludes them -- found via an entire season's group
+# stage (including Sheriff Tiraspol's famous win over Real Madrid,
+# 2021-22) silently vanishing because of this exact collision.
+GROUP_SUBHEADER_RE = re.compile(r"^Group\s+(?!Phase\b|Stage\b)[A-Za-z0-9]+$", re.I)
 # (HT-score) lines used for group-stage / old-final match reports, with an
 # optional leading "Sep 14: " date prefix.
 HT_SCORE_RE = re.compile(

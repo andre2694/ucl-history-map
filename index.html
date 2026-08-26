@@ -43,8 +43,13 @@
     padding: 10px 18px; border-bottom: 1px solid var(--border);
     font-size: 11px; color: var(--muted);
   }
-  .legend-scale { display: flex; flex-wrap: wrap; gap: 6px 12px; }
+  .legend-scale { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-bottom: 8px; }
   .legend-scale span { display: inline-flex; align-items: center; gap: 6px; }
+  .hide-toggle {
+    display: flex; align-items: center; gap: 6px; font-size: 11px;
+    color: var(--muted); cursor: pointer; user-select: none;
+  }
+  .hide-toggle input { cursor: pointer; }
   .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
   #detail { padding: 18px; overflow-y: auto; flex: 1; }
   #detail .placeholder { color: var(--muted); font-size: 13px; }
@@ -102,9 +107,14 @@
         <span><i class="dot" style="background:var(--silver)"></i> Runner-up</span>
         <span><i class="dot" style="background:var(--blue);opacity:.85"></i> Semifinal</span>
         <span><i class="dot" style="background:var(--blue);opacity:.6"></i> Quarterfinal</span>
-        <span><i class="dot" style="background:var(--blue);opacity:.4"></i> Round of 16</span>
-        <span><i class="dot" style="background:var(--blue);opacity:.22"></i> Group / qualifying</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.42"></i> Round of 16</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.26"></i> Group/league stage</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.12"></i> Qualifying only</span>
       </div>
+      <label class="hide-toggle">
+        <input type="checkbox" id="hideQualifyingOnly" checked>
+        Hide clubs that never got past qualifying (modern era only)
+      </label>
     </div>
     <div id="detail"><p class="placeholder">Select a club on the map to see its full run of finals.</p></div>
     <footer>
@@ -139,14 +149,49 @@
   // Final tier (distFromFinal 0) keeps the original gold/silver distinction
   // -- won the title, or "just" reached a final. Every earlier round is a
   // single blue hue whose *opacity* encodes depth of run: strong for
-  // knockout rounds, faint for group stage/qualifying.
-  // distFromFinal: 0=Final, 1=Semifinal, 2=Quarterfinal, 3=Round of 16, 4+=earlier.
-  const BLUE_TIERS = [
-    { max: 1, opacity: 0.85, radius: 6.8 }, // Semifinal
-    { max: 2, opacity: 0.60, radius: 6.0 }, // Quarterfinal
-    { max: 3, opacity: 0.40, radius: 5.2 }, // Round of 16
-    { max: Infinity, opacity: 0.22, radius: 4.2 }, // Group stage / qualifying
-  ];
+  // knockout rounds, faint for group/league stage, faintest for
+  // qualifying/preliminary -- reaching the group stage is a real
+  // accomplishment (the actual tournament proper) and reads very
+  // differently from losing in qualifying and never getting there, so
+  // they need clearly separated tones, not one catch-all faint bucket.
+  //
+  // distFromFinal alone can't tell these apart: it's relative to each
+  // season's own round count, which varies (some seasons have 3
+  // qualifying rounds, some have 4, some add a preliminary round), so
+  // "dist 4" can mean group stage in one season and qualifying in
+  // another. The round NAME text is the reliable signal instead.
+  const BLUE_TIERS = { semifinal: 0.85, quarterfinal: 0.60, round16: 0.42, group: 0.26, qualifying: 0.12 };
+  const RADII = { semifinal: 6.8, quarterfinal: 6.0, round16: 5.2, group: 4.6, qualifying: 3.8 };
+  const QUALIFYING_RE = /Qualifying|Preliminary/i;
+
+  function classifyTier(dist, roundName) {
+    if (dist === 1) return 'semifinal';
+    if (dist === 2) return 'quarterfinal';
+    if (dist === 3) return 'round16';
+    return QUALIFYING_RE.test(roundName) ? 'qualifying' : 'group';
+  }
+
+  // a club's best-ever appearance, for tier classification and the
+  // "never got past qualifying" filter below
+  const bestAppearanceOf = club =>
+    club.appearances.find(a => a.distFromFinal === club.bestDistFromFinal) || club.appearances[0];
+
+  // Group/league-stage football is a modern (1992+) concept -- the
+  // pre-1992 European Cup was pure knockout from round one, so an early
+  // exit back then was still a real tournament appearance, not a
+  // qualifying-only footnote. Only flag a club as "never really got into
+  // the competition" if EVERY appearance is qualifying/preliminary AND
+  // none of them predate the group stage's introduction.
+  function neverPastQualifying(club) {
+    let hasPreGroupStageEra = false;
+    for (const a of club.appearances) {
+      const startYear = parseInt(a.season.split(/[–-]/)[0], 10);
+      if (startYear < 1992) hasPreGroupStageEra = true;
+      if (!QUALIFYING_RE.test(a.roundName)) return false; // reached group stage or better at least once
+    }
+    return !hasPreGroupStageEra;
+  }
+
   const cleanRoundLabel = name => name.replace(/\s*\(.*$/, '').trim();
 
   // Same-city clubs (e.g. Benfica + Sporting in Lisbon) geocode to nearly
@@ -202,10 +247,10 @@
       fillOpacity = 0.95;
       radius = 7.5;
     } else {
-      const tier = BLUE_TIERS.find(t => club.bestDistFromFinal <= t.max);
+      const tier = classifyTier(club.bestDistFromFinal, bestAppearanceOf(club).roundName);
       fillColor = '#5b9bd5';
-      fillOpacity = tier.opacity;
-      radius = tier.radius;
+      fillOpacity = BLUE_TIERS[tier];
+      radius = RADII[tier];
     }
     return L.circleMarker([club.lat, club.lon], {
       radius, fillColor, fillOpacity,
@@ -289,23 +334,40 @@
       clubs.sort((a, b) => b.bestDistFromFinal - a.bestDistFromFinal);
 
       const points = [];
+      const qualifyingOnlyLayers = [];
       clubs.forEach(club => {
         const titles = titlesByName.get(club.name) || 0;
         const hasWon = titles > 0;
-        const m = markerFor(club, hasWon).addTo(map);
+        const m = markerFor(club, hasWon);
+        const layers = [m];
         if (titles > 1) {
           // a separate non-interactive overlay, not a second tooltip on the
           // same layer -- bindTooltip only allows one, and this needs to
           // coexist with the marker's own hover tooltip below
-          L.marker([club.lat, club.lon], {
+          layers.push(L.marker([club.lat, club.lon], {
             icon: L.divIcon({ className: 'title-count', html: String(titles), iconSize: [18, 18], iconAnchor: [9, 9] }),
             interactive: false,
-          }).addTo(map);
+          }));
         }
         m.bindTooltip(`${club.name} — best: ${club.bestRound} (${club.seasonsPlayed} seasons)`);
         m.on('click', () => renderDetail(club, richByKey, titlesByName));
+        if (neverPastQualifying(club)) {
+          qualifyingOnlyLayers.push(...layers); // held back if the toggle is checked, below
+        } else {
+          layers.forEach(l => l.addTo(map));
+        }
         points.push([club.lat, club.lon]);
       });
+
+      const toggle = document.getElementById('hideQualifyingOnly');
+      const applyToggle = () => {
+        qualifyingOnlyLayers.forEach(l => {
+          if (toggle.checked) map.removeLayer(l); else l.addTo(map);
+        });
+      };
+      applyToggle(); // toggle starts checked, so these begin hidden
+      toggle.addEventListener('change', applyToggle);
+
       if (points.length) {
         requestAnimationFrame(() => {
           map.invalidateSize();

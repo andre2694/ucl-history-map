@@ -39,6 +39,13 @@ CLUB_TYPE_TOKENS = {
     "ss", "ssd", "us", "ud", "cs", "bc", "bk", "if", "ik", "aa", "sv", "tsv",
     "vfb", "vfl", "bv", "kv", "nk", "rc", "rcd", "1", "sd", "cfr", "uc",
     "ca", "ce", "cp", "ol", "gks", "mtk", "spvgg", "kfum", "ssc", "sl",
+    # further club-type/legal-form prefixes found via the "core name
+    # doesn't match a known-good club because a prefix wasn't stripped"
+    # class of bug (RSC Anderlecht not reducing to match bare
+    # "Anderlecht" was the one that surfaced this gap) -- inherently a
+    # long tail across European naming conventions, not exhaustive
+    "rsc", "rfc", "raec", "rwdm", "kaa", "krc", "kfc", "ksc", "ksk", "ksv",
+    "fsv", "sg", "gd", "ao", "ae", "pae", "mks", "lks", "ogc", "es",
 }
 
 # Same city, different language/transliteration -- verified by hand against
