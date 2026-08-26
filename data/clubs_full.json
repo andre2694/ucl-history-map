@@ -986,9 +986,9 @@
   },
   {
     "name": "APOEL (Lefkosia)",
-    "bestRound": "Qualifying Phase 3 (Aug 14 and 28)",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 3,
+    "bestRound": "Quarterfinal",
+    "bestDistFromFinal": 2,
+    "seasonsPlayed": 13,
     "appearances": [
       {
         "season": "2002–03",
@@ -1004,15 +1004,7 @@
         "season": "2007–08",
         "roundName": "Qualifying Phase 1 (Jul 18 and 25)",
         "distFromFinal": 7
-      }
-    ]
-  },
-  {
-    "name": "APOEL Lefkosia",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 10,
-    "appearances": [
+      },
       {
         "season": "2009–10",
         "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
@@ -1777,59 +1769,25 @@
   },
   {
     "name": "Anorthosis (Famagusta)",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
+    "bestRound": "Round of 16",
+    "bestDistFromFinal": 3,
+    "seasonsPlayed": 8,
     "appearances": [
       {
         "season": "1963–64",
         "roundName": "First Round",
         "distFromFinal": 4
-      }
-    ]
-  },
-  {
-    "name": "Anorthosis Famagusta",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 3,
-    "appearances": [
+      },
+      {
+        "season": "1995–96",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
       {
         "season": "1997–98",
         "roundName": "Round of 16",
         "distFromFinal": 3
       },
-      {
-        "season": "2005–06",
-        "roundName": "Qualifying Phase 3 (Aug 10 and 24)",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2008–09",
-        "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
-        "distFromFinal": 4
-      }
-    ]
-  },
-  {
-    "name": "Anorthosis of Ammóchostas",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1995–96",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ]
-  },
-  {
-    "name": "Anorthosis of Ammóchostos",
-    "bestRound": "Preliminary Round (Jul 22 and 29)",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 3,
-    "appearances": [
       {
         "season": "1998–99",
         "roundName": "Preliminary Round (Jul 22 and 29)",
@@ -1844,6 +1802,16 @@
         "season": "2000–01",
         "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
         "distFromFinal": 6
+      },
+      {
+        "season": "2005–06",
+        "roundName": "Qualifying Phase 3 (Aug 10 and 24)",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2008–09",
+        "roundName": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
+        "distFromFinal": 4
       }
     ]
   },
@@ -1923,21 +1891,13 @@
     "name": "Apollon (Limassol)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 1,
+    "seasonsPlayed": 2,
     "appearances": [
       {
         "season": "1991–92",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
-      }
-    ]
-  },
-  {
-    "name": "Apollon Lemesos",
-    "bestRound": "Qualifying Phase 3",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 1,
-    "appearances": [
+      },
       {
         "season": "2022–23",
         "roundName": "Qualifying Phase 3",
@@ -3012,7 +2972,7 @@
     "name": "Barcelona",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 36,
+    "seasonsPlayed": 35,
     "appearances": [
       {
         "season": "1959–60",
@@ -3073,11 +3033,6 @@
         "season": "2000–01",
         "roundName": "Group Phase 1 (Sep 12/13, 19/20, 26/27, Oct 17/18, 24/25, Nov 7/8)",
         "distFromFinal": 4
-      },
-      {
-        "season": "2001–02",
-        "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
-        "distFromFinal": 5
       },
       {
         "season": "2001–02",
@@ -3587,7 +3542,7 @@
     "name": "Benfica",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 28,
+    "seasonsPlayed": 27,
     "appearances": [
       {
         "season": "1957–58",
@@ -3703,11 +3658,6 @@
         "season": "1994–95",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
-      },
-      {
-        "season": "1994–95",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
       },
       {
         "season": "1998–99",
@@ -5795,30 +5745,7 @@
     "name": "Deportivo (La Coruña)",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 3,
-    "appearances": [
-      {
-        "season": "2000–01",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "2003–04",
-        "roundName": "Semifinal",
-        "distFromFinal": 1
-      },
-      {
-        "season": "2004–05",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 4
-      }
-    ]
-  },
-  {
-    "name": "Deportivo La Coruña",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 5,
     "appearances": [
       {
         "season": "2000–01",
@@ -5834,6 +5761,16 @@
         "season": "2002–03",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2003–04",
+        "roundName": "Semifinal",
+        "distFromFinal": 1
+      },
+      {
+        "season": "2004–05",
+        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
+        "distFromFinal": 4
       }
     ]
   },
@@ -14533,7 +14470,7 @@
     "name": "Milan",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 34,
+    "seasonsPlayed": 31,
     "appearances": [
       {
         "season": "1955–56",
@@ -14616,29 +14553,14 @@
         "distFromFinal": 3
       },
       {
-        "season": "2000–01",
-        "roundName": "Group Phase 1 (Sep 12/13, 19/20, 26/27, Oct 17/18, 24/25, Nov 7/8)",
-        "distFromFinal": 4
-      },
-      {
         "season": "2002–03",
         "roundName": "Final",
         "distFromFinal": 0
       },
       {
-        "season": "2002–03",
-        "roundName": "Group Phase 1 (Sep 17/18, 24/25, Oct 1/2, 22/23, 29/30, Nov 12/13)",
-        "distFromFinal": 4
-      },
-      {
         "season": "2003–04",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
-      },
-      {
-        "season": "2004–05",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 4
       },
       {
         "season": "2004–05",
@@ -15751,10 +15673,15 @@
   },
   {
     "name": "Omonia (Lefkosia)",
-    "bestRound": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+    "bestRound": "Qualifying Phase 2 (Jul 25 and Aug 1)",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 4,
+    "seasonsPlayed": 5,
     "appearances": [
+      {
+        "season": "2001–02",
+        "roundName": "Qualifying Phase 2 (Jul 25 and Aug 1)",
+        "distFromFinal": 6
+      },
       {
         "season": "2003–04",
         "roundName": "Qualifying Phase 2 (Jul 30 and Aug 6)",
@@ -15865,19 +15792,6 @@
         "season": "1993–94",
         "roundName": "Preliminary Round",
         "distFromFinal": 4
-      }
-    ]
-  },
-  {
-    "name": "Omonia Nicosia",
-    "bestRound": "Qualifying Phase 2 (Jul 25 and Aug 1)",
-    "bestDistFromFinal": 6,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2001–02",
-        "roundName": "Qualifying Phase 2 (Jul 25 and Aug 1)",
-        "distFromFinal": 6
       }
     ]
   },
@@ -16359,7 +16273,7 @@
     "name": "Paris Saint-Germain",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 19,
+    "seasonsPlayed": 18,
     "appearances": [
       {
         "season": "1986–87",
@@ -16445,11 +16359,6 @@
         "season": "2023–24",
         "roundName": "Semifinal",
         "distFromFinal": 1
-      },
-      {
-        "season": "2024–25",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
       },
       {
         "season": "2024–25",
@@ -16725,7 +16634,7 @@
     "name": "Porto",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 37,
+    "seasonsPlayed": 36,
     "appearances": [
       {
         "season": "1956–57",
@@ -16791,11 +16700,6 @@
         "season": "1996–97",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
-      },
-      {
-        "season": "1998–99",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
       },
       {
         "season": "1998–99",
@@ -19599,7 +19503,7 @@
     "name": "Servette FC (Genève)",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 5,
     "appearances": [
       {
         "season": "1955–56",
@@ -19612,19 +19516,6 @@
         "distFromFinal": 3
       },
       {
-        "season": "2023–24",
-        "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
-      }
-    ]
-  },
-  {
-    "name": "Servette FC Geneva",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
         "season": "1962–63",
         "roundName": "First Round",
         "distFromFinal": 4
@@ -19633,6 +19524,11 @@
         "season": "1994–95",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2023–24",
+        "roundName": "Qualifying Phase 3",
+        "distFromFinal": 5
       }
     ]
   },
@@ -21487,10 +21383,20 @@
   },
   {
     "name": "Sutjeska (Niksic)",
-    "bestRound": "Qualifying Phase 1",
+    "bestRound": "Qualifying Phase 1 (Jul 16 and 23)",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 5,
     "appearances": [
+      {
+        "season": "2013–14",
+        "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2014–15",
+        "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
+        "distFromFinal": 6
+      },
       {
         "season": "2018–19",
         "roundName": "Qualifying Phase 1",
@@ -21505,24 +21411,6 @@
         "season": "2022–23",
         "roundName": "Qualifying Phase 1",
         "distFromFinal": 7
-      }
-    ]
-  },
-  {
-    "name": "Sutjeska Niksic",
-    "bestRound": "Qualifying Phase 1 (Jul 16 and 23)",
-    "bestDistFromFinal": 6,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "2013–14",
-        "roundName": "Qualifying Phase 1 (Jul 16 and 23)",
-        "distFromFinal": 6
-      },
-      {
-        "season": "2014–15",
-        "roundName": "Qualifying Phase 1 (Jul 15 and 22)",
-        "distFromFinal": 6
       }
     ]
   },
@@ -22347,17 +22235,12 @@
     "name": "Valencia",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 14,
+    "seasonsPlayed": 13,
     "appearances": [
       {
         "season": "1971–72",
         "roundName": "Round of 16",
         "distFromFinal": 3
-      },
-      {
-        "season": "1999–00",
-        "roundName": "Qualifying Phase 3 (Aug 11 and 25)",
-        "distFromFinal": 5
       },
       {
         "season": "1999–00",

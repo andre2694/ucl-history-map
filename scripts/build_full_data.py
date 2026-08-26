@@ -57,6 +57,22 @@ ALIASES = {
     # digraph difference and a typo, respectively) but are unambiguously
     # the same club as one that already geocoded successfully
     "Djurgaardens IF": "Djurgardens IF",
+    "Deportivo La Coruña": "Deportivo (La Coruña)",
+    # NOTE: "AEK Larnaka" and "CSKA Moscow" are deliberately NOT aliased to
+    # "AEK (Athinai)" / "CSKA (Sofia)" despite the shared prefix -- they are
+    # genuinely different clubs (AEK is a common Greek-diaspora founding
+    # name reused across cities; CSKA is a Soviet-bloc army-club naming
+    # convention reused across countries). Found while scanning for this
+    # exact "name-without-parens" duplication pattern -- worth the note so
+    # a future cleanup pass doesn't merge them by mistake.
+    "Anorthosis Famagusta": "Anorthosis (Famagusta)",
+    "Anorthosis of Ammóchostas": "Anorthosis (Famagusta)",
+    "Anorthosis of Ammóchostos": "Anorthosis (Famagusta)",
+    "APOEL Lefkosia": "APOEL (Lefkosia)",
+    "Apollon Lemesos": "Apollon (Limassol)",
+    "Omonia Nicosia": "Omonia (Lefkosia)",
+    "Servette FC Geneva": "Servette FC (Genève)",
+    "Sutjeska Niksic": "Sutjeska (Niksic)",
     "Ferncvárosi TC": "Ferencvárosi TC",
     "Omonia Lefkosia": "Omonia (Lefkosia)",
 }
@@ -87,7 +103,13 @@ def main():
     except FileNotFoundError:
         coords = {}
 
-    clubs = defaultdict(lambda: {"bestDist": 99, "appearances": []})
+    # keyed by season (not a plain list) so that two raw-name spellings of
+    # the same club aliasing together -- including RSSSF switching spelling
+    # *mid-season* between its own round sections, seen with Deportivo (La
+    # Coruña)/Deportivo La Coruña disagreeing on 2000-01 -- collapse to one
+    # entry per season, keeping whichever reports the deeper (truer) round
+    # rather than showing the same season twice with conflicting rounds.
+    clubs = defaultdict(lambda: {"bestDist": 99, "by_season": {}})
 
     for season, club_map in participation.items():
         season_label = season.replace("-", "–", 1)  # match finals_raw.json style
@@ -98,16 +120,18 @@ def main():
             dist = info["distFromFinal"]
             rec = clubs[name]
             rec["bestDist"] = min(rec["bestDist"], dist)
-            rec["appearances"].append({
-                "season": season_label,
-                "roundName": DIST_LABELS.get(dist, info["roundName"]),
-                "distFromFinal": dist,
-            })
+            existing = rec["by_season"].get(season_label)
+            if existing is None or dist < existing["distFromFinal"]:
+                rec["by_season"][season_label] = {
+                    "season": season_label,
+                    "roundName": DIST_LABELS.get(dist, info["roundName"]),
+                    "distFromFinal": dist,
+                }
 
     out = []
     have_coords, missing_coords = 0, 0
     for name, rec in sorted(clubs.items()):
-        appearances = sorted(rec["appearances"], key=lambda a: a["season"])
+        appearances = sorted(rec["by_season"].values(), key=lambda a: a["season"])
         best_dist = rec["bestDist"]
         entry = {
             "name": name,
