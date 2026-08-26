@@ -7,7 +7,7 @@
 
 ## v1 — full participation history (the "smart drill-down")
 
-**Status: scraping + aggregation done, geocoding not started.**
+**Status: scraping, cleanup, and geocoding all done. Not wired into the map UI yet.**
 
 - [x] `scripts/scrape_rsssf.py` pulls round-by-round results for all 70
   completed seasons (1955–56 → 2024–25) from [RSSSF](https://www.rsssf.org/ec/),
@@ -28,27 +28,37 @@
   clubs that only ever reached early rounds isn't name-canonicalized yet,
   so some are fragmented across spelling variants across decades — see
   v1.1 below.
-- [ ] **Geocoding.** Only the 42 original finalists have coordinates
-  (hand-curated). The other ~869 need a real geocoding pass — free option
-  is OpenStreetMap Nominatim, but its usage policy caps requests at 1/sec,
-  so ~869 clubs is ~15 minutes of rate-limited calls, and needs each club's
-  home *city* (not always obvious from the RSSSF name alone — e.g.
-  "Partizan" doesn't say Belgrade). This is a distinct, substantial chunk
-  of work — do it as its own pass rather than folding into general cleanup.
-- [ ] Map UI: swap binary gold/silver for a 4–5 tier color scale (winner →
+- [x] **Name cleanup** (`scripts/dedupe_full_data.py`). The raw 899 names
+  included ~57 parser artifacts (score fragments, footnote text, split-off
+  city names) and ~100 duplicate spelling/transliteration variants (AEK
+  Athens alone had 6). Clustered by a normalized (core name, city) key —
+  city normalization uses a small verified alias table rather than
+  aggressive fuzzy matching, since a bare name like "Partizan" or "Dynamo"
+  is shared by genuinely different real clubs and the city is often the
+  only disambiguator. → `data/clubs_dedup.json`, 745 clean clusters.
+- [x] **Country hints** (`scripts/extract_country_hints.py`). Mined the
+  country codes RSSSF attaches to knockout-round matches — already cached
+  locally, no new network calls — to disambiguate geocoder queries
+  ("Sparta, Netherlands" vs. just "Sparta"). 96% coverage.
+- [x] **Geocoding** (`scripts/geocode_clubs.py` + `apply_geocoding.py`).
+  First attempt used Nominatim (OSM's address geocoder) directly on club
+  names — unreliable, since club abbreviations usually aren't real place
+  names ("AEK" matched a random hamlet in the Netherlands, "AB" matched
+  the Canadian province of Alberta). Replaced with **Wikidata entity
+  search**: match the club as an actual entity (this also correctly
+  resolves historical renames, e.g. "17 Nentori" → modern "KF Tirana"),
+  then follow its home venue/headquarters to get coordinates. Nominatim
+  survives only as a last-resort fallback searching a city name, never a
+  club abbreviation. → `data/clubs_final.json`, **606/652 clubs geocoded
+  (93%)**, up from the original 42. The 46 unresolved are mostly parser
+  garbage or genuinely obscure one-off qualifying entrants.
+- [ ] **Map UI.** `clubs_final.json` isn't wired into `index.html` yet.
+  Needs: swap binary gold/silver for a multi-tier color scale (winner →
   gold, finalist → silver, semifinal → bronze, QF/R16 → muted blue, group/
-  qualifying → grey), plus a legend filter to toggle tiers on/off — needed
-  once the marker count goes from 42 to ~900.
-
-## v1.1 — name cleanup (found while building v1)
-RSSSF spells the same club differently across decades (prefixes like "AC"/
-"FC"/"SL", parenthetical city suffixes, transliteration drift for East
-European clubs in particular). `ALIASES` in `build_full_data.py` currently
-only covers the 42 known finalists. Extending it to the full ~900-name set
-would need either a much bigger manual alias table or a fuzzy-matching pass
-(e.g. normalize accents/prefixes, then cluster near-duplicates) — worth
-doing before the v1 map ships broadly, since duplicate markers for the same
-club look like a bug.
+  qualifying → grey) plus a legend filter to toggle tiers, since the
+  marker count goes from 42 to ~600. Also needs a decision on how to merge
+  this with the finals-only `clubs.json` (which has the rich per-final
+  data — scores, scorers, wiki links — that `clubs_final.json` doesn't).
 
 ## v2 — polish
 - Real club crests (need a licensing-safe source or simple generated badges)
