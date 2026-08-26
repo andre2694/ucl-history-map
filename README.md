@@ -2,9 +2,14 @@
 
 **🔗 [Live site](https://andre2694.github.io/ucl-history-map/) · [Repo](https://github.com/andre2694/ucl-history-map)**
 
-An interactive map of every club that has reached a European Cup / UEFA
-Champions League final (1955–56 → present), color-coded by best-ever result.
-Click a club to drill into its full run of finals — score, venue, goal
+An interactive map of every club that has ever entered the European Cup /
+UEFA Champions League (1955–56 → present) — 628 clubs, from a single
+qualifying-round exit to lifting the trophy. Gold marks a title win,
+silver a final reached without winning; every other club is a single blue
+hue whose intensity encodes how deep its best-ever run went — semifinal
+(brightest) → quarterfinal → round of 16 → a faint tone for group
+stage/qualifying. Click a club to drill into its full history — for the
+42 clubs that have reached a final, that includes score, venue, goal
 scorers split by team, and a link to the Wikipedia match report.
 
 100% static: Leaflet.js via CDN, no build step, no server, no API keys.
@@ -14,21 +19,24 @@ Deployed straight from `main` via GitHub Pages.
 
 | | |
 |---|---|
-| **v0 — finals map** | ✅ shipped. All 42 clubs that have ever reached a final, gold/silver by best result. |
-| **v1 — full participation scrape** | ✅ data ready ([`clubs_full.json`](data/clubs_full.json), 899 club names across all 70 completed seasons), ⏳ not wired into the map yet. |
-| **v1 — geocoding the other ~860 clubs** | ⏸️ parked. Only the 42 finalists have coordinates so far — see [ROADMAP.md](ROADMAP.md). |
+| **v0 — finals map** | ✅ shipped. |
+| **v1 — full participation history** | ✅ shipped. All 628 clubs that have ever entered, geocoded, color-coded by best-ever round. |
+| **v1.1 — further name cleanup** | Ongoing, low-priority — a handful of spelling/transliteration variants (e.g. Ferencváros/Ferencvárosi) still show as separate markers for the same club. See [ROADMAP.md](ROADMAP.md). |
 
 ## Features
 
-- **Map**: auto-fits to the marker bounds (no hardcoded center/zoom), gold
-  markers for clubs that have won it, silver for finalist-only clubs.
-- **Drill-down panel**: click any marker for that club's complete run of
-  finals — season, score, venue, opponent.
+- **Map**: auto-fits to the marker bounds, single-hue gold gradient by
+  best-ever round reached (see color key above), white ring for title
+  winners. Markers render weakest-run-first so notable clubs stay
+  clickable on top when several clubs from the same city overlap.
+- **Drill-down panel**: click any marker for that club's complete
+  season-by-season history. A final appearance shows score, venue,
+  opponent, team-attributed goal scorers, and a Wikipedia match-report
+  link; any other round shows a plain season + round label.
 - **Goal scorers, attributed by team.** Parsed from RSSSF's Final-round
   text (already cached locally, no extra network calls) and validated by
   summing each side's attributed goals against the known scoreline for
-  *all 71 finals* — a mismatch drops the team split for that one final
-  rather than risk showing a wrong label. See `extract_scorers()` in
+  *all 71 finals*. See `extract_scorers()` in
   [`build_data.py`](scripts/build_data.py) for the parsing details (three
   different RSSSF bracket formats, own-goal handling, name-spelling drift
   like "Alenichev"/"Alenitchev").
@@ -39,21 +47,27 @@ Deployed straight from `main` via GitHub Pages.
 
 ```
 data/
-  finals_raw.json         — one row per final: season, winner, score, runner-up, venue, city
-  club_coords.json        — manual lat/lon + country lookup for the 42 finalist clubs
-  clubs.json              — GENERATED: what the map actually reads (finals-only, v0)
-  raw_html/                — GENERATED: cached RSSSF season pages (committed, so we don't
-                              re-hit their server on every run)
-  participation_raw.json  — GENERATED: round-by-round participation, all 70 seasons (v1, not
-                              yet wired into the map — see ROADMAP.md)
-  clubs_full.json         — GENERATED: v1 aggregated by best-ever round, 899 club names,
-                              only 38 have coordinates so far
+  finals_raw.json          — one row per final: season, winner, score, runner-up, venue, city
+  club_coords.json         — manual lat/lon + country lookup for the 42 finalist clubs
+  clubs.json               — GENERATED: rich per-final data (scores/scorers/wiki links) for the 42
+  raw_html/                 — GENERATED: cached RSSSF season pages (committed, so we don't
+                               re-hit their server on every run)
+  participation_raw.json   — GENERATED: round-by-round participation, all 70 seasons
+  clubs_full.json          — GENERATED: aggregated by best-ever round, ~870 raw club names
+  clubs_dedup.json         — GENERATED: cleaned + deduplicated, ~725 clean clusters
+  club_country_hints.json  — GENERATED: country per club, mined from cached RSSSF pages
+  geocode_cache.json       — GENERATED: geocoding results (Wikidata/Nominatim/manual), resumable cache
+  clubs_final.json         — GENERATED: what the map actually reads — 628 clubs, all with coordinates
 scripts/
-  build_data.py            — finals_raw.json + club_coords.json + RSSSF final-round text
+  build_data.py             — finals_raw.json + club_coords.json + RSSSF final-round text
                               (scorers) -> clubs.json
-  scrape_rsssf.py          — RSSSF season pages -> participation_raw.json
-  build_full_data.py       — participation_raw.json -> clubs_full.json
-index.html                 — the map
+  scrape_rsssf.py           — RSSSF season pages -> participation_raw.json
+  build_full_data.py        — participation_raw.json -> clubs_full.json
+  dedupe_full_data.py       — clubs_full.json -> clubs_dedup.json (cleanup + dedup)
+  extract_country_hints.py  — cached RSSSF pages -> club_country_hints.json
+  geocode_clubs.py          — clubs_dedup.json -> geocode_cache.json (Wikidata + Nominatim)
+  apply_geocoding.py        — merges geocode_cache.json into clubs_dedup.json -> clubs_final.json
+index.html                  — the map
 ```
 
 ## Running locally
@@ -70,12 +84,19 @@ Then open http://localhost:8000.
 ## Regenerating the data
 
 ```bash
-python scripts/build_data.py        # what the live map reads (finals + scorers)
-python scripts/scrape_rsssf.py      # refresh full participation history (v1, ~70s, hits rsssf.org)
-python scripts/build_full_data.py   # aggregate it (depends on scrape_rsssf.py's output)
+python scripts/build_data.py             # rich finals data (scores + scorers) -> clubs.json
+python scripts/scrape_rsssf.py           # refresh full participation history (~70s, hits rsssf.org)
+python scripts/build_full_data.py        # aggregate participation_raw.json -> clubs_full.json
+python scripts/dedupe_full_data.py       # clean + dedupe -> clubs_dedup.json
+python scripts/extract_country_hints.py  # mine country hints from cached pages
+python scripts/geocode_clubs.py          # geocode anything not already in geocode_cache.json
+python scripts/apply_geocoding.py        # merge everything -> clubs_final.json (what the map reads)
 ```
 
-Re-run `build_data.py` any time `data/finals_raw.json` or `data/club_coords.json` changes.
+`geocode_clubs.py` is the only step that's slow (rate-limited, ~15-20 min
+for a full run) — but it's a resumable cache keyed by club name, so
+re-running after a data refresh only geocodes names that are new or
+changed, not the whole list.
 
 ## Data sources & attribution
 
@@ -86,14 +107,20 @@ Re-run `build_data.py` any time `data/finals_raw.json` or `data/club_coords.json
 - **[Wikipedia](https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals)**
   — the finals list, cross-checked against news for the most recent season,
   and linked per-final for match reports.
+- **[Wikidata](https://www.wikidata.org/)** — entity search for geocoding
+  (see `geocode_clubs.py` for why a plain address geocoder doesn't work
+  for club names).
 - No official UEFA API exists for this kind of historical data (see
   [ROADMAP.md](ROADMAP.md) for what was actually available).
 
 ## Data notes / caveats
 
-- Coordinates in `club_coords.json` are hand-curated (home stadium,
-  city-level precision) — good enough for a continental map, not
-  survey-grade.
+- Coordinates are city/venue-level, not survey-grade — good enough for a
+  continental map. 24 clubs (mostly lower-profile ones automated
+  geocoding couldn't resolve) have hand-verified coordinates, tagged
+  `"source": "manual"` in `geocode_cache.json`.
 - "Milan" and "Inter Milan" are kept as separate clubs (they are).
 - The 1973–74 final (Bayern Munich vs Atlético Madrid) was drawn 1–1 and
   replayed; the replay score is folded into one record for simplicity.
+- A handful of clubs still show as duplicate markers under different
+  name spellings (see the v1.1 status row above) — known, low-priority.

@@ -14,6 +14,7 @@
     --muted: #93a1bd;
     --gold: #d4af37;
     --silver: #b9c2cf;
+    --blue: #5b9bd5;
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; margin: 0; }
@@ -42,10 +43,9 @@
     padding: 10px 18px; border-bottom: 1px solid var(--border);
     font-size: 11px; color: var(--muted);
   }
-  .legend-scale { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-bottom: 6px; }
-  .legend-scale span, .legend-note { display: inline-flex; align-items: center; gap: 6px; }
-  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; background: var(--gold); }
-  .dot.ring { background: var(--gold); border: 2px solid #fff; width: 8px; height: 8px; }
+  .legend-scale { display: flex; flex-wrap: wrap; gap: 6px 12px; }
+  .legend-scale span { display: inline-flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
   #detail { padding: 18px; overflow-y: auto; flex: 1; }
   #detail .placeholder { color: var(--muted); font-size: 13px; }
   #detail h2 { margin: 0 0 2px; font-size: 18px; }
@@ -87,17 +87,17 @@
   <div id="sidebar">
     <header>
       <h1>🏆 European Cup &amp; Champions League</h1>
-      <p>Every club that has ever entered, 1955–56 to present — 628 clubs across all rounds, from qualifying to the final. Brighter = deeper run. Click a marker to drill into a club's history.</p>
+      <p>Every club that has ever entered, 1955–56 to present — 628 clubs across all rounds, from qualifying to the final. Gold/silver = reached a final; blue tones = best-ever knockout/group progress otherwise, brighter for a deeper run. Click a marker to drill into a club's history.</p>
     </header>
     <div class="legend">
       <div class="legend-scale">
-        <span><i class="dot" style="opacity:1"></i> Final</span>
-        <span><i class="dot" style="opacity:.8"></i> Semifinal</span>
-        <span><i class="dot" style="opacity:.6"></i> Quarterfinal</span>
-        <span><i class="dot" style="opacity:.42"></i> Round of 16</span>
-        <span><i class="dot" style="opacity:.25"></i> Group / qualifying</span>
+        <span><i class="dot" style="background:var(--gold)"></i> Winner</span>
+        <span><i class="dot" style="background:var(--silver)"></i> Runner-up</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.85"></i> Semifinal</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.6"></i> Quarterfinal</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.4"></i> Round of 16</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.22"></i> Group / qualifying</span>
       </div>
-      <div class="legend-note"><i class="dot ring"></i> white ring = won the title at least once</div>
     </div>
     <div id="detail"><p class="placeholder">Select a club on the map to see its full run of finals.</p></div>
     <footer>
@@ -118,27 +118,35 @@
     maxZoom: 19,
   }).addTo(map);
 
-  // Single hue (gold) whose *opacity* encodes depth of run -- strong for
-  // knockout rounds, weak for group stage / qualifying. distFromFinal:
-  // 0=Final, 1=Semifinal, 2=Quarterfinal, 3=Round of 16, 4+=earlier.
-  const TIERS = [
-    { max: 0, opacity: 1.00, radius: 7.5 },
-    { max: 1, opacity: 0.80, radius: 6.8 },
-    { max: 2, opacity: 0.60, radius: 6.0 },
-    { max: 3, opacity: 0.42, radius: 5.2 },
-    { max: Infinity, opacity: 0.25, radius: 4.2 },
+  // Final tier (distFromFinal 0) keeps the original gold/silver distinction
+  // -- won the title, or "just" reached a final. Every earlier round is a
+  // single blue hue whose *opacity* encodes depth of run: strong for
+  // knockout rounds, faint for group stage/qualifying.
+  // distFromFinal: 0=Final, 1=Semifinal, 2=Quarterfinal, 3=Round of 16, 4+=earlier.
+  const BLUE_TIERS = [
+    { max: 1, opacity: 0.85, radius: 6.8 }, // Semifinal
+    { max: 2, opacity: 0.60, radius: 6.0 }, // Quarterfinal
+    { max: 3, opacity: 0.40, radius: 5.2 }, // Round of 16
+    { max: Infinity, opacity: 0.22, radius: 4.2 }, // Group stage / qualifying
   ];
-  const tierFor = dist => TIERS.find(t => dist <= t.max);
   const cleanRoundLabel = name => name.replace(/\s*\(.*$/, '').trim();
 
   function markerFor(club, hasWon) {
-    const tier = tierFor(club.bestDistFromFinal);
+    let fillColor, fillOpacity, radius;
+    if (club.bestDistFromFinal === 0) {
+      fillColor = hasWon ? '#d4af37' : '#b9c2cf';
+      fillOpacity = 0.95;
+      radius = 7.5;
+    } else {
+      const tier = BLUE_TIERS.find(t => club.bestDistFromFinal <= t.max);
+      fillColor = '#5b9bd5';
+      fillOpacity = tier.opacity;
+      radius = tier.radius;
+    }
     return L.circleMarker([club.lat, club.lon], {
-      radius: tier.radius,
-      color: hasWon ? '#ffffff' : '#0b1220',
-      weight: hasWon ? 2 : 1,
-      fillColor: '#d4af37',
-      fillOpacity: tier.opacity,
+      radius, fillColor, fillOpacity,
+      color: '#0b1220',
+      weight: 1,
     });
   }
 
