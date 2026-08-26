@@ -165,7 +165,8 @@
     "lat": 50.834167,
     "lon": 4.298333,
     "source": "wikidata:venue",
-    "qid": "Q187528"
+    "qid": "Q187528",
+    "country": "Belgium"
   },
   "Anorthosis (Famagusta)": {
     "lat": 34.692429,
@@ -459,7 +460,8 @@
     "lat": 53.728611111111,
     "lon": -2.4891666666667,
     "source": "wikidata:venue",
-    "qid": "Q19446"
+    "qid": "Q19446",
+    "country": "England"
   },
   "Boavista FC": {
     "lat": 41.162222222222,
@@ -543,7 +545,8 @@
     "lat": 40.192222,
     "lon": 29.048333,
     "source": "wikidata:venue",
-    "qid": "Q203573"
+    "qid": "Q203573",
+    "country": "Turkey"
   },
   "CA Spora Luxembourg": {
     "lat": 49.615630555556,
@@ -1113,7 +1116,8 @@
     "lat": 41.961389,
     "lon": 2.828611,
     "source": "wikidata:venue",
-    "qid": "Q11945"
+    "qid": "Q11945",
+    "country": "Spain"
   },
   "FC Haka (Valkeakoski)": {
     "lat": 61.268056,
@@ -1227,7 +1231,8 @@
     "lat": 55.815847,
     "lon": 12.353289,
     "source": "wikidata:venue",
-    "qid": "Q210025"
+    "qid": "Q210025",
+    "country": "Denmark"
   },
   "FC Sankt Gallen": {
     "lat": 47.408333,
@@ -2367,7 +2372,8 @@
     "lat": 43.62061,
     "lon": 3.81279,
     "source": "wikidata:venue",
-    "qid": "Q19513"
+    "qid": "Q19513",
+    "country": "France"
   },
   "Moskva Spartak": {
     "lat": 55.8178,
@@ -2595,7 +2601,8 @@
     "lat": 45.430236,
     "lon": 28.022378,
     "source": "wikidata:venue",
-    "qid": "Q220863"
+    "qid": "Q220863",
+    "country": "Romania"
   },
   "PAOK (Salonika)": {
     "lat": 40.613839,
@@ -2613,7 +2620,8 @@
     "lat": 51.411667,
     "lon": 5.479444,
     "source": "wikidata:venue",
-    "qid": "Q1874991"
+    "qid": "Q1874991",
+    "country": "Netherlands"
   },
   "Panathinai": {
     "lat": 37.987169444444,
@@ -2751,7 +2759,8 @@
     "lat": 50.4329,
     "lon": 2.81491,
     "source": "wikidata:venue",
-    "qid": "Q191843"
+    "qid": "Q191843",
+    "country": "France"
   },
   "RC Strasbourg": {
     "lat": 48.55942,
@@ -2937,7 +2946,8 @@
     "lat": 52.958611,
     "lon": 5.936111,
     "source": "wikidata:venue",
-    "qid": "Q200321"
+    "qid": "Q200321",
+    "country": "Netherlands"
   },
   "SCT Olimpija (Ljubljana)": {
     "lat": 46.081111,
@@ -3315,7 +3325,8 @@
     "lat": 48.10743,
     "lon": -1.71282,
     "source": "wikidata:venue",
-    "qid": "Q19509"
+    "qid": "Q19509",
+    "country": "France"
   },
   "Stal Mielec": {
     "lat": 50.298611,
@@ -3765,7 +3776,8 @@
     "lat": 51.542778,
     "lon": 5.066944,
     "source": "wikidata:venue",
-    "qid": "Q332664"
+    "qid": "Q332664",
+    "country": "Netherlands"
   },
   "Wisla Krakow": {
     "lat": 50.0642207,

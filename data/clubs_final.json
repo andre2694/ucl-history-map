@@ -33,7 +33,8 @@
     ],
     "lat": 41.31898056,
     "lon": 19.81138333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "AA Gent",
@@ -59,7 +60,8 @@
     ],
     "lat": 51.031389,
     "lon": 3.766111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "AB (Copenhagen)",
@@ -75,7 +77,8 @@
     ],
     "lat": 55.6867243,
     "lon": 12.5700724,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Denmark"
   },
   {
     "name": "AC Sparta Praha",
@@ -236,7 +239,8 @@
     ],
     "lat": 50.080336111111,
     "lon": 14.387861111111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "AEK (Athinai)",
@@ -342,7 +346,8 @@
     ],
     "lat": 38.03715,
     "lon": 23.74154,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Greece"
   },
   {
     "name": "AEK Larnaka",
@@ -358,7 +363,8 @@
     ],
     "lat": 34.925556,
     "lon": 33.599722,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "AEL (Limassol)",
@@ -384,7 +390,8 @@
     ],
     "lat": 34.681224,
     "lon": 33.053629,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "AGF (Aarhus)",
@@ -420,7 +427,8 @@
     ],
     "lat": 56.131944,
     "lon": 10.196389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "AIK (Stockholm)",
@@ -451,7 +459,8 @@
     ],
     "lat": 59.3725,
     "lon": 18,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "AJ Auxerre",
@@ -472,7 +481,8 @@
     ],
     "lat": 47.78672,
     "lon": 3.58871,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "AJ Auxerroise",
@@ -488,7 +498,8 @@
     ],
     "lat": 47.78672,
     "lon": 3.58871,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "APOEL (Lefkosia)",
@@ -544,7 +555,8 @@
     ],
     "lat": 35.168,
     "lon": 33.3558,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "APOEL Lefkosia",
@@ -605,7 +617,8 @@
     ],
     "lat": 35.1572566,
     "lon": 33.3732361,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Cyprus"
   },
   {
     "name": "AS La Jeunesse D'Esch",
@@ -726,7 +739,8 @@
     ],
     "lat": 49.485833333333,
     "lon": 5.9769444444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "AS Trencin",
@@ -747,7 +761,8 @@
     ],
     "lat": 48.89861111,
     "lon": 18.04472222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Slovakia"
   },
   {
     "name": "ASK Inter Bratislava",
@@ -768,7 +783,8 @@
     ],
     "lat": 48.1241545,
     "lon": 17.1534063,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Slovakia"
   },
   {
     "name": "ASK Vorwaerts (Berlin)",
@@ -789,7 +805,8 @@
     ],
     "lat": 52.5173885,
     "lon": 13.3951309,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Germany"
   },
   {
     "name": "ASK Vorwarts (Berlin)",
@@ -825,7 +842,8 @@
     ],
     "lat": 52.5173885,
     "lon": 13.3951309,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Germany"
   },
   {
     "name": "AZ '67 (Alkmaar)",
@@ -841,7 +859,8 @@
     ],
     "lat": 52.6125,
     "lon": 4.741667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "AZ (Alkmaar)",
@@ -862,7 +881,8 @@
     ],
     "lat": 52.6125,
     "lon": 4.741667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "AaB (Aalborg)",
@@ -893,7 +913,8 @@
     ],
     "lat": 57.0462626,
     "lon": 9.9215263,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Denmark"
   },
   {
     "name": "Aberdeen",
@@ -919,7 +940,8 @@
     ],
     "lat": 57.159166666667,
     "lon": -2.0888888888889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Scotland"
   },
   {
     "name": "Admira Vienna",
@@ -935,7 +957,8 @@
     ],
     "lat": 48.208333333333336,
     "lon": 16.3725,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Austria"
   },
   {
     "name": "Ajax",
@@ -1157,7 +1180,8 @@
     ],
     "lat": 43.023056,
     "lon": 44.695,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Alashkert",
@@ -1183,7 +1207,8 @@
     ],
     "lat": 40.154605,
     "lon": 44.475231,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Armenia"
   },
   {
     "name": "Alashkert Yerevan",
@@ -1216,7 +1241,8 @@
     ],
     "lat": 50.834167,
     "lon": 4.298333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "Anorthosis (Famagusta)",
@@ -1232,7 +1258,8 @@
     ],
     "lat": 34.692429,
     "lon": 33.006556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "Anorthosis Famagusta",
@@ -1258,7 +1285,8 @@
     ],
     "lat": 35.116388,
     "lon": 33.953954,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "Anorthosis of Ammóchostas",
@@ -1323,7 +1351,8 @@
     ],
     "lat": 34.6852901,
     "lon": 33.0332657,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Cyprus"
   },
   {
     "name": "Apollon Lemesos",
@@ -1339,7 +1368,8 @@
     ],
     "lat": 34.681224,
     "lon": 33.053629,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "Araks Ararat",
@@ -1355,7 +1385,8 @@
     ],
     "lat": 39.855,
     "lon": 44.68916667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Armenia"
   },
   {
     "name": "Ararat Yerevan",
@@ -1371,7 +1402,8 @@
     ],
     "lat": 40.171944,
     "lon": 44.525833,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Ararat-Armenia Yerevan",
@@ -1409,7 +1441,8 @@
     ],
     "lat": 54.6516,
     "lon": -5.68447,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Aris Bonnevoie",
@@ -1435,7 +1468,8 @@
     ],
     "lat": 49.615630555556,
     "lon": 6.1096611111111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "Aris Lemesos",
@@ -1451,7 +1485,8 @@
     ],
     "lat": 34.681224,
     "lon": 33.053629,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "Arsenal",
@@ -1598,7 +1633,8 @@
     ],
     "lat": 48.11972222222222,
     "lon": 17.133333333333333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Slovakia"
   },
   {
     "name": "Aston Villa",
@@ -1651,7 +1687,8 @@
     ],
     "lat": 43.896111,
     "lon": 25.981389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "Atalanta (Bergamo)",
@@ -1682,7 +1719,8 @@
     ],
     "lat": 45.708889,
     "lon": 9.680833,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Italy"
   },
   {
     "name": "Athletic Bilbao",
@@ -1718,7 +1756,8 @@
     ],
     "lat": 43.264205,
     "lon": -2.949369,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "Athlone Town",
@@ -1739,7 +1778,8 @@
     ],
     "lat": 53.423611111111114,
     "lon": -7.9425,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Ireland"
   },
   {
     "name": "Atlètic Club d'Escaldes",
@@ -1755,7 +1795,8 @@
     ],
     "lat": 42.508889,
     "lon": 1.540833,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Andorra"
   },
   {
     "name": "Atlético Madrid",
@@ -1887,7 +1928,8 @@
     ],
     "lat": 58.194583333333,
     "lon": 15.995833333333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "Avenir Beggen",
@@ -1928,7 +1970,8 @@
     ],
     "lat": 49.646388888889,
     "lon": 6.1352777777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "B 1913 (Odense)",
@@ -1944,7 +1987,8 @@
     ],
     "lat": 55.398889,
     "lon": 10.351111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "B 36 (Tórshavn)",
@@ -1960,7 +2004,8 @@
     ],
     "lat": 62.0193487,
     "lon": -6.7811394,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Faroe Islands"
   },
   {
     "name": "B1903 (Copenhagen)",
@@ -1986,7 +2031,8 @@
     ],
     "lat": 55.702469,
     "lon": 12.572203,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "B1909 (Odense)",
@@ -2012,7 +2058,8 @@
     ],
     "lat": 55.395966666667,
     "lon": 10.388536111111,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Denmark"
   },
   {
     "name": "B1913 (Odense)",
@@ -2028,7 +2075,8 @@
     ],
     "lat": 55.398889,
     "lon": 10.351111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "B36 (Tórshavn)",
@@ -2064,7 +2112,8 @@
     ],
     "lat": 62.0193487,
     "lon": -6.7811394,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Faroe Islands"
   },
   {
     "name": "B68 (Toftir)",
@@ -2080,7 +2129,8 @@
     ],
     "lat": 62.099722,
     "lon": -6.736111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Faroe Islands"
   },
   {
     "name": "BATE Barysau",
@@ -2171,7 +2221,8 @@
     ],
     "lat": 54.22236111111111,
     "lon": 28.490277777777777,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belarus"
   },
   {
     "name": "BFC Dynamo (Berlin)",
@@ -2232,7 +2283,8 @@
     ],
     "lat": 52.54,
     "lon": 13.4764,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "BK Häcken (Göteborg)",
@@ -2248,7 +2300,8 @@
     ],
     "lat": 57.7192,
     "lon": 11.9306,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "BSC Young Boys",
@@ -2289,7 +2342,8 @@
     ],
     "lat": 46.962778,
     "lon": 7.465,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "BSC Young Boys (Bern)",
@@ -2345,7 +2399,8 @@
     ],
     "lat": 46.9484742,
     "lon": 7.4521749,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Switzerland"
   },
   {
     "name": "BSG Chemie Leipzig",
@@ -2361,7 +2416,8 @@
     ],
     "lat": 51.358056,
     "lon": 12.307778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "Ballkani (Suharekë)",
@@ -2387,7 +2443,8 @@
     ],
     "lat": 42.38,
     "lon": 20.821944444444,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Kosovo"
   },
   {
     "name": "Banants Yerevan",
@@ -2403,7 +2460,8 @@
     ],
     "lat": 40.171426,
     "lon": 44.449938,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Armenia"
   },
   {
     "name": "Bangor City",
@@ -2419,7 +2477,8 @@
     ],
     "lat": 53.225453,
     "lon": -4.150139,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Wales"
   },
   {
     "name": "Barcelona",
@@ -2651,7 +2710,8 @@
     ],
     "lat": 51.410833,
     "lon": -3.265278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Wales"
   },
   {
     "name": "Bayer 04 Leverkusen",
@@ -2672,7 +2732,8 @@
     ],
     "lat": 51.038255555556,
     "lon": 7.0022055555556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "Bayer Leverkusen",
@@ -2995,7 +3056,8 @@
     ],
     "lat": 31.751166666666666,
     "lon": 35.19061666666666,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Israel"
   },
   {
     "name": "Belshyna Babruisk",
@@ -3244,7 +3306,8 @@
     ],
     "lat": 41.0428465,
     "lon": 29.0075283,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Turkey"
   },
   {
     "name": "Besiktas JK (Istanbul)",
@@ -3295,7 +3358,8 @@
     ],
     "lat": 41.01,
     "lon": 28.960277777778,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Turkey"
   },
   {
     "name": "Birkirkara",
@@ -3321,7 +3385,8 @@
     ],
     "lat": 35.894863888889,
     "lon": 14.415372222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Malta"
   },
   {
     "name": "Blackburn Rovers",
@@ -3337,7 +3402,8 @@
     ],
     "lat": 53.728611111111,
     "lon": -2.4891666666667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "England"
   },
   {
     "name": "Boavista FC (Porto)",
@@ -3363,7 +3429,8 @@
     ],
     "lat": 41.162222222222,
     "lon": -8.6427777777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Portugal"
   },
   {
     "name": "Bohemians (Dublin)",
@@ -3409,7 +3476,8 @@
     ],
     "lat": 50.066667,
     "lon": 14.454167,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Bologna",
@@ -3430,7 +3498,8 @@
     ],
     "lat": 44.4922,
     "lon": 11.3098,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Italy"
   },
   {
     "name": "Borac (Banja Luka)",
@@ -3456,7 +3525,8 @@
     ],
     "lat": 44.7761,
     "lon": 17.1996,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bosnia and Herzegovina"
   },
   {
     "name": "Borussia Dortmund",
@@ -3659,7 +3729,8 @@
     ],
     "lat": 64.11194444444445,
     "lon": -21.9,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Iceland"
   },
   {
     "name": "Brondby IF",
@@ -3730,7 +3801,8 @@
     ],
     "lat": 55.648853,
     "lon": 12.418358,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "Budapesti Honvéd",
@@ -3746,7 +3818,8 @@
     ],
     "lat": 47.5227184,
     "lon": 19.0709076,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Hungary"
   },
   {
     "name": "Buducnost (Podgorica)",
@@ -3782,7 +3855,8 @@
     ],
     "lat": 42.444728,
     "lon": 19.264378,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Montenegro"
   },
   {
     "name": "Burnley",
@@ -3798,7 +3872,8 @@
     ],
     "lat": 53.789064,
     "lon": -2.230225,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "England"
   },
   {
     "name": "Bursaspor",
@@ -3814,7 +3889,8 @@
     ],
     "lat": 40.192222,
     "lon": 29.048333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Turkey"
   },
   {
     "name": "CA Osasuna (Pamplona)",
@@ -3830,7 +3906,8 @@
     ],
     "lat": 42.796667,
     "lon": -1.636944,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "CA Spora Luxembourg",
@@ -3856,7 +3933,8 @@
     ],
     "lat": 49.615630555556,
     "lon": 6.1096611111111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "CCA Bucuresti",
@@ -3877,7 +3955,8 @@
     ],
     "lat": 44.4372,
     "lon": 26.1525,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "CDNA (Sofia)",
@@ -3923,7 +4002,8 @@
     ],
     "lat": 42.6977028,
     "lon": 23.3217359,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bulgaria"
   },
   {
     "name": "CFKA Sredets (Sofia)",
@@ -3939,7 +4019,8 @@
     ],
     "lat": 42.6977028,
     "lon": 23.3217359,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bulgaria"
   },
   {
     "name": "CFR 1907 Cluj",
@@ -3990,7 +4071,8 @@
     ],
     "lat": 46.779678,
     "lon": 23.577247,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "CH Bratislava",
@@ -4006,7 +4088,8 @@
     ],
     "lat": 48.1758,
     "lon": 17.0497,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "CS Grevenmacher",
@@ -4022,7 +4105,8 @@
     ],
     "lat": 49.686868,
     "lon": 6.448519,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "CSKA (Sofia)",
@@ -4113,7 +4197,8 @@
     ],
     "lat": 42.684258,
     "lon": 23.339769,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "CSKA Moscow",
@@ -4199,7 +4284,8 @@
     ],
     "lat": 55.88527778,
     "lon": 37.45416667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "CSKA-CZ (Sofia)",
@@ -4215,7 +4301,8 @@
     ],
     "lat": 42.6977028,
     "lon": 23.3217359,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bulgaria"
   },
   {
     "name": "CWKS Warsaw",
@@ -4231,7 +4318,8 @@
     ],
     "lat": 52.2707255,
     "lon": 21.1807866,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Poland"
   },
   {
     "name": "Cagliari",
@@ -4247,7 +4335,8 @@
     ],
     "lat": 39.19969444444445,
     "lon": 9.137416666666667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Italy"
   },
   {
     "name": "Celje",
@@ -4268,7 +4357,8 @@
     ],
     "lat": 46.246667,
     "lon": 15.270278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Slovenia"
   },
   {
     "name": "Celtic",
@@ -4617,7 +4707,8 @@
     ],
     "lat": 45.435356,
     "lon": 10.968647,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Italy"
   },
   {
     "name": "Cliftonville",
@@ -4643,7 +4734,8 @@
     ],
     "lat": 54.619517,
     "lon": -5.947272,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Club Brugge",
@@ -4790,7 +4882,8 @@
     ],
     "lat": 55.1315912,
     "lon": -6.671861,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Northern Ireland"
   },
   {
     "name": "Connah's Quay Nomads",
@@ -4811,7 +4904,8 @@
     ],
     "lat": 53.225338,
     "lon": -3.076504,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Wales"
   },
   {
     "name": "Constructorul Chisinau",
@@ -4827,7 +4921,8 @@
     ],
     "lat": 46.9920515,
     "lon": 28.8540776,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Moldova"
   },
   {
     "name": "Cork Celtic",
@@ -4843,7 +4938,8 @@
     ],
     "lat": 51.885528,
     "lon": -8.46775,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Cork City",
@@ -4869,7 +4965,8 @@
     ],
     "lat": 51.885528,
     "lon": -8.46775,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Cork Hibernians",
@@ -4885,7 +4982,8 @@
     ],
     "lat": 51.891378,
     "lon": -8.436749,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Crevena Zvezda (Beograd)",
@@ -4901,7 +4999,8 @@
     ],
     "lat": 44.8153318,
     "lon": 20.4456588,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Serbia"
   },
   {
     "name": "Crusaders (Belfast)",
@@ -4942,7 +5041,8 @@
     ],
     "lat": 54.624294,
     "lon": -5.921925,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Crvena Zvezda (Beograd)",
@@ -5003,7 +5103,8 @@
     ],
     "lat": 44.78333,
     "lon": 20.46472,
-    "geocodeSource": "wikidata:club"
+    "geocodeSource": "wikidata:club",
+    "country": "Serbia"
   },
   {
     "name": "Csepel SC",
@@ -5019,7 +5120,8 @@
     ],
     "lat": 47.4181234,
     "lon": 19.0699298,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Hungary"
   },
   {
     "name": "Cwmbran Town",
@@ -5035,7 +5137,8 @@
     ],
     "lat": 51.6428,
     "lon": -3.02,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Wales"
   },
   {
     "name": "DOS (Utrecht)",
@@ -5051,7 +5154,8 @@
     ],
     "lat": 52.0907006,
     "lon": 5.1215634,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Netherlands"
   },
   {
     "name": "DWS (Amsterdam)",
@@ -5067,7 +5171,8 @@
     ],
     "lat": 52.343419,
     "lon": 4.854192,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "Dacia Chisinau",
@@ -5083,7 +5188,8 @@
     ],
     "lat": 46.980278,
     "lon": 28.866944,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Moldova"
   },
   {
     "name": "Daugava Daugavpils",
@@ -5099,7 +5205,8 @@
     ],
     "lat": 56.95516667,
     "lon": 24.15886111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Latvia"
   },
   {
     "name": "Debreceni VSC",
@@ -5145,7 +5252,8 @@
     ],
     "lat": 47.549573,
     "lon": 21.638882,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Decic (Tuzi)",
@@ -5161,7 +5269,8 @@
     ],
     "lat": 42.3599,
     "lon": 19.3264,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Montenegro"
   },
   {
     "name": "Deportivo (La Coruña)",
@@ -5187,7 +5296,8 @@
     ],
     "lat": 42.837111,
     "lon": -2.688044,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "Deportivo La Coruña",
@@ -5213,7 +5323,8 @@
     ],
     "lat": 43.368667,
     "lon": -8.417372,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "Derby County",
@@ -5234,7 +5345,8 @@
     ],
     "lat": 52.915,
     "lon": -1.4472222222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "England"
   },
   {
     "name": "Derry City",
@@ -5265,7 +5377,8 @@
     ],
     "lat": 54.990633,
     "lon": -7.336,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Differdange 03",
@@ -5281,7 +5394,8 @@
     ],
     "lat": 49.513932,
     "lon": 5.889775,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "Dinamo Batumi",
@@ -5302,7 +5416,8 @@
     ],
     "lat": 41.812981,
     "lon": 41.774458,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "Dinamo Bucharest",
@@ -5403,7 +5518,8 @@
     ],
     "lat": 44.455083,
     "lon": 26.102444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "Dinamo Kijev",
@@ -5589,7 +5705,8 @@
     ],
     "lat": 50.433333333333,
     "lon": 30.521666666667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Dinamo Kjiv",
@@ -5605,7 +5722,8 @@
     ],
     "lat": 50.4507026,
     "lon": 30.5313164,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Ukraine"
   },
   {
     "name": "Dinamo Kyiv",
@@ -5636,7 +5754,8 @@
     ],
     "lat": 50.4507026,
     "lon": 30.5313164,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Ukraine"
   },
   {
     "name": "Dinamo Minsk",
@@ -5672,7 +5791,8 @@
     ],
     "lat": 53.895138888889,
     "lon": 27.560277777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Dinamo Moskva",
@@ -5688,7 +5808,8 @@
     ],
     "lat": 55.7914,
     "lon": 37.5597,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Dinamo Tbilisi",
@@ -5769,7 +5890,8 @@
     ],
     "lat": 41.723,
     "lon": 44.78975,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "Dinamo Tiranë",
@@ -5795,7 +5917,8 @@
     ],
     "lat": 41.3384295,
     "lon": 19.8219434,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Albania"
   },
   {
     "name": "Distillery",
@@ -5811,7 +5934,8 @@
     ],
     "lat": 55.2017849,
     "lon": -6.5207306,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Northern Ireland"
   },
   {
     "name": "Djurgardens IF",
@@ -5852,7 +5976,8 @@
     ],
     "lat": 59.345278,
     "lon": 18.078889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "Dnepr Dnepropetrovsk",
@@ -5907,7 +6032,8 @@
     ],
     "lat": 48.460333,
     "lon": 35.032472,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ukraine"
   },
   {
     "name": "Domzale",
@@ -5928,7 +6054,8 @@
     ],
     "lat": 46.1394296,
     "lon": 14.5944553,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Slovenia"
   },
   {
     "name": "Drita (Gjilanë)",
@@ -5949,7 +6076,8 @@
     ],
     "lat": 42.466667,
     "lon": 21.464444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kosovo"
   },
   {
     "name": "Drogheda United",
@@ -5965,7 +6093,8 @@
     ],
     "lat": 53.723336,
     "lon": -6.357222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Drumcondra",
@@ -5991,7 +6120,8 @@
     ],
     "lat": 53.34972222222222,
     "lon": -6.260277777777778,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Ireland"
   },
   {
     "name": "Dukla Prague",
@@ -6052,7 +6182,8 @@
     ],
     "lat": 50.111389,
     "lon": 14.3875,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "Dunaferr FC",
@@ -6068,7 +6199,8 @@
     ],
     "lat": 46.955555555556,
     "lon": 18.947222222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Dundalk",
@@ -6139,7 +6271,8 @@
     ],
     "lat": 53.998944,
     "lon": -6.416917,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Dundee",
@@ -6155,7 +6288,8 @@
     ],
     "lat": 56.475264,
     "lon": -2.973194,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Scotland"
   },
   {
     "name": "Dundee United",
@@ -6171,7 +6305,8 @@
     ],
     "lat": 56.474703,
     "lon": -2.968961,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Scotland"
   },
   {
     "name": "Dynama Brest",
@@ -6187,7 +6322,8 @@
     ],
     "lat": 52.089722222222,
     "lon": 23.68375,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belarus"
   },
   {
     "name": "Dynamo (Tirana)",
@@ -6203,7 +6339,8 @@
     ],
     "lat": 29.7522,
     "lon": -95.3524,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "EB/Streymur",
@@ -6224,7 +6361,8 @@
     ],
     "lat": 62.1941,
     "lon": -7.0431,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Faroe Islands"
   },
   {
     "name": "EPA (Lárnaka)",
@@ -6240,7 +6378,8 @@
     ],
     "lat": 34.9236095,
     "lon": 33.6236184,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Cyprus"
   },
   {
     "name": "Eintracht Brunswick",
@@ -6256,7 +6395,8 @@
     ],
     "lat": 52.2901014,
     "lon": 10.5214686,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Germany"
   },
   {
     "name": "Eintracht Frankfurt",
@@ -6328,7 +6468,8 @@
     ],
     "lat": 55.7392,
     "lon": 24.3594,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Lithuania"
   },
   {
     "name": "Esbjerg FB",
@@ -6359,7 +6500,8 @@
     ],
     "lat": 55.481944,
     "lon": 8.439444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "Europa",
@@ -6375,7 +6517,8 @@
     ],
     "lat": 36.1097954,
     "lon": -5.3459402,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Gibraltar"
   },
   {
     "name": "Everton",
@@ -6401,7 +6544,8 @@
     ],
     "lat": 53.4250789,
     "lon": -3.0027851,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "England"
   },
   {
     "name": "F'91 Dudelange",
@@ -6422,7 +6566,8 @@
     ],
     "lat": 49.4799132,
     "lon": 6.0893963,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Luxembourg"
   },
   {
     "name": "FC Aarau",
@@ -6438,7 +6583,8 @@
     ],
     "lat": 47.383333,
     "lon": 8.06,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "FC Arges (Pitesti)",
@@ -6459,7 +6605,8 @@
     ],
     "lat": 44.846675,
     "lon": 24.866422,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "FC Baník Ostrava",
@@ -6490,7 +6637,8 @@
     ],
     "lat": 49.845111,
     "lon": 18.299392,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "FC Basel",
@@ -6576,7 +6724,8 @@
     ],
     "lat": 47.541389,
     "lon": 7.62,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "FC Basle",
@@ -6634,7 +6783,8 @@
     ],
     "lat": 42.4248111,
     "lon": 25.6257479,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Botev (Plovdiv)",
@@ -6650,7 +6800,8 @@
     ],
     "lat": 42.1418541,
     "lon": 24.7499297,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Carl Zeiss Jena",
@@ -6671,7 +6822,8 @@
     ],
     "lat": 50.915833,
     "lon": 11.582778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "FC Copenhagen",
@@ -6687,7 +6839,8 @@
     ],
     "lat": 55.702469,
     "lon": 12.572203,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "FC Etar (Veliko Tarnovo)",
@@ -6703,7 +6856,8 @@
     ],
     "lat": 43.077222,
     "lon": 25.620556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Farul Constanța",
@@ -6719,7 +6873,8 @@
     ],
     "lat": 44.1767161,
     "lon": 28.6507598,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Romania"
   },
   {
     "name": "FC Flora Tallinn",
@@ -6795,7 +6950,8 @@
     ],
     "lat": 59.421292,
     "lon": 24.73205,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Estonia"
   },
   {
     "name": "FC Girona",
@@ -6811,7 +6967,8 @@
     ],
     "lat": 41.961389,
     "lon": 2.828611,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "FC Haka (Valkeakoski)",
@@ -6862,7 +7019,8 @@
     ],
     "lat": 61.268056,
     "lon": 24.020278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "FC Hansa Rostock",
@@ -6878,7 +7036,8 @@
     ],
     "lat": 54.08495,
     "lon": 12.095188888889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "FC Jazz (Pori)",
@@ -6894,7 +7053,8 @@
     ],
     "lat": 61.486666666666665,
     "lon": 21.7975,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Finland"
   },
   {
     "name": "FC Karl-Marx-Stadt",
@@ -6910,7 +7070,8 @@
     ],
     "lat": 50.842186,
     "lon": 12.945669,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "FC Kuusysi (Lahti)",
@@ -6946,7 +7107,8 @@
     ],
     "lat": 60.986389,
     "lon": 25.650278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "FC København",
@@ -7037,7 +7199,8 @@
     ],
     "lat": 55.702469,
     "lon": 12.572203,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "FC Levski (Sofia)",
@@ -7068,7 +7231,8 @@
     ],
     "lat": 42.6977028,
     "lon": 23.3217359,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Levski-Spartak",
@@ -7126,7 +7290,8 @@
     ],
     "lat": 43.142639,
     "lon": 24.724861,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Lokomotiv (Sofia)",
@@ -7147,7 +7312,8 @@
     ],
     "lat": 42.737639,
     "lon": 23.314806,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Lucerne",
@@ -7163,7 +7329,8 @@
     ],
     "lat": 47.033264,
     "lon": 8.305187,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "FC Lugano",
@@ -7179,7 +7346,8 @@
     ],
     "lat": 46.023611,
     "lon": 8.961667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "FC Lusitans",
@@ -7200,7 +7368,8 @@
     ],
     "lat": 42.476389,
     "lon": 1.487667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Andorra"
   },
   {
     "name": "FC Metz",
@@ -7216,7 +7385,8 @@
     ],
     "lat": 49.109945,
     "lon": 6.159532,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "FC Midtjylland (Herning)",
@@ -7257,7 +7427,8 @@
     ],
     "lat": 56.11666667,
     "lon": 8.95166667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "FC Nantes",
@@ -7308,7 +7479,8 @@
     ],
     "lat": 47.2562611,
     "lon": -1.526533,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "France"
   },
   {
     "name": "FC Nantes-Atlantique",
@@ -7324,7 +7496,8 @@
     ],
     "lat": 47.2561,
     "lon": -1.52466,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "FC Nordsjælland (Farum)",
@@ -7345,7 +7518,8 @@
     ],
     "lat": 55.815847,
     "lon": 12.353289,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "FC Sankt Gallen",
@@ -7361,7 +7535,8 @@
     ],
     "lat": 47.408333,
     "lon": 9.306389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "FC Santa Coloma",
@@ -7417,7 +7592,8 @@
     ],
     "lat": 42.476389,
     "lon": 1.487667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Andorra"
   },
   {
     "name": "FC Schalke 04",
@@ -7478,7 +7654,8 @@
     ],
     "lat": 51.51027777777778,
     "lon": 7.094166666666666,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Germany"
   },
   {
     "name": "FC Sion",
@@ -7499,7 +7676,8 @@
     ],
     "lat": 46.233333,
     "lon": 7.376389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "FC Slovan Liberec",
@@ -7525,7 +7703,8 @@
     ],
     "lat": 50.766666666666666,
     "lon": 15.05,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Czech Republic"
   },
   {
     "name": "FC Spartak (Plovdiv)",
@@ -7651,7 +7830,8 @@
     ],
     "lat": 55.8178,
     "lon": 37.4403,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Thun",
@@ -7667,7 +7847,8 @@
     ],
     "lat": 46.744817,
     "lon": 7.606075,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "FC Timisoara",
@@ -7683,7 +7864,8 @@
     ],
     "lat": 45.740556,
     "lon": 21.244167,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "FC Tirol Innsbruck",
@@ -7714,7 +7896,8 @@
     ],
     "lat": 47.2586,
     "lon": 11.4055,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Austria"
   },
   {
     "name": "FC Trakia (Plovdiv)",
@@ -7730,7 +7913,8 @@
     ],
     "lat": 42.1418541,
     "lon": 24.7499297,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Twente (Enschede)",
@@ -7766,7 +7950,8 @@
     ],
     "lat": 52.236666666667,
     "lon": 6.8375,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "FC Vaslui",
@@ -7787,7 +7972,8 @@
     ],
     "lat": 46.639394,
     "lon": 27.7309515,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Romania"
   },
   {
     "name": "FC Vitosha (Sofia)",
@@ -7803,7 +7989,8 @@
     ],
     "lat": 42.59125,
     "lon": 23.36341667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "FC Zestaponi",
@@ -7824,7 +8011,8 @@
     ],
     "lat": 42.111213,
     "lon": 43.02568,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "FC Zurich",
@@ -7895,7 +8083,8 @@
     ],
     "lat": 47.382791,
     "lon": 8.503801,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "FC do Porto",
@@ -7911,7 +8100,8 @@
     ],
     "lat": 41.161758,
     "lon": -8.583933,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Portugal"
   },
   {
     "name": "FCI Levadia Tallinn",
@@ -7972,7 +8162,8 @@
     ],
     "lat": 59.421292,
     "lon": 24.73205,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Estonia"
   },
   {
     "name": "FCSB (Bucuresti)",
@@ -7993,7 +8184,8 @@
     ],
     "lat": 44.4372,
     "lon": 26.1525,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "FH (Hafnarfjörður)",
@@ -8044,7 +8236,8 @@
     ],
     "lat": 64.0695354,
     "lon": -21.9575664,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Iceland"
   },
   {
     "name": "FK Aqtöbe",
@@ -8080,7 +8273,8 @@
     ],
     "lat": 50.291389,
     "lon": 57.160278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kazakhstan"
   },
   {
     "name": "FK Astana",
@@ -8131,7 +8325,8 @@
     ],
     "lat": 51.1082,
     "lon": 71.4026,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kazakhstan"
   },
   {
     "name": "FK Austria (Vienna)",
@@ -8237,7 +8432,8 @@
     ],
     "lat": 48.162306,
     "lon": 16.386694,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Austria"
   },
   {
     "name": "FK Baki",
@@ -8258,7 +8454,8 @@
     ],
     "lat": 40.4287706,
     "lon": 49.8534774,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Azerbaijan"
   },
   {
     "name": "FK Bodø/Glimt",
@@ -8284,7 +8481,8 @@
     ],
     "lat": 67.2775,
     "lon": 14.384166666667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "FK Homel",
@@ -8300,7 +8498,8 @@
     ],
     "lat": 52.436527777778,
     "lon": 31.012361111111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belarus"
   },
   {
     "name": "FK Krasnodar",
@@ -8321,7 +8520,8 @@
     ],
     "lat": 45.025277777778,
     "lon": 38.999444444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "FK Liepaja",
@@ -8337,7 +8537,8 @@
     ],
     "lat": 56.502952,
     "lon": 20.995424,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Latvia"
   },
   {
     "name": "FK Liteks (Lovech)",
@@ -8353,7 +8554,8 @@
     ],
     "lat": 43.142639,
     "lon": 24.724861,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "FK Mladá Boleslav",
@@ -8369,7 +8571,8 @@
     ],
     "lat": 50.427083,
     "lon": 14.914783,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "FK Obilic (Beograd)",
@@ -8385,7 +8588,8 @@
     ],
     "lat": 44.791586,
     "lon": 20.494644,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Serbia"
   },
   {
     "name": "FK Partizani (Tirane)",
@@ -8451,7 +8655,8 @@
     ],
     "lat": 41.31898056,
     "lon": 19.81138333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "FK Rigas Futbola Skola",
@@ -8472,7 +8677,8 @@
     ],
     "lat": 56.9332,
     "lon": 24.0883,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Latvia"
   },
   {
     "name": "FK Rostov",
@@ -8488,7 +8694,8 @@
     ],
     "lat": 47.24301111,
     "lon": 39.76105278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "FK Sarajevo",
@@ -8529,7 +8736,8 @@
     ],
     "lat": 43.873888888889,
     "lon": 18.408611111111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bosnia and Herzegovina"
   },
   {
     "name": "FK Shamkir",
@@ -8550,7 +8758,8 @@
     ],
     "lat": 40.854527777778,
     "lon": 46.036222222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Azerbaijan"
   },
   {
     "name": "FK Skeid",
@@ -8566,7 +8775,8 @@
     ],
     "lat": 59.9406,
     "lon": 10.7752,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Norway"
   },
   {
     "name": "FK Teplice",
@@ -8582,7 +8792,8 @@
     ],
     "lat": 50.640075,
     "lon": 13.817936,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "FK Vardar (Skoplje)",
@@ -8633,7 +8844,8 @@
     ],
     "lat": 42.005733,
     "lon": 21.425592,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Serbia"
   },
   {
     "name": "FK Ventspils",
@@ -8674,7 +8886,8 @@
     ],
     "lat": 57.3873,
     "lon": 21.5704,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Latvia"
   },
   {
     "name": "FK Vojvodina (Novi Sad)",
@@ -8695,7 +8908,8 @@
     ],
     "lat": 45.24138888888889,
     "lon": 19.842222222222222,
-    "geocodeSource": "wikidata:club"
+    "geocodeSource": "wikidata:club",
+    "country": "Serbia"
   },
   {
     "name": "FK Yerevan",
@@ -8711,7 +8925,8 @@
     ],
     "lat": 40.180278,
     "lon": 44.494444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Armenia"
   },
   {
     "name": "FK Zeljeznicar (Sarajevo)",
@@ -8752,7 +8967,8 @@
     ],
     "lat": 43.846667,
     "lon": 18.387222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Serbia"
   },
   {
     "name": "Feijenoord",
@@ -8773,7 +8989,8 @@
     ],
     "lat": 51.893894444444,
     "lon": 4.5232527777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "Fenerbahçe SK",
@@ -8864,7 +9081,8 @@
     ],
     "lat": 39.9163214,
     "lon": 28.1721379,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Turkey"
   },
   {
     "name": "Fenerbahçe SK (Istanbul)",
@@ -8935,7 +9153,8 @@
     ],
     "lat": 41.006381,
     "lon": 28.9758715,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Turkey"
   },
   {
     "name": "Ferencváros (Budapest)",
@@ -8991,7 +9210,8 @@
     ],
     "lat": 47.475277777778,
     "lon": 19.096111111111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Ferencvárosi TC",
@@ -9042,7 +9262,8 @@
     ],
     "lat": 47.475277777778,
     "lon": 19.096111111111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Feronikeli",
@@ -9058,7 +9279,8 @@
     ],
     "lat": 42.616446,
     "lon": 20.903551,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kosovo"
   },
   {
     "name": "Feyenoord",
@@ -9241,7 +9463,8 @@
     ],
     "lat": 35.894863888889,
     "lon": 14.415372222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Malta"
   },
   {
     "name": "Fola Esch",
@@ -9272,7 +9495,8 @@
     ],
     "lat": 49.492222222222,
     "lon": 5.9897222222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "Folgore",
@@ -9337,7 +9561,8 @@
     ],
     "lat": 64.143555555556,
     "lon": -21.878972222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Iceland"
   },
   {
     "name": "Fredrikstad FK",
@@ -9363,7 +9588,8 @@
     ],
     "lat": 59.213049,
     "lon": 10.92732,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "GI (Gotu)",
@@ -9379,7 +9605,8 @@
     ],
     "lat": 62.1933671,
     "lon": -6.7462865,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Faroe Islands"
   },
   {
     "name": "Galatasaray (Istanbul)",
@@ -9540,7 +9767,8 @@
     ],
     "lat": 41.10338888888889,
     "lon": 28.991,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Turkey"
   },
   {
     "name": "Girondins de Bordeaux",
@@ -9586,7 +9814,8 @@
     ],
     "lat": 44.829167,
     "lon": -0.598056,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "Glenavon",
@@ -9602,7 +9831,8 @@
     ],
     "lat": 54.453889,
     "lon": -6.336389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Glentoran",
@@ -9673,7 +9903,8 @@
     ],
     "lat": 54.602964,
     "lon": -5.891319,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Gornik Zabrze",
@@ -9744,7 +9975,8 @@
     ],
     "lat": 50.296317,
     "lon": 18.768564,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Grasshopper-Club Zurich",
@@ -9815,7 +10047,8 @@
     ],
     "lat": 47.37444444444444,
     "lon": 8.54111111111111,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Switzerland"
   },
   {
     "name": "Grazer AK",
@@ -9841,7 +10074,8 @@
     ],
     "lat": 47.1088265,
     "lon": 15.4006621,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Austria"
   },
   {
     "name": "Gwardia Warszawa",
@@ -9862,7 +10096,8 @@
     ],
     "lat": 52.23,
     "lon": 21.011111111111113,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Poland"
   },
   {
     "name": "HB (Tórshavn)",
@@ -9923,7 +10158,8 @@
     ],
     "lat": 62.0101396,
     "lon": -6.7715709,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Faroe Islands"
   },
   {
     "name": "HIFK (Helsinki)",
@@ -9944,7 +10180,8 @@
     ],
     "lat": 60.1875,
     "lon": 24.9225,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "HJK (Helsinki)",
@@ -10075,7 +10312,8 @@
     ],
     "lat": 60.1875,
     "lon": 24.9225,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "HPS (Helsinki)",
@@ -10091,7 +10329,8 @@
     ],
     "lat": 60.170833333333334,
     "lon": 24.9375,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Finland"
   },
   {
     "name": "HSK Zrinjski Mostar",
@@ -10142,7 +10381,8 @@
     ],
     "lat": 43.345556,
     "lon": 17.795278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bosnia and Herzegovina"
   },
   {
     "name": "Halmstads BK",
@@ -10173,7 +10413,8 @@
     ],
     "lat": 56.673972222222226,
     "lon": 12.857277777777778,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Sweden"
   },
   {
     "name": "Hamburger SV",
@@ -10230,7 +10471,8 @@
     ],
     "lat": 59.29138889,
     "lon": 18.08527778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "Hamrun Spartans",
@@ -10271,7 +10513,8 @@
     ],
     "lat": 35.8873,
     "lon": 14.4925,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Malta"
   },
   {
     "name": "Hapoel Beer-Sheva",
@@ -10297,7 +10540,8 @@
     ],
     "lat": 31.2731,
     "lon": 34.7794,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Israel"
   },
   {
     "name": "Hapoel Haifa",
@@ -10313,7 +10557,8 @@
     ],
     "lat": 32.78311111111111,
     "lon": 34.96516666666667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Israel"
   },
   {
     "name": "Hapoel Tel Aviv",
@@ -10334,7 +10579,8 @@
     ],
     "lat": 32.05173,
     "lon": 34.76148,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Israel"
   },
   {
     "name": "Heart Of Midlothian",
@@ -10360,7 +10606,8 @@
     ],
     "lat": 55.939055555555555,
     "lon": -3.2324444444444445,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Scotland"
   },
   {
     "name": "Hellas-Verona",
@@ -10376,7 +10623,8 @@
     ],
     "lat": 45.43861111111111,
     "lon": 10.992777777777778,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Italy"
   },
   {
     "name": "Helsingborg IF",
@@ -10392,7 +10640,8 @@
     ],
     "lat": 56.049444444444,
     "lon": 12.706944444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "Helsingborgs IF",
@@ -10408,7 +10657,8 @@
     ],
     "lat": 56.049444444444,
     "lon": 12.706944444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "Herfølge BK",
@@ -10424,7 +10674,8 @@
     ],
     "lat": 55.413578,
     "lon": 12.134153,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "Hertha BSC",
@@ -10440,7 +10691,8 @@
     ],
     "lat": 52.516666666667,
     "lon": 13.383333333333,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Germany"
   },
   {
     "name": "Hibernian (Edinburgh)",
@@ -10456,7 +10708,8 @@
     ],
     "lat": 55.961666666667,
     "lon": -3.1655555555556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Scotland"
   },
   {
     "name": "Hibernians (Paola)",
@@ -10522,7 +10775,8 @@
     ],
     "lat": 35.882861111111,
     "lon": 14.513027777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Malta"
   },
   {
     "name": "Honved",
@@ -10563,7 +10817,8 @@
     ],
     "lat": 46.2246303,
     "lon": 20.4950847,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Hungary"
   },
   {
     "name": "Honved (Budapest)",
@@ -10579,7 +10834,8 @@
     ],
     "lat": 47.481849,
     "lon": 19.1449053,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Hungary"
   },
   {
     "name": "Hvidovre IF",
@@ -10605,7 +10861,8 @@
     ],
     "lat": 55.63126400322553,
     "lon": 12.482829597927397,
-    "geocodeSource": "wikidata:club"
+    "geocodeSource": "wikidata:club",
+    "country": "Denmark"
   },
   {
     "name": "IA (Akranes)",
@@ -10661,7 +10918,8 @@
     ],
     "lat": 64.3170806,
     "lon": -22.0833512,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Iceland"
   },
   {
     "name": "IBK (Keflavik)",
@@ -10692,7 +10950,8 @@
     ],
     "lat": 63.9997694,
     "lon": -22.5565373,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Iceland"
   },
   {
     "name": "IBV (Vestmannaeyjar)",
@@ -10718,7 +10977,8 @@
     ],
     "lat": 63.439414,
     "lon": -20.28795,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Iceland"
   },
   {
     "name": "IF Elfsborg (Borås)",
@@ -10739,7 +10999,8 @@
     ],
     "lat": 57.73457,
     "lon": 12.934334,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "IFK Gothenburg",
@@ -10780,7 +11041,8 @@
     ],
     "lat": 57.6920423,
     "lon": 11.9545752,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Sweden"
   },
   {
     "name": "IFK Göteborg",
@@ -10836,7 +11098,8 @@
     ],
     "lat": 57.6986625,
     "lon": 12.0445455,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Sweden"
   },
   {
     "name": "IFK Malmo",
@@ -10852,7 +11115,8 @@
     ],
     "lat": 55.586111111111,
     "lon": 12.989166666667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "IFK Mariehamn",
@@ -10868,7 +11132,8 @@
     ],
     "lat": 60.102222,
     "lon": 19.935278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "IFK Norrkoping",
@@ -10904,7 +11169,8 @@
     ],
     "lat": 58.584166666667,
     "lon": 16.173055555556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "IK Start",
@@ -10920,7 +11186,8 @@
     ],
     "lat": 58.153611,
     "lon": 8.028611,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Ilves (Tampere)",
@@ -10936,7 +11203,8 @@
     ],
     "lat": 61.500278,
     "lon": 23.785278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "Infonet Tallinn",
@@ -10952,7 +11220,8 @@
     ],
     "lat": 59.437222222222,
     "lon": 24.745,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Estonia"
   },
   {
     "name": "Inter Baki",
@@ -10973,7 +11242,8 @@
     ],
     "lat": 40.410986,
     "lon": 49.897711,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Azerbaijan"
   },
   {
     "name": "Inter Milan",
@@ -11120,7 +11390,8 @@
     ],
     "lat": 60.442778,
     "lon": 22.291667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "Inter d'Escaldes",
@@ -11146,7 +11417,8 @@
     ],
     "lat": 42.508889,
     "lon": 1.540833,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Andorra"
   },
   {
     "name": "Internazionale FC",
@@ -11172,7 +11444,8 @@
     ],
     "lat": 45.079166666666666,
     "lon": 7.676111111111111,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Italy"
   },
   {
     "name": "Ipswich Town",
@@ -11188,7 +11461,8 @@
     ],
     "lat": 52.055,
     "lon": 1.1452777777777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "England"
   },
   {
     "name": "Ironi Kiriat-Shmona",
@@ -11221,7 +11495,8 @@
     ],
     "lat": 52.276383,
     "lon": 76.949712,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kazakhstan"
   },
   {
     "name": "Istanbul Basaksehir FK",
@@ -11247,7 +11522,8 @@
     ],
     "lat": 41.074472222222,
     "lon": 28.765702777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Turkey"
   },
   {
     "name": "Jagiellonia Białystok",
@@ -11263,7 +11539,8 @@
     ],
     "lat": 53.105556,
     "lon": 23.148889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Juventus",
@@ -11485,7 +11762,8 @@
     ],
     "lat": 65.6839036,
     "lon": -18.1121756,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Iceland"
   },
   {
     "name": "KB (Copenhagen)",
@@ -11516,7 +11794,8 @@
     ],
     "lat": 55.6867243,
     "lon": 12.5700724,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Denmark"
   },
   {
     "name": "KF Egnatia",
@@ -11532,7 +11811,8 @@
     ],
     "lat": 41.076111111111,
     "lon": 19.666666666667,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Albania"
   },
   {
     "name": "KF Elbasani",
@@ -11548,7 +11828,8 @@
     ],
     "lat": 41.115875,
     "lon": 20.091992,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "KF Tirana",
@@ -11599,7 +11880,8 @@
     ],
     "lat": 41.31898056,
     "lon": 19.81138333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "KPV (Kokkola)",
@@ -11615,7 +11897,8 @@
     ],
     "lat": 63.8375831,
     "lon": 23.1319617,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Finland"
   },
   {
     "name": "KR (Reykjavik)",
@@ -11676,7 +11959,8 @@
     ],
     "lat": 64.145683,
     "lon": -21.967728,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Iceland"
   },
   {
     "name": "KS Dinamo (Tirana)",
@@ -11697,7 +11981,8 @@
     ],
     "lat": 41.3281482,
     "lon": 19.8184435,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Albania"
   },
   {
     "name": "KS Labinoti (Elbasan)",
@@ -11713,7 +11998,8 @@
     ],
     "lat": 41.115875,
     "lon": 20.091992,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "KS Vllaznia (Shkodër)",
@@ -11744,7 +12030,8 @@
     ],
     "lat": 42.070031,
     "lon": 19.506558,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "KV Mechelen",
@@ -11760,7 +12047,8 @@
     ],
     "lat": 51.037222,
     "lon": 4.486389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "Kairat Almaty",
@@ -11781,7 +12069,8 @@
     ],
     "lat": 43.238331,
     "lon": 76.92435,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kazakhstan"
   },
   {
     "name": "Kalju Nõmme",
@@ -11802,7 +12091,8 @@
     ],
     "lat": 59.385456,
     "lon": 24.659603,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Estonia"
   },
   {
     "name": "Kalmar FF",
@@ -11818,7 +12108,8 @@
     ],
     "lat": 56.69070278,
     "lon": 16.31523333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "Kapaz (Gänjä)",
@@ -11834,7 +12125,8 @@
     ],
     "lat": 40.706111111111,
     "lon": 46.361944444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Azerbaijan"
   },
   {
     "name": "Kareda Siauliai",
@@ -11855,7 +12147,8 @@
     ],
     "lat": 54.9,
     "lon": 23.933333333333,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Lithuania"
   },
   {
     "name": "Kilmarnock",
@@ -11871,7 +12164,8 @@
     ],
     "lat": 55.604225,
     "lon": -4.508122,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Scotland"
   },
   {
     "name": "Kispest-Honved",
@@ -11892,7 +12186,8 @@
     ],
     "lat": 47.4425,
     "lon": 19.155103,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Koge BK",
@@ -11908,7 +12203,8 @@
     ],
     "lat": 55.4681,
     "lon": 12.1778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "Koper",
@@ -11924,7 +12220,8 @@
     ],
     "lat": 45.5479864,
     "lon": 13.7304781,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Slovenia"
   },
   {
     "name": "KuPS (Kuopio)",
@@ -11955,7 +12252,8 @@
     ],
     "lat": 62.884444,
     "lon": 27.670833,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "Kukësi",
@@ -11976,7 +12274,8 @@
     ],
     "lat": 42.07888888888889,
     "lon": 20.420277777777777,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "KÍ (Klaksvík)",
@@ -12012,7 +12311,8 @@
     ],
     "lat": 62.2254921,
     "lon": -6.5837755,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Faroe Islands"
   },
   {
     "name": "LASK Linz",
@@ -12028,7 +12328,8 @@
     ],
     "lat": 48.293333,
     "lon": 14.276389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Austria"
   },
   {
     "name": "LKS (Lódz)",
@@ -12049,7 +12350,8 @@
     ],
     "lat": 51.75875,
     "lon": 19.42675,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "La Chaux-de-Fonds",
@@ -12065,7 +12367,8 @@
     ],
     "lat": 47.1031321,
     "lon": 6.8325778,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Switzerland"
   },
   {
     "name": "La Fiorita",
@@ -12096,7 +12399,8 @@
     ],
     "lat": 43.97125,
     "lon": 12.476972,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "San Marino"
   },
   {
     "name": "Lantana Tallinn",
@@ -12112,7 +12416,8 @@
     ],
     "lat": 59.506592,
     "lon": 24.82805,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Estonia"
   },
   {
     "name": "Larissa",
@@ -12128,7 +12433,8 @@
     ],
     "lat": 39.6383092,
     "lon": 22.4160706,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Greece"
   },
   {
     "name": "Larne",
@@ -12149,7 +12455,8 @@
     ],
     "lat": 54.84980278,
     "lon": -5.82625833,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Lausanne-Sports",
@@ -12165,7 +12472,8 @@
     ],
     "lat": 46.5342814,
     "lon": 6.6251266,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Switzerland"
   },
   {
     "name": "Lech Poznan",
@@ -12216,7 +12524,8 @@
     ],
     "lat": 52.397222,
     "lon": 16.858056,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Leeds United",
@@ -12328,7 +12637,8 @@
     ],
     "lat": 52.220461,
     "lon": 21.040628,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Leicester City",
@@ -12344,7 +12654,8 @@
     ],
     "lat": 52.620277777778,
     "lon": -1.1422222222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "England"
   },
   {
     "name": "Leotar (Trebinje)",
@@ -12360,7 +12671,8 @@
     ],
     "lat": 42.708821,
     "lon": 18.352743,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bosnia and Herzegovina"
   },
   {
     "name": "Levski Sofia",
@@ -12396,7 +12708,8 @@
     ],
     "lat": 42.705467,
     "lon": 23.363197,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "Levski-Spartak (Sofia)",
@@ -12412,7 +12725,8 @@
     ],
     "lat": 42.6977028,
     "lon": 23.3217359,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bulgaria"
   },
   {
     "name": "Liepajas Metalurgs",
@@ -12433,7 +12747,8 @@
     ],
     "lat": 56.502952,
     "lon": 20.995424,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Latvia"
   },
   {
     "name": "Lierse SK",
@@ -12454,7 +12769,8 @@
     ],
     "lat": 51.144167,
     "lon": 4.573611,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "Lille OSC",
@@ -12510,7 +12826,8 @@
     ],
     "lat": 50.611962,
     "lon": 3.130631,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "Lillestrom SK",
@@ -12546,7 +12863,8 @@
     ],
     "lat": 59.962752,
     "lon": 11.063458,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Limerick United",
@@ -12567,7 +12885,8 @@
     ],
     "lat": 52.674167,
     "lon": -8.6425,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Lincoln FC",
@@ -12623,7 +12942,8 @@
     ],
     "lat": 36.149356,
     "lon": -5.350342,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Gibraltar"
   },
   {
     "name": "Linfield",
@@ -12789,7 +13109,8 @@
     ],
     "lat": 54.5825,
     "lon": -5.955,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Linzer ASK",
@@ -12805,7 +13126,8 @@
     ],
     "lat": 48.293333,
     "lon": 14.276389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Austria"
   },
   {
     "name": "Liverpool",
@@ -12972,7 +13294,8 @@
     ],
     "lat": 51.686944,
     "lon": -4.175278,
-    "geocodeSource": "wikidata:club"
+    "geocodeSource": "wikidata:club",
+    "country": "Wales"
   },
   {
     "name": "Lokomotiv (Plovdiv)",
@@ -13028,7 +13351,8 @@
     ],
     "lat": 55.80355,
     "lon": 37.741169,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "Lokomotiva Zagreb",
@@ -13044,7 +13368,8 @@
     ],
     "lat": 45.818858333333,
     "lon": 16.018077777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Croatia"
   },
   {
     "name": "Ludogorets Razgrad",
@@ -13120,7 +13445,8 @@
     ],
     "lat": 43.53361111,
     "lon": 26.5275,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Bulgaria"
   },
   {
     "name": "Lyngby BK",
@@ -13141,7 +13467,8 @@
     ],
     "lat": 55.78213467351304,
     "lon": 12.506410426770579,
-    "geocodeSource": "wikidata:club"
+    "geocodeSource": "wikidata:club",
+    "country": "Denmark"
   },
   {
     "name": "MFK Ruzomberok",
@@ -13157,7 +13484,8 @@
     ],
     "lat": 49.0825,
     "lon": 19.28388889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Slovakia"
   },
   {
     "name": "MPKC Mozyr",
@@ -13173,7 +13501,8 @@
     ],
     "lat": 52.038888888889,
     "lon": 29.276805555556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belarus"
   },
   {
     "name": "MSK Zilina",
@@ -13219,7 +13548,8 @@
     ],
     "lat": 49.229167,
     "lon": 18.744722,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Slovakia"
   },
   {
     "name": "MTK (Budapest)",
@@ -13245,7 +13575,8 @@
     ],
     "lat": 47.490919444444,
     "lon": 19.106725,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "MTK Hungária (Budapest)",
@@ -13266,7 +13597,8 @@
     ],
     "lat": 47.490919444444,
     "lon": 19.106725,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "MTK-VM (Budapest)",
@@ -13282,7 +13614,8 @@
     ],
     "lat": 47.490919444444,
     "lon": 19.106725,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Maccabi Haifa",
@@ -13348,7 +13681,8 @@
     ],
     "lat": 32.827322,
     "lon": 34.981284,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Israel"
   },
   {
     "name": "Maccabi Tel-Aviv",
@@ -13414,7 +13748,8 @@
     ],
     "lat": 32.05173,
     "lon": 34.76148,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Israel"
   },
   {
     "name": "Makedonija Skopje",
@@ -13430,7 +13765,8 @@
     ],
     "lat": 42.00222222,
     "lon": 21.36,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "North Macedonia"
   },
   {
     "name": "Malmö FF",
@@ -13884,7 +14220,8 @@
     ],
     "lat": 46.5625,
     "lon": 15.640556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Slovenia"
   },
   {
     "name": "Marsaxlokk",
@@ -13900,7 +14237,8 @@
     ],
     "lat": 35.841667,
     "lon": 14.544722,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Malta"
   },
   {
     "name": "Marseille",
@@ -14007,7 +14345,8 @@
     ],
     "lat": 49.980858,
     "lon": 36.261703,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ukraine"
   },
   {
     "name": "Milan",
@@ -14204,7 +14543,8 @@
     ],
     "lat": 47.3744,
     "lon": 28.8192,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Moldova"
   },
   {
     "name": "Mladost Podgorica",
@@ -14220,7 +14560,8 @@
     ],
     "lat": 42.438361,
     "lon": 19.271556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Montenegro"
   },
   {
     "name": "Modrica Maksima",
@@ -14258,7 +14599,8 @@
     ],
     "lat": 42.2863,
     "lon": 18.8507,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Montenegro"
   },
   {
     "name": "Molde FK",
@@ -14299,7 +14641,8 @@
     ],
     "lat": 62.73341,
     "lon": 7.14813,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Monaco",
@@ -14421,7 +14764,8 @@
     ],
     "lat": 43.62061,
     "lon": 3.81279,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "Moss FK",
@@ -14437,7 +14781,8 @@
     ],
     "lat": 59.42083333,
     "lon": 10.67138889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Motherwell",
@@ -14453,7 +14798,8 @@
     ],
     "lat": 55.779947,
     "lon": -3.980078,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Scotland"
   },
   {
     "name": "Mura (Murska Sobota)",
@@ -14469,7 +14815,8 @@
     ],
     "lat": 46.6624644,
     "lon": 16.1655256,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Slovenia"
   },
   {
     "name": "Murata",
@@ -14490,7 +14837,8 @@
     ],
     "lat": 43.9183541,
     "lon": 12.4523645,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "San Marino"
   },
   {
     "name": "MyPa (Anjalankoski)",
@@ -14506,7 +14854,8 @@
     ],
     "lat": 60.772778,
     "lon": 26.790278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "Málaga CF",
@@ -14522,7 +14871,8 @@
     ],
     "lat": 36.734092,
     "lon": -4.426422,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "ND Gorica",
@@ -14548,7 +14898,8 @@
     ],
     "lat": 45.955931,
     "lon": 13.641563,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Slovenia"
   },
   {
     "name": "NK Croatia (Zagreb)",
@@ -14569,7 +14920,8 @@
     ],
     "lat": 45.8364,
     "lon": 16.1075,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Croatia"
   },
   {
     "name": "NK Dinamo (Zagreb)",
@@ -14705,7 +15057,8 @@
     ],
     "lat": 45.818858333333,
     "lon": 16.018077777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Serbia"
   },
   {
     "name": "NK Hajduk (Split)",
@@ -14771,7 +15124,8 @@
     ],
     "lat": 43.519444,
     "lon": 16.431667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Serbia"
   },
   {
     "name": "NK Rijeka",
@@ -14792,7 +15146,8 @@
     ],
     "lat": 45.339202,
     "lon": 14.380959,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Croatia"
   },
   {
     "name": "NSÍ (Runavík)",
@@ -14808,7 +15163,8 @@
     ],
     "lat": 62.105833,
     "lon": -6.723333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Faroe Islands"
   },
   {
     "name": "Neftchi Baki",
@@ -14834,7 +15190,8 @@
     ],
     "lat": 40.3464922,
     "lon": 49.8374895,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Azerbaijan"
   },
   {
     "name": "Neftchi Baku",
@@ -14850,7 +15207,8 @@
     ],
     "lat": 40.400163,
     "lon": 49.944019,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Azerbaijan"
   },
   {
     "name": "Neftci Baki",
@@ -14876,7 +15234,8 @@
     ],
     "lat": 40.400163,
     "lon": 49.944019,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Azerbaijan"
   },
   {
     "name": "Neuchatel Xamax",
@@ -14897,7 +15256,8 @@
     ],
     "lat": 46.9952,
     "lon": 6.944,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "Newcastle United",
@@ -14923,7 +15283,8 @@
     ],
     "lat": 54.975555555556,
     "lon": -1.6216666666667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "England"
   },
   {
     "name": "Norma Tallinn",
@@ -14944,7 +15305,8 @@
     ],
     "lat": 59.437222222222,
     "lon": 24.745,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Estonia"
   },
   {
     "name": "Nottingham Forest",
@@ -15001,7 +15363,8 @@
     ],
     "lat": 55.3997225,
     "lon": 10.3852104,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Denmark"
   },
   {
     "name": "OGC Nice",
@@ -15027,7 +15390,8 @@
     ],
     "lat": 43.70513,
     "lon": 7.19262,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "OPS (Oulu)",
@@ -15048,7 +15412,8 @@
     ],
     "lat": 65.0117914,
     "lon": 25.4701973,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Finland"
   },
   {
     "name": "Olimpi Rustavi",
@@ -15069,7 +15434,8 @@
     ],
     "lat": 41.541,
     "lon": 45.006944,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "Olimpia",
@@ -15085,7 +15451,8 @@
     ],
     "lat": 14.098447222222223,
     "lon": -87.20395833333333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kosovo"
   },
   {
     "name": "Olympiakos (Peiraías)",
@@ -15281,7 +15648,8 @@
     ],
     "lat": 37.946169,
     "lon": 23.664536,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Greece"
   },
   {
     "name": "Olympique Lyonnais",
@@ -15387,7 +15755,8 @@
     ],
     "lat": 45.765224,
     "lon": 4.982131,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "Olympique de Marseille",
@@ -15403,7 +15772,8 @@
     ],
     "lat": 43.269241,
     "lon": 5.394907,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "Omonia (Lefkosia)",
@@ -15509,7 +15879,8 @@
     ],
     "lat": 34.948617,
     "lon": 33.587873,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "Omonia Nicosia",
@@ -15525,7 +15896,8 @@
     ],
     "lat": 35.168,
     "lon": 33.3558,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "Ordabasi Shimkent",
@@ -15558,7 +15930,8 @@
     ],
     "lat": 57.7075,
     "lon": 11.9675,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Sweden"
   },
   {
     "name": "Osters IF",
@@ -15584,7 +15957,8 @@
     ],
     "lat": 56.879722222222,
     "lon": 14.776388888889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Sweden"
   },
   {
     "name": "Osters IF Vaxjo",
@@ -15600,7 +15974,8 @@
     ],
     "lat": 56.889029924861,
     "lon": 14.802795326212,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Sweden"
   },
   {
     "name": "Otelul Galati",
@@ -15616,7 +15991,8 @@
     ],
     "lat": 45.430236,
     "lon": 28.022378,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "PAOK (Thessaloniki)",
@@ -15677,7 +16053,8 @@
     ],
     "lat": 40.613839,
     "lon": 22.972422,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Greece"
   },
   {
     "name": "PSV",
@@ -15698,7 +16075,8 @@
     ],
     "lat": 51.411667,
     "lon": 5.479444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "PSV Eindhoven",
@@ -16158,7 +16536,8 @@
     ],
     "lat": 44.794916666667,
     "lon": 10.338444444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Italy"
   },
   {
     "name": "Partizan",
@@ -16240,7 +16619,8 @@
     ],
     "lat": 44.7804491,
     "lon": 20.4558399,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Kosovo"
   },
   {
     "name": "Partizan Beograd",
@@ -16266,7 +16646,8 @@
     ],
     "lat": 44.78874444444445,
     "lon": 20.459097222222223,
-    "geocodeSource": "wikidata:club"
+    "geocodeSource": "wikidata:club",
+    "country": "Serbia"
   },
   {
     "name": "Paços de Ferreira",
@@ -16282,7 +16663,8 @@
     ],
     "lat": 41.271388888888886,
     "lon": -8.385277777777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Portugal"
   },
   {
     "name": "Petrocub Hîncești",
@@ -16298,7 +16680,8 @@
     ],
     "lat": 46.825284,
     "lon": 28.586687,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Moldova"
   },
   {
     "name": "Petrolul Ploiesti",
@@ -16324,7 +16707,8 @@
     ],
     "lat": 44.940278,
     "lon": 26.033333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "Pezoporikos (Larnaca)",
@@ -16340,7 +16724,8 @@
     ],
     "lat": 34.914167,
     "lon": 33.628333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Cyprus"
   },
   {
     "name": "Piast Gliwice",
@@ -16356,7 +16741,8 @@
     ],
     "lat": 50.306583,
     "lon": 18.695866,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Pobeda Prilep",
@@ -16377,7 +16763,8 @@
     ],
     "lat": 41.343611,
     "lon": 21.561944,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "North Macedonia"
   },
   {
     "name": "Polonia Bytom",
@@ -16398,7 +16785,8 @@
     ],
     "lat": 50.35755833,
     "lon": 18.89871667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Polonia Warszawa",
@@ -16414,7 +16802,8 @@
     ],
     "lat": 52.2138636,
     "lon": 21.0037346,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Poland"
   },
   {
     "name": "Portadown",
@@ -16440,7 +16829,8 @@
     ],
     "lat": 54.413056,
     "lon": -6.457778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Northern Ireland"
   },
   {
     "name": "Porto",
@@ -16647,7 +17037,8 @@
     ],
     "lat": 42.66297,
     "lon": 21.15688,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kosovo"
   },
   {
     "name": "Progres Niedercorn",
@@ -16668,7 +17059,8 @@
     ],
     "lat": 49.546111111111,
     "lon": 5.9033694444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "Pyunik Yerevan",
@@ -16744,7 +17136,8 @@
     ],
     "lat": 40.22111111,
     "lon": 44.55527778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Armenia"
   },
   {
     "name": "Qarabag Agdam",
@@ -16805,7 +17198,8 @@
     ],
     "lat": 40.4212,
     "lon": 49.9968,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Azerbaijan"
   },
   {
     "name": "RB Leipzig",
@@ -16851,7 +17245,8 @@
     ],
     "lat": 51.345833,
     "lon": 12.348056,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "RC Celta (Vigo)",
@@ -16867,7 +17262,8 @@
     ],
     "lat": 42.211861,
     "lon": -8.740328,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "RC Lens",
@@ -16893,7 +17289,8 @@
     ],
     "lat": 50.4329,
     "lon": 2.81491,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "RC Strasbourg",
@@ -16909,7 +17306,8 @@
     ],
     "lat": 48.55942,
     "lon": 7.75738,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "RCD Mallorca",
@@ -16930,7 +17328,8 @@
     ],
     "lat": 39.6443,
     "lon": 2.66667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "RFC Antwerp",
@@ -16951,7 +17350,8 @@
     ],
     "lat": 51.2327,
     "lon": 4.471575,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "RSC Anderlecht",
@@ -17132,7 +17532,8 @@
     ],
     "lat": 50.69283333333333,
     "lon": 4.205,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Belgium"
   },
   {
     "name": "RWD Molenbeek",
@@ -17148,7 +17549,8 @@
     ],
     "lat": 50.855,
     "lon": 4.310556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "Rabat Ajax",
@@ -17169,7 +17571,8 @@
     ],
     "lat": 35.89277778,
     "lon": 14.40138889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Malta"
   },
   {
     "name": "Rabotnicki Skopje",
@@ -17200,7 +17603,8 @@
     ],
     "lat": 42.005833333333,
     "lon": 21.425555555556,
-    "geocodeSource": "wikidata:club"
+    "geocodeSource": "wikidata:club",
+    "country": "North Macedonia"
   },
   {
     "name": "Racing Genk",
@@ -17246,7 +17650,8 @@
     ],
     "lat": 51.005,
     "lon": 5.533333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "Raków Częstochowa",
@@ -17262,7 +17667,8 @@
     ],
     "lat": 50.7767,
     "lon": 19.1592,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Ranger's",
@@ -17278,7 +17684,8 @@
     ],
     "lat": 24.8495272,
     "lon": 67.0202885,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Andorra"
   },
   {
     "name": "Rangers (Glasgow)",
@@ -17464,7 +17871,8 @@
     ],
     "lat": 55.85305555555556,
     "lon": -4.309166666666667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Scotland"
   },
   {
     "name": "Rapid Bucharest",
@@ -17490,7 +17898,8 @@
     ],
     "lat": 44.455888888888886,
     "lon": 26.056805555555556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "Rapid JC Heerlen",
@@ -17523,7 +17932,8 @@
     ],
     "lat": 37.3517,
     "lon": -5.98222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "Real Madrid",
@@ -17845,7 +18255,8 @@
     ],
     "lat": 43.301378,
     "lon": -1.973617,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "Red Boys (Differdange)",
@@ -17861,7 +18272,8 @@
     ],
     "lat": 49.522158333333,
     "lon": 5.875475,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "Red Bull Salzburg",
@@ -17957,7 +18369,8 @@
     ],
     "lat": 47.81625,
     "lon": 12.998222222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Austria"
   },
   {
     "name": "Red Star Belgrade",
@@ -18090,7 +18503,8 @@
     ],
     "lat": 60.9803806,
     "lon": 25.654988,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Finland"
   },
   {
     "name": "Renova Cepciste",
@@ -18123,7 +18537,8 @@
     ],
     "lat": 53.3189,
     "lon": -3.47611,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Wales"
   },
   {
     "name": "Riga FC",
@@ -18149,7 +18564,8 @@
     ],
     "lat": 56.961372,
     "lon": 24.116408,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Latvia"
   },
   {
     "name": "Roma",
@@ -18381,7 +18797,8 @@
     ],
     "lat": 63.4125,
     "lon": 10.405,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Rot-Weiss Essen",
@@ -18397,7 +18814,8 @@
     ],
     "lat": 51.486667,
     "lon": 6.976389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "Rubin Kazan",
@@ -18423,7 +18841,8 @@
     ],
     "lat": 55.796944,
     "lon": 49.098889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Ruch Chorzow",
@@ -18454,7 +18873,8 @@
     ],
     "lat": 50.282203,
     "lon": 18.944178,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Rudar Pljevlja",
@@ -18475,7 +18895,8 @@
     ],
     "lat": 43.362349,
     "lon": 19.362245,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Montenegro"
   },
   {
     "name": "Rába Vasas ETO (Györ)",
@@ -18496,7 +18917,8 @@
     ],
     "lat": 47.6835029,
     "lon": 17.6342832,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Hungary"
   },
   {
     "name": "SC Braga",
@@ -18522,7 +18944,8 @@
     ],
     "lat": 41.5624,
     "lon": -8.4308,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Portugal"
   },
   {
     "name": "SC Dnipro-1",
@@ -18538,7 +18961,8 @@
     ],
     "lat": 48.460333,
     "lon": 35.032472,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ukraine"
   },
   {
     "name": "SC Heerenveen",
@@ -18554,7 +18978,8 @@
     ],
     "lat": 52.958611,
     "lon": 5.936111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "SCT Olimpija (Ljubljana)",
@@ -18590,7 +19015,8 @@
     ],
     "lat": 46.081111,
     "lon": 14.521389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Slovenia"
   },
   {
     "name": "SFK Lyn",
@@ -18621,7 +19047,8 @@
     ],
     "lat": 59.949,
     "lon": 10.734333333333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "SG Dynamo Dresden",
@@ -18657,7 +19084,8 @@
     ],
     "lat": 51.040278,
     "lon": 13.747778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "SJK (Seinäjoki)",
@@ -18673,7 +19101,8 @@
     ],
     "lat": 62.778469444444,
     "lon": 22.815588888889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "SK 17 Nentori (Tirane)",
@@ -18689,7 +19118,8 @@
     ],
     "lat": 41.3281482,
     "lon": 19.8184435,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Albania"
   },
   {
     "name": "SK Beveren",
@@ -18710,7 +19140,8 @@
     ],
     "lat": 51.214139,
     "lon": 4.243931,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "SK Brann (Bergen)",
@@ -18731,7 +19162,8 @@
     ],
     "lat": 60.366388888889,
     "lon": 5.3569444444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "SK Flamurtari (Vlore)",
@@ -18747,7 +19179,8 @@
     ],
     "lat": 40.4707602,
     "lon": 19.4912716,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Albania"
   },
   {
     "name": "SK Rapid (Wien)",
@@ -18848,7 +19281,8 @@
     ],
     "lat": 48.1981,
     "lon": 16.2653,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Austria"
   },
   {
     "name": "SK Slavia Praha",
@@ -18929,7 +19363,8 @@
     ],
     "lat": 50.109741,
     "lon": 14.599274,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "SK Sturm Graz",
@@ -18985,7 +19420,8 @@
     ],
     "lat": 47.07083333333333,
     "lon": 15.438611111111111,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Austria"
   },
   {
     "name": "SK VOEST (Linz)",
@@ -19001,7 +19437,8 @@
     ],
     "lat": 48.293333,
     "lon": 14.276389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Austria"
   },
   {
     "name": "SL Benfica (Lisboa)",
@@ -19102,7 +19539,8 @@
     ],
     "lat": 38.75277777777778,
     "lon": -9.184722222222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Portugal"
   },
   {
     "name": "SS Lazio (Roma)",
@@ -19163,7 +19601,8 @@
     ],
     "lat": 41.893055555556,
     "lon": 12.482777777778,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Italy"
   },
   {
     "name": "SSC Napoli",
@@ -19229,7 +19668,8 @@
     ],
     "lat": 40.827967,
     "lon": 14.193008,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Italy"
   },
   {
     "name": "SV Austria Salzburg",
@@ -19255,7 +19695,8 @@
     ],
     "lat": 47.8,
     "lon": 13.045,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Austria"
   },
   {
     "name": "SV Werder Bremen",
@@ -19326,7 +19767,8 @@
     ],
     "lat": 53.066389,
     "lon": 8.8375,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "SV Zulte-Waregem",
@@ -19342,7 +19784,8 @@
     ],
     "lat": 50.883056,
     "lon": 3.428889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "Saburtalo Tbilisi",
@@ -19358,7 +19801,8 @@
     ],
     "lat": 41.709617,
     "lon": 44.746247,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "Saint Patrick's Athletic",
@@ -19389,7 +19833,8 @@
     ],
     "lat": 53.340922,
     "lon": -6.316619,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Saint-Étienne",
@@ -19498,7 +19943,8 @@
     ],
     "lat": 42.16084,
     "lon": 42.33064,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "Servette FC (Genève)",
@@ -19539,7 +19985,8 @@
     ],
     "lat": 46.177778,
     "lon": 6.1275,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Switzerland"
   },
   {
     "name": "Servette FC Geneva",
@@ -19560,7 +20007,8 @@
     ],
     "lat": 46.2129466,
     "lon": 6.1311729,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Switzerland"
   },
   {
     "name": "Sevilla CF",
@@ -19626,7 +20074,8 @@
     ],
     "lat": 37.383878,
     "lon": -5.970467,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "Shakhtar Donets'k",
@@ -19774,7 +20223,8 @@
     ],
     "lat": 48.020833,
     "lon": 37.809722,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ukraine"
   },
   {
     "name": "Shakhtsyor Salihorsk",
@@ -19899,7 +20349,8 @@
     ],
     "lat": 53.2835,
     "lon": -6.37374,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Shelbourne (Dublin)",
@@ -19935,7 +20386,8 @@
     ],
     "lat": 53.367514,
     "lon": -6.251983,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Sheriff Tiraspol",
@@ -20051,7 +20503,8 @@
     ],
     "lat": 46.838333,
     "lon": 29.5575,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Moldova"
   },
   {
     "name": "Shirak Giumri",
@@ -20067,7 +20520,8 @@
     ],
     "lat": 40.8232397,
     "lon": 43.824639,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Armenia"
   },
   {
     "name": "Shkupi-1927 (Skopje)",
@@ -20083,7 +20537,8 @@
     ],
     "lat": 41.9962164,
     "lon": 21.4318935,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "North Macedonia"
   },
   {
     "name": "Shkëndija (Tetovo)",
@@ -20109,7 +20564,8 @@
     ],
     "lat": 42.0068297,
     "lon": 20.9728556,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "North Macedonia"
   },
   {
     "name": "Sileks (Kratovo)",
@@ -20135,7 +20591,8 @@
     ],
     "lat": 42.0808178,
     "lon": 22.1610253,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "North Macedonia"
   },
   {
     "name": "Silkeborg IF",
@@ -20151,7 +20608,8 @@
     ],
     "lat": 56.1842,
     "lon": 9.5751,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "Sioni Bolnisi",
@@ -20167,7 +20625,8 @@
     ],
     "lat": 41.447996,
     "lon": 44.535185,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "Siroki Brijeg",
@@ -20188,7 +20647,8 @@
     ],
     "lat": 43.3831944,
     "lon": 17.5929153,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Bosnia and Herzegovina"
   },
   {
     "name": "Sivasspor",
@@ -20204,7 +20664,8 @@
     ],
     "lat": 39.728612,
     "lon": 36.984065,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Turkey"
   },
   {
     "name": "Skonto Riga",
@@ -20265,7 +20726,8 @@
     ],
     "lat": 56.961372,
     "lon": 24.116408,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Latvia"
   },
   {
     "name": "Skënderbeu Korçë",
@@ -20301,7 +20763,8 @@
     ],
     "lat": 40.625833,
     "lon": 20.782778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "Slask Wroclaw",
@@ -20322,7 +20785,8 @@
     ],
     "lat": 51.098226,
     "lon": 16.9961887,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Poland"
   },
   {
     "name": "Slavia Mazyr",
@@ -20338,7 +20802,8 @@
     ],
     "lat": 52.038888888889,
     "lon": 29.276805555556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belarus"
   },
   {
     "name": "Sliema Wanderers",
@@ -20389,7 +20854,8 @@
     ],
     "lat": 35.894863888889,
     "lon": 14.415372222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Malta"
   },
   {
     "name": "Sligo Rovers",
@@ -20410,7 +20876,8 @@
     ],
     "lat": 54.270042,
     "lon": -8.487233,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Sloga Jugomagnat Skopje",
@@ -20431,7 +20898,8 @@
     ],
     "lat": 42.0155,
     "lon": 21.4443,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "North Macedonia"
   },
   {
     "name": "Slovan Bratislava",
@@ -20522,7 +20990,8 @@
     ],
     "lat": 48.1516988,
     "lon": 17.1093063,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Slovakia"
   },
   {
     "name": "Sparta Rotterdam",
@@ -20538,7 +21007,8 @@
     ],
     "lat": 51.919444,
     "lon": 4.433333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "Spartak Hradec Kralove",
@@ -20596,7 +21066,8 @@
     ],
     "lat": 48.373333,
     "lon": 17.591667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "Spartaks Jurmala",
@@ -20744,7 +21215,8 @@
     ],
     "lat": 38.761194444444,
     "lon": -9.1607833333333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Portugal"
   },
   {
     "name": "Stabæk Fotball",
@@ -20760,7 +21232,8 @@
     ],
     "lat": 59.921111,
     "lon": 10.581111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Stade Brestois",
@@ -20776,7 +21249,8 @@
     ],
     "lat": 48.40293,
     "lon": -4.46148,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "Stade Dudelange",
@@ -20862,7 +21336,8 @@
     ],
     "lat": 49.472222222222,
     "lon": 6.0847222222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "Stade Rennais",
@@ -20878,7 +21353,8 @@
     ],
     "lat": 48.10743,
     "lon": -1.71282,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "Stal Mielec",
@@ -20899,7 +21375,8 @@
     ],
     "lat": 50.298611,
     "lon": 21.435833,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Standard CL (Liege)",
@@ -20980,7 +21457,8 @@
     ],
     "lat": 50.4708135,
     "lon": 5.7735658,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Belgium"
   },
   {
     "name": "Start (Kristiansand)",
@@ -20996,7 +21474,8 @@
     ],
     "lat": 58.0856276,
     "lon": 7.931858,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Norway"
   },
   {
     "name": "Steaua București",
@@ -21138,7 +21617,8 @@
     ],
     "lat": 64.087423,
     "lon": -21.928865,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Iceland"
   },
   {
     "name": "Stromsgodset IF",
@@ -21154,7 +21634,8 @@
     ],
     "lat": 59.734392,
     "lon": 10.201333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Struga Trim & Lum",
@@ -21197,7 +21678,8 @@
     ],
     "lat": 54.5745,
     "lon": 23.3654,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Lithuania"
   },
   {
     "name": "Sutjeska (Niksic)",
@@ -21223,7 +21705,8 @@
     ],
     "lat": 42.7739388,
     "lon": 18.9488097,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Montenegro"
   },
   {
     "name": "Sutjeska Niksic",
@@ -21244,7 +21727,8 @@
     ],
     "lat": 42.7731,
     "lon": 18.94446,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Montenegro"
   },
   {
     "name": "Swift Hesperange",
@@ -21260,7 +21744,8 @@
     ],
     "lat": 49.575353,
     "lon": 6.158297,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "Szombierki Bytom",
@@ -21276,7 +21761,8 @@
     ],
     "lat": 50.347,
     "lon": 18.923,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Poland"
   },
   {
     "name": "TJ Vitkovice",
@@ -21292,7 +21778,8 @@
     ],
     "lat": 49.8044,
     "lon": 18.2558,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "TNS Llansantffraid",
@@ -21313,7 +21800,8 @@
     ],
     "lat": 52.8759,
     "lon": -3.02631,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Wales"
   },
   {
     "name": "TPS (Turku)",
@@ -21344,7 +21832,8 @@
     ],
     "lat": 60.442778,
     "lon": 22.291667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "TSG 1899 Hoffenheim",
@@ -21365,7 +21854,8 @@
     ],
     "lat": 49.239,
     "lon": 8.888278,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "TSV 1860 Munich",
@@ -21381,7 +21871,8 @@
     ],
     "lat": 48.218775,
     "lon": 11.624752777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "TSV 1860 München",
@@ -21397,7 +21888,8 @@
     ],
     "lat": 48.110833,
     "lon": 11.574444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "TVMK Tallinn",
@@ -21413,7 +21905,8 @@
     ],
     "lat": 59.434472222222,
     "lon": 24.783444444444,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Estonia"
   },
   {
     "name": "Tampere United",
@@ -21439,7 +21932,8 @@
     ],
     "lat": 61.4956,
     "lon": 23.7431,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Finland"
   },
   {
     "name": "Tavria Simferopol",
@@ -21455,7 +21949,8 @@
     ],
     "lat": 44.943611,
     "lon": 34.089722,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ukraine"
   },
   {
     "name": "Teuta Durrës",
@@ -21471,7 +21966,8 @@
     ],
     "lat": 41.326081,
     "lon": 19.449856,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Albania"
   },
   {
     "name": "The New Saints",
@@ -21547,7 +22043,8 @@
     ],
     "lat": 52.8759,
     "lon": -3.02631,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Wales"
   },
   {
     "name": "Tobil Qostanay",
@@ -21568,7 +22065,8 @@
     ],
     "lat": 52.693645,
     "lon": 62.594765,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Kazakhstan"
   },
   {
     "name": "Torino",
@@ -21584,7 +22082,8 @@
     ],
     "lat": 45.041667,
     "lon": 7.65,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Italy"
   },
   {
     "name": "Torpedo Kutaisi",
@@ -21615,7 +22114,8 @@
     ],
     "lat": 42.255141666667,
     "lon": 42.683086111111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "Torpedo Moscow",
@@ -21636,7 +22136,8 @@
     ],
     "lat": 55.716389,
     "lon": 37.656389,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Tottenham Hotspur",
@@ -21698,7 +22199,8 @@
     ],
     "lat": 43.583296,
     "lon": 1.434055,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "France"
   },
   {
     "name": "Trabzonspor",
@@ -21759,7 +22261,8 @@
     ],
     "lat": 40.9987,
     "lon": 39.6463,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Turkey"
   },
   {
     "name": "Tre Fiori",
@@ -21790,7 +22293,8 @@
     ],
     "lat": 43.910556,
     "lon": 12.455556,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "San Marino"
   },
   {
     "name": "Tre Penne",
@@ -21843,7 +22347,8 @@
     ],
     "lat": 42.8790424,
     "lon": 20.8657862,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Kosovo"
   },
   {
     "name": "Tsement Ararat",
@@ -21859,7 +22364,8 @@
     ],
     "lat": 40.171426,
     "lon": 44.449938,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Armenia"
   },
   {
     "name": "UE Sant Julià",
@@ -21875,7 +22381,8 @@
     ],
     "lat": 42.47,
     "lon": 1.49,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Andorra"
   },
   {
     "name": "UE Santa Coloma",
@@ -21891,7 +22398,8 @@
     ],
     "lat": 42.476389,
     "lon": 1.487667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Andorra"
   },
   {
     "name": "US Luxembourg",
@@ -21927,7 +22435,8 @@
     ],
     "lat": 49.604722222222,
     "lon": 6.1402777777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Luxembourg"
   },
   {
     "name": "UT Arad",
@@ -21948,7 +22457,8 @@
     ],
     "lat": 46.192575,
     "lon": 21.311442,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "Udinese",
@@ -21974,7 +22484,8 @@
     ],
     "lat": 46.081603,
     "lon": 13.200136,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Italy"
   },
   {
     "name": "Ujpesti Dozsa",
@@ -22040,7 +22551,8 @@
     ],
     "lat": 47.574892,
     "lon": 19.08465,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Ulysses Yerevan",
@@ -22078,7 +22590,8 @@
     ],
     "lat": 50.8178,
     "lon": 4.32917,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Belgium"
   },
   {
     "name": "Unirea Urziceni",
@@ -22099,7 +22612,8 @@
     ],
     "lat": 44.712625,
     "lon": 26.656017,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "Universitatea Craiova",
@@ -22130,7 +22644,8 @@
     ],
     "lat": 44.313889,
     "lon": 23.784167,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "Urartu Yerevan",
@@ -22146,7 +22661,8 @@
     ],
     "lat": 40.1713448,
     "lon": 44.4504185,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Armenia"
   },
   {
     "name": "VB (Vágur)",
@@ -22162,7 +22678,8 @@
     ],
     "lat": 61.4738859,
     "lon": -6.8114622,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Faroe Islands"
   },
   {
     "name": "Vac FC-Samsung",
@@ -22178,7 +22695,8 @@
     ],
     "lat": 47.7676,
     "lon": 19.1382,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Valencia",
@@ -22290,7 +22808,8 @@
     ],
     "lat": 59.9178125,
     "lon": 10.8066875,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Valletta",
@@ -22391,7 +22910,8 @@
     ],
     "lat": 35.894863888889,
     "lon": 14.415372222222,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Malta"
   },
   {
     "name": "Valmiera FC",
@@ -22407,7 +22927,8 @@
     ],
     "lat": 57.538055555556,
     "lon": 25.423055555556,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "Latvia"
   },
   {
     "name": "Valur (Reykjavik)",
@@ -22473,7 +22994,8 @@
     ],
     "lat": 64.145981,
     "lon": -21.9422367,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Iceland"
   },
   {
     "name": "Vasas ETO Gyor",
@@ -22494,7 +23016,8 @@
     ],
     "lat": 47.695769,
     "lon": 17.663827,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Vasas SC",
@@ -22530,7 +23053,8 @@
     ],
     "lat": 47.5376811,
     "lon": 19.0817013,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Hungary"
   },
   {
     "name": "Vasas SC (Budapest)",
@@ -22546,7 +23070,8 @@
     ],
     "lat": 47.4978789,
     "lon": 19.0402383,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Hungary"
   },
   {
     "name": "Vejle BK",
@@ -22577,7 +23102,8 @@
     ],
     "lat": 55.71372,
     "lon": 9.5562,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Denmark"
   },
   {
     "name": "VfB Stuttgart",
@@ -22618,7 +23144,8 @@
     ],
     "lat": 48.792222,
     "lon": 9.231944,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "VfL Wolfsburg",
@@ -22644,7 +23171,8 @@
     ],
     "lat": 52.431944,
     "lon": 10.803889,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Germany"
   },
   {
     "name": "Vidi FC (Székesfehérvár)",
@@ -22660,7 +23188,8 @@
     ],
     "lat": 47.17369444,
     "lon": 18.41536111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "Viitorul Constanta",
@@ -22676,7 +23205,8 @@
     ],
     "lat": 44.26388889,
     "lon": 28.55583333,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Romania"
   },
   {
     "name": "Viking FK (Stavanger)",
@@ -22722,7 +23252,8 @@
     ],
     "lat": 58.914611,
     "lon": 5.730442,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Vikingur (Reykjavik)",
@@ -22768,7 +23299,8 @@
     ],
     "lat": 64.117222,
     "lon": -21.852778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Iceland"
   },
   {
     "name": "Viktoria Plzen",
@@ -22824,7 +23356,8 @@
     ],
     "lat": 49.75,
     "lon": 13.385556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "Villarreal CF",
@@ -22860,7 +23393,8 @@
     ],
     "lat": 39.944167,
     "lon": -0.103611,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Spain"
   },
   {
     "name": "Virtus AC",
@@ -22876,7 +23410,8 @@
     ],
     "lat": 43.95,
     "lon": 12.416666666667,
-    "geocodeSource": "wikidata:headquarters"
+    "geocodeSource": "wikidata:headquarters",
+    "country": "San Marino"
   },
   {
     "name": "Vitória SC (Guimarães)",
@@ -22892,7 +23427,8 @@
     ],
     "lat": 41.44583333333333,
     "lon": -8.300972222222223,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Portugal"
   },
   {
     "name": "Vålerenga IF (Oslo)",
@@ -22913,7 +23449,8 @@
     ],
     "lat": 59.9178125,
     "lon": 10.8066875,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Norway"
   },
   {
     "name": "Vörös Lobogó (Budapest)",
@@ -22929,7 +23466,8 @@
     ],
     "lat": 47.490919444444,
     "lon": 19.106725,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Hungary"
   },
   {
     "name": "WIT Georgia Tbilisi",
@@ -22950,7 +23488,8 @@
     ],
     "lat": 41.847286,
     "lon": 44.721492,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Georgia"
   },
   {
     "name": "Wacker Innsbruck",
@@ -22986,7 +23525,8 @@
     ],
     "lat": 47.255972,
     "lon": 11.410789,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Austria"
   },
   {
     "name": "Waterford",
@@ -23022,7 +23562,8 @@
     ],
     "lat": 52.2609997,
     "lon": -7.1119081,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Ireland"
   },
   {
     "name": "Waterford United",
@@ -23038,7 +23579,8 @@
     ],
     "lat": 52.244722,
     "lon": -7.132778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Ireland"
   },
   {
     "name": "Widzew Lodz",
@@ -23074,7 +23616,8 @@
     ],
     "lat": 51.765,
     "lon": 19.511667,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Wiener Sport-Club",
@@ -23095,7 +23638,8 @@
     ],
     "lat": 48.2163537,
     "lon": 16.304324,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Austria"
   },
   {
     "name": "Willem II (Tilburg)",
@@ -23111,7 +23655,8 @@
     ],
     "lat": 51.542778,
     "lon": 5.066944,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Netherlands"
   },
   {
     "name": "Wisla Krakow",
@@ -23162,7 +23707,8 @@
     ],
     "lat": 50.0642207,
     "lon": 19.9132021,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Poland"
   },
   {
     "name": "Wismut Karl-Marx-Stadt",
@@ -23188,7 +23734,8 @@
     ],
     "lat": 50.8081863,
     "lon": 12.8427924,
-    "geocodeSource": "nominatim"
+    "geocodeSource": "nominatim",
+    "country": "Germany"
   },
   {
     "name": "Wolverhampton Wanderers",
@@ -23209,7 +23756,8 @@
     ],
     "lat": 52.590277777778,
     "lon": -2.1302777777778,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "England"
   },
   {
     "name": "Xäzär Länkäran",
@@ -23225,7 +23773,8 @@
     ],
     "lat": 38.747189,
     "lon": 48.857131,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Azerbaijan"
   },
   {
     "name": "Zaglebie Lubin",
@@ -23246,7 +23795,8 @@
     ],
     "lat": 51.413333,
     "lon": 16.1975,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Poland"
   },
   {
     "name": "Zalgiris Kaunas",
@@ -23297,7 +23847,8 @@
     ],
     "lat": 54.8972,
     "lon": 23.9369,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Lithuania"
   },
   {
     "name": "Zalgiris Vilnius",
@@ -23353,7 +23904,8 @@
     ],
     "lat": 54.6685,
     "lon": 25.2947,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Lithuania"
   },
   {
     "name": "Zarja Voroshilovgrad",
@@ -23369,7 +23921,8 @@
     ],
     "lat": 48.559444,
     "lon": 39.321111,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Zbrojovka Brno",
@@ -23385,7 +23938,8 @@
     ],
     "lat": 49.227162,
     "lon": 16.586276,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Czech Republic"
   },
   {
     "name": "Zenit Sankt Peterburg",
@@ -23451,7 +24005,8 @@
     ],
     "lat": 59.972953,
     "lon": 30.220533,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Russia"
   },
   {
     "name": "Zeta Golubovci",
@@ -23467,7 +24022,8 @@
     ],
     "lat": 42.328611,
     "lon": 19.240556,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Montenegro"
   },
   {
     "name": "Zhenis Astana",
@@ -23483,7 +24039,8 @@
     ],
     "lat": 51.162739,
     "lon": 71.413312,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Kazakhstan"
   },
   {
     "name": "Zimbru Chisinau",
@@ -23514,6 +24071,7 @@
     ],
     "lat": 46.980278,
     "lon": 28.866944,
-    "geocodeSource": "wikidata:venue"
+    "geocodeSource": "wikidata:venue",
+    "country": "Moldova"
   }
 ]
