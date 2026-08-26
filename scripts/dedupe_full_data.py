@@ -27,7 +27,7 @@ import json
 import re
 import unicodedata
 from pathlib import Path
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -122,6 +122,10 @@ def main():
     # second identity ("AC Fiorentina") for a club we already track
     # ("Fiorentina"), which would show up as two overlapping markers later.
     known_coords = json.loads((DATA / "club_coords.json").read_text(encoding="utf-8"))
+    country_hints = {}
+    hints_path = DATA / "club_country_hints.json"
+    if hints_path.exists():
+        country_hints = json.loads(hints_path.read_text(encoding="utf-8"))
     known_by_key = {cluster_key(name): name for name in known_coords}
     # the 42-list often omits the city ("Partizan", not "Partizan (Belgrade)")
     # since it didn't need disambiguating in that curated context -- also
@@ -175,6 +179,10 @@ def main():
                 if "lat" in m:
                     merged["country"], merged["lat"], merged["lon"] = m["country"], m["lat"], m["lon"]
                     break
+            if "country" not in merged:
+                hints = Counter(country_hints[n] for n in names if n in country_hints)
+                if hints:
+                    merged["countryHint"] = hints.most_common(1)[0][0]
         out.append(merged)
 
     out.sort(key=lambda c: c["name"])
