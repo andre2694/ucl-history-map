@@ -50,6 +50,9 @@ ALIASES = {
     "Ajax Amsterdam": "Ajax",
     "Feyenoord Rotterdam": "Feyenoord",
     "Sporting CP": "Sporting Lisbon",
+    "Stade de Reims": "Reims",
+    "UC Sampdoria": "Sampdoria",
+    "Sampdoria UC": "Sampdoria",
 }
 
 
