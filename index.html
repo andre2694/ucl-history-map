@@ -73,6 +73,13 @@
   #detail li .scorers { color: var(--text); font-size: 11px; margin-top: 4px; opacity: 0.85; }
   .leaflet-popup-content-wrapper { background: var(--panel); color: var(--text); }
   .leaflet-popup-tip { background: var(--panel); }
+  .title-count {
+    background: transparent; border: none; box-shadow: none;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 700; color: #1a1400;
+    text-shadow: 0 0 2px rgba(255,255,255,.6);
+    pointer-events: none;
+  }
   footer {
     padding: 10px 18px; border-top: 1px solid var(--border);
     font-size: 11px; color: var(--muted); display: flex; justify-content: space-between; gap: 8px;
@@ -142,6 +149,52 @@
   ];
   const cleanRoundLabel = name => name.replace(/\s*\(.*$/, '').trim();
 
+  // Same-city clubs (e.g. Benfica + Sporting in Lisbon) geocode to nearly
+  // identical coordinates, so a fainter marker can end up completely
+  // hidden under a stronger one on top of it. Spread same-coordinate
+  // groups into a small ring instead -- keeps every club independently
+  // clickable without pulling in a clustering library or changing the
+  // click-to-drill-down model.
+  // Grid-bucket rounding has a boundary problem: two points a couple km
+  // apart can still land in different cells if they straddle a cell edge
+  // (this is exactly what happened with Benfica/Sporting, ~2km apart in
+  // Lisbon, at both a ~1km and a ~9km grid size). Greedy distance-based
+  // grouping avoids that -- join the nearest existing group if within
+  // range, regardless of grid alignment.
+  const JITTER_RADIUS_KM = 8;
+
+  function _kmBetween(a, b) {
+    const dLat = (b.lat - a.lat) * 111;
+    const dLon = (b.lon - a.lon) * 111 * Math.cos(a.lat * Math.PI / 180);
+    return Math.sqrt(dLat * dLat + dLon * dLon);
+  }
+
+  function jitterOverlaps(clubs) {
+    const groups = [];
+    clubs.forEach(c => {
+      let group = groups.find(g => _kmBetween(g.center, c) < JITTER_RADIUS_KM);
+      if (!group) {
+        group = { center: { lat: c.lat, lon: c.lon }, members: [] };
+        groups.push(group);
+      }
+      group.members.push(c);
+    });
+    groups.forEach(({ members }) => {
+      if (members.length < 2) return;
+      // keep the strongest (deepest run) club at the true location;
+      // ring the rest around it, radius growing gently with group size
+      members.sort((a, b) => a.bestDistFromFinal - b.bestDistFromFinal);
+      const radius = 0.012 + Math.min(members.length, 10) * 0.004;
+      const lat0 = members[0].lat;
+      members.forEach((c, i) => {
+        if (i === 0) return;
+        const angle = (2 * Math.PI * i) / members.length;
+        c.lat += radius * Math.sin(angle);
+        c.lon += (radius * Math.cos(angle)) / Math.cos(lat0 * Math.PI / 180);
+      });
+    });
+  }
+
   function markerFor(club, hasWon) {
     let fillColor, fillOpacity, radius;
     if (club.bestDistFromFinal === 0) {
@@ -192,7 +245,7 @@
     el.innerHTML = `
       <h2>${club.name}</h2>
       <div class="country">${club.country || ''}</div>
-      <div class="best-badge">Best result: ${club.bestRound}</div>
+      <div class="best-badge">Best result: ${cleanRoundLabel(club.bestRound)}</div>
       <div class="stats">
         <div class="stat"><div class="n">${titles}</div><div class="l">Titles</div></div>
         <div class="stat"><div class="n">${club.seasonsPlayed}</div><div class="l">Seasons</div></div>
@@ -229,14 +282,26 @@
         });
       });
 
+      jitterOverlaps(clubs);
+
       // weakest (highest distFromFinal) first, so strong/notable markers
       // are added last and render on top of the crowd when they overlap
       clubs.sort((a, b) => b.bestDistFromFinal - a.bestDistFromFinal);
 
       const points = [];
       clubs.forEach(club => {
-        const hasWon = (titlesByName.get(club.name) || 0) > 0;
+        const titles = titlesByName.get(club.name) || 0;
+        const hasWon = titles > 0;
         const m = markerFor(club, hasWon).addTo(map);
+        if (titles > 1) {
+          // a separate non-interactive overlay, not a second tooltip on the
+          // same layer -- bindTooltip only allows one, and this needs to
+          // coexist with the marker's own hover tooltip below
+          L.marker([club.lat, club.lon], {
+            icon: L.divIcon({ className: 'title-count', html: String(titles), iconSize: [18, 18], iconAnchor: [9, 9] }),
+            interactive: false,
+          }).addTo(map);
+        }
         m.bindTooltip(`${club.name} — best: ${club.bestRound} (${club.seasonsPlayed} seasons)`);
         m.on('click', () => renderDetail(club, richByKey, titlesByName));
         points.push([club.lat, club.lon]);

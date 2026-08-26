@@ -38,7 +38,7 @@ CLUB_TYPE_TOKENS = {
     "fc", "ac", "sc", "sk", "ck", "as", "ask", "ks", "kf", "fk", "cf", "cd",
     "ss", "ssd", "us", "ud", "cs", "bc", "bk", "if", "ik", "aa", "sv", "tsv",
     "vfb", "vfl", "bv", "kv", "nk", "rc", "rcd", "1", "sd", "cfr", "uc",
-    "ca", "ce", "cp", "ol", "gks", "mtk", "spvgg", "kfum", "ssc",
+    "ca", "ce", "cp", "ol", "gks", "mtk", "spvgg", "kfum", "ssc", "sl",
 }
 
 # Same city, different language/transliteration -- verified by hand against

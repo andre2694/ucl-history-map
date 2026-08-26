@@ -2957,6 +2957,107 @@
     "lon": -9.1846
   },
   {
+    "name": "Benfica",
+    "bestRound": "Quarterfinal",
+    "bestDistFromFinal": 2,
+    "seasonsPlayed": 18,
+    "appearances": [
+      {
+        "season": "2005–06",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "2006–07",
+        "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2007–08",
+        "roundName": "Group Phase (Sep 18/19, Oct 2/3, 23/24, Nov 6/7, 7/28, Dec 4/11/12)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2010–11",
+        "roundName": "Qualifying Phase 3 (Aug 18 and 24)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2011–12",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "2012–13",
+        "roundName": "Qualifying Phase 3 (Aug 22 and 28)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2013–14",
+        "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2014–15",
+        "roundName": "Qualifying Phase 3 (Aug 19 and 27)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2015–16",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "2016–17",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "2017–18",
+        "roundName": "Qualifying Phase 3",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2018–19",
+        "roundName": "Qualifying Phase 4",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2019–20",
+        "roundName": "Qualifying Phase 4",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2020–21",
+        "roundName": "Qualifying Phase 3",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2021–22",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "2022–23",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "2023–24",
+        "roundName": "Qualifying Phase 4",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2024–25",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      }
+    ],
+    "country": "Portugal",
+    "lat": 38.7527,
+    "lon": -9.1846
+  },
+  {
     "name": "Berliner FC Dynamo",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
@@ -18555,105 +18656,6 @@
       }
     ],
     "countryHint": "Austria"
-  },
-  {
-    "name": "SL Benfica (Lisboa)",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 18,
-    "appearances": [
-      {
-        "season": "2005–06",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "2006–07",
-        "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2007–08",
-        "roundName": "Group Phase (Sep 18/19, Oct 2/3, 23/24, Nov 6/7, 7/28, Dec 4/11/12)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2010–11",
-        "roundName": "Qualifying Phase 3 (Aug 18 and 24)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2011–12",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "2012–13",
-        "roundName": "Qualifying Phase 3 (Aug 22 and 28)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2013–14",
-        "roundName": "Qualifying Phase 3 (Aug 20 and 28)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2014–15",
-        "roundName": "Qualifying Phase 3 (Aug 19 and 27)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2015–16",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "2016–17",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "2017–18",
-        "roundName": "Qualifying Phase 3",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2018–19",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2019–20",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2020–21",
-        "roundName": "Qualifying Phase 3",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2021–22",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "2022–23",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "2023–24",
-        "roundName": "Qualifying Phase 4",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2024–25",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "countryHint": "Portugal"
   },
   {
     "name": "SS Lazio",

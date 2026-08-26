@@ -90,16 +90,59 @@ def _wd_get(params: dict):
     raise requests.RequestException(f"Wikidata still rate-limiting after {MAX_RETRIES} retries")
 
 
-def wd_search_club(search_text: str, country_hint: str | None):
+# Wikidata descriptions usually use the *adjectival* country form
+# ("Spanish association football club"), not the country name itself -- a
+# plain substring check for "Spain" doesn't match "Spanish" (different
+# word, not a substring), so the actually-correct club can get skipped in
+# favor of a worse-ranked one whose description happens to spell the
+# country out literally (found via Deportivo de La Coruña -> wrongly
+# resolving to Deportivo Alavés, whose description says "...in
+# Vitoria-Gasteiz, Spain").
+COUNTRY_ADJECTIVES = {
+    "Spain": "Spanish", "Greece": "Greek", "France": "French", "Germany": "German",
+    "Italy": "Italian", "England": "English", "Portugal": "Portuguese",
+    "Netherlands": "Dutch", "Belgium": "Belgian", "Switzerland": "Swiss",
+    "Austria": "Austrian", "Turkey": "Turkish", "Russia": "Russian",
+    "Ukraine": "Ukrainian", "Poland": "Polish", "Romania": "Romanian",
+    "Bulgaria": "Bulgarian", "Serbia": "Serbian", "Croatia": "Croatian",
+    "Hungary": "Hungarian", "Czech Republic": "Czech", "Slovakia": "Slovak",
+    "Denmark": "Danish", "Sweden": "Swedish", "Norway": "Norwegian",
+    "Finland": "Finnish", "Iceland": "Icelandic", "Ireland": "Irish",
+    "Scotland": "Scottish", "Wales": "Welsh", "Cyprus": "Cypriot",
+    "Israel": "Israeli", "Armenia": "Armenian", "Georgia": "Georgian",
+    "Azerbaijan": "Azerbaijani", "Kazakhstan": "Kazakh", "Belarus": "Belarusian",
+    "Moldova": "Moldovan", "Albania": "Albanian", "North Macedonia": "Macedonian",
+    "Montenegro": "Montenegrin", "Bosnia and Herzegovina": "Bosnian",
+    "Kosovo": "Kosovar", "Luxembourg": "Luxembourgish", "Malta": "Maltese",
+    "San Marino": "Sammarinese", "Andorra": "Andorran", "Latvia": "Latvian",
+    "Lithuania": "Lithuanian", "Estonia": "Estonian", "Slovenia": "Slovenian",
+    "Faroe Islands": "Faroese", "Gibraltar": "Gibraltarian",
+    "Northern Ireland": "Northern Irish", "Monaco": "Monegasque",
+}
+
+
+def wd_search_club(search_text: str, country_hint: str | None, city_hint: str | None = None):
     data = _wd_get({"action": "wbsearchentities", "search": search_text,
                      "language": "en", "type": "item", "limit": 8})
     candidates = data.get("search", [])
     football = [c for c in candidates if FOOTBALL_DESC_RE.search(c.get("description") or "")]
     if not football:
         return None
-    if country_hint:
+    # city is a much stronger disambiguator than country -- two different
+    # clubs can share both a generic name and a country (as the Deportivo
+    # case shows), but rarely a city too
+    if city_hint:
         for c in football:
-            if _fold(country_hint) in _fold(c.get("description") or ""):
+            text = _fold((c.get("label") or "") + " " + (c.get("description") or ""))
+            if _fold(city_hint) in text:
+                return c["id"]
+    if country_hint:
+        needles = [country_hint]
+        if country_hint in COUNTRY_ADJECTIVES:
+            needles.append(COUNTRY_ADJECTIVES[country_hint])
+        for c in football:
+            text = _fold(c.get("description") or "")
+            if any(_fold(n) in text for n in needles):
                 return c["id"]
     return football[0]["id"]
 
@@ -130,9 +173,9 @@ def geocode_via_wikidata(name: str, country_hint: str | None):
     # club is "Sevilla FC" and "Sevilla" alone finds it) -- strip common
     # club-type words from both ends as a further fallback query.
     bare = cluster_key(core)[0]
-    qid = (wd_search_club(name, country_hint)
-           or wd_search_club(core, country_hint)
-           or (bare and wd_search_club(bare, country_hint)))
+    qid = (wd_search_club(name, country_hint, city)
+           or wd_search_club(core, country_hint, city)
+           or (bare and wd_search_club(bare, country_hint, city)))
     if not qid:
         return None
     coords = wd_coords_of(qid)
