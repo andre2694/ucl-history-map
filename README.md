@@ -65,7 +65,9 @@ scripts/
   build_full_data.py        — participation_raw.json -> clubs_full.json
   dedupe_full_data.py       — clubs_full.json -> clubs_dedup.json (cleanup + dedup)
   extract_country_hints.py  — cached RSSSF pages -> club_country_hints.json
-  geocode_clubs.py          — clubs_dedup.json -> geocode_cache.json (Wikidata + Nominatim)
+  build_wikidata_index.py   — Wikidata SPARQL -> wikidata_club_index.json (bulk, ~24k clubs)
+  match_clubs_to_index.py   — matches clubs_dedup.json against that index, locally
+  geocode_clubs.py          — per-club Wikidata/Nominatim API fallback for what's left
   apply_geocoding.py        — merges geocode_cache.json into clubs_dedup.json -> clubs_final.json
 index.html                  — the map
 ```
@@ -89,14 +91,41 @@ python scripts/scrape_rsssf.py           # refresh full participation history (~
 python scripts/build_full_data.py        # aggregate participation_raw.json -> clubs_full.json
 python scripts/dedupe_full_data.py       # clean + dedupe -> clubs_dedup.json
 python scripts/extract_country_hints.py  # mine country hints from cached pages
-python scripts/geocode_clubs.py          # geocode anything not already in geocode_cache.json
+python scripts/build_wikidata_index.py   # bulk SPARQL pull (~5 min, only needed occasionally)
+python scripts/match_clubs_to_index.py   # match locally against that index (seconds)
+python scripts/geocode_clubs.py          # per-club API fallback for whatever didn't match
 python scripts/apply_geocoding.py        # merge everything -> clubs_final.json (what the map reads)
 ```
 
-`geocode_clubs.py` is the only step that's slow (rate-limited, ~15-20 min
-for a full run) — but it's a resumable cache keyed by club name, so
-re-running after a data refresh only geocodes names that are new or
-changed, not the whole list.
+### Why geocoding is split into three steps
+
+The obvious approach — ask Wikidata's web API about each club in turn —
+needs 3–6 sequential round trips per club (fuzzy search, up to two
+fallback searches, check the club for coordinates, fetch its venue, fetch
+the venue's coordinates), each followed by a courtesy delay, plus
+exponential backoff whenever Wikidata rate-limits. At ~800 clubs that ran
+for *hours*.
+
+`build_wikidata_index.py` inverts it: one SPARQL query per country returns
+every football club there **with** coordinates and English aliases, so the
+whole ~24k-club candidate set for Europe downloads in about five minutes.
+`match_clubs_to_index.py` then matches our clubs against it locally, in
+seconds, and only what it can't confidently match falls through to the
+slow per-club path. In practice that's ~20% of the list rather than 100%.
+
+Matching is deliberately conservative — a wrong coordinate is worse than a
+missing one — and was validated by re-deriving clubs the slow path had
+already resolved and comparing: **132/132 agreed, 0 disagreements.**
+Getting there caught several classes of false match worth knowing about if
+you touch that code: a generic alias swallowing every club sharing the
+word (`Dynamo` → *Dynamo Kyiv* matched *Dynamo Rostov*), a nickname alias
+crossing countries (*Hungerford Town*'s nickname is "Crusaders", which
+outranked Belfast's actual **Crusaders F.C.**), and dotted acronyms
+tokenizing wrong so `Crusaders F.C.` never reduced to `crusaders`.
+
+Both geocoding steps write to the same resumable `geocode_cache.json`
+keyed by club name, so re-running after a data refresh only processes
+names that are new or changed.
 
 ## Data sources & attribution
 
