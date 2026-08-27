@@ -16,6 +16,7 @@ still be fragmented across name variants across different decades.
 Run:  python scripts/build_full_data.py
 """
 import json
+import re
 import unicodedata
 from pathlib import Path
 from collections import defaultdict
@@ -24,6 +25,38 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
 DIST_LABELS = {0: "Final", 1: "Semifinal", 2: "Quarterfinal", 3: "Round of 16"}
+
+# Rounds must be labelled from RSSSF's own round NAME, never from
+# distance-from-final. The competition's shape changed repeatedly -- the
+# number of qualifying rounds varies, group stages come and go -- so the
+# same distance means different rounds in different seasons. Labelling by
+# distance told us Víkingur Reykjavík reached the 1992-93 QUARTERFINAL
+# when they actually went out in the first round: that season had no
+# quarterfinal at all (group winners went straight to the final), so
+# "two rounds before the final" simply wasn't the quarterfinal.
+# Distance is still kept, but only for ordering depth, never for naming.
+_ROUND_PATTERNS = [
+    (re.compile(r"^final\b", re.I),                        "Final"),
+    (re.compile(r"semi.?final", re.I),                     "Semifinal"),
+    (re.compile(r"quarter.?final|^1/4", re.I),             "Quarterfinal"),
+    (re.compile(r"^1/8|round of 16", re.I),                "Round of 16"),
+    (re.compile(r"^1/16|round of 32", re.I),               "Round of 32"),
+    (re.compile(r"group (phase|stage)|league (phase|stage)", re.I), "Group stage"),
+    (re.compile(r"intermediate round|play-?off", re.I),    "Knockout play-off"),
+    (re.compile(r"qualifying|preliminary", re.I),          "Qualifying"),
+]
+
+
+def canonical_round(name: str) -> str:
+    """RSSSF's round name, normalised for display. Ordinal knockout rounds
+    ('First Round', 'Second Round') are kept verbatim -- in the pre-group-
+    stage era they ARE the competition's own naming, and how deep they sit
+    varies by season."""
+    text = (name or "").strip()
+    for pattern, label in _ROUND_PATTERNS:
+        if pattern.search(text):
+            return label
+    return re.sub(r"\s*\(.*$", "", text).strip() or "Unknown round"
 
 # RSSSF spelling/variant -> canonical name (matching data/club_coords.json)
 ALIASES = {
@@ -162,7 +195,7 @@ def main():
             if existing is None or dist < existing["distFromFinal"]:
                 rec["by_season"][season_label] = {
                     "season": season_label,
-                    "roundName": DIST_LABELS.get(dist, info["roundName"]),
+                    "roundName": canonical_round(info["roundName"]),
                     "distFromFinal": dist,
                 }
 
@@ -177,9 +210,8 @@ def main():
             # appearances[0], which is merely their earliest season and can
             # name a much worse result (Sheriff Tiraspol's best is a 2021-22
             # group stage, but their first season was a 2001-02 qualifying exit)
-            "bestRound": DIST_LABELS.get(
-                best_dist,
-                next(a["roundName"] for a in appearances if a["distFromFinal"] == best_dist)),
+            "bestRound": next(a["roundName"] for a in appearances
+                              if a["distFromFinal"] == best_dist),
             "bestDistFromFinal": best_dist,
             "seasonsPlayed": len(appearances),
             "appearances": appearances,

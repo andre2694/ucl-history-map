@@ -733,7 +733,7 @@
     "rounds_found": [
       "First Round",
       "Second Round",
-      "Quarter-Finals",
+      "Group Stage",
       "Final, Wembley Stadium, London, 20 May 1992, att 70827"
     ],
     "matches_parsed": 49,
@@ -753,6 +753,7 @@
       "Preliminary Round",
       "First Round",
       "Second Round",
+      "Group Stage",
       "Final, Olympiastadion, München, 26 May 1993, att 64400"
     ],
     "matches_parsed": 53,
@@ -772,6 +773,7 @@
       "Preliminary Round",
       "First Round",
       "Second Round",
+      "Group Stage",
       "Semi-Finals",
       "Final, Spiros Louis Stadium, Athens, 18 May 1994, att 70000"
     ],
@@ -790,6 +792,7 @@
     "season": 1994,
     "rounds_found": [
       "Preliminary Round",
+      "Group Stage",
       "Quarter-Finals",
       "Semi-Finals",
       "Final, Ernst Happel Stadium, Vienna, 24 May 1995"
@@ -809,6 +812,7 @@
     "season": 1995,
     "rounds_found": [
       "Preliminary Round (Aug 9 & 23)",
+      "Group Stage",
       "Quarter-Finals (Mar 6 & 20)",
       "Semi-Finals (Apr 3 & 17)",
       "Final, Stadio Olimpico, Roma, 22 May 1996, att 80000"
@@ -829,6 +833,7 @@
     "rounds_found": [
       "Qualifying Round ( Aug 7 and 21 )",
       "Preliminary Round losers progress into the UEFA Cup First Round.",
+      "Group Stage",
       "Quarter-Finals ( Mar 5 & 19 )",
       "Semi-Finals ( Apr 9 & 23 )",
       "Final, Olympia-Stadion, München, 28 May 1997, att 59000"
@@ -848,6 +853,7 @@
     "season": 1997,
     "rounds_found": [
       "Preliminary Round (Jul 23 and 30)",
+      "Group Stage",
       "Quarter-Finals (Mar 4 and 18)",
       "Semi-Finals (Apr 1 and 15)",
       "Final, Amsterdam ArenA, Amsterdam, 20 May 1998, att 50000"
@@ -869,6 +875,7 @@
       "Preliminary Round (Jul 22 and 29)",
       "Qualifying Round (Aug 12 and 26)",
       "Qualifying Round losers progress into the UEFA Cup First Round .",
+      "Group Stage",
       "Quarter-Finals (Mar 3 and 17)",
       "Semi-Finals (Apr 7 and Apr 21)",
       "Final (Camp Nou Stadium, Barcelona, May 26, att 90000)"
@@ -1333,8 +1340,6 @@
     "season": 2018,
     "rounds_found": [
       "Preliminary Round",
-      "Semifinals (Jun 26)",
-      "Final (Jun 29)",
       "Qualifying Phase 1",
       "Qualifying Phase 2",
       "Qualifying Phase 3",
@@ -1360,8 +1365,6 @@
     "season": 2019,
     "rounds_found": [
       "Preliminary Round",
-      "Semifinals (Jun 25)",
-      "Final (Jun 28)",
       "Qualifying Phase 1",
       "Qualifying Phase 2",
       "Qualifying Phase 3",
@@ -1387,8 +1390,6 @@
     "season": 2020,
     "rounds_found": [
       "Preliminary Round",
-      "Semifinals (Aug 8)",
-      "Final (Aug 11)",
       "Qualifying Phase 1",
       "Qualifying Phase 2",
       "Qualifying Phase 3",
@@ -1414,8 +1415,6 @@
     "season": 2021,
     "rounds_found": [
       "Preliminary Round",
-      "Semifinals (Jun 22)",
-      "Final (Jun 25)",
       "Qualifying Phase 1",
       "Qualifying Phase 2",
       "Qualifying Phase 3",
@@ -1441,8 +1440,6 @@
     "season": 2022,
     "rounds_found": [
       "Preliminary Round",
-      "Semifinals (Jun 21, in Reykjavík)",
-      "Final (Jun 24, in Reykjavík)",
       "Qualifying Phase 1",
       "Qualifying Phase 2",
       "Qualifying Phase 3",
@@ -1468,8 +1465,6 @@
     "season": 2023,
     "rounds_found": [
       "Preliminary Round",
-      "Semifinals (Jun 27, in Kópavogur)",
-      "Final (Jun 30, in Kópavogur)",
       "Qualifying Phase 1",
       "Qualifying Phase 2",
       "Qualifying Phase 3",

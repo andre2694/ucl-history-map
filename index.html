@@ -99,7 +99,7 @@
   <div id="sidebar">
     <header>
       <h1>🏆 European Cup &amp; Champions League</h1>
-      <p>Every club that has ever entered, 1955–56 to present — 628 clubs across all rounds, from qualifying to the final. Gold/silver = reached a final; blue tones = best-ever knockout/group progress otherwise, brighter for a deeper run. Click a marker to drill into a club's history.</p>
+      <p>Every club that has ever entered, 1955–56 to present. Gold/silver = reached a final; blue tones = best-ever progress otherwise, brighter for a deeper run. Qualification rounds are excluded by default, so clubs are judged on the competition proper. Click a marker to drill into a club's history.</p>
     </header>
     <div class="legend">
       <div class="legend-scale">
@@ -107,13 +107,13 @@
         <span><i class="dot" style="background:var(--silver)"></i> Runner-up</span>
         <span><i class="dot" style="background:var(--blue);opacity:.85"></i> Semifinal</span>
         <span><i class="dot" style="background:var(--blue);opacity:.6"></i> Quarterfinal</span>
-        <span><i class="dot" style="background:var(--blue);opacity:.42"></i> Round of 16</span>
-        <span><i class="dot" style="background:var(--blue);opacity:.26"></i> Group/league stage</span>
-        <span><i class="dot" style="background:var(--blue);opacity:.12"></i> Qualifying only</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.42"></i> Last 16</span>
+        <span><i class="dot" style="background:var(--blue);opacity:.26"></i> Last 32 / group stage</span>
+        <span id="qualifyingSwatch" style="display:none"><i class="dot" style="background:var(--blue);opacity:.12"></i> Qualifying</span>
       </div>
       <label class="hide-toggle">
-        <input type="checkbox" id="hideQualifyingOnly" checked>
-        Hide clubs that never got past qualifying (modern era only)
+        <input type="checkbox" id="hideQualifyingOnly">
+        Include qualification rounds
       </label>
     </div>
     <div id="detail"><p class="placeholder">Select a club on the map to see its full run of finals.</p></div>
@@ -155,41 +155,63 @@
   // differently from losing in qualifying and never getting there, so
   // they need clearly separated tones, not one catch-all faint bucket.
   //
-  // distFromFinal alone can't tell these apart: it's relative to each
-  // season's own round count, which varies (some seasons have 3
-  // qualifying rounds, some have 4, some add a preliminary round), so
-  // "dist 4" can mean group stage in one season and qualifying in
-  // another. The round NAME text is the reliable signal instead.
-  const BLUE_TIERS = { semifinal: 0.85, quarterfinal: 0.60, round16: 0.42, group: 0.26, qualifying: 0.12 };
-  const RADII = { semifinal: 6.8, quarterfinal: 6.0, round16: 5.2, group: 4.6, qualifying: 3.8 };
+  // The pipeline now labels every appearance with RSSSF's own round name
+  // (see canonical_round() in build_full_data.py) rather than deriving it
+  // from distance-to-final, so tiers key off the NAME. Distance was never
+  // a safe basis for naming -- the competition's shape changed too often
+  // for "two rounds before the final" to reliably mean the quarterfinal.
+  const BLUE_TIERS   = { semifinal: 0.85, quarterfinal: 0.60, last16: 0.42, last32: 0.26, qualifying: 0.12 };
+  const RADII        = { semifinal: 6.8,  quarterfinal: 6.0,  last16: 5.2,  last32: 4.6,  qualifying: 3.8 };
   const QUALIFYING_RE = /Qualifying|Preliminary/i;
 
-  function classifyTier(dist, roundName) {
-    if (dist === 1) return 'semifinal';
-    if (dist === 2) return 'quarterfinal';
-    if (dist === 3) return 'round16';
-    return QUALIFYING_RE.test(roundName) ? 'qualifying' : 'group';
+  // Ranking rounds by HOW FAR they are from the final doesn't work across
+  // eras: a 5-round 1960s season puts its opening round the same distance
+  // out as a modern group stage, so raw distance made old early exits
+  // outrank modern group-stage runs. Rank by what a round MEANS instead,
+  // which also lines the eras up honestly -- the old First Round was the
+  // 32-club main draw (today's group stage) and the old Second Round was
+  // the last 16.
+  const ROUND_RANK = {
+    'Final': 0, 'Semifinal': 1, 'Quarterfinal': 2,
+    'Round of 16': 3, 'Second Round': 3, 'Knockout play-off': 3.5,
+    'Round of 32': 4, 'First Round': 4, 'Group stage': 4,
+    'Qualifying': 5,
+  };
+  const rankOf = a => {
+    const r = ROUND_RANK[cleanRoundLabel(a.roundName)];
+    return r === undefined ? (QUALIFYING_RE.test(a.roundName) ? 5 : 4) : r;
+  };
+
+  function classifyTier(roundName) {
+    const rank = rankOf({ roundName });
+    if (rank >= 5) return 'qualifying';
+    if (rank >= 4) return 'last32';
+    if (rank >= 3) return 'last16';
+    if (rank >= 2) return 'quarterfinal';
+    return 'semifinal';
   }
 
-  // a club's best-ever appearance, for tier classification and the
-  // "never got past qualifying" filter below
-  const bestAppearanceOf = club =>
-    club.appearances.find(a => a.distFromFinal === club.bestDistFromFinal) || club.appearances[0];
+  const isQualifying = a => QUALIFYING_RE.test(a.roundName);
 
-  // Group/league-stage football is a modern (1992+) concept -- the
-  // pre-1992 European Cup was pure knockout from round one, so an early
-  // exit back then was still a real tournament appearance, not a
-  // qualifying-only footnote. Only flag a club as "never really got into
-  // the competition" if EVERY appearance is qualifying/preliminary AND
-  // none of them predate the group stage's introduction.
-  function neverPastQualifying(club) {
-    let hasPreGroupStageEra = false;
-    for (const a of club.appearances) {
-      const startYear = parseInt(a.season.split(/[–-]/)[0], 10);
-      if (startYear < 1992) hasPreGroupStageEra = true;
-      if (!QUALIFYING_RE.test(a.roundName)) return false; // reached group stage or better at least once
-    }
-    return !hasPreGroupStageEra;
+  // Appearances that count under the current setting. With qualification
+  // excluded (the default) a club is judged only on the competition
+  // proper, so qualifying rounds are dropped from the marker tier, the
+  // "best result" badge and the season list alike -- showing them in the
+  // panel while hiding clubs that never got past them would be
+  // contradictory.
+  const countedAppearances = (club, includeQualifying) =>
+    includeQualifying ? club.appearances : club.appearances.filter(a => !isQualifying(a));
+
+  // Best = highest-ranked round reached, with distance-from-final only as
+  // a tiebreak between rounds of equal rank.
+  function bestAppearanceOf(club, includeQualifying) {
+    const pool = countedAppearances(club, includeQualifying);
+    if (!pool.length) return null;
+    return pool.reduce((a, b) => {
+      const ra = rankOf(a), rb = rankOf(b);
+      if (rb !== ra) return rb < ra ? b : a;
+      return b.distFromFinal < a.distFromFinal ? b : a;
+    });
   }
 
   const cleanRoundLabel = name => name.replace(/\s*\(.*$/, '').trim();
@@ -247,14 +269,14 @@
     });
   }
 
-  function markerFor(club, hasWon) {
+  function markerFor(club, hasWon, best) {
     let fillColor, fillOpacity, radius;
-    if (club.bestDistFromFinal === 0) {
+    if (best.roundName === 'Final') {
       fillColor = hasWon ? '#d4af37' : '#b9c2cf';
       fillOpacity = 0.95;
       radius = 7.5;
     } else {
-      const tier = classifyTier(club.bestDistFromFinal, bestAppearanceOf(club).roundName);
+      const tier = classifyTier(best.roundName);
       fillColor = '#5b9bd5';
       fillOpacity = BLUE_TIERS[tier];
       radius = RADII[tier];
@@ -270,9 +292,12 @@
   // venue, scorers, wiki link) -- only exists for the 42 clubs that have
   // ever reached a final. titlesByName: club -> title count, for the
   // winner-ring marker.
-  function renderDetail(club, richByKey, titlesByName) {
+  function renderDetail(club, richByKey, titlesByName, includeQualifying) {
     const el = document.getElementById('detail');
-    const rows = club.appearances.map(a => {
+    const shown = countedAppearances(club, includeQualifying);
+    const hiddenQualifying = club.appearances.length - shown.length;
+    const best = bestAppearanceOf(club, includeQualifying);
+    const rows = shown.map(a => {
       const rich = a.roundName === 'Final' ? richByKey.get(club.name + '||' + seasonKey(a.season)) : null;
       if (rich) {
         const win = rich.result === 'Winner';
@@ -297,12 +322,15 @@
     el.innerHTML = `
       <h2>${club.name}</h2>
       <div class="country">${club.country || ''}</div>
-      <div class="best-badge">Best result: ${cleanRoundLabel(club.bestRound)}</div>
+      <div class="best-badge">Best result: ${cleanRoundLabel(best.roundName)}</div>
       <div class="stats">
         <div class="stat"><div class="n">${titles}</div><div class="l">Titles</div></div>
-        <div class="stat"><div class="n">${club.seasonsPlayed}</div><div class="l">Seasons</div></div>
+        <div class="stat"><div class="n">${shown.length}</div><div class="l">Seasons</div></div>
       </div>
       <ul>${rows}</ul>
+      ${hiddenQualifying ? `<p class="placeholder" style="margin-top:12px">
+        +${hiddenQualifying} season${hiddenQualifying === 1 ? '' : 's'} ending in qualifying —
+        tick “Include qualification” to show ${hiddenQualifying === 1 ? 'it' : 'them'}.</p>` : ''}
     `;
   }
 
@@ -336,44 +364,51 @@
 
       jitterOverlaps(clubs);
 
-      // weakest (highest distFromFinal) first, so strong/notable markers
-      // are added last and render on top of the crowd when they overlap
-      clubs.sort((a, b) => b.bestDistFromFinal - a.bestDistFromFinal);
-
-      const points = [];
-      const qualifyingOnlyLayers = [];
-      clubs.forEach(club => {
-        const titles = titlesByName.get(club.name) || 0;
-        const hasWon = titles > 0;
-        const m = markerFor(club, hasWon);
-        const layers = [m];
-        if (titles > 1) {
-          // a separate non-interactive overlay, not a second tooltip on the
-          // same layer -- bindTooltip only allows one, and this needs to
-          // coexist with the marker's own hover tooltip below
-          layers.push(L.marker([club.lat, club.lon], {
-            icon: L.divIcon({ className: 'title-count', html: String(titles), iconSize: [18, 18], iconAnchor: [9, 9] }),
-            interactive: false,
-          }));
-        }
-        m.bindTooltip(`${club.name} — best: ${club.bestRound} (${club.seasonsPlayed} seasons)`);
-        m.on('click', () => renderDetail(club, richByKey, titlesByName));
-        if (neverPastQualifying(club)) {
-          qualifyingOnlyLayers.push(...layers); // held back if the toggle is checked, below
-        } else {
-          layers.forEach(l => l.addTo(map));
-        }
-        points.push([club.lat, club.lon]);
-      });
-
+      const markerLayer = L.layerGroup().addTo(map);
       const toggle = document.getElementById('hideQualifyingOnly');
-      const applyToggle = () => {
-        qualifyingOnlyLayers.forEach(l => {
-          if (toggle.checked) map.removeLayer(l); else l.addTo(map);
+      const qualifyingSwatch = document.getElementById('qualifyingSwatch');
+
+      // Markers are rebuilt (not merely hidden) whenever the setting
+      // changes: excluding qualification changes each club's best result,
+      // and therefore its tier colour and size, not just whether it shows.
+      function render() {
+        const includeQualifying = toggle.checked;
+        markerLayer.clearLayers();
+        qualifyingSwatch.style.display = includeQualifying ? '' : 'none';
+        document.getElementById('detail').innerHTML =
+          '<p class="placeholder">Select a club on the map to see its full run.</p>';
+
+        const drawable = clubs
+          .map(club => ({ club, best: bestAppearanceOf(club, includeQualifying) }))
+          // no qualifying-free appearance means the club never reached the
+          // competition proper -- nothing to draw when qualification is excluded
+          .filter(d => d.best)
+          // weakest first, so notable clubs land on top where markers overlap
+          .sort((a, b) => rankOf(b.best) - rankOf(a.best));
+
+        const points = [];
+        drawable.forEach(({ club, best }) => {
+          const titles = titlesByName.get(club.name) || 0;
+          const m = markerFor(club, titles > 0, best);
+          m.bindTooltip(`${club.name} — best: ${cleanRoundLabel(best.roundName)}`
+            + ` (${countedAppearances(club, includeQualifying).length} seasons)`);
+          m.on('click', () => renderDetail(club, richByKey, titlesByName, includeQualifying));
+          markerLayer.addLayer(m);
+          if (titles > 1) {
+            // separate non-interactive overlay -- bindTooltip allows only
+            // one per layer, and this must coexist with the hover tooltip
+            markerLayer.addLayer(L.marker([club.lat, club.lon], {
+              icon: L.divIcon({ className: 'title-count', html: String(titles), iconSize: [18, 18], iconAnchor: [9, 9] }),
+              interactive: false,
+            }));
+          }
+          points.push([club.lat, club.lon]);
         });
-      };
-      applyToggle(); // toggle starts checked, so these begin hidden
-      toggle.addEventListener('change', applyToggle);
+        return points;
+      }
+
+      const points = render();
+      toggle.addEventListener('change', render);
 
       if (points.length) {
         requestAnimationFrame(() => {

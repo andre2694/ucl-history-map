@@ -122,9 +122,8 @@ def main():
                 "name": canonical,
                 # the appearance that actually reached best_dist, not the
                 # earliest one -- see build_full_data.py for why
-                "bestRound": DIST_LABELS.get(
-                    best_dist,
-                    next(a["roundName"] for a in appearances if a["distFromFinal"] == best_dist)),
+                "bestRound": next(a["roundName"] for a in appearances
+                              if a["distFromFinal"] == best_dist),
                 "bestDistFromFinal": best_dist,
                 "seasonsPlayed": len(appearances),
                 "appearances": appearances,

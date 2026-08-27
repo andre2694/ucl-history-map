@@ -161,9 +161,8 @@ def absorb_bare_into_city(out, merge_log):
         target["seasonsPlayed"] = len(target["appearances"])
         best = min(a["distFromFinal"] for a in target["appearances"])
         target["bestDistFromFinal"] = best
-        target["bestRound"] = DIST_LABELS.get(
-            best, next(a["roundName"] for a in target["appearances"]
-                       if a["distFromFinal"] == best))
+        target["bestRound"] = next(a["roundName"] for a in target["appearances"]
+                                   if a["distFromFinal"] == best)
         merge_log.append((target["name"], [c["name"] + " (city-less fragment)"]))
         absorbed.add(id(c))
     return [c for c in out if id(c) not in absorbed]
@@ -220,9 +219,8 @@ def main():
             "name": canonical,
             # the appearance that actually reached best_dist, not the
             # earliest one -- see build_full_data.py for why
-            "bestRound": DIST_LABELS.get(
-                best_dist,
-                next(a["roundName"] for a in appearances if a["distFromFinal"] == best_dist)),
+            "bestRound": next(a["roundName"] for a in appearances
+                              if a["distFromFinal"] == best_dist),
             "bestDistFromFinal": best_dist,
             "seasonsPlayed": len(appearances),
             "appearances": appearances,

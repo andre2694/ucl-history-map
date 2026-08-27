@@ -88,6 +88,12 @@ NOTE_REF_RE = re.compile(r"[¹²³⁴⁵⁶⁷⁸⁹¹²³]")
 # stage (including Sheriff Tiraspol's famous win over Real Madrid,
 # 2021-22) silently vanishing because of this exact collision.
 GROUP_SUBHEADER_RE = re.compile(r"^Group\s+(?!Phase\b|Stage\b)[A-Za-z0-9]+$", re.I)
+# ...and some seasons prefix them with the competition name, e.g. 1992-93's
+# "UEFA Champions' League Group A". Those match neither GROUP_SUBHEADER_RE
+# (which anchors on "Group") nor ROUND_HEADER_RE, so that whole group stage
+# used to vanish and its matches got attributed to the preceding knockout
+# round -- which then shifted every distance-from-final in the season.
+GROUP_ANY_RE = re.compile(r"^(?:.*\s)?Group\s+(?!Phase\b|Stage\b)[A-Za-z0-9]+$", re.I)
 # (HT-score) lines used for group-stage / old-final match reports, with an
 # optional leading "Sep 14: " date prefix.
 HT_SCORE_RE = re.compile(
@@ -155,19 +161,51 @@ def extract_cc_section(html: str) -> str:
 
 
 def find_round_headers(lines):
-    """Return ordered list of (line_index, round_text) for header lines,
-    excluding group sub-headers ('Group A')."""
+    """Return ordered list of (line_index, round_text) for header lines.
+
+    Individual groups ("Group A", "Group B", "UEFA Champions' League Group
+    A") are not rounds in their own right -- they're parallel sections of
+    ONE group stage -- so the first one seen emits a synthetic "Group
+    Stage" round and the rest are absorbed into it. Seasons that label the
+    stage explicitly ("Group Phase") already produce that header
+    themselves, and the flag stops us emitting a duplicate."""
     headers = []
+    in_group_stage = False
     for i, raw in enumerate(lines):
         text = clean_line(raw)
-        if not text or GROUP_SUBHEADER_RE.match(text):
+        if not text:
+            continue
+        if GROUP_ANY_RE.match(text):
+            if not in_group_stage:
+                headers.append((i, "Group Stage"))
+                in_group_stage = True
             continue
         if ROUND_HEADER_RE.match(text):
+            # an explicit "Group Phase"/"Group Stage" header opens the same
+            # stage its sub-groups belong to; anything else closes it
+            in_group_stage = bool(re.match(r"^Group\s+(Phase|Stage)", text, re.I))
             headers.append((i, text))
     # drop a trailing 3rd-place-playoff header if present -- Final must be last
     while headers and re.search(r"third[\s-]place|3rd[\s-]place", headers[-1][1], re.I):
         headers.pop()
-    return headers
+
+    # The smallest associations play a preliminary mini-tournament that has
+    # its OWN "Semifinals" and "Final" headers, sitting near the top of the
+    # page before the qualifying rounds. Taken at face value those read as
+    # the competition's own semifinal and final -- which is how HB Tórshavn
+    # and Inter d'Escaldes ended up shown as beaten finalists. A real final
+    # is never followed by qualifying or group rounds, so any Final/Semi/
+    # Quarter header that IS gets dropped, folding its matches back into the
+    # Preliminary Round header above it, which is what they actually were.
+    LATER_STAGE_RE = re.compile(r"qualifying|group (phase|stage)|league (phase|stage)", re.I)
+    KNOCKOUT_NAME_RE = re.compile(r"^(final|semi.?final|quarter.?final)", re.I)
+    kept = []
+    for i, (line_no, text) in enumerate(headers):
+        if KNOCKOUT_NAME_RE.match(text) and any(
+                LATER_STAGE_RE.search(t) for _, t in headers[i + 1:]):
+            continue
+        kept.append((line_no, text))
+    return kept
 
 
 def parse_clubs_from_line(raw_line: str):
@@ -231,7 +269,13 @@ def parse_season(start_year: int):
     for club, idx in club_round.items():
         dist = final_idx - idx
         result[club] = {
-            "roundName": DIST_LABELS.get(dist, round_names[idx]),
+            # RSSSF's own round name, verbatim -- never DIST_LABELS[dist].
+            # Distance-from-final only means "quarterfinal" if the season
+            # actually ends R16 -> QF -> SF -> Final, and plenty don't:
+            # 1992-93 sent group winners straight to the final, so its
+            # First Round sat two rounds out and got mislabelled as the
+            # quarterfinal. Distance is kept for depth ordering only.
+            "roundName": round_names[idx],
             "distFromFinal": dist,
         }
 
