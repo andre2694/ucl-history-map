@@ -4924,5 +4924,23 @@
     "lon": 71.413312,
     "source": "wikidata:venue",
     "qid": "Q753004"
+  },
+  "Ferencvárosi": {
+    "lat": 47.475277777,
+    "lon": 19.096111111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q208396",
+    "country": "Hungary",
+    "matchedLabel": "Ferencvárosi TC",
+    "matchType": "fuzzy 0.98 -> Ferencvárosi TC"
+  },
+  "Levski (Sofia)": {
+    "lat": 42.705467,
+    "lon": 23.363197,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q144190",
+    "country": "Bulgaria",
+    "matchedLabel": "PFC Levski Sofia",
+    "matchType": "exact"
   }
 }

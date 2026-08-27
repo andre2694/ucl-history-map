@@ -16,6 +16,7 @@ still be fragmented across name variants across different decades.
 Run:  python scripts/build_full_data.py
 """
 import json
+import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
@@ -75,6 +76,40 @@ ALIASES = {
     "Sutjeska Niksic": "Sutjeska (Niksic)",
     "Ferncvárosi TC": "Ferencvárosi TC",
     "Omonia Lefkosia": "Omonia (Lefkosia)",
+
+    # Same club under a spelling variant or a historical name. Found by
+    # scanning for DIFFERENT cluster names that geocoded to IDENTICAL
+    # coordinates -- a rename won't be caught by name-similarity checks,
+    # but the club still sits at the same ground.
+    "FC do Porto": "Porto",
+    "Feijenoord": "Feyenoord",
+    "Ferencvarosi": "Ferencváros (Budapest)",
+    "Ferencváros": "Ferencváros (Budapest)",
+    "Ferencvárosi": "Ferencváros (Budapest)",
+    "Ferencvárosi TC": "Ferencváros (Budapest)",
+    "FC Copenhagen": "FC København",
+    "Internazionale FC": "Inter Milan",
+    "CSKA Moscow": "CSKA Moskva",
+    # CDNA and CFKA Sredets are documented former names of CSKA Sofia
+    "CDNA (Sofia)": "CSKA (Sofia)",
+    "CSKA-CZ (Sofia)": "CSKA (Sofia)",
+    "CFKA Sredets (Sofia)": "CSKA (Sofia)",
+    "CSKA Sofia": "CSKA (Sofia)",
+    # Levski was "Levski-Spartak" 1969-1985 after merging with Spartak
+    "FC Levski (Sofia)": "Levski Sofia",
+    "Levski-Spartak (Sofia)": "Levski Sofia",
+    "FC Levski-Spartak": "Levski Sofia",
+    # 17 Nëntori was KF Tirana's name for most of the communist era
+    "17 Nentori (Tirane)": "KF Tirana",
+    "17 Nëntori (Tiranë)": "KF Tirana",
+    "SK 17 Nentori (Tirane)": "KF Tirana",
+    "Dynamo (Tirana)": "KS Dinamo (Tirana)",
+    # NOTE: deliberately NOT merged, despite sharing a ground -- these are
+    # genuinely separate clubs: Inter/Milan (San Siro), Roma/Lazio (Stadio
+    # Olimpico), the Malta sides (national stadium), Zurich's FCZ and
+    # Grasshopper (Letzigrund), APOEL/Olympiakos Nicosia (GSP), HJK/HIFK
+    # (Helsinki), Lokomotiv Sofia/Plovdiv, and Copenhagen's AB/KB/B1903,
+    # which were distinct entrants before the 1992 merger that made FCK.
 }
 
 # Parser artifacts that survived dedupe_full_data.py's looks_bogus() filter
@@ -92,7 +127,10 @@ KNOWN_GARBAGE = {
 
 
 def canonical(name: str) -> str:
-    name = name.strip()
+    # NFKC first: RSSSF occasionally uses the Dutch "ĳ" ligature (a single
+    # codepoint) where the alias table spells it "ij", so "Feĳenoord" would
+    # otherwise slip past every alias and end up its own one-season club.
+    name = unicodedata.normalize("NFKC", name).strip()
     return ALIASES.get(name, name)
 
 

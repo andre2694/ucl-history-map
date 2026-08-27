@@ -3900,70 +3900,6 @@
     "country": "Romania"
   },
   {
-    "name": "CDNA (Sofia)",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 7,
-    "appearances": [
-      {
-        "season": "1956–57",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "1957–58",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1958–59",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1959–60",
-        "roundName": "Qualifying Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1960–61",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1961–62",
-        "roundName": "Preliminary Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1962–63",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "lat": 42.6977028,
-    "lon": 23.3217359,
-    "geocodeSource": "nominatim",
-    "country": "Bulgaria"
-  },
-  {
-    "name": "CFKA Sredets (Sofia)",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1987–88",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      }
-    ],
-    "lat": 42.6977028,
-    "lon": 23.3217359,
-    "geocodeSource": "nominatim",
-    "country": "Bulgaria"
-  },
-  {
     "name": "CFR 1907 Cluj",
     "bestRound": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
     "bestDistFromFinal": 4,
@@ -4053,8 +3989,48 @@
     "name": "CSKA (Sofia)",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 16,
+    "seasonsPlayed": 25,
     "appearances": [
+      {
+        "season": "1956–57",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "1957–58",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1958–59",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1959–60",
+        "roundName": "Qualifying Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1960–61",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1961–62",
+        "roundName": "Preliminary Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1962–63",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1966–67",
+        "roundName": "Semifinal",
+        "distFromFinal": 1
+      },
       {
         "season": "1969–70",
         "roundName": "First Round",
@@ -4106,6 +4082,11 @@
         "distFromFinal": 3
       },
       {
+        "season": "1987–88",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
         "season": "1989–90",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
@@ -4142,33 +4123,16 @@
     "country": "Bulgaria"
   },
   {
-    "name": "CSKA Moscow",
+    "name": "CSKA Moskva",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 15,
     "appearances": [
       {
         "season": "1971–72",
         "roundName": "Round of 16",
         "distFromFinal": 3
       },
-      {
-        "season": "1992–93",
-        "roundName": "Semifinal",
-        "distFromFinal": 1
-      }
-    ],
-    "lat": 55.7911,
-    "lon": 37.53927,
-    "geocodeSource": "wikidata:club",
-    "country": "Russia"
-  },
-  {
-    "name": "CSKA Moskva",
-    "bestRound": "Semifinal",
-    "bestDistFromFinal": 1,
-    "seasonsPlayed": 14,
-    "appearances": [
       {
         "season": "1992–93",
         "roundName": "Semifinal",
@@ -4244,23 +4208,6 @@
     "lon": 37.45416667,
     "geocodeSource": "wikidata:venue",
     "country": "Russia"
-  },
-  {
-    "name": "CSKA-CZ (Sofia)",
-    "bestRound": "Semifinal",
-    "bestDistFromFinal": 1,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1966–67",
-        "roundName": "Semifinal",
-        "distFromFinal": 1
-      }
-    ],
-    "lat": 42.6977028,
-    "lon": 23.3217359,
-    "geocodeSource": "nominatim",
-    "country": "Bulgaria"
   },
   {
     "name": "CWKS Warsaw",
@@ -6241,23 +6188,6 @@
     "country": "Belarus"
   },
   {
-    "name": "Dynamo (Tirana)",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1980–81",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      }
-    ],
-    "lat": 29.7522,
-    "lon": -95.3524,
-    "geocodeSource": "wikidata:venue",
-    "country": "Albania"
-  },
-  {
     "name": "EB/Streymur",
     "bestRound": "Qualifying Phase 1 (Jul 15 and 22)",
     "bestDistFromFinal": 7,
@@ -6813,23 +6743,6 @@
     "country": "Germany"
   },
   {
-    "name": "FC Copenhagen",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1993–94",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      }
-    ],
-    "lat": 55.702469,
-    "lon": 12.572203,
-    "geocodeSource": "wikidata:venue",
-    "country": "Denmark"
-  },
-  {
     "name": "FC Etar (Veliko Tarnovo)",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
@@ -7083,10 +6996,15 @@
   },
   {
     "name": "FC København",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 16,
+    "bestRound": "Quarterfinal",
+    "bestDistFromFinal": 2,
+    "seasonsPlayed": 17,
     "appearances": [
+      {
+        "season": "1993–94",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
       {
         "season": "2001–02",
         "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
@@ -7172,38 +7090,6 @@
     "lon": 12.572203,
     "geocodeSource": "wikidata:venue",
     "country": "Denmark"
-  },
-  {
-    "name": "FC Levski (Sofia)",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 4,
-    "appearances": [
-      {
-        "season": "1965–66",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1993–94",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "2006–07",
-        "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2007–08",
-        "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
-        "distFromFinal": 6
-      }
-    ],
-    "lat": 42.6977028,
-    "lon": 23.3217359,
-    "geocodeSource": "nominatim",
-    "country": "Bulgaria"
   },
   {
     "name": "FC Litex (Lovech)",
@@ -7901,23 +7787,6 @@
     "lon": 8.503801,
     "geocodeSource": "wikidata-bulk:venue",
     "country": "Switzerland"
-  },
-  {
-    "name": "FC do Porto",
-    "bestRound": "Qualifying Phase 3 (Aug 9 and Aug 23)",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2000–01",
-        "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
-        "distFromFinal": 5
-      }
-    ],
-    "lat": 41.161758,
-    "lon": -8.583933,
-    "geocodeSource": "wikidata-bulk:venue",
-    "country": "Portugal"
   },
   {
     "name": "FCI Levadia Tallinn",
@@ -8787,28 +8656,6 @@
     "country": "Serbia"
   },
   {
-    "name": "Feijenoord",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "1961–62",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1970–71",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      }
-    ],
-    "lat": 51.893894444444,
-    "lon": 4.5232527777778,
-    "geocodeSource": "wikidata:venue",
-    "country": "Netherlands"
-  },
-  {
     "name": "Fenerbahçe SK (Istanbul)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
@@ -8962,10 +8809,45 @@
   },
   {
     "name": "Ferencváros (Budapest)",
-    "bestRound": "Group Phase",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 9,
+    "bestRound": "Quarterfinal",
+    "bestDistFromFinal": 2,
+    "seasonsPlayed": 16,
     "appearances": [
+      {
+        "season": "1963–64",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1965–66",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "1969–70",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1976–77",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1992–93",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "1995–96",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1996–97",
+        "roundName": "Qualifying Round ( Aug 7 and 21 )",
+        "distFromFinal": 4
+      },
       {
         "season": "2001–02",
         "roundName": "Qualifying Phase 2 (Jul 25 and Aug 1)",
@@ -9019,48 +8901,13 @@
   },
   {
     "name": "Ferencvárosi TC",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 8,
+    "bestRound": "First Round",
+    "bestDistFromFinal": 4,
+    "seasonsPlayed": 1,
     "appearances": [
-      {
-        "season": "1963–64",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1965–66",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "1969–70",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1976–77",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
       {
         "season": "1981–82",
         "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1992–93",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      },
-      {
-        "season": "1995–96",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1996–97",
-        "roundName": "Qualifying Round ( Aug 7 and 21 )",
         "distFromFinal": 4
       }
     ],
@@ -9090,8 +8937,13 @@
     "name": "Feyenoord",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 17,
+    "seasonsPlayed": 19,
     "appearances": [
+      {
+        "season": "1961–62",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
       {
         "season": "1962–63",
         "roundName": "Semifinal",
@@ -9106,6 +8958,11 @@
         "season": "1969–70",
         "roundName": "Final",
         "distFromFinal": 0
+      },
+      {
+        "season": "1970–71",
+        "roundName": "First Round",
+        "distFromFinal": 4
       },
       {
         "season": "1971–72",
@@ -10519,7 +10376,7 @@
     "name": "Hibernians (Paola)",
     "bestRound": "Preliminary Round",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 7,
+    "seasonsPlayed": 11,
     "appearances": [
       {
         "season": "1961–62",
@@ -10537,39 +10394,17 @@
         "distFromFinal": 4
       },
       {
+        "season": "1979–80",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
         "season": "1981–82",
         "roundName": "First Round",
         "distFromFinal": 4
       },
       {
         "season": "1982–83",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2021–22",
-        "roundName": "Qualifying Phase 1",
-        "distFromFinal": 8
-      },
-      {
-        "season": "2022–23",
-        "roundName": "Qualifying Phase 1",
-        "distFromFinal": 8
-      }
-    ],
-    "lat": 35.8717994,
-    "lon": 14.5073748,
-    "geocodeSource": "nominatim",
-    "country": "Malta"
-  },
-  {
-    "name": "Hibernians (Pawla)",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 4,
-    "appearances": [
-      {
-        "season": "1979–80",
         "roundName": "First Round",
         "distFromFinal": 4
       },
@@ -10587,11 +10422,21 @@
         "season": "2017–18",
         "roundName": "Qualifying Phase 1",
         "distFromFinal": 7
+      },
+      {
+        "season": "2021–22",
+        "roundName": "Qualifying Phase 1",
+        "distFromFinal": 8
+      },
+      {
+        "season": "2022–23",
+        "roundName": "Qualifying Phase 1",
+        "distFromFinal": 8
       }
     ],
-    "lat": 35.882861111111,
-    "lon": 14.513027777778,
-    "geocodeSource": "wikidata:venue",
+    "lat": 35.8717994,
+    "lon": 14.5073748,
+    "geocodeSource": "nominatim",
     "country": "Malta"
   },
   {
@@ -11039,7 +10884,7 @@
     "name": "Inter Milan",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 24,
+    "seasonsPlayed": 26,
     "appearances": [
       {
         "season": "1963–64",
@@ -11082,9 +10927,19 @@
         "distFromFinal": 2
       },
       {
+        "season": "2000–01",
+        "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
+        "distFromFinal": 5
+      },
+      {
         "season": "2002–03",
         "roundName": "Semifinal",
         "distFromFinal": 1
+      },
+      {
+        "season": "2003–04",
+        "roundName": "Group Phase 1",
+        "distFromFinal": 4
       },
       {
         "season": "2004–05",
@@ -11209,33 +11064,6 @@
     "lon": 1.540833,
     "geocodeSource": "wikidata-bulk:headquarters",
     "country": "Andorra"
-  },
-  {
-    "name": "Internazionale FC",
-    "bestRound": "Group Phase 1",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 3,
-    "appearances": [
-      {
-        "season": "2000–01",
-        "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2003–04",
-        "roundName": "Group Phase 1",
-        "distFromFinal": 4
-      },
-      {
-        "season": "2004–05",
-        "roundName": "Group Phase",
-        "distFromFinal": 4
-      }
-    ],
-    "lat": 45.478055555,
-    "lon": 9.123888888,
-    "geocodeSource": "wikidata-bulk:venue",
-    "country": "Italy"
   },
   {
     "name": "Ipswich Town",
@@ -11623,10 +11451,40 @@
   },
   {
     "name": "KF Tirana",
-    "bestRound": "Qualifying Phase 2 (Jul 30 and Aug 6)",
-    "bestDistFromFinal": 6,
-    "seasonsPlayed": 8,
+    "bestRound": "Round of 16",
+    "bestDistFromFinal": 3,
+    "seasonsPlayed": 14,
     "appearances": [
+      {
+        "season": "1965–66",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1969–70",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1970–71",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1982–83",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1988–89",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1989–90",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
       {
         "season": "1999–00",
         "roundName": "Qualifying Phase 1 (Jul 14 and 21)",
@@ -11756,8 +11614,13 @@
     "name": "KS Dinamo (Tirana)",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
+      {
+        "season": "1980–81",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
       {
         "season": "1986–87",
         "roundName": "First Round",
@@ -12492,48 +12355,16 @@
     "country": "Bosnia and Herzegovina"
   },
   {
-    "name": "Levski Sofia",
-    "bestRound": "Qualifying Phase 3 (Aug 8 and Aug 22)",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 5,
+    "name": "Levski (Sofia)",
+    "bestRound": "Quarterfinal",
+    "bestDistFromFinal": 2,
+    "seasonsPlayed": 14,
     "appearances": [
       {
-        "season": "2000–01",
-        "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
-        "distFromFinal": 6
+        "season": "1965–66",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       },
-      {
-        "season": "2001–02",
-        "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2002–03",
-        "roundName": "Qualifying Phase 3 (Aug 14 and 28)",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2008–09",
-        "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2009–10",
-        "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
-        "distFromFinal": 5
-      }
-    ],
-    "lat": 42.705467,
-    "lon": 23.363197,
-    "geocodeSource": "wikidata-bulk:venue",
-    "country": "Bulgaria"
-  },
-  {
-    "name": "Levski-Spartak (Sofia)",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 5,
-    "appearances": [
       {
         "season": "1970–71",
         "roundName": "Preliminary Round",
@@ -12558,11 +12389,51 @@
         "season": "1984–85",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "1993–94",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
+      {
+        "season": "2000–01",
+        "roundName": "Qualifying Phase 2 (Jul 26 and Aug 2)",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2001–02",
+        "roundName": "Qualifying Phase 3 (Aug 8 and Aug 22)",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2002–03",
+        "roundName": "Qualifying Phase 3 (Aug 14 and 28)",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2006–07",
+        "roundName": "Group Phase (Sep 12/13, 26/27, Oct 17/18, Oct 31/Nov 1, Nov 21/22, Dec 5/6)",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2007–08",
+        "roundName": "Qualifying Phase 2 (Aug 1 and 8)",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2008–09",
+        "roundName": "Qualifying Phase 3 (Aug 13 and 27)",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2009–10",
+        "roundName": "Qualifying Phase 3 (Aug 19 and 25)",
+        "distFromFinal": 5
       }
     ],
-    "lat": 42.6977028,
-    "lon": 23.3217359,
-    "geocodeSource": "nominatim",
+    "lat": 42.705467,
+    "lon": 23.363197,
+    "geocodeSource": "wikidata-bulk:venue",
     "country": "Bulgaria"
   },
   {
@@ -16720,7 +16591,7 @@
     "name": "Porto",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 36,
+    "seasonsPlayed": 37,
     "appearances": [
       {
         "season": "1956–57",
@@ -16796,6 +16667,11 @@
         "season": "1999–00",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "2000–01",
+        "roundName": "Qualifying Phase 3 (Aug 9 and Aug 23)",
+        "distFromFinal": 5
       },
       {
         "season": "2001–02",
@@ -18987,48 +18863,6 @@
     "lon": 22.815588888889,
     "geocodeSource": "wikidata:venue",
     "country": "Finland"
-  },
-  {
-    "name": "SK 17 Nentori (Tirane)",
-    "bestRound": "Round of 16",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 6,
-    "appearances": [
-      {
-        "season": "1965–66",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1969–70",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1970–71",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1982–83",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1988–89",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1989–90",
-        "roundName": "Round of 16",
-        "distFromFinal": 3
-      }
-    ],
-    "lat": 41.31898056,
-    "lon": 19.81138333,
-    "geocodeSource": "wikidata:venue",
-    "country": "Albania"
   },
   {
     "name": "SK Beveren",

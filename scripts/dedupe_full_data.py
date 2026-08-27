@@ -66,6 +66,7 @@ CITY_ALIASES = {
     "moskva": "moscow",
     "bucuresti": "bucharest",
     "zagreb": "zagreb",
+    "pawla": "paola",  # Maltese/English names for the same town (Raħal Ġdid)
 }
 
 
