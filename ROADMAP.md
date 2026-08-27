@@ -68,7 +68,59 @@
   this with the finals-only `clubs.json` (which has the rich per-final
   data — scores, scorers, wiki links — that `clubs_final.json` doesn't).
 
-## v2 — polish
+## v2 — migrate the data backbone to Wikipedia (in progress)
+
+**Why.** Nearly every bug this project has hit came from one root cause:
+inferring what a round *meant* from its position, or from loose pattern
+matching over RSSSF's hand-typed text. A partial list — Víkingur's first
+round reported as a quarterfinal, HB Tórshavn's preliminary
+mini-tournament read as the real semifinal, Sheriff Tiraspol's group
+stage vanishing on a regex collision, the 2024-25 "League Stage" and
+1992-93 "UEFA Champions' League Group A" headings going unrecognised —
+plus a whole separate family of club-name bugs (Deportivo, Benfica,
+Anderlecht, Olympiakos, CSKA's former names, a "ĳ" ligature). Each fix
+was sound; the *approach* keeps generating them.
+
+**The change.** Wikipedia has an article for every season back to
+1955-56, and two properties that remove the guesswork:
+  - rounds are named in section headings, so a round is whatever
+    Wikipedia says it is — no positional inference;
+  - club cells are LINKS to canonical articles ("Arsenal F.C.", "FC
+    Bayern Munich"), which is a stable identity rather than free text.
+    That alone should eliminate most name-fragmentation bugs, and those
+    titles map to Wikidata QIDs, making geocoding exact instead of
+    fuzzy-matched.
+
+**Design (per the "hardcode the eras" call).** An explicit era table
+mapping each era's ordered round sequence and flagging which of those
+rounds are qualification — no generic shape-inference across formats:
+
+| Era | Round sequence (qualification marked *) |
+|---|---|
+| 1955-56 → 1991-92 | Preliminary* → First round → Second round → QF → SF → Final |
+| 1992-93 → 2002-03 | Qualifying* → group stage(s) → (QF) → SF → Final |
+| 2003-04 → 2023-24 | Qualifying/play-off* → group → R16 → QF → SF → Final |
+| 2024-25 → | Qualifying/play-off* → league phase → KO play-off → R16 → QF → SF → Final |
+
+Those boundaries are to be **derived empirically**, not from memory:
+`scripts/wiki_fetch_sections.py` caches every season's section headings
+so the table can be written against what the articles actually contain.
+
+- [x] `wiki_fetch_sections.py` — cache all season section headings
+- [ ] Read the cached headings; write the era/round table
+- [ ] Season scraper driven by that table (supersedes the WIP
+      `scrape_wikipedia_season.py`, which still infers a single generic
+      shape and is not wired in)
+- [ ] Use club article titles as identity; resolve to Wikidata QIDs
+- [ ] Re-run geocoding against QIDs (exact, no fuzzy matching)
+- [ ] Validate against the RSSSF pipeline, which is **kept as a
+      cross-check oracle** — the finals are independently known, so any
+      disagreement is a bug in one of them
+
+Note: Wikipedia rate-limits (HTTP 429), so every step needs the same
+local caching the RSSSF scraper uses.
+
+## v3 — polish
 - Real club crests (need a licensing-safe source or simple generated badges)
 - Search/filter by country or era
 - Per-season "time slider" to replay history season by season (this pairs
