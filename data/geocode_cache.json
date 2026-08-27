@@ -162,7 +162,10 @@
     "qid": "Q2035339"
   },
   "Alashkert Yerevan": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 40.1792,
+    "lon": 44.4991,
+    "source": "manual",
+    "country": "Armenia"
   },
   "Anderlecht": {
     "lat": 50.834167,
@@ -199,9 +202,6 @@
     "lon": 44.525833,
     "source": "wikidata:venue",
     "qid": "Q332702"
-  },
-  "Ararat-Armenia Yerevan": {
-    "error": "no results from wikidata or nominatim"
   },
   "Ards": {
     "lat": 54.6516,
@@ -406,9 +406,6 @@
     "lon": 35.19061666666666,
     "source": "wikidata:venue",
     "qid": "Q223727"
-  },
-  "Belshyna Babruisk": {
-    "error": "no results from wikidata or nominatim"
   },
   "Berliner FC Dynamo": {
     "lat": 52.54,
@@ -879,10 +876,16 @@
     "qid": "Q622430"
   },
   "Dnepr Dnepropetrovsk": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 48.4647,
+    "lon": 35.0462,
+    "source": "manual",
+    "country": "Ukraine"
   },
   "Dnepr-Transmash Mogilev": {
-    "error": "no results from wikidata or nominatim"
+    "lat": 53.9006,
+    "lon": 30.3319,
+    "source": "manual",
+    "country": "Belarus"
   },
   "Dnipro Dnipropetrovsk": {
     "lat": 48.460333,
@@ -1082,9 +1085,6 @@
     "source": "wikidata:venue",
     "qid": "Q189671"
   },
-  "FC Basle": {
-    "error": "no results from wikidata or nominatim"
-  },
   "FC Beroe (Stara Zagora)": {
     "lat": 42.432778,
     "lon": 25.615278,
@@ -1181,9 +1181,6 @@
     "source": "nominatim",
     "displayName": "София, Средец, Столична, София-град, България"
   },
-  "FC Levski-Spartak": {
-    "error": "no results from wikidata or nominatim"
-  },
   "FC Litex (Lovech)": {
     "lat": 43.142639,
     "lon": 24.724861,
@@ -1249,5 +1246,3683 @@
     "lon": 12.353289,
     "source": "wikidata:venue",
     "qid": "Q210025"
+  },
+  "FC Nordsjælland (Farum)": {
+    "lat": 55.815847,
+    "lon": 12.353289,
+    "source": "wikidata:venue",
+    "qid": "Q210025"
+  },
+  "FC Sankt Gallen": {
+    "lat": 47.408333,
+    "lon": 9.306389,
+    "source": "wikidata:venue",
+    "qid": "Q659212"
+  },
+  "Ararat-Armenia Yerevan": {
+    "lat": 40.22111111,
+    "lon": 44.55527778,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q39056364",
+    "country": "Armenia",
+    "matchedLabel": "FC Ararat-Armenia",
+    "matchType": "fuzzy 0.96 -> FC Ararat-Armenia"
+  },
+  "Belshyna Babruisk": {
+    "lat": 53.140278,
+    "lon": 29.217222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q756110",
+    "country": "Belarus",
+    "matchedLabel": "FC Belshina Bobruisk",
+    "matchType": "fuzzy 0.88 -> FC Belshina Bobruisk"
+  },
+  "FC Santa Coloma": {
+    "lat": 42.476389,
+    "lon": 1.487667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q221766",
+    "country": "Andorra",
+    "matchedLabel": "FC Santa Coloma",
+    "matchType": "exact"
+  },
+  "FC Schalke 04": {
+    "lat": 51.510277777,
+    "lon": 7.094166666,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q117743307",
+    "country": "Germany",
+    "matchedLabel": "FC Schalke 04",
+    "matchType": "exact"
+  },
+  "FC Sion": {
+    "lat": 46.233333,
+    "lon": 7.376389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q321061",
+    "country": "Switzerland",
+    "matchedLabel": "FC Sion",
+    "matchType": "exact"
+  },
+  "FC Slovan Liberec": {
+    "lat": 50.776214,
+    "lon": 15.049972,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q221671",
+    "country": "Czech Republic",
+    "matchedLabel": "FC Slovan Liberec",
+    "matchType": "exact"
+  },
+  "FC Thun": {
+    "lat": 46.744817,
+    "lon": 7.606075,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q464775",
+    "country": "Switzerland",
+    "matchedLabel": "FC Thun",
+    "matchType": "exact"
+  },
+  "FC Timisoara": {
+    "lat": 45.746111111,
+    "lon": 21.228333333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q5425107",
+    "country": "Romania",
+    "matchedLabel": "FC Politehnica II Timișoara",
+    "matchType": "fuzzy 0.97 -> FC Politehnica II Timișoara"
+  },
+  "FC Tirol Innsbruck": {
+    "lat": 47.2586,
+    "lon": 11.4055,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2387559",
+    "country": "Austria",
+    "matchedLabel": "FC Tirol Innsbruck",
+    "matchType": "exact"
+  },
+  "FC Twente (Enschede)": {
+    "lat": 52.236666666,
+    "lon": 6.8375,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19603",
+    "country": "Netherlands",
+    "matchedLabel": "FC Twente",
+    "matchType": "exact"
+  },
+  "FC Vaslui": {
+    "lat": 46.6335,
+    "lon": 27.733319,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q453925",
+    "country": "Romania",
+    "matchedLabel": "FC Vaslui",
+    "matchType": "exact"
+  },
+  "FC Zestaponi": {
+    "lat": 42.111213,
+    "lon": 43.02568,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q568664",
+    "country": "Georgia",
+    "matchedLabel": "FC Zestaponi",
+    "matchType": "exact"
+  },
+  "FC Zurich": {
+    "lat": 47.382791,
+    "lon": 8.503801,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q206692",
+    "country": "Switzerland",
+    "matchedLabel": "FC Zürich",
+    "matchType": "exact"
+  },
+  "FC do Porto": {
+    "lat": 41.161758,
+    "lon": -8.583933,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q128446",
+    "country": "Portugal",
+    "matchedLabel": "FC Porto",
+    "matchType": "fuzzy 0.95 -> FC Porto"
+  },
+  "FCI Levadia Tallinn": {
+    "lat": 59.421292,
+    "lon": 24.73205,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q210849",
+    "country": "Estonia",
+    "matchedLabel": "FCI Levadia Tallinn",
+    "matchType": "exact"
+  },
+  "FCSB (Bucuresti)": {
+    "lat": 44.4372,
+    "lon": 26.1525,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q179658",
+    "country": "Romania",
+    "matchedLabel": "FCSB",
+    "matchType": "exact"
+  },
+  "FK Astana": {
+    "lat": 51.1082,
+    "lon": 71.4026,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q779698",
+    "country": "Kazakhstan",
+    "matchedLabel": "FC Astana",
+    "matchType": "core"
+  },
+  "FK Austria Wien": {
+    "lat": 48.162306,
+    "lon": 16.386694,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q131209",
+    "country": "Austria",
+    "matchedLabel": "FK Austria Wien",
+    "matchType": "exact"
+  },
+  "FK Bodø/Glimt": {
+    "lat": 67.2775,
+    "lon": 14.384166666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q478167",
+    "country": "Norway",
+    "matchedLabel": "FK Bodø/Glimt",
+    "matchType": "exact"
+  },
+  "FK Homel": {
+    "lat": 52.436527777,
+    "lon": 31.012361111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q726285",
+    "country": "Belarus",
+    "matchedLabel": "FC Gomel",
+    "matchType": "core"
+  },
+  "FK Krasnodar": {
+    "lat": 45.044166666,
+    "lon": 39.029444444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q220854",
+    "country": "Russia",
+    "matchedLabel": "FC Krasnodar",
+    "matchType": "core"
+  },
+  "FK Liepaja": {
+    "lat": 56.502952,
+    "lon": 20.995424,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q15939830",
+    "country": "Latvia",
+    "matchedLabel": "FK Liepāja",
+    "matchType": "exact"
+  },
+  "FK Mladá Boleslav": {
+    "lat": 50.427083,
+    "lon": 14.914783,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q328332",
+    "country": "Czech Republic",
+    "matchedLabel": "FK Mladá Boleslav",
+    "matchType": "exact"
+  },
+  "FK Obilic (Beograd)": {
+    "lat": 44.791586,
+    "lon": 20.494644,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1140595",
+    "country": "Serbia",
+    "matchedLabel": "FK Obilić",
+    "matchType": "exact"
+  },
+  "FK Rostov": {
+    "lat": 47.2094,
+    "lon": 39.7378,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q182930",
+    "country": "Russia",
+    "matchedLabel": "FC Rostov",
+    "matchType": "core"
+  },
+  "FK Sarajevo": {
+    "lat": 43.873888888,
+    "lon": 18.408611111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q239663",
+    "country": "Bosnia and Herzegovina",
+    "matchedLabel": "FK Sarajevo",
+    "matchType": "exact"
+  },
+  "FK Shamkir": {
+    "lat": 40.854527777,
+    "lon": 46.036222222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q603407",
+    "country": "Azerbaijan",
+    "matchedLabel": "FK Shamkir",
+    "matchType": "exact"
+  },
+  "FK Teplice": {
+    "lat": 50.640075,
+    "lon": 13.817936,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q738886",
+    "country": "Czech Republic",
+    "matchedLabel": "FK Teplice",
+    "matchType": "exact"
+  },
+  "FK Vojvodina (Novi Sad)": {
+    "lat": 45.246667,
+    "lon": 19.842222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q207501",
+    "country": "Serbia",
+    "matchedLabel": "FK Vojvodina",
+    "matchType": "exact"
+  },
+  "FK Yerevan": {
+    "lat": 40.180278,
+    "lon": 44.494444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2276964",
+    "country": "Armenia",
+    "matchedLabel": "FC Yerevan",
+    "matchType": "fuzzy 1.00 -> FC Yerevan"
+  },
+  "Fenerbahçe SK": {
+    "lat": 40.9875,
+    "lon": 29.036666666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q6601875",
+    "country": "Turkey",
+    "matchedLabel": "Fenerbahçe Istanbul",
+    "matchType": "exact"
+  },
+  "Fenerbahçe SK (Istanbul)": {
+    "lat": 40.9875,
+    "lon": 29.036666666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q6601875",
+    "country": "Turkey",
+    "matchedLabel": "Fenerbahçe Istanbul",
+    "matchType": "exact"
+  },
+  "Ferencvarosi": {
+    "lat": 47.475277777,
+    "lon": 19.096111111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q208396",
+    "country": "Hungary",
+    "matchedLabel": "Ferencvárosi TC",
+    "matchType": "fuzzy 0.98 -> Ferencvárosi TC"
+  },
+  "Ferencváros": {
+    "lat": 47.475277777,
+    "lon": 19.096111111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q208396",
+    "country": "Hungary",
+    "matchedLabel": "Ferencvárosi TC",
+    "matchType": "fuzzy 0.97 -> Ferencvárosi TC"
+  },
+  "Ferencvárosi TC": {
+    "lat": 47.475277777,
+    "lon": 19.096111111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q208396",
+    "country": "Hungary",
+    "matchedLabel": "Ferencvárosi TC",
+    "matchType": "exact"
+  },
+  "Feronikeli": {
+    "lat": 42.616446,
+    "lon": 20.903551,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1228264",
+    "country": "Kosovo",
+    "matchedLabel": "KF Feronikeli",
+    "matchType": "exact"
+  },
+  "Floriana": {
+    "lat": 35.894863888,
+    "lon": 14.415372222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q728557",
+    "country": "Malta",
+    "matchedLabel": "Floriana F.C.",
+    "matchType": "exact"
+  },
+  "Fola Esch": {
+    "lat": 49.492222222,
+    "lon": 5.989722222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1024468",
+    "country": "Luxembourg",
+    "matchedLabel": "CS Fola Esch",
+    "matchType": "exact"
+  },
+  "Folgore/Falciano": {
+    "lat": 43.97125,
+    "lon": 12.476972,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q690787",
+    "country": "San Marino",
+    "matchedLabel": "S.S. Folgore Falciano Calcio",
+    "matchType": "fuzzy 0.96 -> S.S. Folgore Falciano Calcio"
+  },
+  "Fram (Reykjavik)": {
+    "lat": 64.143555555,
+    "lon": -21.878972222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q752278",
+    "country": "Iceland",
+    "matchedLabel": "Knattspyrnufélagið Fram",
+    "matchType": "exact"
+  },
+  "Fredrikstad FK": {
+    "lat": 59.213049,
+    "lon": 10.92732,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q216131",
+    "country": "Norway",
+    "matchedLabel": "Fredrikstad FK",
+    "matchType": "exact"
+  },
+  "Galatasaray (Istanbul)": {
+    "lat": 41.01,
+    "lon": 28.960277777,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q2525887",
+    "country": "Turkey",
+    "matchedLabel": "Galatasaray SK",
+    "matchType": "exact"
+  },
+  "Galatasaray SK": {
+    "lat": 41.103388888,
+    "lon": 28.991,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q495299",
+    "country": "Turkey",
+    "matchedLabel": "Galatasaray S.K.",
+    "matchType": "fuzzy 1.00 -> Galatasaray S.K."
+  },
+  "Girondins Bordeaux": {
+    "lat": 44.89735,
+    "lon": -0.56128,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q172476",
+    "country": "France",
+    "matchedLabel": "FC Girondins de Bordeaux",
+    "matchType": "fuzzy 0.92 -> FC Girondins de Bordeaux"
+  },
+  "Girondins de Bordeaux": {
+    "lat": 44.89735,
+    "lon": -0.56128,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q172476",
+    "country": "France",
+    "matchedLabel": "FC Girondins de Bordeaux",
+    "matchType": "fuzzy 1.00 -> FC Girondins de Bordeaux"
+  },
+  "Glenavon": {
+    "lat": 54.453889,
+    "lon": -6.336389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1130432",
+    "country": "United Kingdom",
+    "matchedLabel": "Glenavon F.C.",
+    "matchType": "exact"
+  },
+  "Glentoran": {
+    "lat": 54.602964,
+    "lon": -5.891319,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q249533",
+    "country": "United Kingdom",
+    "matchedLabel": "Glentoran F.C.",
+    "matchType": "exact"
+  },
+  "Gornik Zabrze": {
+    "lat": 50.296317,
+    "lon": 18.768564,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q134255",
+    "country": "Poland",
+    "matchedLabel": "Górnik Zabrze",
+    "matchType": "exact"
+  },
+  "Grasshopper-Club": {
+    "lat": 47.382791,
+    "lon": 8.503801,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q201360",
+    "country": "Switzerland",
+    "matchedLabel": "Grasshopper Club Zürich",
+    "matchType": "fuzzy 0.96 -> Grasshopper Club Zürich"
+  },
+  "Grasshopper-Club Zurich": {
+    "lat": 47.382791,
+    "lon": 8.503801,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q201360",
+    "country": "Switzerland",
+    "matchedLabel": "Grasshopper Club Zürich",
+    "matchType": "exact"
+  },
+  "Grazer AK": {
+    "lat": 47.046111,
+    "lon": 15.454444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q659780",
+    "country": "Austria",
+    "matchedLabel": "Grazer AK",
+    "matchType": "exact"
+  },
+  "Gwardia Warszawa": {
+    "lat": 52.23,
+    "lon": 21.011111111,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q770080",
+    "country": "Poland",
+    "matchedLabel": "Gwardia Warsaw",
+    "matchType": "exact"
+  },
+  "Györi ETO FC": {
+    "lat": 47.695769,
+    "lon": 17.663827,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q276346",
+    "country": "Hungary",
+    "matchedLabel": "Győri ETO FC",
+    "matchType": "exact"
+  },
+  "HPS (Helsinki)": {
+    "lat": 60.170833333,
+    "lon": 24.9375,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q670817",
+    "country": "Finland",
+    "matchedLabel": "Helsingin Palloseura",
+    "matchType": "exact"
+  },
+  "HSK Zrinjski Mostar": {
+    "lat": 43.345556,
+    "lon": 17.795278,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q399282",
+    "country": "Bosnia and Herzegovina",
+    "matchedLabel": "HŠK Zrinjski Mostar",
+    "matchType": "exact"
+  },
+  "Hajduk Split": {
+    "lat": 43.519444,
+    "lon": 16.431667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q181216",
+    "country": "Croatia",
+    "matchedLabel": "HNK Hajduk Split",
+    "matchType": "exact"
+  },
+  "Halmstads BK": {
+    "lat": 56.673972222,
+    "lon": 12.857277777,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q584858",
+    "country": "Sweden",
+    "matchedLabel": "Halmstads BK",
+    "matchType": "exact"
+  },
+  "Hammarby IF": {
+    "lat": 59.329444444,
+    "lon": 18.068611111,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q5645566",
+    "country": "Sweden",
+    "matchedLabel": "Hammarby IF",
+    "matchType": "exact"
+  },
+  "Hamrun Spartans": {
+    "lat": 35.8873,
+    "lon": 14.4925,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q343030",
+    "country": "Malta",
+    "matchedLabel": "Ħamrun Spartans F.C.",
+    "matchType": "fuzzy 0.99 -> Ħamrun Spartans F.C."
+  },
+  "Hapoel Beer-Sheva": {
+    "lat": 31.2731,
+    "lon": 34.7794,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q986529",
+    "country": "Israel",
+    "matchedLabel": "Hapoel Be'er Sheva F.C.",
+    "matchType": "fuzzy 0.97 -> Hapoel Be'er Sheva F.C."
+  },
+  "Hapoel Haifa": {
+    "lat": 32.783111111,
+    "lon": 34.965166666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q455991",
+    "country": "Israel",
+    "matchedLabel": "Hapoel Haifa F.C.",
+    "matchType": "exact"
+  },
+  "Hapoel Tel Aviv": {
+    "lat": 32.05173,
+    "lon": 34.76148,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q206585",
+    "country": "Israel",
+    "matchedLabel": "Hapoel Tel Aviv F.C.",
+    "matchType": "exact"
+  },
+  "Heart Of Midlothian": {
+    "lat": 55.939055555,
+    "lon": -3.232444444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q202093",
+    "country": "United Kingdom",
+    "matchedLabel": "Heart of Midlothian F.C.",
+    "matchType": "exact"
+  },
+  "Hellas-Verona": {
+    "lat": 45.435356,
+    "lon": 10.968647,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q8639",
+    "country": "Italy",
+    "matchedLabel": "Hellas Verona FC",
+    "matchType": "exact"
+  },
+  "Helsingborg IF": {
+    "lat": 56.049444444,
+    "lon": 12.706944444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q207503",
+    "country": "Sweden",
+    "matchedLabel": "Helsingborgs IF",
+    "matchType": "fuzzy 0.99 -> Helsingborgs IF"
+  },
+  "Helsingborgs IF": {
+    "lat": 56.049444444,
+    "lon": 12.706944444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q207503",
+    "country": "Sweden",
+    "matchedLabel": "Helsingborgs IF",
+    "matchType": "exact"
+  },
+  "Hertha BSC": {
+    "lat": 52.514722222,
+    "lon": 13.239444444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q102720",
+    "country": "Germany",
+    "matchedLabel": "Hertha BSC",
+    "matchType": "exact"
+  },
+  "Hibernians": {
+    "lat": 35.882861111,
+    "lon": 14.513027777,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q936187",
+    "country": "Malta",
+    "matchedLabel": "Hibernians F.C.",
+    "matchType": "fuzzy 1.00 -> Hibernians F.C."
+  },
+  "Honved": {
+    "lat": 47.4425,
+    "lon": 19.155103,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q275612",
+    "country": "Hungary",
+    "matchedLabel": "Budapest Honvéd FC",
+    "matchType": "exact"
+  },
+  "Honved (Budapest)": {
+    "lat": 47.4425,
+    "lon": 19.155103,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q275612",
+    "country": "Hungary",
+    "matchedLabel": "Budapest Honvéd FC",
+    "matchType": "exact"
+  },
+  "Hvidovre IF": {
+    "lat": 55.631922,
+    "lon": 12.482878,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q843097",
+    "country": "Denmark",
+    "matchedLabel": "Hvidovre IF",
+    "matchType": "exact"
+  },
+  "IA (Akranes)": {
+    "lat": 64.317656,
+    "lon": -22.059753,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q291691",
+    "country": "Iceland",
+    "matchedLabel": "Íþróttabandalag Akraness",
+    "matchType": "exact"
+  },
+  "IBV (Vestmannaeyjar)": {
+    "lat": 63.439414,
+    "lon": -20.28795,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q291716",
+    "country": "Iceland",
+    "matchedLabel": "Íþróttabandalag Vestmannaeyja",
+    "matchType": "exact"
+  },
+  "IFK Göteborg": {
+    "lat": 57.706111111,
+    "lon": 11.980555555,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q201567",
+    "country": "Sweden",
+    "matchedLabel": "IFK Göteborg",
+    "matchType": "exact"
+  },
+  "IFK Malmo": {
+    "lat": 55.586111111,
+    "lon": 12.989166666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1353661",
+    "country": "Sweden",
+    "matchedLabel": "IFK Malmö",
+    "matchType": "exact"
+  },
+  "IFK Mariehamn": {
+    "lat": 60.102222,
+    "lon": 19.935278,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q252276",
+    "country": "Finland",
+    "matchedLabel": "IFK Mariehamn",
+    "matchType": "fuzzy 1.00 -> IFK Mariehamn"
+  },
+  "IFK Norrkoping": {
+    "lat": 58.584166666,
+    "lon": 16.173055555,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q108001798",
+    "country": "Sweden",
+    "matchedLabel": "IFK Norrköping FK",
+    "matchType": "fuzzy 1.00 -> IFK Norrköping FK"
+  },
+  "IK Start": {
+    "lat": 58.153611,
+    "lon": 8.028611,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q737947",
+    "country": "Norway",
+    "matchedLabel": "IK Start",
+    "matchType": "exact"
+  },
+  "Ilves (Tampere)": {
+    "lat": 61.500278,
+    "lon": 23.785278,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2608062",
+    "country": "Finland",
+    "matchedLabel": "FC Ilves",
+    "matchType": "exact"
+  },
+  "Infonet Tallinn": {
+    "lat": 59.421292,
+    "lon": 24.73205,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q18526299",
+    "country": "Estonia",
+    "matchedLabel": "FC Infonet II Tallinn",
+    "matchType": "fuzzy 0.91 -> FC Infonet II Tallinn"
+  },
+  "Inter Turku": {
+    "lat": 60.442778,
+    "lon": 22.291667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q222877",
+    "country": "Finland",
+    "matchedLabel": "FC Inter Turku",
+    "matchType": "exact"
+  },
+  "Inter d'Escaldes": {
+    "lat": 42.508889,
+    "lon": 1.540833,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q729512",
+    "country": "Andorra",
+    "matchedLabel": "Inter Club d'Escaldes",
+    "matchType": "fuzzy 0.86 -> Inter Club d'Escaldes"
+  },
+  "Internazionale FC": {
+    "lat": 45.478055555,
+    "lon": 9.123888888,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q631",
+    "country": "Italy",
+    "matchedLabel": "Inter Milan",
+    "matchType": "core"
+  },
+  "Ipswich Town": {
+    "lat": 52.055,
+    "lon": 1.145277777,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q9653",
+    "country": "United Kingdom",
+    "matchedLabel": "Ipswich Town F.C.",
+    "matchType": "exact"
+  },
+  "Ironi Kiriat-Shmona": {
+    "lat": 33.207894,
+    "lon": 35.575629,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q907321",
+    "country": "Israel",
+    "matchedLabel": "Ironi Kiryat Shmona F.C.",
+    "matchType": "fuzzy 0.95 -> Ironi Kiryat Shmona F.C."
+  },
+  "Irtysh Pavlodar": {
+    "lat": 52.276383,
+    "lon": 76.949712,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q723483",
+    "country": "Kazakhstan",
+    "matchedLabel": "FC Irtysh Pavlodar",
+    "matchType": "exact"
+  },
+  "Istanbul Basaksehir FK": {
+    "lat": 41.1228,
+    "lon": 28.8087,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q857938",
+    "country": "Turkey",
+    "matchedLabel": "İstanbul Başakşehir F.K.",
+    "matchType": "exact"
+  },
+  "Jagiellonia Białystok": {
+    "lat": 53.105556,
+    "lon": 23.148889,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q189170",
+    "country": "Poland",
+    "matchedLabel": "Jagiellonia Białystok",
+    "matchType": "exact"
+  },
+  "Jeunesse d'Esch": {
+    "lat": 49.485833333,
+    "lon": 5.976944444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q433541",
+    "country": "Luxembourg",
+    "matchedLabel": "Jeunesse Esch",
+    "matchType": "fuzzy 0.93 -> Jeunesse Esch"
+  },
+  "KA (Akureyri)": {
+    "lat": 65.686083,
+    "lon": -18.095211,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q571264",
+    "country": "Iceland",
+    "matchedLabel": "Knattspyrnufélag Akureyrar",
+    "matchType": "exact"
+  },
+  "KF Egnatia": {
+    "lat": 41.076111111,
+    "lon": 19.666666666,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q1302027",
+    "country": "Albania",
+    "matchedLabel": "KF Egnatia",
+    "matchType": "exact"
+  },
+  "KF Elbasani": {
+    "lat": 41.115875,
+    "lon": 20.091992,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q846062",
+    "country": "Albania",
+    "matchedLabel": "KS Elbasani",
+    "matchType": "core"
+  },
+  "KF Tirana": {
+    "lat": 41.31898056,
+    "lon": 19.81138333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q210170",
+    "country": "Albania",
+    "matchedLabel": "K.F. Tirana",
+    "matchType": "exact"
+  },
+  "KPV (Kokkola)": {
+    "lat": 63.8375831,
+    "lon": 23.1319617,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q574997",
+    "country": "Finland",
+    "matchedLabel": "Kokkolan Palloveikot",
+    "matchType": "exact"
+  },
+  "KR (Reykjavik)": {
+    "lat": 64.145683,
+    "lon": -21.967728,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q221702",
+    "country": "Iceland",
+    "matchedLabel": "KR Reykjavík",
+    "matchType": "exact"
+  },
+  "KRC Genk": {
+    "lat": 51.005,
+    "lon": 5.533333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q216032",
+    "country": "Belgium",
+    "matchedLabel": "K.R.C. Genk",
+    "matchType": "exact"
+  },
+  "KV Mechelen": {
+    "lat": 51.037222,
+    "lon": 4.486389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q113000",
+    "country": "Belgium",
+    "matchedLabel": "KV Mechelen",
+    "matchType": "exact"
+  },
+  "Kairat Almaty": {
+    "lat": 43.238331,
+    "lon": 76.92435,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q420594",
+    "country": "Kazakhstan",
+    "matchedLabel": "FC Kairat",
+    "matchType": "exact"
+  },
+  "Kalmar FF": {
+    "lat": 56.69070278,
+    "lon": 16.31523333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q644157",
+    "country": "Sweden",
+    "matchedLabel": "Kalmar FF",
+    "matchType": "exact"
+  },
+  "Kilmarnock": {
+    "lat": 55.604225,
+    "lon": -4.508122,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q210961",
+    "country": "United Kingdom",
+    "matchedLabel": "Kilmarnock F.C.",
+    "matchType": "exact"
+  },
+  "Koper": {
+    "lat": 45.542356,
+    "lon": 13.730453,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q44305",
+    "country": "Slovenia",
+    "matchedLabel": "FC Koper",
+    "matchType": "exact"
+  },
+  "KuPS (Kuopio)": {
+    "lat": 62.884444,
+    "lon": 27.670833,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q382324",
+    "country": "Finland",
+    "matchedLabel": "Kuopion Palloseura",
+    "matchType": "exact"
+  },
+  "Kukësi": {
+    "lat": 42.078888888,
+    "lon": 20.420277777,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q73708",
+    "country": "Albania",
+    "matchedLabel": "FK Kukësi",
+    "matchType": "fuzzy 1.00 -> FK Kukësi"
+  },
+  "LASK Linz": {
+    "lat": 48.293333,
+    "lon": 14.276389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q392310",
+    "country": "Austria",
+    "matchedLabel": "LASK Linz",
+    "matchType": "exact"
+  },
+  "La Chaux-de-Fonds": {
+    "lat": 47.111389,
+    "lon": 6.836111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q669109",
+    "country": "Switzerland",
+    "matchedLabel": "FC La Chaux-de-Fonds",
+    "matchType": "fuzzy 1.00 -> FC La Chaux-de-Fonds"
+  },
+  "La Fiorita": {
+    "lat": 43.97125,
+    "lon": 12.476972,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q918146",
+    "country": "San Marino",
+    "matchedLabel": "S.P. La Fiorita",
+    "matchType": "fuzzy 0.97 -> S.P. La Fiorita"
+  },
+  "Lahden Reipas": {
+    "lat": 60.9803806,
+    "lon": 25.654988,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q3826148",
+    "country": "Finland",
+    "matchedLabel": "Lahden Reipas",
+    "matchType": "exact"
+  },
+  "Larissa": {
+    "lat": 39.61561,
+    "lon": 22.39949,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q275626",
+    "country": "Greece",
+    "matchedLabel": "Athlitiki Enosi Larissa F.C.",
+    "matchType": "fuzzy 0.98 -> Athlitiki Enosi Larissa F.C."
+  },
+  "Larne": {
+    "lat": 54.84980278,
+    "lon": -5.82625833,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2373463",
+    "country": "United Kingdom",
+    "matchedLabel": "Larne F.C.",
+    "matchType": "exact"
+  },
+  "Lausanne-Sports": {
+    "lat": 46.534,
+    "lon": 6.625,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q309456",
+    "country": "Switzerland",
+    "matchedLabel": "FC Lausanne-Sport",
+    "matchType": "fuzzy 0.99 -> FC Lausanne-Sport"
+  },
+  "Lech Poznan": {
+    "lat": 52.397222,
+    "lon": 16.858056,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q52942",
+    "country": "Poland",
+    "matchedLabel": "Lech Poznań",
+    "matchType": "exact"
+  },
+  "Legia Warsaw": {
+    "lat": 52.220461,
+    "lon": 21.040628,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1812607",
+    "country": "Poland",
+    "matchedLabel": "Legia Warsaw",
+    "matchType": "fuzzy 1.00 -> Legia Warsaw"
+  },
+  "Legia Warszawa": {
+    "lat": 52.220461,
+    "lon": 21.040628,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1812607",
+    "country": "Poland",
+    "matchedLabel": "Legia Warsaw",
+    "matchType": "fuzzy 0.92 -> Legia Warsaw"
+  },
+  "Leicester City": {
+    "lat": 52.620277777,
+    "lon": -1.142222222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19481",
+    "country": "United Kingdom",
+    "matchedLabel": "Leicester City F.C.",
+    "matchType": "exact"
+  },
+  "Leotar (Trebinje)": {
+    "lat": 42.708821,
+    "lon": 18.352743,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q545411",
+    "country": "Bosnia and Herzegovina",
+    "matchedLabel": "FK Leotar",
+    "matchType": "exact"
+  },
+  "Levadia Tallinn": {
+    "lat": 59.421292,
+    "lon": 24.73205,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q210849",
+    "country": "Estonia",
+    "matchedLabel": "FCI Levadia Tallinn",
+    "matchType": "exact"
+  },
+  "Levski Sofia": {
+    "lat": 42.705467,
+    "lon": 23.363197,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q144190",
+    "country": "Bulgaria",
+    "matchedLabel": "PFC Levski Sofia",
+    "matchType": "fuzzy 0.97 -> PFC Levski Sofia"
+  },
+  "Lierse SK": {
+    "lat": 51.144167,
+    "lon": 4.573611,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q725018",
+    "country": "Belgium",
+    "matchedLabel": "Lierse S.K.",
+    "matchType": "exact"
+  },
+  "Lille OSC": {
+    "lat": 50.611962,
+    "lon": 3.130631,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19516",
+    "country": "France",
+    "matchedLabel": "Lille OSC",
+    "matchType": "exact"
+  },
+  "Lillestrom SK": {
+    "lat": 59.962752,
+    "lon": 11.063458,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q214374",
+    "country": "Norway",
+    "matchedLabel": "Lillestrøm SK",
+    "matchType": "exact"
+  },
+  "Limerick": {
+    "lat": 52.674167,
+    "lon": -8.6425,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1552212",
+    "country": "Ireland",
+    "matchedLabel": "Limerick F.C.",
+    "matchType": "fuzzy 1.00 -> Limerick F.C."
+  },
+  "Lincoln FC": {
+    "lat": 36.149356,
+    "lon": -5.350342,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q3241301",
+    "country": "Gibraltar",
+    "matchedLabel": "Lincoln Red Imps F.C.",
+    "matchType": "exact"
+  },
+  "Linfield": {
+    "lat": 54.5825,
+    "lon": -5.955,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q244472",
+    "country": "United Kingdom",
+    "matchedLabel": "Linfield F.C.",
+    "matchType": "exact"
+  },
+  "Linzer ASK": {
+    "lat": 48.293333,
+    "lon": 14.276389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q392310",
+    "country": "Austria",
+    "matchedLabel": "LASK Linz",
+    "matchType": "exact"
+  },
+  "Llanelli": {
+    "lat": 51.6839,
+    "lon": -4.1476,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q291848",
+    "country": "United Kingdom",
+    "matchedLabel": "Llanelli A.F.C.",
+    "matchType": "exact"
+  },
+  "Lokomotiv Sofia": {
+    "lat": 42.737639,
+    "lon": 23.314806,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q309025",
+    "country": "Bulgaria",
+    "matchedLabel": "FC Lokomotiv 1929 Sofia",
+    "matchType": "fuzzy 0.97 -> FC Lokomotiv 1929 Sofia"
+  },
+  "Ludogorets Razgrad": {
+    "lat": 43.53361111,
+    "lon": 26.5275,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1339086",
+    "country": "Bulgaria",
+    "matchedLabel": "PFC Ludogorets 1945",
+    "matchType": "exact"
+  },
+  "MFK Ruzomberok": {
+    "lat": 49.0825,
+    "lon": 19.28388889,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q757110",
+    "country": "Slovakia",
+    "matchedLabel": "MFK Ružomberok",
+    "matchType": "exact"
+  },
+  "MSK Zilina": {
+    "lat": 49.229167,
+    "lon": 18.744722,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q209640",
+    "country": "Slovakia",
+    "matchedLabel": "MŠK Žilina",
+    "matchType": "exact"
+  },
+  "MTK (Budapest)": {
+    "lat": 47.490919444,
+    "lon": 19.106725,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q208406",
+    "country": "Hungary",
+    "matchedLabel": "MTK Budapest FC",
+    "matchType": "exact"
+  },
+  "Maccabi Haifa": {
+    "lat": 32.783111111,
+    "lon": 34.965166666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2129100",
+    "country": "Israel",
+    "matchedLabel": "Maccabi Haifa F.C.",
+    "matchType": "exact"
+  },
+  "Maccabi Tel-Aviv": {
+    "lat": 32.05173,
+    "lon": 34.76148,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q223728",
+    "country": "Israel",
+    "matchedLabel": "Maccabi Tel Aviv F.C.",
+    "matchType": "exact"
+  },
+  "Marsaxlokk": {
+    "lat": 35.841667,
+    "lon": 14.544722,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q386670",
+    "country": "Malta",
+    "matchedLabel": "Marsaxlokk F.C.",
+    "matchType": "exact"
+  },
+  "Metalist Kharkiv": {
+    "lat": 49.980858,
+    "lon": 36.261703,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q207462",
+    "country": "Ukraine",
+    "matchedLabel": "FC Metalist Kharkiv",
+    "matchType": "exact"
+  },
+  "Milsami Orhei": {
+    "lat": 47.3744,
+    "lon": 28.8192,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q423115",
+    "country": "Moldova",
+    "matchedLabel": "FC Milsami",
+    "matchType": "exact"
+  },
+  "Mladost Podgorica": {
+    "lat": 42.438361,
+    "lon": 19.271556,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1257626",
+    "country": "Montenegro",
+    "matchedLabel": "OFK Titograd",
+    "matchType": "exact"
+  },
+  "Molde FK": {
+    "lat": 62.73341,
+    "lon": 7.14813,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q208552",
+    "country": "Norway",
+    "matchedLabel": "Molde FK",
+    "matchType": "exact"
+  },
+  "Montpellier HSC": {
+    "lat": 43.62061,
+    "lon": 3.81279,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19513",
+    "country": "France",
+    "matchedLabel": "Montpellier Hérault Sport Club",
+    "matchType": "exact"
+  },
+  "Moss FK": {
+    "lat": 59.42083333,
+    "lon": 10.67138889,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q291163",
+    "country": "Norway",
+    "matchedLabel": "Moss FK",
+    "matchType": "exact"
+  },
+  "Motherwell": {
+    "lat": 55.779947,
+    "lon": -3.980078,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q216523",
+    "country": "United Kingdom",
+    "matchedLabel": "Motherwell F.C.",
+    "matchType": "exact"
+  },
+  "Murata": {
+    "lat": 43.9296,
+    "lon": 12.4427,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q525573",
+    "country": "San Marino",
+    "matchedLabel": "S.S. Murata",
+    "matchType": "exact"
+  },
+  "Málaga CF": {
+    "lat": 36.734092,
+    "lon": -4.426422,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q8857",
+    "country": "Spain",
+    "matchedLabel": "Málaga CF",
+    "matchType": "exact"
+  },
+  "ND Gorica": {
+    "lat": 45.955931,
+    "lon": 13.641563,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q637514",
+    "country": "Slovenia",
+    "matchedLabel": "ND Gorica",
+    "matchType": "exact"
+  },
+  "NK Dinamo (Zagreb)": {
+    "lat": 45.818858333,
+    "lon": 16.018077777,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q172803",
+    "country": "Croatia",
+    "matchedLabel": "GNK Dinamo Zagreb",
+    "matchType": "fuzzy 0.95 -> GNK Dinamo Zagreb"
+  },
+  "NK Hajduk (Split)": {
+    "lat": 43.519444,
+    "lon": 16.431667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q181216",
+    "country": "Croatia",
+    "matchedLabel": "HNK Hajduk Split",
+    "matchType": "core"
+  },
+  "NK Maribor": {
+    "lat": 46.5625,
+    "lon": 15.640556,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q210530",
+    "country": "Slovenia",
+    "matchedLabel": "NK Maribor",
+    "matchType": "exact"
+  },
+  "NK Rijeka": {
+    "lat": 45.339202,
+    "lon": 14.380959,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q318969",
+    "country": "Croatia",
+    "matchedLabel": "HNK Rijeka",
+    "matchType": "fuzzy 0.95 -> HNK Rijeka"
+  },
+  "NK Zrinjski Mostar": {
+    "lat": 43.345556,
+    "lon": 17.795278,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q399282",
+    "country": "Bosnia and Herzegovina",
+    "matchedLabel": "HŠK Zrinjski Mostar",
+    "matchType": "fuzzy 0.97 -> HŠK Zrinjski Mostar"
+  },
+  "Neftchi Baki": {
+    "lat": 40.366655555,
+    "lon": 49.835183333,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q68078761",
+    "country": "Azerbaijan",
+    "matchedLabel": "Neftchi Baku",
+    "matchType": "fuzzy 0.92 -> Neftchi Baku"
+  },
+  "Neftchi Baku": {
+    "lat": 40.366655555,
+    "lon": 49.835183333,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q68078761",
+    "country": "Azerbaijan",
+    "matchedLabel": "Neftchi Baku",
+    "matchType": "exact"
+  },
+  "Neftci Baki": {
+    "lat": 40.366655555,
+    "lon": 49.835183333,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q68078761",
+    "country": "Azerbaijan",
+    "matchedLabel": "Neftchi Baku",
+    "matchType": "fuzzy 0.91 -> Neftchi Baku"
+  },
+  "Neuchatel Xamax": {
+    "lat": 46.995556,
+    "lon": 6.944167,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q50826396",
+    "country": "Switzerland",
+    "matchedLabel": "Neuchâtel Xamax",
+    "matchType": "exact"
+  },
+  "Newcastle United": {
+    "lat": 54.975555555,
+    "lon": -1.621666666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q18716",
+    "country": "United Kingdom",
+    "matchedLabel": "Newcastle United F.C.",
+    "matchType": "exact"
+  },
+  "OGC Nice": {
+    "lat": 43.70513,
+    "lon": 7.19262,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q185163",
+    "country": "France",
+    "matchedLabel": "OGC Nice",
+    "matchType": "exact"
+  },
+  "Olimpi Rustavi": {
+    "lat": 41.541,
+    "lon": 45.006944,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q391914",
+    "country": "Georgia",
+    "matchedLabel": "FC Metalurgi Rustavi",
+    "matchType": "exact"
+  },
+  "Olimpija Ljubljana": {
+    "lat": 46.081111,
+    "lon": 14.521389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q31932",
+    "country": "Slovenia",
+    "matchedLabel": "NK Olimpija Ljubljana",
+    "matchType": "fuzzy 1.00 -> NK Olimpija Ljubljana"
+  },
+  "Olympiakos": {
+    "lat": 39.361111111,
+    "lon": 22.9425,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q25535545",
+    "country": "Greece",
+    "matchedLabel": "A.S.K. Olympiakos",
+    "matchType": "exact"
+  },
+  "Olympique Lyonnais": {
+    "lat": 45.765224,
+    "lon": 4.982131,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q704",
+    "country": "France",
+    "matchedLabel": "Olympique Lyonnais",
+    "matchType": "exact"
+  },
+  "Olympique de Marseille": {
+    "lat": 43.269241,
+    "lon": 5.394907,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q132885",
+    "country": "France",
+    "matchedLabel": "Olympique de Marseille",
+    "matchType": "exact"
+  },
+  "Orgryte IS": {
+    "lat": 57.7075,
+    "lon": 11.9675,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q297906",
+    "country": "Sweden",
+    "matchedLabel": "Örgryte IS",
+    "matchType": "exact"
+  },
+  "Osters IF": {
+    "lat": 56.889029924,
+    "lon": 14.802795326,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q306787",
+    "country": "Sweden",
+    "matchedLabel": "Östers IF",
+    "matchType": "exact"
+  },
+  "Osters IF Vaxjo": {
+    "lat": 56.889029924,
+    "lon": 14.802795326,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q306787",
+    "country": "Sweden",
+    "matchedLabel": "Östers IF",
+    "matchType": "fuzzy 0.95 -> Östers IF"
+  },
+  "Otelul Galati": {
+    "lat": 45.430236,
+    "lon": 28.022378,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q220863",
+    "country": "Romania",
+    "matchedLabel": "SC Oțelul Galați",
+    "matchType": "exact"
+  },
+  "Parma": {
+    "lat": 44.794916666,
+    "lon": 10.338444444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2693",
+    "country": "Italy",
+    "matchedLabel": "Parma Calcio 1913",
+    "matchType": "exact"
+  },
+  "Partizan Beograd": {
+    "lat": 44.788611,
+    "lon": 20.459167,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q188656",
+    "country": "Serbia",
+    "matchedLabel": "FK Partizan",
+    "matchType": "fuzzy 0.91 -> FK Partizan"
+  },
+  "Partizani Tiranë": {
+    "lat": 41.31898056,
+    "lon": 19.81138333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q845772",
+    "country": "Albania",
+    "matchedLabel": "Partizani Tirana",
+    "matchType": "fuzzy 0.94 -> Partizani Tirana"
+  },
+  "Paços de Ferreira": {
+    "lat": 41.271388888,
+    "lon": -8.385277777,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q371136",
+    "country": "Portugal",
+    "matchedLabel": "F.C. Paços de Ferreira",
+    "matchType": "exact"
+  },
+  "Petrocub Hîncești": {
+    "lat": 46.825284,
+    "lon": 28.586687,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q3063100",
+    "country": "Moldova",
+    "matchedLabel": "FC Petrocub Hîncești",
+    "matchType": "exact"
+  },
+  "Petrolul Ploiesti": {
+    "lat": 44.940278,
+    "lon": 26.033333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1322550",
+    "country": "Romania",
+    "matchedLabel": "FC Petrolul Ploiești",
+    "matchType": "exact"
+  },
+  "Piast Gliwice": {
+    "lat": 50.306583,
+    "lon": 18.695866,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q668112",
+    "country": "Poland",
+    "matchedLabel": "Piast Gliwice",
+    "matchType": "exact"
+  },
+  "Polonia Bytom": {
+    "lat": 50.35755833,
+    "lon": 18.89871667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q859458",
+    "country": "Poland",
+    "matchedLabel": "Polonia Bytom",
+    "matchType": "exact"
+  },
+  "Polonia Warszawa": {
+    "lat": 52.255517,
+    "lon": 21.001322,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q262569",
+    "country": "Poland",
+    "matchedLabel": "Polonia Warsaw",
+    "matchType": "exact"
+  },
+  "Portadown": {
+    "lat": 54.413056,
+    "lon": -6.457778,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q168660",
+    "country": "United Kingdom",
+    "matchedLabel": "Portadown F.C.",
+    "matchType": "exact"
+  },
+  "Prishtina": {
+    "lat": 42.66297,
+    "lon": 21.15688,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1111374",
+    "country": "Kosovo",
+    "matchedLabel": "FC Prishtina",
+    "matchType": "exact"
+  },
+  "Progres Niedercorn": {
+    "lat": 49.546111111,
+    "lon": 5.903369444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q933046",
+    "country": "Luxembourg",
+    "matchedLabel": "FC Progrès Niederkorn",
+    "matchType": "exact"
+  },
+  "RB Leipzig": {
+    "lat": 51.344422,
+    "lon": 12.341954,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q30033219",
+    "country": "Germany",
+    "matchedLabel": "RB Leipzig (women)",
+    "matchType": "fuzzy 1.00 -> RB Leipzig (women)"
+  },
+  "RC Celta (Vigo)": {
+    "lat": 42.211861,
+    "lon": -8.740328,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q8749",
+    "country": "Spain",
+    "matchedLabel": "RC Celta de Vigo",
+    "matchType": "exact"
+  },
+  "RC Lens": {
+    "lat": 50.4329,
+    "lon": 2.81491,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q191843",
+    "country": "France",
+    "matchedLabel": "R.C. Lens",
+    "matchType": "exact"
+  },
+  "RC Strasbourg": {
+    "lat": 48.573333333,
+    "lon": 7.752222222,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q108839634",
+    "country": "France",
+    "matchedLabel": "RC Strasbourg",
+    "matchType": "exact"
+  },
+  "RCD Mallorca": {
+    "lat": 39.59,
+    "lon": 2.63,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q8835",
+    "country": "Spain",
+    "matchedLabel": "RCD Mallorca",
+    "matchType": "exact"
+  },
+  "RFC Antwerp": {
+    "lat": 51.221111111,
+    "lon": 4.399722222,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q16919837",
+    "country": "Belgium",
+    "matchedLabel": "Antwerp RC",
+    "matchType": "core"
+  },
+  "RSC Anderlecht": {
+    "lat": 50.834167,
+    "lon": 4.298333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q187528",
+    "country": "Belgium",
+    "matchedLabel": "R.S.C. Anderlecht",
+    "matchType": "exact"
+  },
+  "Rabat Ajax": {
+    "lat": 35.89277778,
+    "lon": 14.40138889,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q749073",
+    "country": "Malta",
+    "matchedLabel": "Rabat Ajax F.C.",
+    "matchType": "exact"
+  },
+  "Raków Częstochowa": {
+    "lat": 50.7767,
+    "lon": 19.1592,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q287236",
+    "country": "Poland",
+    "matchedLabel": "Raków Częstochowa",
+    "matchType": "exact"
+  },
+  "Ranger's": {
+    "lat": 42.476389,
+    "lon": 1.487667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q994804",
+    "country": "Andorra",
+    "matchedLabel": "FC Rànger's",
+    "matchType": "exact"
+  },
+  "Rangers": {
+    "lat": 55.853055555,
+    "lon": -4.309166666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19597",
+    "country": "United Kingdom",
+    "matchedLabel": "Rangers F.C.",
+    "matchType": "exact"
+  },
+  "Rangers (Glasgow)": {
+    "lat": 55.853055555,
+    "lon": -4.309166666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19597",
+    "country": "United Kingdom",
+    "matchedLabel": "Rangers F.C.",
+    "matchType": "exact"
+  },
+  "Rapid Bucharest": {
+    "lat": 44.455888888,
+    "lon": 26.056805555,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q245162",
+    "country": "Romania",
+    "matchedLabel": "FC Rapid București",
+    "matchType": "fuzzy 0.87 -> FC Rapid București"
+  },
+  "Rapid Bucuresti": {
+    "lat": 44.455888888,
+    "lon": 26.056805555,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q245162",
+    "country": "Romania",
+    "matchedLabel": "FC Rapid București",
+    "matchType": "fuzzy 1.00 -> FC Rapid București"
+  },
+  "Real Sociedad": {
+    "lat": 43.301378,
+    "lon": -1.973617,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q10315",
+    "country": "Spain",
+    "matchedLabel": "Real Sociedad",
+    "matchType": "exact"
+  },
+  "Red Bull Salzburg": {
+    "lat": 47.81625,
+    "lon": 12.998222222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q994811",
+    "country": "Austria",
+    "matchedLabel": "FC Red Bull Salzburg",
+    "matchType": "exact"
+  },
+  "Rhyl": {
+    "lat": 53.3189,
+    "lon": -3.47611,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q595516",
+    "country": "United Kingdom",
+    "matchedLabel": "Rhyl F.C.",
+    "matchType": "exact"
+  },
+  "Riga FC": {
+    "lat": 56.961372,
+    "lon": 24.116408,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19963391",
+    "country": "Latvia",
+    "matchedLabel": "Riga FC",
+    "matchType": "exact"
+  },
+  "Rosenborg BK": {
+    "lat": 63.4125,
+    "lon": 10.405,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q186785",
+    "country": "Norway",
+    "matchedLabel": "Rosenborg BK",
+    "matchType": "exact"
+  },
+  "Rot-Weiss Essen": {
+    "lat": 51.486667,
+    "lon": 6.976389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q155218",
+    "country": "Germany",
+    "matchedLabel": "Rot-Weiss Essen",
+    "matchType": "exact"
+  },
+  "Rubin Kazan": {
+    "lat": 55.796944,
+    "lon": 49.098889,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q170040",
+    "country": "Russia",
+    "matchedLabel": "Rubin Kazan",
+    "matchType": "exact"
+  },
+  "Ruch Chorzow": {
+    "lat": 50.282203,
+    "lon": 18.944178,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q301726",
+    "country": "Poland",
+    "matchedLabel": "Ruch Chorzów",
+    "matchType": "exact"
+  },
+  "Rudar Pljevlja": {
+    "lat": 43.362349,
+    "lon": 19.362245,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q850258",
+    "country": "Montenegro",
+    "matchedLabel": "FK Rudar Pljevlja",
+    "matchType": "exact"
+  },
+  "SC Braga": {
+    "lat": 41.5624,
+    "lon": -8.4308,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q75684",
+    "country": "Portugal",
+    "matchedLabel": "S.C. Braga",
+    "matchType": "exact"
+  },
+  "SC Dnipro-1": {
+    "lat": 48.4675,
+    "lon": 35.04,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q56246637",
+    "country": "Ukraine",
+    "matchedLabel": "Zlahoda-Dnipro-1",
+    "matchType": "core"
+  },
+  "SC Heerenveen": {
+    "lat": 52.958611,
+    "lon": 5.936111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q200321",
+    "country": "Netherlands",
+    "matchedLabel": "SC Heerenveen",
+    "matchType": "exact"
+  },
+  "SFK Lyn": {
+    "lat": 59.924722,
+    "lon": 10.733333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q737937",
+    "country": "Norway",
+    "matchedLabel": "Lyn 1896 FK",
+    "matchType": "fuzzy 0.98 -> Lyn 1896 FK"
+  },
+  "SG Dynamo Dresden": {
+    "lat": 51.040278,
+    "lon": 13.747778,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q141931",
+    "country": "Germany",
+    "matchedLabel": "Dynamo Dresden",
+    "matchType": "exact"
+  },
+  "SK Beveren": {
+    "lat": 51.214139,
+    "lon": 4.243931,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q509170",
+    "country": "Belgium",
+    "matchedLabel": "Sportkring Beveren",
+    "matchType": "exact"
+  },
+  "SK Brann (Bergen)": {
+    "lat": 60.366388888,
+    "lon": 5.356944444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q205685",
+    "country": "Norway",
+    "matchedLabel": "SK Brann",
+    "matchType": "exact"
+  },
+  "SK Flamurtari (Vlore)": {
+    "lat": 40.45592222,
+    "lon": 19.48898611,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q60495",
+    "country": "Albania",
+    "matchedLabel": "Flamurtari Vlorë",
+    "matchType": "fuzzy 0.95 -> Flamurtari Vlorë"
+  },
+  "SK Rapid Vienna": {
+    "lat": 48.1981,
+    "lon": 16.2653,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q131215",
+    "country": "Austria",
+    "matchedLabel": "SK Rapid Wien",
+    "matchType": "core"
+  },
+  "SK Rapid Wien": {
+    "lat": 48.1981,
+    "lon": 16.2653,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q131215",
+    "country": "Austria",
+    "matchedLabel": "SK Rapid Wien",
+    "matchType": "exact"
+  },
+  "SK Slavia Praha": {
+    "lat": 50.109741,
+    "lon": 14.599274,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q3459690",
+    "country": "Czech Republic",
+    "matchedLabel": "SK Slavia Praha",
+    "matchType": "exact"
+  },
+  "SK Sturm Graz": {
+    "lat": 47.046111,
+    "lon": 15.454444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q124007617",
+    "country": "Austria",
+    "matchedLabel": "SK Sturm Graz",
+    "matchType": "exact"
+  },
+  "SS Lazio": {
+    "lat": 41.933888888,
+    "lon": 12.454722222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2609",
+    "country": "Italy",
+    "matchedLabel": "SS Lazio",
+    "matchType": "exact"
+  },
+  "SSC Napoli": {
+    "lat": 40.827967,
+    "lon": 14.193008,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2641",
+    "country": "Italy",
+    "matchedLabel": "SSC Napoli",
+    "matchType": "exact"
+  },
+  "SV Austria Salzburg": {
+    "lat": 47.8,
+    "lon": 13.045,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q22866",
+    "country": "Austria",
+    "matchedLabel": "SV Austria Salzburg",
+    "matchType": "exact"
+  },
+  "SV Werder Bremen": {
+    "lat": 53.066389,
+    "lon": 8.8375,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q51976",
+    "country": "Germany",
+    "matchedLabel": "SV Werder Bremen",
+    "matchType": "exact"
+  },
+  "SV Zulte-Waregem": {
+    "lat": 50.883056,
+    "lon": 3.428889,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q376635",
+    "country": "Belgium",
+    "matchedLabel": "S.V. Zulte Waregem",
+    "matchType": "exact"
+  },
+  "Saburtalo Tbilisi": {
+    "lat": 41.709617,
+    "lon": 44.746247,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q16374651",
+    "country": "Georgia",
+    "matchedLabel": "FC Iberia 1999",
+    "matchType": "exact"
+  },
+  "Saint Patrick's Athletic": {
+    "lat": 53.340922,
+    "lon": -6.316619,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q394452",
+    "country": "Ireland",
+    "matchedLabel": "St Patrick's Athletic F.C.",
+    "matchType": "fuzzy 0.93 -> St Patrick's Athletic F.C."
+  },
+  "Samtredia": {
+    "lat": 42.16084,
+    "lon": 42.33064,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1071313",
+    "country": "Georgia",
+    "matchedLabel": "FC Samtredia",
+    "matchType": "exact"
+  },
+  "Servette FC": {
+    "lat": 46.177778,
+    "lon": 6.1275,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q219235",
+    "country": "Switzerland",
+    "matchedLabel": "Servette FC",
+    "matchType": "exact"
+  },
+  "Servette FC Genève": {
+    "lat": 46.177778,
+    "lon": 6.1275,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q219235",
+    "country": "Switzerland",
+    "matchedLabel": "Servette FC",
+    "matchType": "fuzzy 0.95 -> Servette FC"
+  },
+  "Sevilla CF": {
+    "lat": 37.383878,
+    "lon": -5.970467,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q10329",
+    "country": "Spain",
+    "matchedLabel": "Sevilla FC",
+    "matchType": "core"
+  },
+  "Shakhtar Donets'k": {
+    "lat": 48.020833,
+    "lon": 37.809722,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q172969",
+    "country": "Ukraine",
+    "matchedLabel": "FC Shakhtar Donetsk",
+    "matchType": "fuzzy 0.97 -> FC Shakhtar Donetsk"
+  },
+  "Shakhtar Donetsk": {
+    "lat": 48.020833,
+    "lon": 37.809722,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q172969",
+    "country": "Ukraine",
+    "matchedLabel": "FC Shakhtar Donetsk",
+    "matchType": "exact"
+  },
+  "Shakhtsyor Salihorsk": {
+    "lat": 52.798611111,
+    "lon": 27.538194444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q531866",
+    "country": "Belarus",
+    "matchedLabel": "FC Shakhtyor Salihorsk",
+    "matchType": "fuzzy 0.97 -> FC Shakhtyor Salihorsk"
+  },
+  "Shakhtyor Qaraghandi": {
+    "lat": 49.818618,
+    "lon": 73.075122,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q740666",
+    "country": "Kazakhstan",
+    "matchedLabel": "FC Shakhter Karagandy",
+    "matchType": "fuzzy 0.87 -> FC Shakhter Karagandy"
+  },
+  "Shamrock Rovers": {
+    "lat": 53.2835,
+    "lon": -6.37374,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q203976",
+    "country": "Ireland",
+    "matchedLabel": "Shamrock Rovers F.C.",
+    "matchType": "exact"
+  },
+  "Shelbourne": {
+    "lat": 53.367514,
+    "lon": -6.251983,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q394474",
+    "country": "Ireland",
+    "matchedLabel": "Shelbourne F.C.",
+    "matchType": "exact"
+  },
+  "Sheriff Tiraspol": {
+    "lat": 46.838333,
+    "lon": 29.5575,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q210768",
+    "country": "Moldova",
+    "matchedLabel": "FC Sheriff Tiraspol",
+    "matchType": "exact"
+  },
+  "Shkëndija (Tetovo)": {
+    "lat": 42.018692,
+    "lon": 20.978179,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1129387",
+    "country": "North Macedonia",
+    "matchedLabel": "FK Shkëndija",
+    "matchType": "exact"
+  },
+  "Silkeborg IF": {
+    "lat": 56.1842,
+    "lon": 9.5751,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q723489",
+    "country": "Denmark",
+    "matchedLabel": "Silkeborg IF",
+    "matchType": "exact"
+  },
+  "Sioni Bolnisi": {
+    "lat": 41.447996,
+    "lon": 44.535185,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q643278",
+    "country": "Georgia",
+    "matchedLabel": "FC Sioni Bolnisi",
+    "matchType": "exact"
+  },
+  "Siroki Brijeg": {
+    "lat": 43.3787,
+    "lon": 17.598,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q263258",
+    "country": "Bosnia and Herzegovina",
+    "matchedLabel": "NK Široki Brijeg",
+    "matchType": "exact"
+  },
+  "Sivasspor": {
+    "lat": 39.728612,
+    "lon": 36.984065,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q372599",
+    "country": "Turkey",
+    "matchedLabel": "Sivasspor",
+    "matchType": "exact"
+  },
+  "Skënderbeu Korçë": {
+    "lat": 40.625833,
+    "lon": 20.782778,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q73996",
+    "country": "Albania",
+    "matchedLabel": "KF Skënderbeu",
+    "matchType": "fuzzy 0.95 -> KF Skënderbeu"
+  },
+  "Slask Wroclaw": {
+    "lat": 51.141111111,
+    "lon": 16.943611111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q328655",
+    "country": "Poland",
+    "matchedLabel": "Śląsk Wrocław",
+    "matchType": "fuzzy 0.96 -> Śląsk Wrocław"
+  },
+  "Slavia Mazyr": {
+    "lat": 52.038888888,
+    "lon": 29.276805555,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1165833",
+    "country": "Belarus",
+    "matchedLabel": "FC Slavia-Mozyr",
+    "matchType": "fuzzy 0.92 -> FC Slavia-Mozyr"
+  },
+  "Sliema Wanderers": {
+    "lat": 35.894863888,
+    "lon": 14.415372222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1289495",
+    "country": "Malta",
+    "matchedLabel": "Sliema Wanderers F.C.",
+    "matchType": "fuzzy 1.00 -> Sliema Wanderers F.C."
+  },
+  "Sligo Rovers": {
+    "lat": 54.270042,
+    "lon": -8.487233,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q244874",
+    "country": "Ireland",
+    "matchedLabel": "Sligo Rovers F.C.",
+    "matchType": "exact"
+  },
+  "Sloga Jugomagnat Skopje": {
+    "lat": 42.0155,
+    "lon": 21.4443,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1648339",
+    "country": "North Macedonia",
+    "matchedLabel": "FK Sloga Jugomagnat",
+    "matchType": "fuzzy 0.96 -> FK Sloga Jugomagnat"
+  },
+  "Slovan Bratislava": {
+    "lat": 48.166111,
+    "lon": 17.141111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q192253",
+    "country": "Slovakia",
+    "matchedLabel": "ŠK Slovan Bratislava",
+    "matchType": "exact"
+  },
+  "Sparta Prague": {
+    "lat": 50.099716,
+    "lon": 14.416122,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q193481",
+    "country": "Czech Republic",
+    "matchedLabel": "AC Sparta Prague",
+    "matchType": "fuzzy 1.00 -> AC Sparta Prague"
+  },
+  "Sparta Rotterdam": {
+    "lat": 51.919444,
+    "lon": 4.433333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q209895",
+    "country": "Netherlands",
+    "matchedLabel": "Sparta Rotterdam",
+    "matchType": "exact"
+  },
+  "Spartak Hradec Kralove": {
+    "lat": 50.2064,
+    "lon": 15.8454,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q581423",
+    "country": "Czech Republic",
+    "matchedLabel": "FC Hradec Králové",
+    "matchType": "fuzzy 0.96 -> FC Hradec Králové"
+  },
+  "Spartak Moscow": {
+    "lat": 55.8178,
+    "lon": 37.4403,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q29112",
+    "country": "Russia",
+    "matchedLabel": "Spartak Moscow",
+    "matchType": "fuzzy 1.00 -> Spartak Moscow"
+  },
+  "Spartak Trnava": {
+    "lat": 48.373333,
+    "lon": 17.591667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q459218",
+    "country": "Slovakia",
+    "matchedLabel": "FC Spartak Trnava",
+    "matchType": "exact"
+  },
+  "Spartaks Jurmala": {
+    "lat": 56.9495911,
+    "lon": 23.6101985,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2093921",
+    "country": "Latvia",
+    "matchedLabel": "FK Spartaks Jūrmala",
+    "matchType": "exact"
+  },
+  "Sporting CP (Lisboa)": {
+    "lat": 38.7628177,
+    "lon": -9.1586173,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q75729",
+    "country": "Portugal",
+    "matchedLabel": "Sporting CP",
+    "matchType": "exact"
+  },
+  "St. Patrick's Athletic": {
+    "lat": 53.340922,
+    "lon": -6.316619,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q394452",
+    "country": "Ireland",
+    "matchedLabel": "St Patrick's Athletic F.C.",
+    "matchType": "exact"
+  },
+  "Stabæk Fotball": {
+    "lat": 59.921111,
+    "lon": 10.581111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q217233",
+    "country": "Norway",
+    "matchedLabel": "Stabæk Fotball",
+    "matchType": "exact"
+  },
+  "Stade Brestois": {
+    "lat": 48.40293,
+    "lon": -4.46148,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q218372",
+    "country": "France",
+    "matchedLabel": "Stade Brestois 29",
+    "matchType": "fuzzy 0.98 -> Stade Brestois 29"
+  },
+  "Stade Dudelange": {
+    "lat": 49.483333333,
+    "lon": 6.083333333,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q2617045",
+    "country": "Luxembourg",
+    "matchedLabel": "Stade Dudelange",
+    "matchType": "exact"
+  },
+  "Stade Rennais": {
+    "lat": 48.10743,
+    "lon": -1.71282,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19509",
+    "country": "France",
+    "matchedLabel": "Stade Rennais F.C.",
+    "matchType": "exact"
+  },
+  "Stal Mielec": {
+    "lat": 50.298611,
+    "lon": 21.435833,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1388790",
+    "country": "Poland",
+    "matchedLabel": "Stal Mielec",
+    "matchType": "fuzzy 1.00 -> Stal Mielec"
+  },
+  "Stromsgodset IF": {
+    "lat": 59.734392,
+    "lon": 10.201333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q7482049",
+    "country": "Norway",
+    "matchedLabel": "Strømsgodset TF",
+    "matchType": "fuzzy 0.98 -> Strømsgodset TF"
+  },
+  "Swift Hesperange": {
+    "lat": 49.575353,
+    "lon": 6.158297,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1542781",
+    "country": "Luxembourg",
+    "matchedLabel": "FC Swift Hesperange",
+    "matchType": "exact"
+  },
+  "Szombierki Bytom": {
+    "lat": 50.347,
+    "lon": 18.923,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q586516",
+    "country": "Poland",
+    "matchedLabel": "Szombierki Bytom",
+    "matchType": "exact"
+  },
+  "TJ Vitkovice": {
+    "lat": 49.8044,
+    "lon": 18.2558,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1387864",
+    "country": "Czech Republic",
+    "matchedLabel": "MFK Vítkovice",
+    "matchType": "fuzzy 0.97 -> MFK Vítkovice"
+  },
+  "TPS (Turku)": {
+    "lat": 60.442778,
+    "lon": 22.291667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q223813",
+    "country": "Finland",
+    "matchedLabel": "TPS Turku",
+    "matchType": "exact"
+  },
+  "TSG 1899 Hoffenheim": {
+    "lat": 49.239,
+    "lon": 8.888278,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q22707",
+    "country": "Germany",
+    "matchedLabel": "TSG 1899 Hoffenheim",
+    "matchType": "exact"
+  },
+  "TSV 1860 Munich": {
+    "lat": 48.110833,
+    "lon": 11.574444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q131603",
+    "country": "Germany",
+    "matchedLabel": "TSV 1860 München",
+    "matchType": "core"
+  },
+  "TSV 1860 München": {
+    "lat": 48.110833,
+    "lon": 11.574444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q131603",
+    "country": "Germany",
+    "matchedLabel": "TSV 1860 München",
+    "matchType": "exact"
+  },
+  "Tampere United": {
+    "lat": 61.4956,
+    "lon": 23.7431,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q223610",
+    "country": "Finland",
+    "matchedLabel": "Tampere United",
+    "matchType": "exact"
+  },
+  "Teuta Durrës": {
+    "lat": 41.326081,
+    "lon": 19.449856,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q81635",
+    "country": "Albania",
+    "matchedLabel": "KF Teuta Durrës",
+    "matchType": "exact"
+  },
+  "The New Saints": {
+    "lat": 52.8759,
+    "lon": -3.02631,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q390183",
+    "country": "Wales",
+    "matchedLabel": "The New Saints F.C.",
+    "matchType": "exact"
+  },
+  "Torino": {
+    "lat": 45.041667,
+    "lon": 7.65,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2768",
+    "country": "Italy",
+    "matchedLabel": "Torino FC",
+    "matchType": "exact"
+  },
+  "Torpedo Kutaisi": {
+    "lat": 42.255141666,
+    "lon": 42.683086111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q38781",
+    "country": "Georgia",
+    "matchedLabel": "FC Torpedo Kutaisi",
+    "matchType": "exact"
+  },
+  "Torpedo Moscow": {
+    "lat": 55.716389,
+    "lon": 37.656389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q324338",
+    "country": "Russia",
+    "matchedLabel": "FC Torpedo Moscow",
+    "matchType": "exact"
+  },
+  "Toulouse FC": {
+    "lat": 43.583296,
+    "lon": 1.434055,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19518",
+    "country": "France",
+    "matchedLabel": "Toulouse FC",
+    "matchType": "fuzzy 1.00 -> Toulouse FC"
+  },
+  "Trabzonspor": {
+    "lat": 40.9987,
+    "lon": 39.6463,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q192641",
+    "country": "Turkey",
+    "matchedLabel": "Trabzonspor",
+    "matchType": "fuzzy 1.00 -> Trabzonspor"
+  },
+  "UE Sant Julià": {
+    "lat": 42.47,
+    "lon": 1.49,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q635670",
+    "country": "Andorra",
+    "matchedLabel": "UE Sant Julià",
+    "matchType": "exact"
+  },
+  "UE Santa Coloma": {
+    "lat": 42.476389,
+    "lon": 1.487667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q647795",
+    "country": "Andorra",
+    "matchedLabel": "UE Santa Coloma",
+    "matchType": "exact"
+  },
+  "UT Arad": {
+    "lat": 46.192575,
+    "lon": 21.311442,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q680770",
+    "country": "Romania",
+    "matchedLabel": "FC UTA Arad",
+    "matchType": "fuzzy 0.93 -> FC UTA Arad"
+  },
+  "Udinese": {
+    "lat": 46.081603,
+    "lon": 13.200136,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q2798",
+    "country": "Italy",
+    "matchedLabel": "Udinese Calcio",
+    "matchType": "exact"
+  },
+  "Union Saint-Gilloise": {
+    "lat": 50.8178,
+    "lon": 4.32917,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q196160",
+    "country": "Belgium",
+    "matchedLabel": "Royale Union Saint-Gilloise",
+    "matchType": "exact"
+  },
+  "Unirea Urziceni": {
+    "lat": 44.712625,
+    "lon": 26.656017,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q324596",
+    "country": "Romania",
+    "matchedLabel": "FC Unirea Urziceni",
+    "matchType": "exact"
+  },
+  "Universitatea Craiova": {
+    "lat": 44.313889,
+    "lon": 23.784167,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q16838020",
+    "country": "Romania",
+    "matchedLabel": "CS Universitatea Craiova",
+    "matchType": "fuzzy 1.00 -> CS Universitatea Craiova"
+  },
+  "Valerengens IF": {
+    "lat": 59.9081,
+    "lon": 10.7881,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q584426",
+    "country": "Norway",
+    "matchedLabel": "Vålerengens IF",
+    "matchType": "exact"
+  },
+  "Valkeakosken Haka": {
+    "lat": 61.266666666,
+    "lon": 24.030555555,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q5395194",
+    "country": "Finland",
+    "matchedLabel": "Valkeakosken Haka",
+    "matchType": "exact"
+  },
+  "Valletta": {
+    "lat": 35.894863888,
+    "lon": 14.415372222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q331589",
+    "country": "Malta",
+    "matchedLabel": "Valletta F.C.",
+    "matchType": "exact"
+  },
+  "Valmiera FC": {
+    "lat": 57.538055555,
+    "lon": 25.423055555,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q2038822",
+    "country": "Latvia",
+    "matchedLabel": "Valmiera FC",
+    "matchType": "exact"
+  },
+  "Valur (Reykjavik)": {
+    "lat": 64.132778,
+    "lon": -21.923611,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q597715",
+    "country": "Iceland",
+    "matchedLabel": "Valur",
+    "matchType": "exact"
+  },
+  "Vasas SC": {
+    "lat": 47.536944444,
+    "lon": 19.080555555,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q255296",
+    "country": "Hungary",
+    "matchedLabel": "Vasas FC",
+    "matchType": "core"
+  },
+  "VfB Stuttgart": {
+    "lat": 48.792222,
+    "lon": 9.231944,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q4512",
+    "country": "Germany",
+    "matchedLabel": "VfB Stuttgart",
+    "matchType": "exact"
+  },
+  "VfL Wolfsburg": {
+    "lat": 52.431944,
+    "lon": 10.803889,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q101859",
+    "country": "Germany",
+    "matchedLabel": "VfL Wolfsburg",
+    "matchType": "fuzzy 1.00 -> VfL Wolfsburg"
+  },
+  "Viitorul Constanta": {
+    "lat": 44.26388889,
+    "lon": 28.55583333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q533094",
+    "country": "Romania",
+    "matchedLabel": "FC Viitorul Constanța",
+    "matchType": "exact"
+  },
+  "Viktoria Plzen": {
+    "lat": 49.75,
+    "lon": 13.385556,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q206838",
+    "country": "Czech Republic",
+    "matchedLabel": "FC Viktoria Plzeň",
+    "matchType": "exact"
+  },
+  "Villarreal CF": {
+    "lat": 39.944167,
+    "lon": -0.103611,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q12297",
+    "country": "Spain",
+    "matchedLabel": "Villarreal CF",
+    "matchType": "exact"
+  },
+  "Virtus AC": {
+    "lat": 43.95,
+    "lon": 12.416666666,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q917145",
+    "country": "San Marino",
+    "matchedLabel": "A.C. Virtus",
+    "matchType": "core"
+  },
+  "Vitória SC (Guimarães)": {
+    "lat": 41.445833333,
+    "lon": -8.300972222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q223450",
+    "country": "Portugal",
+    "matchedLabel": "Vitória S.C.",
+    "matchType": "exact"
+  },
+  "Vllaznia Shkoder": {
+    "lat": 42.070031,
+    "lon": 19.506558,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q81566",
+    "country": "Albania",
+    "matchedLabel": "KS Vllaznia Shkodër",
+    "matchType": "exact"
+  },
+  "Víkingur (Gøta)": {
+    "lat": 62.199788,
+    "lon": -6.74552,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q3543925",
+    "country": "Faroe Islands",
+    "matchedLabel": "Víkingur Gøta",
+    "matchType": "fuzzy 0.95 -> Víkingur Gøta"
+  },
+  "Wacker Innsbruck": {
+    "lat": 47.255972,
+    "lon": 11.410789,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q261813",
+    "country": "Austria",
+    "matchedLabel": "FC Wacker Innsbruck",
+    "matchType": "fuzzy 1.00 -> FC Wacker Innsbruck"
+  },
+  "Waterford United": {
+    "lat": 52.244722,
+    "lon": -7.132778,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q394466",
+    "country": "Ireland",
+    "matchedLabel": "Waterford United F.C.",
+    "matchType": "exact"
+  },
+  "Widzew Lodz": {
+    "lat": 51.765,
+    "lon": 19.511667,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q244981",
+    "country": "Poland",
+    "matchedLabel": "RTS Widzew Łódź",
+    "matchType": "exact"
+  },
+  "Wiener Sport-Club": {
+    "lat": 48.226,
+    "lon": 16.3109,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q266962",
+    "country": "Austria",
+    "matchedLabel": "Wiener Sport-Club",
+    "matchType": "exact"
+  },
+  "Willem II (Tilburg)": {
+    "lat": 51.542778,
+    "lon": 5.066944,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q332664",
+    "country": "Netherlands",
+    "matchedLabel": "Willem II",
+    "matchType": "exact"
+  },
+  "Wisla Krakow": {
+    "lat": 50.063611,
+    "lon": 19.911944,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q190943",
+    "country": "Poland",
+    "matchedLabel": "Wisła Kraków",
+    "matchType": "exact"
+  },
+  "Wismut Karl-Marx-Stadt": {
+    "lat": 50.8323531,
+    "lon": 12.918914,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q878389",
+    "country": "Germany",
+    "matchedLabel": "SC Karl-Marx-Stadt",
+    "matchType": "fuzzy 0.96 -> SC Karl-Marx-Stadt"
+  },
+  "Wolverhampton Wanderers": {
+    "lat": 52.590277777,
+    "lon": -2.130277777,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q19500",
+    "country": "United Kingdom",
+    "matchedLabel": "Wolverhampton Wanderers F.C.",
+    "matchType": "exact"
+  },
+  "Xäzär Länkäran": {
+    "lat": 38.747189,
+    "lon": 48.857131,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q695939",
+    "country": "Azerbaijan",
+    "matchedLabel": "Khazar Lankaran FC",
+    "matchType": "fuzzy 0.90 -> Khazar Lankaran FC"
+  },
+  "Zaglebie Lubin": {
+    "lat": 51.413333,
+    "lon": 16.1975,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q140497",
+    "country": "Poland",
+    "matchedLabel": "Zagłębie Lubin",
+    "matchType": "fuzzy 0.96 -> Zagłębie Lubin"
+  },
+  "Zalgiris Vilnius": {
+    "lat": 54.6685,
+    "lon": 25.2947,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q500988",
+    "country": "Lithuania",
+    "matchedLabel": "FK Žalgiris",
+    "matchType": "exact"
+  },
+  "Zbrojovka Brno": {
+    "lat": 49.227162,
+    "lon": 16.586276,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q724832",
+    "country": "Czech Republic",
+    "matchedLabel": "FC Zbrojovka Brno",
+    "matchType": "exact"
+  },
+  "Zeljeznicar Sarajevo": {
+    "lat": 43.846667,
+    "lon": 18.387222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q219929",
+    "country": "Bosnia and Herzegovina",
+    "matchedLabel": "FK Željezničar Sarajevo",
+    "matchType": "exact"
+  },
+  "Zenit Sankt Peterburg": {
+    "lat": 59.972953,
+    "lon": 30.220533,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q29108",
+    "country": "Russia",
+    "matchedLabel": "FC Zenit Saint Petersburg",
+    "matchType": "fuzzy 0.93 -> FC Zenit Saint Petersburg"
+  },
+  "Zeta Golubovci": {
+    "lat": 42.328611,
+    "lon": 19.240556,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q382418",
+    "country": "Montenegro",
+    "matchedLabel": "FK Zeta",
+    "matchType": "exact"
+  },
+  "Zimbru Chisinau": {
+    "lat": 46.980278,
+    "lon": 28.866944,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q203513",
+    "country": "Moldova",
+    "matchedLabel": "FC Zimbru Chișinău",
+    "matchType": "exact"
+  },
+  "Újpesti TE": {
+    "lat": 47.574892,
+    "lon": 19.08465,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q244595",
+    "country": "Hungary",
+    "matchedLabel": "Újpest FC",
+    "matchType": "fuzzy 0.95 -> Újpest FC"
+  },
+  "FC Basle": {
+    "lat": 47.5416,
+    "lon": 7.6203,
+    "source": "manual",
+    "country": "Switzerland"
+  },
+  "FC Levski-Spartak": {
+    "lat": 42.6852,
+    "lon": 23.3467,
+    "source": "manual",
+    "country": "Bulgaria"
+  },
+  "FC Spartak (Plovdiv)": {
+    "lat": 42.131667,
+    "lon": 24.743611,
+    "source": "wikidata:venue",
+    "qid": "Q654407"
+  },
+  "FC Trakia (Plovdiv)": {
+    "lat": 42.1418541,
+    "lon": 24.7499297,
+    "source": "nominatim",
+    "displayName": "Пловдив, 4000, България"
+  },
+  "FC Vitosha (Sofia)": {
+    "lat": 42.59125,
+    "lon": 23.36341667,
+    "source": "wikidata:venue",
+    "qid": "Q5423737"
+  },
+  "FH (Hafnarfjörður)": {
+    "lat": 64.0695354,
+    "lon": -21.9575664,
+    "source": "nominatim",
+    "displayName": "Hafnarfjarðarkaupstaður, Höfuðborgarsvæðið, Ísland"
+  },
+  "FK Aqtöbe": {
+    "lat": 50.291389,
+    "lon": 57.160278,
+    "source": "wikidata:venue",
+    "qid": "Q194170"
+  },
+  "FK Austria (Vienna)": {
+    "lat": 48.162306,
+    "lon": 16.386694,
+    "source": "wikidata:venue",
+    "qid": "Q131209"
+  },
+  "FK Baki": {
+    "lat": 40.4287706,
+    "lon": 49.8534774,
+    "source": "nominatim",
+    "displayName": "Vətən FK, Abay Kunanbayev küçəsi, Dərnəgül, Binəqədi 1 siəd, Bakı, Binəqədi rayonu, 1116, Azərbaycan"
+  },
+  "FK Liteks (Lovech)": {
+    "lat": 43.142639,
+    "lon": 24.724861,
+    "source": "wikidata:venue",
+    "qid": "Q270420"
+  },
+  "FK Partizani (Tirane)": {
+    "lat": 41.31898056,
+    "lon": 19.81138333,
+    "source": "wikidata:venue",
+    "qid": "Q845772"
+  },
+  "FK Rigas Futbola Skola": {
+    "lat": 56.9332,
+    "lon": 24.0883,
+    "source": "wikidata:venue",
+    "qid": "Q995093"
+  },
+  "FK Skeid": {
+    "lat": 59.9406,
+    "lon": 10.7752,
+    "source": "wikidata:headquarters",
+    "qid": "Q775976"
+  },
+  "FK Vardar (Skoplje)": {
+    "lat": 42.005733,
+    "lon": 21.425592,
+    "source": "wikidata:venue",
+    "qid": "Q335190"
+  },
+  "FK Ventspils": {
+    "lat": 57.3873,
+    "lon": 21.5704,
+    "source": "wikidata:venue",
+    "qid": "Q18831"
+  },
+  "FK Zeljeznicar (Sarajevo)": {
+    "lat": 43.846667,
+    "lon": 18.387222,
+    "source": "wikidata:venue",
+    "qid": "Q219929"
+  },
+  "Feijenoord": {
+    "lat": 51.893894444444,
+    "lon": 4.5232527777778,
+    "source": "wikidata:venue",
+    "qid": "Q134241"
+  },
+  "Ferencváros (Budapest)": {
+    "lat": 47.475277777778,
+    "lon": 19.096111111111,
+    "source": "wikidata:venue",
+    "qid": "Q208396"
+  },
+  "Folgore": {
+    "lat": 43.96,
+    "lon": 12.465,
+    "source": "manual",
+    "country": "San Marino"
+  },
+  "GI (Gotu)": {
+    "lat": 62.1933671,
+    "lon": -6.7462865,
+    "source": "nominatim",
+    "displayName": "Gøtu Kirkja, 7, Gøtuvegur, Gøtugjógv, Eysturkommuna, Eysturoyar sýsla, 511, Føroyar"
+  },
+  "HB (Tórshavn)": {
+    "lat": 62.0101396,
+    "lon": -6.7715709,
+    "source": "nominatim",
+    "displayName": "Tórshavn, Tórshavnar kommuna, Streymoyar sýsla, 100, Føroyar"
+  },
+  "HIFK (Helsinki)": {
+    "lat": 60.1875,
+    "lon": 24.9225,
+    "source": "wikidata:venue",
+    "qid": "Q11336634"
+  },
+  "HJK (Helsinki)": {
+    "lat": 60.1875,
+    "lon": 24.9225,
+    "source": "wikidata:venue",
+    "qid": "Q208584"
+  },
+  "Hajduk Sp": {
+    "lat": 43.519444,
+    "lon": 16.431667,
+    "source": "wikidata:venue",
+    "qid": "Q181216"
+  },
+  "Haka Valkeakoski": {
+    "lat": 61.268056,
+    "lon": 24.020278,
+    "source": "wikidata:venue",
+    "qid": "Q275138"
+  },
+  "Herfølge BK": {
+    "lat": 55.413578,
+    "lon": 12.134153,
+    "source": "wikidata:venue",
+    "qid": "Q289720"
+  },
+  "Hibernian (Edinburgh)": {
+    "lat": 55.961666666667,
+    "lon": -3.1655555555556,
+    "source": "wikidata:venue",
+    "qid": "Q192597"
+  },
+  "Hibernians (Paola)": {
+    "lat": 35.8717994,
+    "lon": 14.5073748,
+    "source": "nominatim",
+    "displayName": "Raħal Ġdid, Reġjun tal-Port, Malta"
+  },
+  "Hibernians (Pawla)": {
+    "lat": 35.882861111111,
+    "lon": 14.513027777778,
+    "source": "wikidata:venue",
+    "qid": "Q936187"
+  },
+  "IBK (Keflavik)": {
+    "lat": 63.9997694,
+    "lon": -22.5565373,
+    "source": "nominatim",
+    "displayName": "Keflavík, Reykjanesbær, Suðurnes, 230, Ísland"
+  },
+  "IF Elfsborg (Borås)": {
+    "lat": 57.73457,
+    "lon": 12.934334,
+    "source": "wikidata:venue",
+    "qid": "Q211753"
+  },
+  "IFK Gothenburg": {
+    "lat": 57.706111111111,
+    "lon": 11.980555555556,
+    "source": "wikidata:venue",
+    "qid": "Q201567"
+  },
+  "Inter Baki": {
+    "lat": 40.410986,
+    "lon": 49.897711,
+    "source": "wikidata:venue",
+    "qid": "Q723471"
+  },
+  "KB (Copenhagen)": {
+    "lat": 55.6867243,
+    "lon": 12.5700724,
+    "source": "nominatim",
+    "displayName": "København, Københavns Kommune, Region Hovedstaden, 1357, Danmark"
+  },
+  "KS Dinamo (Tirana)": {
+    "lat": 41.31898056,
+    "lon": 19.81138333,
+    "source": "wikidata:venue",
+    "qid": "Q34120"
+  },
+  "KS Labinoti (Elbasan)": {
+    "lat": 41.115875,
+    "lon": 20.091992,
+    "source": "wikidata:venue",
+    "qid": "Q846062"
+  },
+  "KS Vllaznia (Shkodër)": {
+    "lat": 42.070031,
+    "lon": 19.506558,
+    "source": "wikidata:venue",
+    "qid": "Q81566"
+  },
+  "Kalju Nõmme": {
+    "lat": 59.385456,
+    "lon": 24.659603,
+    "source": "wikidata:venue",
+    "qid": "Q752339"
+  },
+  "Kapaz (Gänjä)": {
+    "lat": 40.706111111111,
+    "lon": 46.361944444444,
+    "source": "wikidata:venue",
+    "qid": "Q846357"
+  },
+  "Kareda Siauliai": {
+    "lat": 54.9,
+    "lon": 23.933333333333,
+    "source": "wikidata:headquarters",
+    "qid": "Q594686"
+  },
+  "Kispest-Honved": {
+    "lat": 47.4425,
+    "lon": 19.155103,
+    "source": "wikidata:venue",
+    "qid": "Q275612"
+  },
+  "Koge BK": {
+    "lat": 55.4681,
+    "lon": 12.1778,
+    "source": "wikidata:venue",
+    "qid": "Q1048007"
+  },
+  "KÍ (Klaksvík)": {
+    "lat": 62.2254921,
+    "lon": -6.5837755,
+    "source": "nominatim",
+    "displayName": "Klaksvík, Klaksvíkar kommuna, Norðoya sýsla, Føroyar"
+  },
+  "LKS (Lódz)": {
+    "lat": 51.75875,
+    "lon": 19.42675,
+    "source": "wikidata:venue",
+    "qid": "Q345142"
+  },
+  "LKS Lodz": {
+    "lat": 51.75875,
+    "lon": 19.42675,
+    "source": "wikidata:venue",
+    "qid": "Q345142"
+  },
+  "Lantana Tallinn": {
+    "lat": 59.506592,
+    "lon": 24.82805,
+    "source": "wikidata:venue",
+    "qid": "Q513558"
+  },
+  "Levski-Spartak (Sofia)": {
+    "lat": 42.6977028,
+    "lon": 23.3217359,
+    "source": "nominatim",
+    "displayName": "София, Средец, Столична, София-град, България"
+  },
+  "Liepajas Metalurgs": {
+    "lat": 56.502952,
+    "lon": 20.995424,
+    "source": "wikidata:venue",
+    "qid": "Q304146"
+  },
+  "Limerick United": {
+    "lat": 52.674167,
+    "lon": -8.6425,
+    "source": "wikidata:venue",
+    "qid": "Q1552212"
+  },
+  "Litex Lovech": {
+    "lat": 43.142639,
+    "lon": 24.724861,
+    "source": "wikidata:venue",
+    "qid": "Q270420"
+  },
+  "Lokomotiv (Plovdiv)": {
+    "lat": 55.80355,
+    "lon": 37.741169,
+    "source": "wikidata:venue",
+    "qid": "Q29115"
+  },
+  "Lokomotiv Moskva": {
+    "lat": 55.80355,
+    "lon": 37.741169,
+    "source": "wikidata:venue",
+    "qid": "Q29115"
+  },
+  "Lokomotiva Zagreb": {
+    "lat": 45.7821862,
+    "lon": 15.9684872,
+    "source": "nominatim",
+    "displayName": "Nogometni klub Lokomotiva, Ulica Józsefa Antalla, Mjesni odbor Kajzerica, Gradska četvrt Novi Zagreb - zapad, Zagreb, Grad Zagreb, 10156, Hrvatska"
+  },
+  "Lyngby BK": {
+    "lat": 55.78213467351304,
+    "lon": 12.506410426770579,
+    "source": "wikidata:club",
+    "qid": "Q635654"
+  },
+  "MPKC Mozyr": {
+    "lat": 52.038888888889,
+    "lon": 29.276805555556,
+    "source": "wikidata:venue",
+    "qid": "Q1165833"
+  },
+  "MTK Hungária": {
+    "lat": 47.490919444444,
+    "lon": 19.106725,
+    "source": "wikidata:venue",
+    "qid": "Q1161083"
+  },
+  "MTK Hungária (Budapest)": {
+    "lat": 47.490919444444,
+    "lon": 19.106725,
+    "source": "wikidata:venue",
+    "qid": "Q208406"
+  },
+  "MTK-VM (Budapest)": {
+    "lat": 47.490919444444,
+    "lon": 19.106725,
+    "source": "wikidata:venue",
+    "qid": "Q208406"
+  },
+  "Makedonija Skopje": {
+    "lat": 42.00222222,
+    "lon": 21.36,
+    "source": "wikidata:venue",
+    "qid": "Q402922"
+  },
+  "Maribor Branik": {
+    "lat": 46.5625,
+    "lon": 15.640556,
+    "source": "wikidata:venue",
+    "qid": "Q210530"
+  },
+  "Maribor Teatanic": {
+    "lat": 46.5625,
+    "lon": 15.640556,
+    "source": "wikidata:venue",
+    "qid": "Q210530"
+  },
+  "Metalurgs Liepaja": {
+    "lat": 56.502952,
+    "lon": 20.995424,
+    "source": "wikidata:venue",
+    "qid": "Q304146"
+  },
+  "Modrica Maksima": {
+    "lat": 44.9564,
+    "lon": 18.3053,
+    "source": "manual",
+    "country": "Bosnia and Herzegovina"
+  },
+  "Mogren Budva": {
+    "lat": 42.2863,
+    "lon": 18.8507,
+    "source": "wikidata:venue",
+    "qid": "Q377494"
+  },
+  "Moskva Spartak": {
+    "lat": 55.8178,
+    "lon": 37.4403,
+    "source": "wikidata:venue",
+    "qid": "Q29112"
+  },
+  "Mura (Murska Sobota)": {
+    "lat": 46.6624644,
+    "lon": 16.1655256,
+    "source": "nominatim",
+    "displayName": "Murska Sobota, 9000, Slovenija"
+  },
+  "MyPa (Anjalankoski)": {
+    "lat": 60.772778,
+    "lon": 26.790278,
+    "source": "wikidata:venue",
+    "qid": "Q318698"
+  },
+  "NK Croatia (Zagreb)": {
+    "lat": 45.818858333333,
+    "lon": 16.018077777778,
+    "source": "wikidata:venue",
+    "qid": "Q172803"
+  },
+  "NSÍ (Runavík)": {
+    "lat": 62.105833,
+    "lon": -6.723333,
+    "source": "wikidata:venue",
+    "qid": "Q216857"
+  },
+  "Norma Tallinn": {
+    "lat": 59.437222222222,
+    "lon": 24.745,
+    "source": "wikidata:headquarters",
+    "qid": "Q1341594"
+  },
+  "OB (Odense)": {
+    "lat": 55.3997225,
+    "lon": 10.3852104,
+    "source": "nominatim",
+    "displayName": "Odense, Odense Kommune, Region Syddanmark, 5000, Danmark"
+  },
+  "OPS (Oulu)": {
+    "lat": 65.0117914,
+    "lon": 25.4701973,
+    "source": "nominatim",
+    "displayName": "Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+  },
+  "Olimpia": {
+    "lat": 14.098447222222223,
+    "lon": -87.20395833333333,
+    "source": "wikidata:venue",
+    "qid": "Q1023208"
+  },
+  "Olympiakos (Nicosia)": {
+    "lat": 35.168,
+    "lon": 33.3558,
+    "source": "wikidata:venue",
+    "qid": "Q280814"
+  },
+  "Olympiakos (Peiraías)": {
+    "lat": 37.946169,
+    "lon": 23.664536,
+    "source": "wikidata:venue",
+    "qid": "Q19628"
+  },
+  "Olympiakos (Peraías)": {
+    "lat": 37.946169,
+    "lon": 23.664536,
+    "source": "wikidata:venue",
+    "qid": "Q19628"
+  },
+  "Olympique Lyon": {
+    "lat": 45.765224,
+    "lon": 4.982131,
+    "source": "wikidata:venue",
+    "qid": "Q704"
+  },
+  "Omonia (Lefkosia)": {
+    "lat": 34.948617,
+    "lon": 33.587873,
+    "source": "wikidata:venue",
+    "qid": "Q2569908"
+  },
+  "Ordabasi Shimkent": {
+    "lat": 42.3417,
+    "lon": 69.5901,
+    "source": "manual",
+    "country": "Kazakhstan"
+  },
+  "PAOK (Salonika)": {
+    "lat": 40.613839,
+    "lon": 22.972422,
+    "source": "wikidata:venue",
+    "qid": "Q204888"
+  },
+  "PAOK (Thessaloniki)": {
+    "lat": 40.613839,
+    "lon": 22.972422,
+    "source": "wikidata:venue",
+    "qid": "Q204888"
+  },
+  "PSV": {
+    "lat": 51.4417,
+    "lon": 5.4674,
+    "source": "wikidata:venue",
+    "qid": "Q11938"
+  },
+  "Partizan (Beograd) Ser Olympia": {
+    "lat": 44.7804491,
+    "lon": 20.4558399,
+    "source": "nominatim",
+    "displayName": "UNMIK Belgrade Office, Толстојева, Топчидерско брдо, МЗ Четврти Јули, Београд (Савски венац), Београд, Град Београд, Централна Србија, 11000, Србија"
+  },
+  "Pezoporikos (Larnaca)": {
+    "lat": 34.914167,
+    "lon": 33.628333,
+    "source": "wikidata:venue",
+    "qid": "Q2277220"
+  },
+  "Pobeda Prilep": {
+    "lat": 41.343611,
+    "lon": 21.561944,
+    "source": "wikidata:venue",
+    "qid": "Q222874"
+  },
+  "Pyunik Yerevan": {
+    "lat": 40.22111111,
+    "lon": 44.55527778,
+    "source": "wikidata:venue",
+    "qid": "Q244317"
+  },
+  "Qarabag Agdam": {
+    "lat": 40.4212,
+    "lon": 49.9968,
+    "source": "wikidata:venue",
+    "qid": "Q723476"
+  },
+  "RB Salzburg": {
+    "lat": 47.81625,
+    "lon": 12.998222222222,
+    "source": "wikidata:venue",
+    "qid": "Q994811"
+  },
+  "RWD Molenbeek": {
+    "lat": 50.855,
+    "lon": 4.310556,
+    "source": "wikidata:venue",
+    "qid": "Q1050331"
+  },
+  "Rabotnicki Skopje": {
+    "lat": 42.005833333333,
+    "lon": 21.425555555556,
+    "source": "wikidata:club",
+    "qid": "Q208574"
+  },
+  "Racing Genk": {
+    "lat": 51.005,
+    "lon": 5.533333,
+    "source": "wikidata:venue",
+    "qid": "Q216032"
+  },
+  "Rapid JC Heerlen": {
+    "lat": 50.8882,
+    "lon": 5.9795,
+    "source": "manual",
+    "country": "Netherlands"
+  },
+  "Real Betis (Sevilla)": {
+    "lat": 37.356403,
+    "lon": -5.981611,
+    "source": "wikidata:venue",
+    "qid": "Q8723"
+  },
+  "Red Boys (Differdange)": {
+    "lat": 49.522158333333,
+    "lon": 5.875475,
+    "source": "wikidata:venue",
+    "qid": "Q2298234"
+  },
+  "Reipas (Lahti)": {
+    "lat": 60.982628,
+    "lon": 25.6613418,
+    "source": "nominatim",
+    "displayName": "Lahti, Lahden seutukunta, Päijät-Häme, Manner-Suomi, Suomi / Finland"
+  },
+  "Renova Cepciste": {
+    "lat": 42.0106,
+    "lon": 20.9714,
+    "source": "manual",
+    "country": "North Macedonia"
+  },
+  "Rosenborg BK (Trondheim)": {
+    "lat": 63.4125,
+    "lon": 10.405,
+    "source": "wikidata:venue",
+    "qid": "Q186785"
+  },
+  "Rába Vasas ETO (Györ)": {
+    "lat": 47.6835029,
+    "lon": 17.6342832,
+    "source": "nominatim",
+    "displayName": "Győr, Győri járás, Győr-Moson-Sopron vármegye, Nyugat-Dunántúl, Dunántúl, Magyarország"
+  },
+  "SCT Olimpija (Ljubljana)": {
+    "lat": 46.081111,
+    "lon": 14.521389,
+    "source": "wikidata:venue",
+    "qid": "Q31932"
+  },
+  "SJK (Seinäjoki)": {
+    "lat": 62.778469444444,
+    "lon": 22.815588888889,
+    "source": "wikidata:venue",
+    "qid": "Q2185704"
+  },
+  "SK 17 Nentori (Tirane)": {
+    "lat": 41.31898056,
+    "lon": 19.81138333,
+    "source": "wikidata:venue",
+    "qid": "Q210170"
+  },
+  "SK Rapid (Wien)": {
+    "lat": 48.1981,
+    "lon": 16.2653,
+    "source": "wikidata:venue",
+    "qid": "Q131215"
+  },
+  "SK VOEST (Linz)": {
+    "lat": 48.293333,
+    "lon": 14.276389,
+    "source": "wikidata:venue",
+    "qid": "Q392310"
+  },
+  "SS Lazio (Roma)": {
+    "lat": 41.93388888888889,
+    "lon": 12.454722222222223,
+    "source": "wikidata:venue",
+    "qid": "Q2609"
+  },
+  "Servette FC (Genève)": {
+    "lat": 46.177778,
+    "lon": 6.1275,
+    "source": "wikidata:venue",
+    "qid": "Q219235"
+  },
+  "Shamrock Rovers (Dublin)": {
+    "lat": 53.2835,
+    "lon": -6.37374,
+    "source": "wikidata:venue",
+    "qid": "Q203976"
+  },
+  "Shelbourne (Dublin)": {
+    "lat": 53.3493795,
+    "lon": -6.2605593,
+    "source": "nominatim",
+    "displayName": "Dublin, County Dublin, Leinster, Éire / Ireland"
+  },
+  "Shirak Giumri": {
+    "lat": 40.8232397,
+    "lon": 43.824639,
+    "source": "nominatim",
+    "displayName": "Արմենիա, 9/9, Տրդատ Ճարտարապետի փողոց, Անի թաղամաս, Գյումրի, Շիրակի մարզ, 3125, Հայաստան"
+  },
+  "Shkupi-1927 (Skopje)": {
+    "lat": 41.9962164,
+    "lon": 21.4318935,
+    "source": "nominatim",
+    "displayName": "Скопје, Град Скопје, Северна Македонија"
+  },
+  "Sileks (Kratovo)": {
+    "lat": 42.0808178,
+    "lon": 22.1610253,
+    "source": "wikidata:venue",
+    "qid": "Q933213"
+  },
+  "Sileks Kratovo": {
+    "lat": 42.0808178,
+    "lon": 22.1610253,
+    "source": "wikidata:venue",
+    "qid": "Q933213"
+  },
+  "Skonto Riga": {
+    "lat": 56.961372,
+    "lon": 24.116408,
+    "source": "wikidata:venue",
+    "qid": "Q223823"
+  },
+  "Spartak Moskva": {
+    "lat": 55.8178,
+    "lon": 37.4403,
+    "source": "wikidata:venue",
+    "qid": "Q29112"
+  },
+  "Standard CL (Liege)": {
+    "lat": 50.4708135,
+    "lon": 5.7735658,
+    "source": "nominatim",
+    "displayName": "Liège, Wallonie, België / Belgique / Belgien"
+  },
+  "Start (Kristiansand)": {
+    "lat": 58.0856276,
+    "lon": 7.931858,
+    "source": "nominatim",
+    "displayName": "Kristiansand, Agder, Norge"
+  },
+  "Stjarnan (Garðabær)": {
+    "lat": 64.087423,
+    "lon": -21.928865,
+    "source": "wikidata:venue",
+    "qid": "Q279886"
+  },
+  "Struga Trim & Lum": {
+    "lat": 41.1775,
+    "lon": 20.6789,
+    "source": "manual",
+    "country": "North Macedonia"
+  },
+  "Suduva Marijampole": {
+    "lat": 54.5745,
+    "lon": 23.3654,
+    "source": "wikidata:venue",
+    "qid": "Q757104"
+  },
+  "Sutjeska (Niksic)": {
+    "lat": 42.7739388,
+    "lon": 18.9488097,
+    "source": "nominatim",
+    "displayName": "Nikšić, Opština Nikšić, Crna Gora / Црна Гора"
+  },
+  "TNS Llansantffraid": {
+    "lat": 52.8759,
+    "lon": -3.02631,
+    "source": "wikidata:venue",
+    "qid": "Q390183"
+  },
+  "TVMK Tallinn": {
+    "lat": 59.434472222222,
+    "lon": 24.783444444444,
+    "source": "wikidata:venue",
+    "qid": "Q730124"
+  },
+  "Tavria Simferopol": {
+    "lat": 44.943611,
+    "lon": 34.089722,
+    "source": "wikidata:venue",
+    "qid": "Q326156"
+  },
+  "Tobil Qostanay": {
+    "lat": 52.693645,
+    "lon": 62.594765,
+    "source": "nominatim",
+    "displayName": "Тобыл, Бейімбет Майлин ауданы, Қостанай облысы, 111715, Қазақстан"
+  },
+  "Tre Fiori": {
+    "lat": 43.910556,
+    "lon": 12.455556,
+    "source": "wikidata:headquarters",
+    "qid": "Q506224"
+  },
+  "Tre Penne": {
+    "lat": 43.9424,
+    "lon": 12.4578,
+    "source": "manual",
+    "country": "San Marino"
+  },
+  "Trepça'89 (Mitrovicë)": {
+    "lat": 42.8790424,
+    "lon": 20.8657862,
+    "source": "nominatim",
+    "displayName": "Mitrovicë, Komuna e Mitrovicës / Opština Kosovska Mitrovica, Rajoni i Mitrovicës / Kosovskomitrovački okrug, 40000, Kosova / Kosovo"
+  },
+  "Tsement Ararat": {
+    "lat": 40.171426,
+    "lon": 44.449938,
+    "source": "wikidata:venue",
+    "qid": "Q757253"
+  },
+  "US Luxembourg": {
+    "lat": 49.604722222222,
+    "lon": 6.1402777777778,
+    "source": "wikidata:venue",
+    "qid": "Q730907"
+  },
+  "Ujpesti Dozsa": {
+    "lat": 47.574892,
+    "lon": 19.08465,
+    "source": "wikidata:venue",
+    "qid": "Q244595"
+  },
+  "Ulysses Yerevan": {
+    "lat": 40.1792,
+    "lon": 44.4991,
+    "source": "manual",
+    "country": "Armenia"
+  },
+  "Urartu Yerevan": {
+    "lat": 40.1713448,
+    "lon": 44.4504185,
+    "source": "nominatim",
+    "displayName": "Ուրարտու, Ջիվանի փողոց 1-ին փակուղի, Մալաթիա-Սեբաստիա, Երևան, 0004, Հայաստան"
+  },
+  "VB (Vágur)": {
+    "lat": 61.4738859,
+    "lon": -6.8114622,
+    "source": "nominatim",
+    "displayName": "Vágur, Vágs kommuna, Suðuroyar sýsla, 900, Føroyar"
+  },
+  "Vac FC-Samsung": {
+    "lat": 47.7676,
+    "lon": 19.1382,
+    "source": "wikidata:venue",
+    "qid": "Q911385"
+  },
+  "Vardar Skopje": {
+    "lat": 42.005733,
+    "lon": 21.425592,
+    "source": "wikidata:venue",
+    "qid": "Q335190"
+  },
+  "Vasas ETO Gyor": {
+    "lat": 47.695769,
+    "lon": 17.663827,
+    "source": "wikidata:venue",
+    "qid": "Q276346"
+  },
+  "Vasas SC (Budapest)": {
+    "lat": 47.481849,
+    "lon": 19.1449053,
+    "source": "nominatim",
+    "displayName": "Budapest, Közép-Magyarország, Magyarország"
+  },
+  "Vejle BK": {
+    "lat": 55.71372,
+    "lon": 9.5562,
+    "source": "wikidata:venue",
+    "qid": "Q737936"
+  },
+  "Vidi FC (Székesfehérvár)": {
+    "lat": 47.17369444,
+    "lon": 18.41536111,
+    "source": "wikidata:venue",
+    "qid": "Q326811"
+  },
+  "Viking FK (Stavanger)": {
+    "lat": 58.914611,
+    "lon": 5.730442,
+    "source": "wikidata:venue",
+    "qid": "Q211177"
+  },
+  "Vikingur (Reykjavik)": {
+    "lat": 64.117222,
+    "lon": -21.852778,
+    "source": "wikidata:venue",
+    "qid": "Q1140538"
+  },
+  "Vålerenga IF": {
+    "lat": 59.9178125,
+    "lon": 10.8066875,
+    "source": "wikidata:venue",
+    "qid": "Q212819"
+  },
+  "Vålerenga IF (Oslo)": {
+    "lat": 59.9178125,
+    "lon": 10.8066875,
+    "source": "wikidata:venue",
+    "qid": "Q212819"
+  },
+  "Vörös Lobogó (Budapest)": {
+    "lat": 47.490919444444,
+    "lon": 19.106725,
+    "source": "wikidata:venue",
+    "qid": "Q208406"
+  },
+  "WIT Georgia Tbilisi": {
+    "lat": 41.847286,
+    "lon": 44.721492,
+    "source": "wikidata:venue",
+    "qid": "Q723548"
+  },
+  "Waterford": {
+    "lat": 52.2609997,
+    "lon": -7.1119081,
+    "source": "nominatim",
+    "displayName": "Waterford, County Waterford, Munster, Éire / Ireland"
+  },
+  "Zalgiris Kaunas": {
+    "lat": 54.8972,
+    "lon": 23.9369,
+    "source": "wikidata:venue",
+    "qid": "Q331650"
+  },
+  "Zarja Voroshilovgrad": {
+    "lat": 48.559444,
+    "lon": 39.321111,
+    "source": "wikidata:venue",
+    "qid": "Q754307"
+  },
+  "Zenit Leningrad": {
+    "lat": 59.972953,
+    "lon": 30.220533,
+    "source": "wikidata:venue",
+    "qid": "Q29108"
+  },
+  "Zhenis Astana": {
+    "lat": 51.162739,
+    "lon": 71.413312,
+    "source": "wikidata:venue",
+    "qid": "Q753004"
   }
 }

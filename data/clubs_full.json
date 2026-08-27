@@ -1316,7 +1316,7 @@
   },
   {
     "name": "AS Trencin",
-    "bestRound": "Qualifying Phase 1 (Jul 14 and 21)",
+    "bestRound": "Qualifying Phase 2",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 2,
     "appearances": [
@@ -2659,7 +2659,7 @@
   },
   {
     "name": "BATE Barysau",
-    "bestRound": "Qualifying Phase 1 (Jul 16 and 23)",
+    "bestRound": "Group Phase (Sep 16/17, Sep 30/Oct 1, Oct 21/22, Nov 4/5, Nov 25/26, Dec 9/10)",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 15,
     "appearances": [
@@ -2824,7 +2824,7 @@
   },
   {
     "name": "BSC Young Boys (Bern)",
-    "bestRound": "Qualifying Phase 3 (Aug 18 and 24)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 9,
     "appearances": [
@@ -5687,7 +5687,7 @@
   },
   {
     "name": "Debreceni VSC",
-    "bestRound": "Qualifying Phase 3 (Aug 10 and 24)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 7,
     "appearances": [
@@ -6193,7 +6193,7 @@
   },
   {
     "name": "Dinamo Zagreb",
-    "bestRound": "Qualifying Phase 3 (Aug 9 and Aug 23)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 20,
     "appearances": [
@@ -7149,7 +7149,7 @@
   },
   {
     "name": "FBK Kaunas",
-    "bestRound": "Qualifying Phase 1 (Jul 11 and 18)",
+    "bestRound": "Qualifying Phase 3 (Aug 13 and 27)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 7,
     "appearances": [
@@ -7799,7 +7799,7 @@
   },
   {
     "name": "FC Midtjylland (Herning)",
-    "bestRound": "Qualifying Phase 2",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 5,
     "appearances": [
@@ -8107,7 +8107,7 @@
   },
   {
     "name": "FC Twente (Enschede)",
-    "bestRound": "Qualifying Phase 3 (Aug 13 and 27)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 5,
     "appearances": [
@@ -8309,7 +8309,7 @@
   },
   {
     "name": "FH (Hafnarfjörður)",
-    "bestRound": "Qualifying Phase 1 (Jul 13 and 20)",
+    "bestRound": "Qualifying Phase 2 (Jul 26 and Aug 2)",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 8,
     "appearances": [
@@ -8357,7 +8357,7 @@
   },
   {
     "name": "FK Aqtöbe",
-    "bestRound": "Qualifying Phase 1 (Jul 12 and 19)",
+    "bestRound": "Qualifying Phase 2 (Jul 29 and Aug 5)",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 5,
     "appearances": [
@@ -8390,7 +8390,7 @@
   },
   {
     "name": "FK Astana",
-    "bestRound": "Qualifying Phase 2 (Aug 1 and 8)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 8,
     "appearances": [
@@ -8537,7 +8537,7 @@
   },
   {
     "name": "FK Baki",
-    "bestRound": "Qualifying Phase 1 (Jul 12 and 19)",
+    "bestRound": "Qualifying Phase 2 (Jul 29 and Aug 5)",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 2,
     "appearances": [
@@ -8555,7 +8555,7 @@
   },
   {
     "name": "FK Bodø/Glimt",
-    "bestRound": "Qualifying Phase 1",
+    "bestRound": "Qualifying Phase 4",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 3,
     "appearances": [
@@ -8591,7 +8591,7 @@
   },
   {
     "name": "FK Krasnodar",
-    "bestRound": "Qualifying Phase 4",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 2,
     "appearances": [
@@ -8866,7 +8866,7 @@
   },
   {
     "name": "FK Ventspils",
-    "bestRound": "Qualifying Phase 2 (Aug 1 and 8)",
+    "bestRound": "Qualifying Phase 3 (Aug 19 and 25)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 5,
     "appearances": [
@@ -9164,7 +9164,7 @@
   },
   {
     "name": "Ferencváros",
-    "bestRound": "Qualifying Phase 2 (Jul 25 and Aug 1)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 8,
     "appearances": [
@@ -9736,7 +9736,7 @@
   },
   {
     "name": "Galatasaray (Istanbul)",
-    "bestRound": "Qualifying Phase 2",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 3,
     "appearances": [
@@ -10786,7 +10786,7 @@
   },
   {
     "name": "Hibernians",
-    "bestRound": "Preliminary Round (Jul 1 and 8)",
+    "bestRound": "Qualifying Phase 1 (Jul 14 and 21)",
     "bestDistFromFinal": 7,
     "seasonsPlayed": 3,
     "appearances": [
@@ -11429,7 +11429,7 @@
   },
   {
     "name": "Inter d'Escaldes",
-    "bestRound": "Semifinals (Aug 8)",
+    "bestRound": "Final (Jun 25)",
     "bestDistFromFinal": 9,
     "seasonsPlayed": 3,
     "appearances": [
@@ -11452,7 +11452,7 @@
   },
   {
     "name": "Internazionale FC",
-    "bestRound": "Qualifying Phase 3 (Aug 9 and Aug 23)",
+    "bestRound": "Group Phase 1",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 3,
     "appearances": [
@@ -11514,7 +11514,7 @@
   },
   {
     "name": "Istanbul Basaksehir FK",
-    "bestRound": "Qualifying Phase 3",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 3,
     "appearances": [
@@ -12748,7 +12748,7 @@
   },
   {
     "name": "Levadia Tallinn",
-    "bestRound": "Qualifying Phase 1 (Jul 13 and 20)",
+    "bestRound": "Qualifying Phase 2 (Jul 29 and Aug 5)",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 7,
     "appearances": [
@@ -12809,7 +12809,7 @@
   },
   {
     "name": "Levski Sofia",
-    "bestRound": "Qualifying Phase 2 (Jul 26 and Aug 2)",
+    "bestRound": "Qualifying Phase 3 (Aug 8 and Aug 22)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 5,
     "appearances": [
@@ -13006,7 +13006,7 @@
   },
   {
     "name": "Lincoln",
-    "bestRound": "Preliminary Round (Jul 1 and 8)",
+    "bestRound": "Qualifying Phase 1 (Jul 14 and 21)",
     "bestDistFromFinal": 7,
     "seasonsPlayed": 5,
     "appearances": [
@@ -13512,7 +13512,7 @@
   },
   {
     "name": "Ludogorets Razgrad",
-    "bestRound": "Qualifying Phase 1 (Jul 17 and 24)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 13,
     "appearances": [
@@ -13629,7 +13629,7 @@
   },
   {
     "name": "MSK Zilina",
-    "bestRound": "Qualifying Phase 2 (Jul 31 and Aug 7)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 7,
     "appearances": [
@@ -14249,7 +14249,7 @@
   },
   {
     "name": "Maribor",
-    "bestRound": "Qualifying Phase 2 (Jul 29 and Aug 5)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 9,
     "appearances": [
@@ -15036,7 +15036,7 @@
   },
   {
     "name": "Neftchi Baki",
-    "bestRound": "Qualifying Phase 1 (Jul 13 and 19)",
+    "bestRound": "Qualifying Phase 2 (Aug 1 and 8)",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 3,
     "appearances": [
@@ -15288,7 +15288,7 @@
   },
   {
     "name": "Olimpija Ljubljana",
-    "bestRound": "Qualifying Phase 1",
+    "bestRound": "Qualifying Phase 3",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 3,
     "appearances": [
@@ -15673,7 +15673,7 @@
   },
   {
     "name": "Omonia (Lefkosia)",
-    "bestRound": "Qualifying Phase 2 (Jul 25 and Aug 1)",
+    "bestRound": "Qualifying Phase 4",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 5,
     "appearances": [
@@ -16927,7 +16927,7 @@
   },
   {
     "name": "Qarabag Agdam",
-    "bestRound": "Qualifying Phase 2 (Jul 30 and Aug 6)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 10,
     "appearances": [
@@ -17108,7 +17108,7 @@
   },
   {
     "name": "RCD Mallorca",
-    "bestRound": "Qualifying Phase 3 (Aug 11 and 25)",
+    "bestRound": "Group Phase 1 (Sep 11/12, 18/19, 25/26, Oct 16/17, 23/24, 30/1)",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 2,
     "appearances": [
@@ -17348,7 +17348,7 @@
   },
   {
     "name": "Rabotnicki Skopje",
-    "bestRound": "Qualifying Phase 2 (Jul 27 and Aug 3)",
+    "bestRound": "Qualifying Phase 3 (Aug 9 and 23)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 4,
     "appearances": [
@@ -18745,7 +18745,7 @@
   },
   {
     "name": "SK Brann (Bergen)",
-    "bestRound": "Qualifying Phase 2 (Jul 25 and Aug 1)",
+    "bestRound": "Qualifying Phase 3 (Aug 13 and 27)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 2,
     "appearances": [
@@ -18893,7 +18893,7 @@
   },
   {
     "name": "SK Slavia Praha",
-    "bestRound": "Qualifying Phase 3 (Aug 9 and Aug 23)",
+    "bestRound": "Group Phase (Sep 18/19, Oct 2/3, 23/24, Nov 6/7, 7/28, Dec 4/11/12)",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 9,
     "appearances": [
@@ -18999,7 +18999,7 @@
   },
   {
     "name": "SK Tirana",
-    "bestRound": "Qualifying Phase 1 (Jul 14 and 21)",
+    "bestRound": "Qualifying Phase 2 (Jul 30 and Aug 6)",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 6,
     "appearances": [
@@ -19623,7 +19623,7 @@
   },
   {
     "name": "Shakhtar Donets'k",
-    "bestRound": "Qualifying Phase 3 (Aug 8 and Aug 22)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 4,
     "appearances": [
@@ -19787,7 +19787,7 @@
   },
   {
     "name": "Shakhtyor Qaraghandi",
-    "bestRound": "Qualifying Phase 1 (Jul 17 and 24)",
+    "bestRound": "Qualifying Phase 3 (Aug 20 and 28)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 2,
     "appearances": [
@@ -19858,7 +19858,7 @@
   },
   {
     "name": "Shamrock Rovers (Dublin)",
-    "bestRound": "Qualifying Phase 1",
+    "bestRound": "Qualifying Phase 2",
     "bestDistFromFinal": 7,
     "seasonsPlayed": 4,
     "appearances": [
@@ -19927,7 +19927,7 @@
   },
   {
     "name": "Sheriff Tiraspol",
-    "bestRound": "Qualifying Phase 2 (Jul 25 and Aug 1)",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 21,
     "appearances": [
@@ -20159,7 +20159,7 @@
   },
   {
     "name": "Siroki Brijeg",
-    "bestRound": "Qualifying Phase 1 (Jul 14 and 21)",
+    "bestRound": "Qualifying Phase 2 (Jul 26 and Aug 2)",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 2,
     "appearances": [
@@ -20248,7 +20248,7 @@
   },
   {
     "name": "Skënderbeu Korçë",
-    "bestRound": "Qualifying Phase 1 (Jul 13 and 19)",
+    "bestRound": "Qualifying Phase 3 (Aug 18 and 26)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 5,
     "appearances": [
@@ -21365,7 +21365,7 @@
   },
   {
     "name": "Suduva Marijampole",
-    "bestRound": "Qualifying Phase 1",
+    "bestRound": "Qualifying Phase 2",
     "bestDistFromFinal": 7,
     "seasonsPlayed": 2,
     "appearances": [
@@ -21501,7 +21501,7 @@
   },
   {
     "name": "TSG 1899 Hoffenheim",
-    "bestRound": "Qualifying Phase 3",
+    "bestRound": "Group Phase",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 2,
     "appearances": [
@@ -21558,7 +21558,7 @@
   },
   {
     "name": "Tampere United",
-    "bestRound": "Qualifying Phase 1 (Jul 17 and 24)",
+    "bestRound": "Qualifying Phase 3 (Aug 15 and 29)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 3,
     "appearances": [
@@ -21607,7 +21607,7 @@
   },
   {
     "name": "The New Saints",
-    "bestRound": "Qualifying Phase 1 (Jul 18 and 25)",
+    "bestRound": "Qualifying Phase 2 (Jul 28 and Aug 4)",
     "bestDistFromFinal": 6,
     "seasonsPlayed": 13,
     "appearances": [
@@ -22527,7 +22527,7 @@
   },
   {
     "name": "Vardar Skopje",
-    "bestRound": "Qualifying Phase 2 (Jul 31 and Aug 7)",
+    "bestRound": "Qualifying Phase 3 (Aug 13 and 27)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 7,
     "appearances": [
@@ -22998,7 +22998,7 @@
   },
   {
     "name": "Vålerengens IF",
-    "bestRound": "Preliminary Round",
+    "bestRound": "First Round",
     "bestDistFromFinal": 4,
     "seasonsPlayed": 3,
     "appearances": [
@@ -23510,7 +23510,7 @@
   },
   {
     "name": "Zeljeznicar Sarajevo",
-    "bestRound": "Qualifying Phase 1 (Jul 11 and 18)",
+    "bestRound": "Qualifying Phase 3 (Aug 14 and 28)",
     "bestDistFromFinal": 5,
     "seasonsPlayed": 5,
     "appearances": [

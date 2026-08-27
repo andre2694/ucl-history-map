@@ -135,7 +135,13 @@ def main():
         best_dist = rec["bestDist"]
         entry = {
             "name": name,
-            "bestRound": DIST_LABELS.get(best_dist, appearances[0]["roundName"] if best_dist >= 4 else "Early rounds"),
+            # label the round the club actually got FURTHEST in -- not
+            # appearances[0], which is merely their earliest season and can
+            # name a much worse result (Sheriff Tiraspol's best is a 2021-22
+            # group stage, but their first season was a 2001-02 qualifying exit)
+            "bestRound": DIST_LABELS.get(
+                best_dist,
+                next(a["roundName"] for a in appearances if a["distFromFinal"] == best_dist)),
             "bestDistFromFinal": best_dist,
             "seasonsPlayed": len(appearances),
             "appearances": appearances,

@@ -121,6 +121,53 @@ def pick_canonical(names_with_city):
     return sorted(names_with_city, key=lambda n: (-score(n)[0], -score(n)[1], n))[0]
 
 
+def _country_of(entry):
+    return entry.get("country") or entry.get("countryHint")
+
+
+def absorb_bare_into_city(out, merge_log):
+    """RSSSF sometimes writes a club with its city qualifier and sometimes
+    without ("Olympiakos (Peiraías)" in most seasons, bare "Olympiakos" in
+    four others). Those cluster separately because the city is part of the
+    key, leaving a fragment that then geocodes on its own -- bare
+    "Olympiakos" landed on Olympiacos VOLOS, a different club 250km away.
+
+    So: fold a city-less cluster into a city-qualified one when they share
+    a core name AND a country, and exactly one such candidate exists. The
+    country requirement is what keeps this safe -- bare "Olympiakos"
+    (Greece) must not absorb into "Olympiakos (Nicosia)" (Cyprus), and
+    with two same-core clusters in different countries the ambiguity
+    check leaves everything alone."""
+    by_core = defaultdict(list)
+    for c in out:
+        if c["_city"]:
+            by_core[c["_core"]].append(c)
+
+    absorbed = set()
+    for c in out:
+        if c["_city"] or c["_core"] not in by_core:
+            continue
+        cands = [t for t in by_core[c["_core"]]
+                 if _country_of(t) and _country_of(t) == _country_of(c)]
+        if len(cands) != 1:
+            continue  # nothing to absorb into, or genuinely ambiguous
+        target = cands[0]
+        seen = {(a["season"], a.get("distFromFinal")) for a in target["appearances"]}
+        for a in c["appearances"]:
+            if (a["season"], a.get("distFromFinal")) not in seen:
+                target["appearances"].append(a)
+        target["appearances"].sort(key=lambda a: a["season"])
+        target["seasonsPlayed"] = len(target["appearances"])
+        best = min(a["distFromFinal"] for a in target["appearances"])
+        target["bestDistFromFinal"] = best
+        target["bestRound"] = DIST_LABELS.get(
+            best, next(a["roundName"] for a in target["appearances"]
+                       if a["distFromFinal"] == best))
+        merge_log.append((target["name"], [c["name"] + " (city-less fragment)"]))
+        absorbed.add(id(c))
+    return [c for c in out if id(c) not in absorbed]
+
+
 def main():
     clubs = json.loads((DATA / "clubs_full.json").read_text(encoding="utf-8"))
     # the 42 hand-curated finalists already have a canonical spelling
@@ -170,7 +217,11 @@ def main():
 
         merged = {
             "name": canonical,
-            "bestRound": DIST_LABELS.get(best_dist, appearances[0]["roundName"]),
+            # the appearance that actually reached best_dist, not the
+            # earliest one -- see build_full_data.py for why
+            "bestRound": DIST_LABELS.get(
+                best_dist,
+                next(a["roundName"] for a in appearances if a["distFromFinal"] == best_dist)),
             "bestDistFromFinal": best_dist,
             "seasonsPlayed": len(appearances),
             "appearances": appearances,
@@ -190,7 +241,14 @@ def main():
                 hints = Counter(country_hints[n] for n in names if n in country_hints)
                 if hints:
                     merged["countryHint"] = hints.most_common(1)[0][0]
+        merged["_core"] = key[0]
+        merged["_city"] = key[1]
         out.append(merged)
+
+    out = absorb_bare_into_city(out, merge_log)
+    for c in out:
+        c.pop("_core", None)
+        c.pop("_city", None)
 
     out.sort(key=lambda c: c["name"])
     (DATA / "clubs_dedup.json").write_text(

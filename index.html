@@ -194,6 +194,13 @@
 
   const cleanRoundLabel = name => name.replace(/\s*\(.*$/, '').trim();
 
+  // The two datasets spell one season differently -- clubs_final.json
+  // (from RSSSF) says "1999–00", clubs.json (from the finals list) says
+  // "1999–2000" -- so keying on the raw string makes that season fail to
+  // join, showing it twice: once as a bare "Final" row and again as the
+  // rich runner-up row. The start year identifies a season uniquely.
+  const seasonKey = s => String(s).split(/[–-]/)[0];
+
   // Same-city clubs (e.g. Benfica + Sporting in Lisbon) geocode to nearly
   // identical coordinates, so a fainter marker can end up completely
   // hidden under a stronger one on top of it. Spread same-coordinate
@@ -266,7 +273,7 @@
   function renderDetail(club, richByKey, titlesByName) {
     const el = document.getElementById('detail');
     const rows = club.appearances.map(a => {
-      const rich = a.roundName === 'Final' ? richByKey.get(club.name + '||' + a.season) : null;
+      const rich = a.roundName === 'Final' ? richByKey.get(club.name + '||' + seasonKey(a.season)) : null;
       if (rich) {
         const win = rich.result === 'Winner';
         return `<li>
@@ -310,14 +317,14 @@
       finalsRich.forEach(c => {
         titlesByName.set(c.name, c.titles);
         c.appearances.forEach(a => {
-          richByKey.set(c.name + '||' + a.season, a);
+          richByKey.set(c.name + '||' + seasonKey(a.season), a);
           // RSSSF (the participation source) lags the actual football
           // calendar by months, so the season's final can be missing from
           // clubs_final.json entirely even though we already know the
           // result from finals_raw.json -- patch it in rather than
           // silently drop a club's most recent final.
           const club = clubByName.get(c.name);
-          if (club && !club.appearances.some(x => x.season === a.season)) {
+          if (club && !club.appearances.some(x => seasonKey(x.season) === seasonKey(a.season))) {
             club.appearances.push({ season: a.season, roundName: 'Final', distFromFinal: 0 });
             club.appearances.sort((x, y) => x.season.localeCompare(y.season));
             club.bestDistFromFinal = Math.min(club.bestDistFromFinal, 0);
