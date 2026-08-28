@@ -113,6 +113,15 @@
   #detail li .meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
   #detail li .meta a { color: #7fb0ff; text-decoration: none; }
   #detail li .meta a:hover { text-decoration: underline; }
+  #detail ul.chooser li { padding: 0; border-bottom: 1px solid var(--border); }
+  #detail button.pick {
+    display: flex; align-items: center; gap: 10px; width: 100%;
+    padding: 10px 2px; background: none; border: none; cursor: pointer;
+    color: var(--text); font: inherit; font-size: 13px; text-align: left;
+  }
+  #detail button.pick:hover { color: #fff; }
+  #detail .pick-dot { width: 11px; height: 11px; border-radius: 50%; flex: 0 0 auto; }
+  #detail .pick-best { margin-left: auto; color: var(--muted); font-size: 11px; }
   #detail .venue-list li .season { color: var(--muted); font-size: 11px; }
   #detail li .scorers { color: var(--text); font-size: 11px; margin-top: 4px; opacity: 0.85; }
   .leaflet-popup-content-wrapper { background: var(--panel); color: var(--text); }
@@ -220,7 +229,7 @@
         Include qualification rounds
       </label>
       <label class="hide-toggle">
-        <input type="checkbox" id="showVenues">
+        <input type="checkbox" id="showVenues" checked>
         Show final venues <i class="venue-dot"></i>
       </label>
     </div>
@@ -346,55 +355,32 @@
   // Lisbon, at both a ~1km and a ~9km grid size). Greedy distance-based
   // grouping avoids that -- join the nearest existing group if within
   // range, regardless of grid alignment.
-  const JITTER_RADIUS_KM = 8;
-
-  function _kmBetween(a, b) {
-    const dLat = (b.lat - a.lat) * 111;
-    const dLon = (b.lon - a.lon) * 111 * Math.cos(a.lat * Math.PI / 180);
-    return Math.sqrt(dLat * dLat + dLon * dLon);
-  }
-
-  // Group clubs that sit on top of each other. The offsets themselves are
-  // applied by jitterOverlaps() below, not here: the old
-  // version nudged coordinates by a fixed number of degrees (~2km), which
-  // is well under one pixel at continental zoom, so Sporting stayed hidden
-  // under Benfica until you zoomed a long way in.
-  function overlapGroups(clubs) {
-    const groups = [];
-    clubs.forEach(c => {
-      let g = groups.find(g => _kmBetween(g.center, c) < JITTER_RADIUS_KM);
-      if (!g) {
-        g = { center: { lat: c.lat, lon: c.lon }, members: [] };
-        groups.push(g);
-      }
-      g.members.push(c);
+  // Every drawn marker whose circle overlaps the clicked one on screen.
+  // Purely visual, so it naturally returns just the one club once you are
+  // zoomed in far enough for the circles to come apart.
+  function pickAt(drawn, club) {
+    const target = drawn.find(d => d.club === club);
+    if (!target) return [];
+    const at = c => map.latLngToContainerPoint([c.lat, c.lon]);
+    const p0 = at(club);
+    const hits = drawn.filter(d => {
+      const p = at(d.club);
+      return Math.hypot(p.x - p0.x, p.y - p0.y) < d.radius + target.radius;
     });
-    return groups.filter(g => g.members.length > 1);
+    // strongest first, and always list the clicked club
+    hits.sort((a, b) => rankOf(a.best) - rankOf(b.best));
+    return hits.length ? hits : [target];
   }
 
-  // Fan overlapping clubs out onto a fixed ring measured in KILOMETRES,
-  // not pixels. A constant on-screen gap looks tidy but lies about
-  // geography when zoomed out -- 32px at zoom 4 is ~300km, which drew
-  // Sporting well outside Lisbon. A few km keeps every marker inside its
-  // own city at any zoom: the clubs separate as you zoom in, and simply
-  // overlap when zoomed far out, which is the honest failure mode.
-  const JITTER_RING_KM = 7;
-
-  function jitterOverlaps(clubs) {
-    overlapGroups(clubs).forEach(({ members }) => {
-      // the deepest run keeps the true position; the rest ring around it
-      members.sort((a, b) => a.bestDistFromFinal - b.bestDistFromFinal);
-      const lat0 = members[0].lat;
-      const dLat = JITTER_RING_KM / 111;
-      const dLon = JITTER_RING_KM / (111 * Math.cos(lat0 * Math.PI / 180));
-      members.forEach((c, i) => {
-        if (i === 0) return;
-        const angle = (2 * Math.PI * (i - 1)) / (members.length - 1) - Math.PI / 2;
-        c.lat += dLat * Math.sin(angle);
-        c.lon += dLon * Math.cos(angle);
-      });
-    });
-  }
+  // Clubs are ALWAYS drawn at their true coordinates. Two earlier
+  // attempts fanned overlapping markers apart -- first by a constant
+  // number of screen pixels, then by a fixed 7km ring -- and both put
+  // clubs somewhere they do not play: at street zoom Sporting appeared
+  // out by the coast rather than beside Benfica in northern Lisbon.
+  // Overlap is instead resolved on click (see pickAt below): city rivals
+  // separate naturally once you zoom in far enough for their real
+  // positions to differ, and until then a click offers a choice rather
+  // than silently picking whichever marker is on top.
 
   // Marker sizes are tuned for a mouse cursor; a finger needs more. The
   // faintest tier is only 3.8px across, which is essentially untappable,
@@ -477,6 +463,25 @@
     `;
   }
 
+  // When several clubs are drawn on top of one another, a click lands on
+  // whichever happens to be uppermost and the rest are unreachable. Rather
+  // than move them, offer the choice.
+  function renderClubChooser(hits, onPick) {
+    const rows = hits.map((h, i) => `<li>
+      <button type="button" class="pick" data-i="${i}">
+        <span class="pick-dot" style="background:${h.colour};opacity:${h.opacity}"></span>
+        <span>${h.club.name}</span>
+        <span class="pick-best">${cleanRoundLabel(h.best.roundName)}</span>
+      </button></li>`).join('');
+    const el = document.getElementById('detail');
+    el.innerHTML = `
+      <h2>${hits.length} clubs here</h2>
+      <div class="country">Same spot at this zoom — zoom in to separate them</div>
+      <ul class="chooser">${rows}</ul>`;
+    el.querySelectorAll('button.pick').forEach(btn =>
+      btn.addEventListener('click', () => onPick(hits[+btn.dataset.i])));
+  }
+
   function renderVenueDetail(v) {
     const rows = v.finals.map(f => `<li>
       <div class="season">${f.season}</div>
@@ -522,7 +527,6 @@
         });
       });
 
-      jitterOverlaps(clubs);
 
       const markerLayer = L.layerGroup().addTo(map);
       const toggle = document.getElementById('hideQualifyingOnly');
@@ -548,18 +552,27 @@
           .sort((a, b) => rankOf(b.best) - rankOf(a.best));
 
         const points = [];
+        const drawn = [];   // for hit-testing overlapping markers on click
         drawable.forEach(({ club, best }) => {
           const titles = titlesByName.get(club.name) || 0;
           const m = markerFor(club, titles, best);
           m.bindTooltip(`${club.name} — best: ${cleanRoundLabel(best.roundName)}`
             + ` (${countedAppearances(club, includeQualifying).length} seasons)`);
-          m.on('click', () => {
-            renderDetail(club, richByKey, titlesByName, includeQualifying);
+          const reveal = () => {
             document.getElementById('detailWrap').classList.add('open');
             // a click must always reveal what it selected, whether the
             // panel was dismissed on mobile or collapsed on desktop
             document.getElementById('app').classList.remove('sidebar-collapsed');
             requestAnimationFrame(() => map.invalidateSize());
+          };
+          const show = entry => {
+            renderDetail(entry.club, richByKey, titlesByName, includeQualifying);
+            reveal();
+          };
+          m.on('click', () => {
+            const hits = pickAt(drawn, club);
+            if (hits.length > 1) { renderClubChooser(hits, show); reveal(); }
+            else show(hits[0]);
           });
           markerLayer.addLayer(m);
 
@@ -580,6 +593,8 @@
             });
             markerLayer.addLayer(badge);
           }
+          drawn.push({ club, best, marker: m, radius,
+                       colour: m.options.fillColor, opacity: m.options.fillOpacity });
           points.push([club.lat, club.lon]);
         });
 
