@@ -70,6 +70,12 @@ def season_plan(season: str):
 
 _session = requests.Session()
 _section_cache = {}
+HTML_CACHE = DATA / "wiki_section_html"
+
+
+def _cache_path(page, heading):
+    safe = re.sub(r"[^A-Za-z0-9]+", "_", f"{page}__{heading}")[:120]
+    return HTML_CACHE / f"{safe}.html"
 
 
 def _api(params):
@@ -80,13 +86,13 @@ def _api(params):
                                 headers=HEADERS, timeout=45)
         except requests.RequestException as e:
             last = e
-            time.sleep(2 ** attempt)
+            time.sleep(min(90, 5 * (2 ** attempt)))
             continue
         if resp.status_code == 200:
-            time.sleep(0.5)
+            time.sleep(2.0)     # Wikipedia 429s readily over a run of requests
             return resp.json()
         last = f"HTTP {resp.status_code}"
-        time.sleep(2 ** attempt)
+        time.sleep(min(90, 5 * (2 ** attempt)))
     raise RuntimeError(f"Wikipedia API failed ({last}): {params}")
 
 
@@ -98,12 +104,20 @@ def sections_of(page):
 
 
 def section_html(page, heading):
-    """HTML of the first section whose heading matches, else None."""
+    """HTML of the first section whose heading matches, else None.
+    Cached to disk -- Wikipedia rate-limits aggressively, and refining the
+    parser shouldn't mean re-downloading everything each attempt."""
+    HTML_CACHE.mkdir(exist_ok=True)
+    cached = _cache_path(page, heading)
+    if cached.exists():
+        return cached.read_text(encoding="utf-8")
     for s in sections_of(page):
         if s["line"].strip().lower() == heading.lower():
             data = _api({"action": "parse", "page": page,
                          "section": s["index"], "prop": "text"})
-            return data["parse"]["text"]["*"]
+            html = data["parse"]["text"]["*"]
+            cached.write_text(html, encoding="utf-8")
+            return html
     return None
 
 
@@ -130,6 +144,14 @@ def clubs_in_html(html):
             title = (a.get("title") or "").strip()
             text = a.get_text(" ", strip=True)
             if not title or not text or _NOT_A_CLUB.match(text):
+                continue
+            # Knockout sections also list goalscorers, substitutes and rule
+            # articles ("Penalty shoot-out"), which is how the round of 16
+            # came back with 71 "clubs". Wikipedia renders a TEAM with a
+            # flag icon beside it and nothing else in these tables does, so
+            # require the link's own cell to carry one.
+            cell = a.find_parent(["td", "th"])
+            if cell is None or not cell.find(class_="flagicon"):
                 continue
             low = title.lower()
             if any(bad in low for bad in (
@@ -181,6 +203,15 @@ def main():
     result = scrape_season(season)
     if not result:
         raise SystemExit("nothing scraped -- check the season/article names")
+
+    # Refuse to write a partial season. A rate limit part-way through once
+    # left the Final unscraped, which silently demoted the two finalists to
+    # semifinalists -- worse than having no data for the season at all.
+    finalists = [n for n, v in result.items() if v["roundName"] == "Final"]
+    if len(finalists) != 2:
+        raise SystemExit(
+            f"refusing to write: expected 2 finalists, found {len(finalists)} "
+            f"({finalists}). The run was probably cut short -- try again.")
 
     path = DATA / "participation_raw.json"
     participation = json.loads(path.read_text(encoding="utf-8"))

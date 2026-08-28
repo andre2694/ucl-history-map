@@ -206,10 +206,32 @@
     "country": "Czech Republic"
   },
   {
+    "name": "AC Virtus",
+    "bestRound": "Qualifying",
+    "bestDistFromFinal": 9,
+    "seasonsPlayed": 2,
+    "appearances": [
+      {
+        "season": "2024–25",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      }
+    ],
+    "lat": 43.95,
+    "lon": 12.416666666,
+    "geocodeSource": "wikidata-bulk:headquarters",
+    "country": "San Marino"
+  },
+  {
     "name": "AEK (Athinai)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 19,
+    "seasonsPlayed": 18,
     "appearances": [
       {
         "season": "1963–64",
@@ -270,11 +292,6 @@
         "season": "2002–03",
         "roundName": "Group stage",
         "distFromFinal": 4
-      },
-      {
-        "season": "2002–03",
-        "roundName": "Qualifying",
-        "distFromFinal": 5
       },
       {
         "season": "2003–04",
@@ -915,7 +932,7 @@
     "name": "Ajax",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 39,
+    "seasonsPlayed": 40,
     "appearances": [
       {
         "season": "1957–58",
@@ -1111,6 +1128,11 @@
         "season": "2022–23",
         "roundName": "Group stage",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "country": "Netherlands",
@@ -1395,7 +1417,7 @@
     "name": "Arsenal",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 23,
+    "seasonsPlayed": 24,
     "appearances": [
       {
         "season": "1971–72",
@@ -1511,6 +1533,11 @@
         "season": "2024–25",
         "roundName": "Semifinal",
         "distFromFinal": 1
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Final",
+        "distFromFinal": 0
       }
     ],
     "country": "England",
@@ -1586,7 +1613,7 @@
     "name": "Atalanta (Bergamo)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 4,
+    "seasonsPlayed": 5,
     "appearances": [
       {
         "season": "2019–20",
@@ -1607,6 +1634,11 @@
         "season": "2024–25",
         "roundName": "Knockout play-off",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
     "lat": 45.708889,
@@ -1618,7 +1650,7 @@
     "name": "Athletic Bilbao",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "1956–57",
@@ -1644,6 +1676,11 @@
         "season": "2014–15",
         "roundName": "Group stage",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 43.264205,
@@ -1694,7 +1731,7 @@
     "name": "Atlético Madrid",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 20,
+    "seasonsPlayed": 21,
     "appearances": [
       {
         "season": "1958–59",
@@ -1795,6 +1832,11 @@
         "season": "2024–25",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Semifinal",
+        "distFromFinal": 1
       }
     ],
     "country": "Spain",
@@ -1883,23 +1925,6 @@
     "country": "Denmark"
   },
   {
-    "name": "B 36 (Tórshavn)",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 7,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2002–03",
-        "roundName": "Qualifying",
-        "distFromFinal": 7
-      }
-    ],
-    "lat": 62.0193487,
-    "lon": -6.7811394,
-    "geocodeSource": "wikidata:venue",
-    "country": "Faroe Islands"
-  },
-  {
     "name": "B1903 (Copenhagen)",
     "bestRound": "Second Round",
     "bestDistFromFinal": 3,
@@ -1974,12 +1999,17 @@
     "name": "B36 (Tórshavn)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "1998–99",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2002–03",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       },
       {
         "season": "2006–07",
@@ -2364,7 +2394,7 @@
     "name": "Barcelona",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 35,
+    "seasonsPlayed": 36,
     "appearances": [
       {
         "season": "1959–60",
@@ -2540,6 +2570,11 @@
         "season": "2024–25",
         "roundName": "Semifinal",
         "distFromFinal": 1
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       }
     ],
     "country": "Spain",
@@ -2592,7 +2627,7 @@
     "name": "Bayer 04 Leverkusen",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2022–23",
@@ -2601,6 +2636,11 @@
       },
       {
         "season": "2024–25",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
         "roundName": "Round of 16",
         "distFromFinal": 3
       }
@@ -2685,7 +2725,7 @@
     "name": "Bayern Munich",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 41,
+    "seasonsPlayed": 42,
     "appearances": [
       {
         "season": "1969–70",
@@ -2891,6 +2931,11 @@
         "season": "2024–25",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Semifinal",
+        "distFromFinal": 1
       }
     ],
     "country": "Germany",
@@ -2955,7 +3000,7 @@
     "name": "Benfica",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 45,
+    "seasonsPlayed": 46,
     "appearances": [
       {
         "season": "1957–58",
@@ -3181,6 +3226,11 @@
         "season": "2024–25",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Knockout play-off",
+        "distFromFinal": 4
       }
     ],
     "country": "Portugal",
@@ -3491,7 +3541,7 @@
     "name": "Borussia Dortmund",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 23,
+    "seasonsPlayed": 24,
     "appearances": [
       {
         "season": "1956–57",
@@ -3607,6 +3657,11 @@
         "season": "2024–25",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Knockout play-off",
+        "distFromFinal": 4
       }
     ],
     "country": "Germany",
@@ -3673,7 +3728,7 @@
     "name": "Breiðablik (Kópavogur)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 7,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2011–12",
@@ -3684,6 +3739,11 @@
         "season": "2023–24",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 64.11194444444445,
@@ -3767,7 +3827,7 @@
     "name": "Buducnost (Podgorica)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 7,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "2008–09",
@@ -3791,6 +3851,11 @@
       },
       {
         "season": "2023–24",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      },
+      {
+        "season": "2025–26",
         "roundName": "Qualifying",
         "distFromFinal": 9
       }
@@ -4269,7 +4334,7 @@
     "name": "Celtic",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 41,
+    "seasonsPlayed": 42,
     "appearances": [
       {
         "season": "1966–67",
@@ -4475,6 +4540,11 @@
         "season": "2024–25",
         "roundName": "Knockout play-off",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
       }
     ],
     "country": "Scotland",
@@ -4485,7 +4555,7 @@
     "name": "Chelsea",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 19,
+    "seasonsPlayed": 20,
     "appearances": [
       {
         "season": "1999–00",
@@ -4581,6 +4651,11 @@
         "season": "2022–23",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
     "country": "England",
@@ -4635,7 +4710,7 @@
     "name": "Club Brugge",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 24,
+    "seasonsPlayed": 25,
     "appearances": [
       {
         "season": "1973–74",
@@ -4756,6 +4831,11 @@
         "season": "2024–25",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Knockout play-off",
+        "distFromFinal": 4
       }
     ],
     "country": "Belgium",
@@ -5261,10 +5341,15 @@
     "name": "Differdange 03",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 9,
-    "seasonsPlayed": 1,
+    "seasonsPlayed": 2,
     "appearances": [
       {
         "season": "2024–25",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      },
+      {
+        "season": "2025–26",
         "roundName": "Qualifying",
         "distFromFinal": 9
       }
@@ -5402,7 +5487,7 @@
     "name": "Dinamo Kijev",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 35,
+    "seasonsPlayed": 36,
     "appearances": [
       {
         "season": "1967–68",
@@ -5578,6 +5663,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       }
     ],
     "lat": 50.433333333333,
@@ -5586,27 +5676,10 @@
     "country": "Russia"
   },
   {
-    "name": "Dinamo Kjiv",
+    "name": "Dinamo Kyiv",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1998–99",
-        "roundName": "Semifinal",
-        "distFromFinal": 1
-      }
-    ],
-    "lat": 50.4507026,
-    "lon": 30.5313164,
-    "geocodeSource": "nominatim",
-    "country": "Ukraine"
-  },
-  {
-    "name": "Dinamo Kyiv",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 4,
+    "seasonsPlayed": 5,
     "appearances": [
       {
         "season": "1972–73",
@@ -5627,6 +5700,11 @@
         "season": "1997–98",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "1998–99",
+        "roundName": "Semifinal",
+        "distFromFinal": 1
       }
     ],
     "lat": 50.4507026,
@@ -5638,7 +5716,7 @@
     "name": "Dinamo Minsk",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "1983–84",
@@ -5664,6 +5742,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
     "lat": 53.895138888889,
@@ -5911,7 +5994,7 @@
     "name": "Drita (Gjilanë)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 8,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2018–19",
@@ -5922,6 +6005,11 @@
         "season": "2020–21",
         "roundName": "Qualifying",
         "distFromFinal": 9
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 42.466667,
@@ -6247,7 +6335,7 @@
     "name": "Eintracht Frankfurt",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "1959–60",
@@ -6258,6 +6346,11 @@
         "season": "2022–23",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "country": "Germany",
@@ -6648,7 +6741,7 @@
     "name": "FC Basle",
     "bestRound": "Second Round",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 6,
+    "seasonsPlayed": 7,
     "appearances": [
       {
         "season": "1967–68",
@@ -6679,6 +6772,11 @@
         "season": "1980–81",
         "roundName": "Second Round",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
       }
     ],
     "lat": 47.5416,
@@ -6998,7 +7096,7 @@
     "name": "FC København",
     "bestRound": "Second Round",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 17,
+    "seasonsPlayed": 18,
     "appearances": [
       {
         "season": "1993–94",
@@ -7084,6 +7182,11 @@
         "season": "2023–24",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 55.702469,
@@ -7094,9 +7197,14 @@
   {
     "name": "FC Litex (Lovech)",
     "bestRound": "Qualifying",
-    "bestDistFromFinal": 6,
-    "seasonsPlayed": 3,
+    "bestDistFromFinal": 5,
+    "seasonsPlayed": 4,
     "appearances": [
+      {
+        "season": "1998–99",
+        "roundName": "Qualifying",
+        "distFromFinal": 5
+      },
       {
         "season": "1999–00",
         "roundName": "Qualifying",
@@ -7792,7 +7900,7 @@
     "name": "FCI Levadia Tallinn",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 10,
+    "seasonsPlayed": 11,
     "appearances": [
       {
         "season": "2000–01",
@@ -7843,6 +7951,11 @@
         "season": "2022–23",
         "roundName": "Qualifying",
         "distFromFinal": 9
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
     "lat": 59.421292,
@@ -7854,7 +7967,7 @@
     "name": "FCSB (Bucuresti)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 5,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2017–18",
@@ -7865,6 +7978,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 44.4372,
@@ -8144,9 +8262,9 @@
   },
   {
     "name": "FK Bodø/Glimt",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 3,
+    "bestRound": "Round of 16",
+    "bestDistFromFinal": 3,
+    "seasonsPlayed": 4,
     "appearances": [
       {
         "season": "2021–22",
@@ -8162,6 +8280,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
     "lat": 67.2775,
@@ -8224,23 +8347,6 @@
     "lon": 20.995424,
     "geocodeSource": "wikidata-bulk:venue",
     "country": "Latvia"
-  },
-  {
-    "name": "FK Liteks (Lovech)",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1998–99",
-        "roundName": "Qualifying",
-        "distFromFinal": 5
-      }
-    ],
-    "lat": 43.142639,
-    "lon": 24.724861,
-    "geocodeSource": "wikidata:venue",
-    "country": "Bulgaria"
   },
   {
     "name": "FK Mladá Boleslav",
@@ -8659,7 +8765,7 @@
     "name": "Fenerbahçe SK (Istanbul)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 28,
+    "seasonsPlayed": 29,
     "appearances": [
       {
         "season": "1959–60",
@@ -8800,6 +8906,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
       }
     ],
     "lat": 40.9875,
@@ -8811,7 +8922,7 @@
     "name": "Ferencváros (Budapest)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 16,
+    "seasonsPlayed": 18,
     "appearances": [
       {
         "season": "1963–64",
@@ -8832,6 +8943,11 @@
         "season": "1976–77",
         "roundName": "Second Round",
         "distFromFinal": 3
+      },
+      {
+        "season": "1981–82",
+        "roundName": "First Round",
+        "distFromFinal": 4
       },
       {
         "season": "1992–93",
@@ -8892,28 +9008,16 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
       }
     ],
     "lat": 47.475277777778,
     "lon": 19.096111111111,
     "geocodeSource": "wikidata:venue",
-    "country": "Hungary"
-  },
-  {
-    "name": "Ferencvárosi TC",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1981–82",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      }
-    ],
-    "lat": 47.475277777,
-    "lon": 19.096111111,
-    "geocodeSource": "wikidata-bulk:venue",
     "country": "Hungary"
   },
   {
@@ -8937,7 +9041,7 @@
     "name": "Feyenoord",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 19,
+    "seasonsPlayed": 20,
     "appearances": [
       {
         "season": "1961–62",
@@ -9033,6 +9137,11 @@
         "season": "2024–25",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       }
     ],
     "country": "Netherlands",
@@ -9273,7 +9382,7 @@
     "name": "Galatasaray (Istanbul)",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 30,
+    "seasonsPlayed": 31,
     "appearances": [
       {
         "season": "1956–57",
@@ -9424,6 +9533,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
     "lat": 41.01,
@@ -9977,6 +10091,33 @@
     "country": "Finland"
   },
   {
+    "name": "HNK Rijeka",
+    "bestRound": "Qualifying",
+    "bestDistFromFinal": 5,
+    "seasonsPlayed": 3,
+    "appearances": [
+      {
+        "season": "1999–00",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2017–18",
+        "roundName": "Qualifying",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
+      }
+    ],
+    "lat": 45.339202,
+    "lon": 14.380959,
+    "geocodeSource": "wikidata-bulk:venue",
+    "country": "Croatia"
+  },
+  {
     "name": "HPS (Helsinki)",
     "bestRound": "First Round",
     "bestDistFromFinal": 3,
@@ -9997,7 +10138,7 @@
     "name": "HSK Zrinjski Mostar",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 7,
-    "seasonsPlayed": 8,
+    "seasonsPlayed": 9,
     "appearances": [
       {
         "season": "2005–06",
@@ -10038,6 +10179,11 @@
         "season": "2023–24",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 43.345556,
@@ -10139,7 +10285,7 @@
     "name": "Hamrun Spartans",
     "bestRound": "First Round",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 6,
+    "seasonsPlayed": 7,
     "appearances": [
       {
         "season": "1983–84",
@@ -10170,6 +10316,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 9
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 35.8873,
@@ -10825,6 +10976,23 @@
     "country": "Sweden"
   },
   {
+    "name": "Iberia 1999",
+    "bestRound": "Qualifying",
+    "bestDistFromFinal": 9,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      }
+    ],
+    "lat": 41.709617,
+    "lon": 44.746247,
+    "geocodeSource": "wikidata-bulk:venue",
+    "country": "Georgia"
+  },
+  {
     "name": "Ilves (Tampere)",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
@@ -10881,10 +11049,42 @@
     "country": "Azerbaijan"
   },
   {
+    "name": "Inter Club d'Escaldes",
+    "bestRound": "Qualifying",
+    "bestDistFromFinal": 9,
+    "seasonsPlayed": 4,
+    "appearances": [
+      {
+        "season": "2020–21",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      },
+      {
+        "season": "2021–22",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      },
+      {
+        "season": "2022–23",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
+      }
+    ],
+    "lat": 42.508889,
+    "lon": 1.540833,
+    "geocodeSource": "wikidata-bulk:headquarters",
+    "country": "Andorra"
+  },
+  {
     "name": "Inter Milan",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 26,
+    "seasonsPlayed": 27,
     "appearances": [
       {
         "season": "1963–64",
@@ -11015,6 +11215,11 @@
         "season": "2024–25",
         "roundName": "Final",
         "distFromFinal": 0
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Knockout play-off",
+        "distFromFinal": 4
       }
     ],
     "country": "Italy",
@@ -11037,33 +11242,6 @@
     "lon": 22.291667,
     "geocodeSource": "wikidata-bulk:venue",
     "country": "Finland"
-  },
-  {
-    "name": "Inter d'Escaldes",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 9,
-    "seasonsPlayed": 3,
-    "appearances": [
-      {
-        "season": "2020–21",
-        "roundName": "Qualifying",
-        "distFromFinal": 9
-      },
-      {
-        "season": "2021–22",
-        "roundName": "Qualifying",
-        "distFromFinal": 9
-      },
-      {
-        "season": "2022–23",
-        "roundName": "Qualifying",
-        "distFromFinal": 9
-      }
-    ],
-    "lat": 42.508889,
-    "lon": 1.540833,
-    "geocodeSource": "wikidata-bulk:headquarters",
-    "country": "Andorra"
   },
   {
     "name": "Ipswich Town",
@@ -11164,7 +11342,7 @@
     "name": "Juventus",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 39,
+    "seasonsPlayed": 40,
     "appearances": [
       {
         "season": "1958–59",
@@ -11360,6 +11538,11 @@
         "season": "2024–25",
         "roundName": "Knockout play-off",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Knockout play-off",
+        "distFromFinal": 4
       }
     ],
     "country": "Italy",
@@ -11416,21 +11599,25 @@
     "country": "Denmark"
   },
   {
-    "name": "KF Egnatia",
+    "name": "KF Egnatia Rrogozhinë",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 9,
-    "seasonsPlayed": 1,
+    "seasonsPlayed": 2,
     "appearances": [
       {
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 9
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
-    "lat": 41.076111111,
-    "lon": 19.666666666,
-    "geocodeSource": "wikidata-bulk:headquarters",
-    "country": "Albania"
+    "lat": 41.076111111111,
+    "lon": 19.666666666667,
+    "geocodeSource": "wikidata:headquarters"
   },
   {
     "name": "KF Elbasani",
@@ -11720,9 +11907,9 @@
   },
   {
     "name": "Kairat Almaty",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 7,
-    "seasonsPlayed": 2,
+    "bestRound": "Group stage",
+    "bestDistFromFinal": 5,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2005–06",
@@ -11733,6 +11920,11 @@
         "season": "2021–22",
         "roundName": "Qualifying",
         "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 43.238331,
@@ -11873,7 +12065,7 @@
     "name": "KuPS (Kuopio)",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 4,
+    "seasonsPlayed": 5,
     "appearances": [
       {
         "season": "1967–68",
@@ -11892,6 +12084,11 @@
       },
       {
         "season": "2020–21",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
         "roundName": "Qualifying",
         "distFromFinal": 8
       }
@@ -12159,7 +12356,7 @@
     "name": "Lech Poznan",
     "bestRound": "Second Round",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 8,
+    "seasonsPlayed": 9,
     "appearances": [
       {
         "season": "1983–84",
@@ -12200,6 +12397,11 @@
         "season": "2022–23",
         "roundName": "Qualifying",
         "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       }
     ],
     "lat": 52.397222,
@@ -12597,10 +12799,10 @@
     "country": "Ireland"
   },
   {
-    "name": "Lincoln FC",
+    "name": "Lincoln Red Imps",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 7,
-    "seasonsPlayed": 9,
+    "seasonsPlayed": 10,
     "appearances": [
       {
         "season": "2014–15",
@@ -12646,6 +12848,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 36.149356,
@@ -12657,7 +12864,7 @@
     "name": "Linfield",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 31,
+    "seasonsPlayed": 32,
     "appearances": [
       {
         "season": "1959–60",
@@ -12813,6 +13020,11 @@
         "season": "2022–23",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
     "lat": 54.5825,
@@ -12841,7 +13053,7 @@
     "name": "Liverpool",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 28,
+    "seasonsPlayed": 29,
     "appearances": [
       {
         "season": "1964–65",
@@ -12982,6 +13194,11 @@
         "season": "2024–25",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       }
     ],
     "country": "England",
@@ -13083,7 +13300,7 @@
     "name": "Ludogorets Razgrad",
     "bestRound": "Group stage",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 13,
+    "seasonsPlayed": 14,
     "appearances": [
       {
         "season": "2012–13",
@@ -13147,6 +13364,11 @@
       },
       {
         "season": "2024–25",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
         "roundName": "Qualifying",
         "distFromFinal": 7
       }
@@ -13261,19 +13483,39 @@
   },
   {
     "name": "MTK (Budapest)",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 3,
-    "seasonsPlayed": 3,
+    "bestRound": "Quarterfinal",
+    "bestDistFromFinal": 2,
+    "seasonsPlayed": 7,
     "appearances": [
+      {
+        "season": "1955–56",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
+      },
       {
         "season": "1958–59",
         "roundName": "First Round",
         "distFromFinal": 3
       },
       {
+        "season": "1987–88",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
         "season": "1997–98",
         "roundName": "Qualifying",
         "distFromFinal": 4
+      },
+      {
+        "season": "1999–00",
+        "roundName": "Qualifying",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2003–04",
+        "roundName": "Qualifying",
+        "distFromFinal": 5
       },
       {
         "season": "2008–09",
@@ -13284,45 +13526,6 @@
     "lat": 47.490919444,
     "lon": 19.106725,
     "geocodeSource": "wikidata-bulk:venue",
-    "country": "Hungary"
-  },
-  {
-    "name": "MTK Hungária (Budapest)",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "1999–00",
-        "roundName": "Qualifying",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2003–04",
-        "roundName": "Qualifying",
-        "distFromFinal": 5
-      }
-    ],
-    "lat": 47.490919444444,
-    "lon": 19.106725,
-    "geocodeSource": "wikidata:venue",
-    "country": "Hungary"
-  },
-  {
-    "name": "MTK-VM (Budapest)",
-    "bestRound": "First Round",
-    "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1987–88",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      }
-    ],
-    "lat": 47.490919444444,
-    "lon": 19.106725,
-    "geocodeSource": "wikidata:venue",
     "country": "Hungary"
   },
   {
@@ -13393,10 +13596,10 @@
     "country": "Israel"
   },
   {
-    "name": "Maccabi Tel-Aviv",
+    "name": "Maccabi Tel Aviv",
     "bestRound": "First Round",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 11,
+    "seasonsPlayed": 12,
     "appearances": [
       {
         "season": "1992–93",
@@ -13452,6 +13655,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 32.05173,
@@ -13480,7 +13688,7 @@
     "name": "Malmö FF",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 20,
+    "seasonsPlayed": 21,
     "appearances": [
       {
         "season": "1964–65",
@@ -13581,6 +13789,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       }
     ],
     "country": "Sweden",
@@ -13591,7 +13804,7 @@
     "name": "Manchester City",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 15,
+    "seasonsPlayed": 16,
     "appearances": [
       {
         "season": "1968–69",
@@ -13667,6 +13880,11 @@
         "season": "2024–25",
         "roundName": "Knockout play-off",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
     "country": "England",
@@ -14226,12 +14444,17 @@
     "name": "Milsami Orhei",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 1,
+    "seasonsPlayed": 2,
     "appearances": [
       {
         "season": "2015–16",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
     "lat": 47.3744,
@@ -14341,7 +14564,7 @@
     "name": "Monaco",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 19,
+    "seasonsPlayed": 20,
     "appearances": [
       {
         "season": "1961–62",
@@ -14435,6 +14658,11 @@
       },
       {
         "season": "2024–25",
+        "roundName": "Knockout play-off",
+        "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
         "roundName": "Knockout play-off",
         "distFromFinal": 4
       }
@@ -14931,28 +15159,6 @@
     "country": "Croatia"
   },
   {
-    "name": "NK Rijeka",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 5,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "1999–00",
-        "roundName": "Qualifying",
-        "distFromFinal": 6
-      },
-      {
-        "season": "2017–18",
-        "roundName": "Qualifying",
-        "distFromFinal": 5
-      }
-    ],
-    "lat": 45.339202,
-    "lon": 14.380959,
-    "geocodeSource": "wikidata-bulk:venue",
-    "country": "Croatia"
-  },
-  {
     "name": "NSÍ (Runavík)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 7,
@@ -15042,7 +15248,7 @@
     "name": "Newcastle United",
     "bestRound": "Group stage",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 4,
     "appearances": [
       {
         "season": "1997–98",
@@ -15058,12 +15264,34 @@
         "season": "2023–24",
         "roundName": "Group stage",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
       }
     ],
     "lat": 54.975555555,
     "lon": -1.621666666,
     "geocodeSource": "wikidata-bulk:venue",
     "country": "United Kingdom"
+  },
+  {
+    "name": "Noah",
+    "bestRound": "Qualifying",
+    "bestDistFromFinal": 8,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
+      }
+    ],
+    "lat": 40.149373,
+    "lon": 44.476449,
+    "geocodeSource": "wikidata-bulk:venue",
+    "country": "Armenia"
   },
   {
     "name": "Norma Tallinn",
@@ -15149,7 +15377,7 @@
     "name": "OGC Nice",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 4,
     "appearances": [
       {
         "season": "1956–57",
@@ -15165,6 +15393,11 @@
         "season": "2017–18",
         "roundName": "Qualifying",
         "distFromFinal": 5
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       }
     ],
     "lat": 43.70513,
@@ -15264,7 +15497,7 @@
     "name": "Olympiakos (Peiraías)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 35,
+    "seasonsPlayed": 36,
     "appearances": [
       {
         "season": "1959–60",
@@ -15440,6 +15673,11 @@
         "season": "2022–23",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Knockout play-off",
+        "distFromFinal": 4
       }
     ],
     "lat": 37.946169,
@@ -15558,12 +15796,17 @@
     "name": "Olympique de Marseille",
     "bestRound": "Group stage",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 1,
+    "seasonsPlayed": 2,
     "appearances": [
       {
         "season": "2003–04",
         "roundName": "Group stage",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 43.269241,
@@ -15853,7 +16096,7 @@
     "name": "PSV Eindhoven",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 29,
+    "seasonsPlayed": 30,
     "appearances": [
       {
         "season": "1955–56",
@@ -15999,6 +16242,11 @@
         "season": "2024–25",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "country": "Netherlands",
@@ -16006,10 +16254,27 @@
     "lon": 5.4677
   },
   {
+    "name": "Pafos",
+    "bestRound": "Group stage",
+    "bestDistFromFinal": 5,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
+      }
+    ],
+    "lat": 34.769186,
+    "lon": 32.440144,
+    "geocodeSource": "wikidata-bulk:venue",
+    "country": "Cyprus"
+  },
+  {
     "name": "Panathinaikos",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 30,
+    "seasonsPlayed": 31,
     "appearances": [
       {
         "season": "1960–61",
@@ -16160,6 +16425,11 @@
         "season": "2023–24",
         "roundName": "Qualifying",
         "distFromFinal": 5
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "country": "Greece",
@@ -16170,7 +16440,7 @@
     "name": "Paris Saint-Germain",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 18,
+    "seasonsPlayed": 19,
     "appearances": [
       {
         "season": "1986–87",
@@ -16259,6 +16529,11 @@
       },
       {
         "season": "2024–25",
+        "roundName": "Final",
+        "distFromFinal": 0
+      },
+      {
+        "season": "2025–26",
         "roundName": "Final",
         "distFromFinal": 0
       }
@@ -16903,7 +17178,7 @@
     "name": "Qarabag Agdam",
     "bestRound": "Group stage",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 10,
+    "seasonsPlayed": 11,
     "appearances": [
       {
         "season": "2014–15",
@@ -16954,6 +17229,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Knockout play-off",
+        "distFromFinal": 4
       }
     ],
     "lat": 40.4212,
@@ -17112,6 +17392,23 @@
     "lon": 4.399722222,
     "geocodeSource": "wikidata-bulk:headquarters",
     "country": "Belgium"
+  },
+  {
+    "name": "RFS",
+    "bestRound": "Qualifying",
+    "bestDistFromFinal": 8,
+    "seasonsPlayed": 1,
+    "appearances": [
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
+      }
+    ],
+    "lat": 56.908,
+    "lon": 24.155,
+    "geocodeSource": "wikidata-bulk:venue",
+    "country": "Latvia"
   },
   {
     "name": "RSC Anderlecht",
@@ -17456,7 +17753,7 @@
     "name": "Rangers (Glasgow)",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 35,
+    "seasonsPlayed": 36,
     "appearances": [
       {
         "season": "1956–57",
@@ -17632,6 +17929,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
       }
     ],
     "lat": 55.853055555,
@@ -17704,7 +18006,7 @@
     "name": "Real Madrid",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 55,
+    "seasonsPlayed": 56,
     "appearances": [
       {
         "season": "1955–56",
@@ -17980,6 +18282,11 @@
         "season": "2024–25",
         "roundName": "Quarterfinal",
         "distFromFinal": 2
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       }
     ],
     "country": "Spain",
@@ -18044,7 +18351,7 @@
     "name": "Red Bull Salzburg",
     "bestRound": "Round of 16",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 17,
+    "seasonsPlayed": 18,
     "appearances": [
       {
         "season": "2006–07",
@@ -18130,6 +18437,11 @@
         "season": "2024–25",
         "roundName": "Group stage",
         "distFromFinal": 5
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       }
     ],
     "lat": 47.81625,
@@ -18141,7 +18453,7 @@
     "name": "Red Star Belgrade",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 13,
+    "seasonsPlayed": 14,
     "appearances": [
       {
         "season": "1956–57",
@@ -18207,6 +18519,11 @@
         "season": "1991–92",
         "roundName": "Group stage",
         "distFromFinal": 1
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
       }
     ],
     "country": "Serbia",
@@ -18578,6 +18895,33 @@
     "country": "Germany"
   },
   {
+    "name": "Royale Union Saint-Gilloise",
+    "bestRound": "Group stage",
+    "bestDistFromFinal": 5,
+    "seasonsPlayed": 3,
+    "appearances": [
+      {
+        "season": "2022–23",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2024–25",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
+      }
+    ],
+    "lat": 50.8178,
+    "lon": 4.32917,
+    "geocodeSource": "wikidata-bulk:venue",
+    "country": "Belgium"
+  },
+  {
     "name": "Rubin Kazan",
     "bestRound": "Group stage",
     "bestDistFromFinal": 4,
@@ -18745,7 +19089,7 @@
     "name": "SCT Olimpija (Ljubljana)",
     "bestRound": "First Round",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "1992–93",
@@ -18771,6 +19115,11 @@
         "season": "2023–24",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
     "lat": 46.081111,
@@ -18890,7 +19239,7 @@
     "name": "SK Brann (Bergen)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 5,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2001–02",
@@ -18901,6 +19250,11 @@
         "season": "2008–09",
         "roundName": "Qualifying",
         "distFromFinal": 5
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 60.366388888,
@@ -19031,7 +19385,7 @@
     "name": "SK Slavia Praha",
     "bestRound": "Group stage",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 15,
+    "seasonsPlayed": 16,
     "appearances": [
       {
         "season": "1996–97",
@@ -19107,6 +19461,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 50.109741,
@@ -19118,7 +19477,7 @@
     "name": "SK Sturm Graz",
     "bestRound": "Group stage",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 9,
+    "seasonsPlayed": 10,
     "appearances": [
       {
         "season": "1998–99",
@@ -19164,6 +19523,11 @@
         "season": "2024–25",
         "roundName": "Group stage",
         "distFromFinal": 5
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
       }
     ],
     "lat": 47.046111,
@@ -19254,7 +19618,7 @@
     "name": "SSC Napoli",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 11,
+    "seasonsPlayed": 12,
     "appearances": [
       {
         "season": "1987–88",
@@ -19310,6 +19674,11 @@
         "season": "2023–24",
         "roundName": "Round of 16",
         "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 40.827967,
@@ -19585,7 +19954,7 @@
     "name": "Servette FC (Genève)",
     "bestRound": "First Round",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 8,
+    "seasonsPlayed": 9,
     "appearances": [
       {
         "season": "1955–56",
@@ -19626,6 +19995,11 @@
         "season": "2023–24",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 46.177778,
@@ -19967,7 +20341,7 @@
     "name": "Shelbourne (Dublin)",
     "bestRound": "First Round",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "1962–63",
@@ -19993,6 +20367,11 @@
         "season": "2005–06",
         "roundName": "Qualifying",
         "distFromFinal": 6
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
       }
     ],
     "lat": 53.3493795,
@@ -20155,7 +20534,7 @@
     "name": "Shkëndija (Tetovo)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 3,
+    "seasonsPlayed": 4,
     "appearances": [
       {
         "season": "2018–19",
@@ -20171,6 +20550,11 @@
         "season": "2021–22",
         "roundName": "Qualifying",
         "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       }
     ],
     "lat": 42.018692,
@@ -20513,98 +20897,6 @@
     "country": "North Macedonia"
   },
   {
-    "name": "Slovan Bratislava",
-    "bestRound": "Second Round",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 16,
-    "appearances": [
-      {
-        "season": "1956–57",
-        "roundName": "First Round",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1970–71",
-        "roundName": "Second Round",
-        "distFromFinal": 3
-      },
-      {
-        "season": "1974–75",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1975–76",
-        "roundName": "First Round",
-        "distFromFinal": 4
-      },
-      {
-        "season": "1992–93",
-        "roundName": "Second Round",
-        "distFromFinal": 2
-      },
-      {
-        "season": "1999–00",
-        "roundName": "Qualifying",
-        "distFromFinal": 6
-      },
-      {
-        "season": "2009–10",
-        "roundName": "Qualifying",
-        "distFromFinal": 6
-      },
-      {
-        "season": "2011–12",
-        "roundName": "Qualifying",
-        "distFromFinal": 6
-      },
-      {
-        "season": "2013–14",
-        "roundName": "Qualifying",
-        "distFromFinal": 7
-      },
-      {
-        "season": "2014–15",
-        "roundName": "Qualifying",
-        "distFromFinal": 5
-      },
-      {
-        "season": "2019–20",
-        "roundName": "Qualifying",
-        "distFromFinal": 8
-      },
-      {
-        "season": "2020–21",
-        "roundName": "Qualifying",
-        "distFromFinal": 8
-      },
-      {
-        "season": "2021–22",
-        "roundName": "Qualifying",
-        "distFromFinal": 7
-      },
-      {
-        "season": "2022–23",
-        "roundName": "Qualifying",
-        "distFromFinal": 7
-      },
-      {
-        "season": "2023–24",
-        "roundName": "Qualifying",
-        "distFromFinal": 6
-      },
-      {
-        "season": "2024–25",
-        "roundName": "Group stage",
-        "distFromFinal": 5
-      }
-    ],
-    "lat": 48.166111,
-    "lon": 17.141111,
-    "geocodeSource": "wikidata-bulk:venue",
-    "country": "Slovakia"
-  },
-  {
     "name": "Sparta Rotterdam",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
@@ -20701,7 +20993,7 @@
     "name": "Sporting CP (Lisboa)",
     "bestRound": "Quarterfinal",
     "bestDistFromFinal": 2,
-    "seasonsPlayed": 24,
+    "seasonsPlayed": 25,
     "appearances": [
       {
         "season": "1955–56",
@@ -20822,6 +21114,11 @@
         "season": "2024–25",
         "roundName": "Knockout play-off",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Quarterfinal",
+        "distFromFinal": 2
       }
     ],
     "lat": 38.7628177,
@@ -21500,7 +21797,7 @@
     "name": "The New Saints",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 6,
-    "seasonsPlayed": 13,
+    "seasonsPlayed": 14,
     "appearances": [
       {
         "season": "2007–08",
@@ -21566,6 +21863,11 @@
         "season": "2024–25",
         "roundName": "Qualifying",
         "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
     "lat": 52.8759,
@@ -21670,7 +21972,7 @@
     "name": "Tottenham Hotspur",
     "bestRound": "Final",
     "bestDistFromFinal": 0,
-    "seasonsPlayed": 7,
+    "seasonsPlayed": 8,
     "appearances": [
       {
         "season": "1961–62",
@@ -21704,6 +22006,11 @@
       },
       {
         "season": "2022–23",
+        "roundName": "Round of 16",
+        "distFromFinal": 3
+      },
+      {
+        "season": "2025–26",
         "roundName": "Round of 16",
         "distFromFinal": 3
       }
@@ -22097,28 +22404,6 @@
     "lon": 44.4991,
     "geocodeSource": "manual",
     "country": "Armenia"
-  },
-  {
-    "name": "Union Saint-Gilloise",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 6,
-    "seasonsPlayed": 2,
-    "appearances": [
-      {
-        "season": "2022–23",
-        "roundName": "Qualifying",
-        "distFromFinal": 6
-      },
-      {
-        "season": "2024–25",
-        "roundName": "Qualifying",
-        "distFromFinal": 7
-      }
-    ],
-    "lat": 50.8178,
-    "lon": 4.32917,
-    "geocodeSource": "wikidata-bulk:venue",
-    "country": "Belgium"
   },
   {
     "name": "Unirea Urziceni",
@@ -22833,7 +23118,7 @@
     "name": "Viktoria Plzen",
     "bestRound": "Group stage",
     "bestDistFromFinal": 4,
-    "seasonsPlayed": 9,
+    "seasonsPlayed": 10,
     "appearances": [
       {
         "season": "2011–12",
@@ -22879,6 +23164,11 @@
         "season": "2022–23",
         "roundName": "Group stage",
         "distFromFinal": 4
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
       }
     ],
     "lat": 49.75,
@@ -22890,7 +23180,7 @@
     "name": "Villarreal CF",
     "bestRound": "Semifinal",
     "bestDistFromFinal": 1,
-    "seasonsPlayed": 5,
+    "seasonsPlayed": 6,
     "appearances": [
       {
         "season": "2005–06",
@@ -22916,29 +23206,17 @@
         "season": "2021–22",
         "roundName": "Semifinal",
         "distFromFinal": 1
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Group stage",
+        "distFromFinal": 5
       }
     ],
     "lat": 39.944167,
     "lon": -0.103611,
     "geocodeSource": "wikidata-bulk:venue",
     "country": "Spain"
-  },
-  {
-    "name": "Virtus AC",
-    "bestRound": "Qualifying",
-    "bestDistFromFinal": 9,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "2024–25",
-        "roundName": "Qualifying",
-        "distFromFinal": 9
-      }
-    ],
-    "lat": 43.95,
-    "lon": 12.416666666,
-    "geocodeSource": "wikidata-bulk:headquarters",
-    "country": "San Marino"
   },
   {
     "name": "Vitória SC (Guimarães)",
@@ -22983,7 +23261,7 @@
     "name": "Víkingur (Gøta)",
     "bestRound": "Qualifying",
     "bestDistFromFinal": 7,
-    "seasonsPlayed": 2,
+    "seasonsPlayed": 3,
     "appearances": [
       {
         "season": "2017–18",
@@ -22994,29 +23272,17 @@
         "season": "2018–19",
         "roundName": "Qualifying",
         "distFromFinal": 8
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
     "lat": 62.199788,
     "lon": -6.74552,
     "geocodeSource": "wikidata-bulk:venue",
     "country": "Faroe Islands"
-  },
-  {
-    "name": "Vörös Lobogó (Budapest)",
-    "bestRound": "Quarterfinal",
-    "bestDistFromFinal": 2,
-    "seasonsPlayed": 1,
-    "appearances": [
-      {
-        "season": "1955–56",
-        "roundName": "Quarterfinal",
-        "distFromFinal": 2
-      }
-    ],
-    "lat": 47.490919444444,
-    "lon": 19.106725,
-    "geocodeSource": "wikidata:venue",
-    "country": "Hungary"
   },
   {
     "name": "WIT Georgia Tbilisi",
@@ -23403,7 +23669,7 @@
     "name": "Zalgiris Vilnius",
     "bestRound": "First Round",
     "bestDistFromFinal": 3,
-    "seasonsPlayed": 9,
+    "seasonsPlayed": 10,
     "appearances": [
       {
         "season": "1992–93",
@@ -23449,6 +23715,11 @@
         "season": "2023–24",
         "roundName": "Qualifying",
         "distFromFinal": 7
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 9
       }
     ],
     "lat": 54.6685,
@@ -23622,5 +23893,102 @@
     "lon": 28.866944,
     "geocodeSource": "wikidata-bulk:venue",
     "country": "Moldova"
+  },
+  {
+    "name": "ŠK Slovan Bratislava",
+    "bestRound": "Second Round",
+    "bestDistFromFinal": 2,
+    "seasonsPlayed": 17,
+    "appearances": [
+      {
+        "season": "1956–57",
+        "roundName": "First Round",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1970–71",
+        "roundName": "Second Round",
+        "distFromFinal": 3
+      },
+      {
+        "season": "1974–75",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1975–76",
+        "roundName": "First Round",
+        "distFromFinal": 4
+      },
+      {
+        "season": "1992–93",
+        "roundName": "Second Round",
+        "distFromFinal": 2
+      },
+      {
+        "season": "1999–00",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2009–10",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2011–12",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2013–14",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
+      },
+      {
+        "season": "2014–15",
+        "roundName": "Qualifying",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2019–20",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
+      },
+      {
+        "season": "2020–21",
+        "roundName": "Qualifying",
+        "distFromFinal": 8
+      },
+      {
+        "season": "2021–22",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
+      },
+      {
+        "season": "2022–23",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
+      },
+      {
+        "season": "2023–24",
+        "roundName": "Qualifying",
+        "distFromFinal": 6
+      },
+      {
+        "season": "2024–25",
+        "roundName": "Group stage",
+        "distFromFinal": 5
+      },
+      {
+        "season": "2025–26",
+        "roundName": "Qualifying",
+        "distFromFinal": 7
+      }
+    ],
+    "lat": 48.166111,
+    "lon": 17.141111,
+    "geocodeSource": "wikidata-bulk:venue",
+    "country": "Slovakia"
   }
 ]

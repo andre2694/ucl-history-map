@@ -332,8 +332,19 @@ def wiki_url(season: str) -> str:
     return "https://en.wikipedia.org/wiki/" + f"{final_year} {comp}".replace(" ", "_")
 
 
+def _scorer_overrides():
+    """Wikipedia-sourced scorers for finals RSSSF hasn't published (see
+    fetch_final_scorers_wikipedia.py). Consulted only where our own
+    extraction found nothing, so RSSSF stays authoritative."""
+    path = DATA / "finals_scorers_override.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def main():
     finals = json.loads((DATA / "finals_raw.json").read_text(encoding="utf-8"))
+    overrides = _scorer_overrides()
     coords = json.loads((DATA / "club_coords.json").read_text(encoding="utf-8"))
 
     clubs = defaultdict(lambda: {"titles": 0, "runnerUps": 0, "appearances": []})
@@ -365,6 +376,16 @@ def main():
         winner_scorers = format_scorers(goals, "winner")
         runner_scorers = format_scorers(goals, "runner")
         unassigned = format_scorers(goals, None)
+
+        # fall back to Wikipedia only when we extracted nothing at all --
+        # its football-box marks home/away explicitly, so map its two sides
+        # onto winner/runner-up by name rather than assuming an order
+        if not (winner_scorers or runner_scorers or unassigned):
+            ov = overrides.get(f["season"])
+            if ov:
+                home_is_winner = _fold(ov["homeTeam"]).startswith(_fold(winner)[:6])
+                winner_scorers = ov["homeScorers"] if home_is_winner else ov["awayScorers"]
+                runner_scorers = ov["awayScorers"] if home_is_winner else ov["homeScorers"]
 
         clubs[winner]["titles"] += 1
         clubs[winner]["appearances"].append({

@@ -137,6 +137,44 @@ ALIASES = {
     "17 Nëntori (Tiranë)": "KF Tirana",
     "SK 17 Nentori (Tirane)": "KF Tirana",
     "Dynamo (Tirana)": "KS Dinamo (Tirana)",
+    # --- Wikipedia naming (2025-26 comes from Wikipedia, earlier seasons
+    # from RSSSF, and the two spell the same clubs differently). Without
+    # these the current season would add a second marker beside the
+    # existing one for every club involved. Verified by the
+    # shared-coordinate duplicate scan, not by eye.
+    "S.L. Benfica": "Benfica",
+    "Copenhagen": "FC København",
+    "Ferencvárosi TC": "Ferencváros (Budapest)",
+    "Kuopion Palloseura": "KuPS (Kuopio)",
+    "Atalanta BC": "Atalanta (Bergamo)",
+    "Boavista FC": "Boavista FC (Porto)",
+    "Brann": "SK Brann (Bergen)",
+    "Breiðablik (men's football)": "Breiðablik (Kópavogur)",
+    "FCSB": "FCSB (Bucuresti)",
+    "Fenerbahçe S.K. (football)": "Fenerbahçe SK (Istanbul)",
+    "Galatasaray S.K. (football)": "Galatasaray (Istanbul)",
+    "FC Nordsjælland": "FC Nordsjælland (Farum)",
+    "Olympiacos": "Olympiakos (Peiraías)",
+    "Olympiakos (Peraías)": "Olympiakos (Peiraías)",
+    "KF Shkëndija": "Shkëndija (Tetovo)",
+    "PAOK (Salonika)": "PAOK (Thessaloniki)",
+    "Real Madrid CF": "Real Madrid",
+    "Basel": "FC Basle",
+    "Slavia Prague": "SK Slavia Praha",
+    "Žalgiris": "Zalgiris Vilnius",
+    "Qarabağ": "Qarabag Agdam",
+    "Kairat": "Kairat Almaty",
+    "PFC Ludogorets Razgrad": "Ludogorets Razgrad",
+    "Sporting CP": "Sporting CP (Lisboa)",
+    "Dinamo Kjiv": "Dinamo Kyiv",
+    "FK Liteks (Lovech)": "FC Litex (Lovech)",
+    "B 36 (Tórshavn)": "B36 (Tórshavn)",
+    "AIK (Solna)": "AIK (Stockholm)",
+    "AEK": "AEK (Athinai)",
+    "MTK Hungária (Budapest)": "MTK (Budapest)",
+    "MTK-VM (Budapest)": "MTK (Budapest)",
+    "Vörös Lobogó (Budapest)": "MTK (Budapest)",
+    "MTK Hungária": "MTK (Budapest)",
     # NOTE: deliberately NOT merged, despite sharing a ground -- these are
     # genuinely separate clubs: Inter/Milan (San Siro), Roma/Lazio (Stadio
     # Olimpico), the Malta sides (national stadium), Zurich's FCZ and
@@ -164,7 +202,15 @@ def canonical(name: str) -> str:
     # codepoint) where the alias table spells it "ij", so "Feĳenoord" would
     # otherwise slip past every alias and end up its own one-season club.
     name = unicodedata.normalize("NFKC", name).strip()
-    return ALIASES.get(name, name)
+    # Follow chains. Some aliases point at a name that is itself an alias
+    # ("Ferncvárosi TC" -> "Ferencvárosi TC" -> "Ferencváros (Budapest)"),
+    # and a single lookup stopped at the middle link, leaving a stray
+    # one-season club beside the real one.
+    seen = set()
+    while name in ALIASES and name not in seen:
+        seen.add(name)
+        name = ALIASES[name]
+    return name
 
 
 def main():

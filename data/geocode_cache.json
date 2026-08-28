@@ -4942,5 +4942,275 @@
     "country": "Bulgaria",
     "matchedLabel": "PFC Levski Sofia",
     "matchType": "exact"
+  },
+  "AC Virtus": {
+    "lat": 43.95,
+    "lon": 12.416666666,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q917145",
+    "country": "San Marino",
+    "matchedLabel": "A.C. Virtus",
+    "matchType": "exact"
+  },
+  "Atalanta BC": {
+    "lat": 45.708889,
+    "lon": 9.680833,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1886",
+    "country": "Italy",
+    "matchedLabel": "Atalanta BC",
+    "matchType": "exact"
+  },
+  "Brann": {
+    "lat": 60.366388888,
+    "lon": 5.356944444,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q205685",
+    "country": "Norway",
+    "matchedLabel": "SK Brann",
+    "matchType": "exact"
+  },
+  "Copenhagen": {
+    "lat": 55.702469,
+    "lon": 12.572203,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q188430",
+    "country": "Denmark",
+    "matchedLabel": "F.C. Copenhagen",
+    "matchType": "exact"
+  },
+  "FCSB": {
+    "lat": 44.4372,
+    "lon": 26.1525,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q179658",
+    "country": "Romania",
+    "matchedLabel": "FCSB",
+    "matchType": "exact"
+  },
+  "Fenerbahçe S.K. (football)": {
+    "lat": 40.9875,
+    "lon": 29.036666666,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q6601875",
+    "country": "Turkey",
+    "matchedLabel": "Fenerbahçe Istanbul",
+    "matchType": "exact"
+  },
+  "HNK Rijeka": {
+    "lat": 45.339202,
+    "lon": 14.380959,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q318969",
+    "country": "Croatia",
+    "matchedLabel": "HNK Rijeka",
+    "matchType": "exact"
+  },
+  "Iberia 1999": {
+    "lat": 41.709617,
+    "lon": 44.746247,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q16374651",
+    "country": "Georgia",
+    "matchedLabel": "FC Iberia 1999",
+    "matchType": "exact"
+  },
+  "Inter Club d'Escaldes": {
+    "lat": 42.508889,
+    "lon": 1.540833,
+    "source": "wikidata-bulk:headquarters",
+    "qid": "Q729512",
+    "country": "Andorra",
+    "matchedLabel": "Inter Club d'Escaldes",
+    "matchType": "exact"
+  },
+  "KF Shkëndija": {
+    "lat": 42.018692,
+    "lon": 20.978179,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1129387",
+    "country": "North Macedonia",
+    "matchedLabel": "FK Shkëndija",
+    "matchType": "core"
+  },
+  "Kairat": {
+    "lat": 43.238331,
+    "lon": 76.92435,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q420594",
+    "country": "Kazakhstan",
+    "matchedLabel": "FC Kairat",
+    "matchType": "exact"
+  },
+  "Kuopion Palloseura": {
+    "lat": 62.884444,
+    "lon": 27.670833,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q382324",
+    "country": "Finland",
+    "matchedLabel": "Kuopion Palloseura",
+    "matchType": "exact"
+  },
+  "Lincoln Red Imps": {
+    "lat": 36.149356,
+    "lon": -5.350342,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q3241301",
+    "country": "Gibraltar",
+    "matchedLabel": "Lincoln Red Imps F.C.",
+    "matchType": "exact"
+  },
+  "Maccabi Tel Aviv": {
+    "lat": 32.05173,
+    "lon": 34.76148,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q223728",
+    "country": "Israel",
+    "matchedLabel": "Maccabi Tel Aviv F.C.",
+    "matchType": "exact"
+  },
+  "NK Olimpija Ljubljana": {
+    "lat": 46.081111,
+    "lon": 14.521389,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q31932",
+    "country": "Slovenia",
+    "matchedLabel": "NK Olimpija Ljubljana",
+    "matchType": "fuzzy 1.00 -> NK Olimpija Ljubljana"
+  },
+  "Noah": {
+    "lat": 40.149373,
+    "lon": 44.476449,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q34479193",
+    "country": "Armenia",
+    "matchedLabel": "FC Noah",
+    "matchType": "exact"
+  },
+  "Olympiacos": {
+    "lat": 37.859275,
+    "lon": 23.755333,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q16328204",
+    "country": "Greece",
+    "matchedLabel": "Olympiacos women's basketball",
+    "matchType": "exact"
+  },
+  "PFC Ludogorets Razgrad": {
+    "lat": 43.53361111,
+    "lon": 26.5275,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q1339086",
+    "country": "Bulgaria",
+    "matchedLabel": "PFC Ludogorets 1945",
+    "matchType": "exact"
+  },
+  "Pafos": {
+    "lat": 34.769186,
+    "lon": 32.440144,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q17442894",
+    "country": "Cyprus",
+    "matchedLabel": "Pafos FC",
+    "matchType": "exact"
+  },
+  "Qarabağ": {
+    "lat": 40.4212,
+    "lon": 49.9968,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q723476",
+    "country": "Azerbaijan",
+    "matchedLabel": "Qarabağ FK",
+    "matchType": "exact"
+  },
+  "RFS": {
+    "lat": 56.908,
+    "lon": 24.155,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q995093",
+    "country": "Latvia",
+    "matchedLabel": "FC RFS",
+    "matchType": "exact"
+  },
+  "Royale Union Saint-Gilloise": {
+    "lat": 50.8178,
+    "lon": 4.32917,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q196160",
+    "country": "Belgium",
+    "matchedLabel": "Royale Union Saint-Gilloise",
+    "matchType": "exact"
+  },
+  "S.L. Benfica": {
+    "lat": 38.752777777,
+    "lon": -9.184722222,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q131499",
+    "country": "Portugal",
+    "matchedLabel": "S.L. Benfica",
+    "matchType": "exact"
+  },
+  "Slavia Prague": {
+    "lat": 50.0675,
+    "lon": 14.4715,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q194393",
+    "country": "Czech Republic",
+    "matchedLabel": "SK Slavia Prague",
+    "matchType": "exact"
+  },
+  "Sporting Lisbon": {
+    "lat": 38.7628177,
+    "lon": -9.1586173,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q75729",
+    "country": "Portugal",
+    "matchedLabel": "Sporting CP",
+    "matchType": "exact"
+  },
+  "Víkingur Gøta": {
+    "lat": 62.199788,
+    "lon": -6.74552,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q3543925",
+    "country": "Faroe Islands",
+    "matchedLabel": "Víkingur Gøta",
+    "matchType": "exact"
+  },
+  "ŠK Slovan Bratislava": {
+    "lat": 48.166111,
+    "lon": 17.141111,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q192253",
+    "country": "Slovakia",
+    "matchedLabel": "ŠK Slovan Bratislava",
+    "matchType": "exact"
+  },
+  "Žalgiris": {
+    "lat": 54.6685,
+    "lon": 25.2947,
+    "source": "wikidata-bulk:venue",
+    "qid": "Q500988",
+    "country": "Lithuania",
+    "matchedLabel": "FK Žalgiris",
+    "matchType": "exact"
+  },
+  "Breiðablik (men's football)": {
+    "lat": 64.11194444444445,
+    "lon": -21.9,
+    "source": "wikidata:headquarters",
+    "qid": "Q25411210"
+  },
+  "Galatasaray S.K. (football)": {
+    "lat": 41.10338888888889,
+    "lon": 28.991,
+    "source": "wikidata:venue",
+    "qid": "Q495299"
+  },
+  "KF Egnatia Rrogozhinë": {
+    "lat": 41.076111111111,
+    "lon": 19.666666666667,
+    "source": "wikidata:headquarters",
+    "qid": "Q1302027"
   }
 }

@@ -13718,5 +13718,335 @@
       "roundName": "Final (May 31, Allianz Arena, München)",
       "distFromFinal": 0
     }
+  },
+  "2025-26": {
+    "Žalgiris": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Drita": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Breiðablik (men's football)": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "NK Olimpija Ljubljana": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Budućnost Podgorica": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Kairat": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "AC Virtus": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Víkingur Gøta": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Differdange 03": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Dinamo Minsk": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Iberia 1999": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Malmö FF": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Kuopion Palloseura": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "RFS": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Inter Club d'Escaldes": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "The New Saints": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "FCI Levadia Tallinn": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Milsami Orhei": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "FCSB": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "PFC Ludogorets Razgrad": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Hamrun Spartans": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "HŠK Zrinjski Mostar": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "KF Egnatia Rrogozhinë": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Shelbourne": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Noah": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "KF Shkëndija": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Linfield": {
+      "roundName": "Qualifying",
+      "distFromFinal": 9
+    },
+    "Lincoln Red Imps": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Viktoria Plzeň": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Dynamo Kyiv": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Brann": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Red Bull Salzburg": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Rangers": {
+      "roundName": "Qualifying",
+      "distFromFinal": 6
+    },
+    "Maccabi Tel Aviv": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Red Star Belgrade": {
+      "roundName": "Qualifying",
+      "distFromFinal": 6
+    },
+    "ŠK Slovan Bratislava": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Ferencvárosi TC": {
+      "roundName": "Qualifying",
+      "distFromFinal": 6
+    },
+    "Qarabağ": {
+      "roundName": "Knockout play-off",
+      "distFromFinal": 4
+    },
+    "Panathinaikos": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Lech Poznań": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Servette": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Pafos": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Copenhagen": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "HNK Rijeka": {
+      "roundName": "Qualifying",
+      "distFromFinal": 8
+    },
+    "Club Brugge KV": {
+      "roundName": "Knockout play-off",
+      "distFromFinal": 4
+    },
+    "OGC Nice": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Feyenoord": {
+      "roundName": "Qualifying",
+      "distFromFinal": 7
+    },
+    "Fenerbahçe S.K. (football)": {
+      "roundName": "Qualifying",
+      "distFromFinal": 6
+    },
+    "S.L. Benfica": {
+      "roundName": "Knockout play-off",
+      "distFromFinal": 4
+    },
+    "Sturm Graz": {
+      "roundName": "Qualifying",
+      "distFromFinal": 6
+    },
+    "Celtic": {
+      "roundName": "Qualifying",
+      "distFromFinal": 6
+    },
+    "Basel": {
+      "roundName": "Qualifying",
+      "distFromFinal": 6
+    },
+    "Bodø/Glimt": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Bayer 04 Leverkusen": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Barcelona": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
+    "Newcastle United": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Borussia Dortmund": {
+      "roundName": "Knockout play-off",
+      "distFromFinal": 4
+    },
+    "Slavia Prague": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Real Madrid CF": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
+    "Ajax": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Athletic Bilbao": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Liverpool": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
+    "AS Monaco": {
+      "roundName": "Knockout play-off",
+      "distFromFinal": 4
+    },
+    "SSC Napoli": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Juventus": {
+      "roundName": "Knockout play-off",
+      "distFromFinal": 4
+    },
+    "Arsenal": {
+      "roundName": "Final",
+      "distFromFinal": 0
+    },
+    "Atlético Madrid": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
+    },
+    "Olympiacos": {
+      "roundName": "Knockout play-off",
+      "distFromFinal": 4
+    },
+    "PSV Eindhoven": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Manchester City": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Eintracht Frankfurt": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Villarreal CF": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Atalanta BC": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Royale Union Saint-Gilloise": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Inter Milan": {
+      "roundName": "Knockout play-off",
+      "distFromFinal": 4
+    },
+    "Olympique de Marseille": {
+      "roundName": "Group stage",
+      "distFromFinal": 5
+    },
+    "Galatasaray S.K. (football)": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Sporting CP": {
+      "roundName": "Quarterfinal",
+      "distFromFinal": 2
+    },
+    "Bayern Munich": {
+      "roundName": "Semifinal",
+      "distFromFinal": 1
+    },
+    "Paris Saint-Germain": {
+      "roundName": "Final",
+      "distFromFinal": 0
+    },
+    "Chelsea": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    },
+    "Tottenham Hotspur": {
+      "roundName": "Round of 16",
+      "distFromFinal": 3
+    }
   }
 }
