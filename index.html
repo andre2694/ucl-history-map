@@ -51,7 +51,9 @@
   }
   .hide-toggle input { cursor: pointer; }
   .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  #detailWrap { flex: 1; display: flex; flex-direction: column; min-height: 0; }
   #detail { padding: 18px; overflow-y: auto; flex: 1; }
+  #detailClose { display: none; }
   #detail .placeholder { color: var(--muted); font-size: 13px; }
   #detail h2 { margin: 0 0 2px; font-size: 18px; }
   #detail .country { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
@@ -100,13 +102,38 @@
      already carries the meaning and vertical space is scarce. */
   @media (max-width: 768px) {
     #app { flex-direction: column; }
-    #map { flex: 0 0 46dvh; min-height: 240px; }
+    /* Controls bar on top, map takes everything else. Splitting the
+       screen between map and panel left both too small, so the details
+       become a dismissable overlay (below) instead of a permanent pane. */
     #sidebar {
+      order: -1;
       width: 100%;
       border-left: none;
-      border-top: 1px solid var(--border);
-      flex: 1 1 auto;
-      min-height: 0;            /* let the detail pane scroll, not the page */
+      border-bottom: 1px solid var(--border);
+      flex: 0 0 auto;
+      overflow: visible;
+    }
+    #map { flex: 1 1 auto; min-height: 0; }
+    #detailWrap {
+      position: fixed;
+      inset: 0;
+      z-index: 1200;                 /* above Leaflet's panes and controls */
+      background: var(--panel);
+      display: none;
+    }
+    #detailWrap.open { display: flex; }
+    #detailClose {
+      display: block;
+      align-self: flex-end;
+      flex: 0 0 auto;
+      margin: 10px 12px 0;
+      width: 38px; height: 38px;     /* comfortable tap target */
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 22px; line-height: 1;
+      cursor: pointer;
     }
     header { padding: 10px 14px; }
     header h1 { font-size: 15px; margin: 0; }
@@ -164,7 +191,10 @@
         Include qualification rounds
       </label>
     </div>
-    <div id="detail"><p class="placeholder">Select a club on the map to see its full run of finals.</p></div>
+    <div id="detailWrap">
+      <button id="detailClose" type="button" aria-label="Close club details">&times;</button>
+      <div id="detail"><p class="placeholder">Select a club on the map to see its full run.</p></div>
+    </div>
     <footer>
       <span>Data: <a href="https://www.rsssf.org/" target="_blank" rel="noopener">RSSSF</a>
         &middot; <a href="https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals" target="_blank" rel="noopener">Wikipedia</a></span>
@@ -436,6 +466,7 @@
         qualifyingSwatch.style.display = includeQualifying ? '' : 'none';
         document.getElementById('detail').innerHTML =
           '<p class="placeholder">Select a club on the map to see its full run.</p>';
+        document.getElementById('detailWrap').classList.remove('open');
 
         const drawable = clubs
           .map(club => ({ club, best: bestAppearanceOf(club, includeQualifying) }))
@@ -451,7 +482,10 @@
           const m = markerFor(club, titles > 0, best);
           m.bindTooltip(`${club.name} — best: ${cleanRoundLabel(best.roundName)}`
             + ` (${countedAppearances(club, includeQualifying).length} seasons)`);
-          m.on('click', () => renderDetail(club, richByKey, titlesByName, includeQualifying));
+          m.on('click', () => {
+            renderDetail(club, richByKey, titlesByName, includeQualifying);
+            document.getElementById('detailWrap').classList.add('open');
+          });
           markerLayer.addLayer(m);
           if (titles > 1) {
             // separate non-interactive overlay -- bindTooltip allows only
@@ -465,6 +499,17 @@
         });
         return points;
       }
+
+      const detailWrap = document.getElementById('detailWrap');
+      const closeDetail = () => {
+        detailWrap.classList.remove('open');
+        // the map was hidden behind the overlay; let Leaflet re-measure
+        requestAnimationFrame(() => map.invalidateSize());
+      };
+      document.getElementById('detailClose').addEventListener('click', closeDetail);
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeDetail();
+      });
 
       const points = render();
       toggle.addEventListener('change', render);
