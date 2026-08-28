@@ -33,7 +33,7 @@ CACHE = DATA / "wiki_sections.json"
 
 API = "https://en.wikipedia.org/w/api.php"
 HEADERS = {"User-Agent": "ucl-history-map/1.0 (github.com/andre2694/ucl-history-map)"}
-DELAY = 1.0
+DELAY = 2.2  # Wikipedia 429s at ~1/s over a long run
 FIRST_SEASON, LAST_SEASON = 1955, 2025
 
 

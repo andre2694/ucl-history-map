@@ -1,0 +1,184 @@
+{
+  "Parc des Princes||Paris": {
+    "lat": 48.84145,
+    "lon": 2.25305,
+    "qid": "Q193431",
+    "matchedLabel": "Parc des Princes",
+    "source": "wikidata"
+  },
+  "Santiago Bernabéu||Madrid": {
+    "lat": 40.45306,
+    "lon": -3.68835,
+    "qid": "Q164027",
+    "matchedLabel": "Bernabéu",
+    "source": "wikidata"
+  },
+  "Heysel Stadium||Brussels": {
+    "lat": 50.895705555556,
+    "lon": 4.3340833333333,
+    "qid": "Q622671",
+    "matchedLabel": "King Baudouin Stadium",
+    "source": "wikidata"
+  },
+  "Neckarstadion||Stuttgart": {
+    "lat": 48.792222,
+    "lon": 9.231944,
+    "qid": "Q152349",
+    "matchedLabel": "MHPArena",
+    "source": "wikidata"
+  },
+  "Hampden Park||Glasgow": {
+    "lat": 55.825863888889,
+    "lon": -4.2520027777778,
+    "qid": "Q193651",
+    "matchedLabel": "Hampden Park",
+    "source": "wikidata"
+  },
+  "Wankdorf Stadium||Bern": {
+    "lat": 46.962778,
+    "lon": 7.465,
+    "qid": "Q676004",
+    "matchedLabel": "Wankdorf Stadium",
+    "source": "wikidata"
+  },
+  "Olympisch Stadion||Amsterdam": {
+    "lat": 52.343419,
+    "lon": 4.854192,
+    "qid": "Q503319",
+    "matchedLabel": "Olympic Stadium",
+    "source": "wikidata"
+  },
+  "Wembley Stadium||London": {
+    "lat": 51.555555555556,
+    "lon": -0.27972222222222,
+    "qid": "Q43279",
+    "matchedLabel": "Wembley Stadium",
+    "source": "wikidata"
+  },
+  "Praterstadion||Vienna": {
+    "lat": 48.20722222222222,
+    "lon": 16.420833333333334,
+    "qid": "Q185741",
+    "matchedLabel": "Ernst-Happel-Stadion",
+    "source": "wikidata"
+  },
+  "San Siro||Milan": {
+    "lat": 45.47805555555556,
+    "lon": 9.123888888888889,
+    "qid": "Q133566",
+    "matchedLabel": "Giuseppe Meazza Stadium",
+    "source": "wikidata"
+  },
+  "Estádio Nacional||Lisbon": {
+    "lat": 38.708806,
+    "lon": -9.260833,
+    "qid": "Q1327324",
+    "matchedLabel": "Estádio Nacional",
+    "source": "wikidata"
+  },
+  "De Kuip||Rotterdam": {
+    "lat": 51.893894444444,
+    "lon": 4.5232527777778,
+    "qid": "Q330298",
+    "matchedLabel": "De Kuip",
+    "source": "wikidata"
+  },
+  "Red Star Stadium||Belgrade": {
+    "lat": 44.78333333333333,
+    "lon": 20.46472222222222,
+    "qid": "Q478000",
+    "matchedLabel": "Rajko Mitić Stadium",
+    "source": "wikidata"
+  },
+  "Stadio Olimpico||Rome": {
+    "lat": 41.93388888888889,
+    "lon": 12.454722222222223,
+    "qid": "Q159884",
+    "matchedLabel": "Stadio Olimpico",
+    "source": "wikidata"
+  },
+  "Olympiastadion||Munich": {
+    "lat": 48.173055555556,
+    "lon": 11.546666666667,
+    "qid": "Q131610",
+    "matchedLabel": "Munich Olympic Stadium",
+    "source": "wikidata"
+  },
+  "Olympic Stadium||Athens": {
+    "lat": 52.514722222222,
+    "lon": 13.239444444444,
+    "qid": "Q151374",
+    "matchedLabel": "Berlin Olympic Stadium",
+    "source": "wikidata"
+  },
+  "Ramón Sánchez Pizjuán||Seville": {
+    "lat": 37.383878,
+    "lon": -5.970467,
+    "qid": "Q275429",
+    "matchedLabel": "Ramón Sánchez Pizjuán Stadium",
+    "source": "wikidata"
+  },
+  "Camp Nou||Barcelona": {
+    "lat": 41.380833333333335,
+    "lon": 2.122777777777778,
+    "qid": "Q159848",
+    "matchedLabel": "Camp Nou",
+    "source": "wikidata"
+  },
+  "Stadio San Nicola||Bari": {
+    "lat": 41.084736,
+    "lon": 16.840072,
+    "qid": "Q328698",
+    "matchedLabel": "Stadio San Nicola",
+    "source": "wikidata"
+  },
+  "Ernst-Happel-Stadion||Vienna": {
+    "lat": 48.20722222222222,
+    "lon": 16.420833333333334,
+    "qid": "Q185741",
+    "matchedLabel": "Ernst-Happel-Stadion",
+    "source": "wikidata"
+  },
+  "Amsterdam Arena||Amsterdam": {
+    "lat": 52.314166666667,
+    "lon": 4.9419444444444,
+    "qid": "Q207109",
+    "matchedLabel": "Johan Cruyff Arena",
+    "source": "wikidata"
+  },
+  "Stade de France||Saint-Denis": {
+    "lat": 48.92444444444445,
+    "lon": 2.36,
+    "qid": "Q13205",
+    "matchedLabel": "Stade de France",
+    "source": "wikidata"
+  },
+  "Old Trafford||Manchester": {
+    "lat": 53.463055555556,
+    "lon": -2.2913888888889,
+    "qid": "Q83457",
+    "matchedLabel": "Old Trafford",
+    "source": "wikidata"
+  },
+  "Arena AufSchalke||Gelsenkirchen": {
+    "lat": 51.554502777778,
+    "lon": 7.0675888888889,
+    "qid": "Q150961",
+    "matchedLabel": "Arena AufSchalke",
+    "source": "wikidata"
+  },
+  "Atatürk Olympic Stadium||Istanbul": {
+    "lat": 41.074472222222,
+    "lon": 28.765702777778,
+    "qid": "Q221122",
+    "matchedLabel": "Atatürk Olympic Stadium",
+    "source": "wikidata"
+  },
+  "Luzhniki Stadium||Moscow": {
+    "lat": 55.715833333333,
+    "lon": 37.553611111111,
+    "qid": "Q202163",
+    "matchedLabel": "Luzhniki Stadium",
+    "source": "wikidata"
+  }
+}

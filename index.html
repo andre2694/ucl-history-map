@@ -334,28 +334,42 @@
     return Math.sqrt(dLat * dLat + dLon * dLon);
   }
 
-  function jitterOverlaps(clubs) {
+  // Group clubs that sit on top of each other. The offsets themselves are
+  // applied in PIXEL space by layoutOverlaps() below, not here: the old
+  // version nudged coordinates by a fixed number of degrees (~2km), which
+  // is well under one pixel at continental zoom, so Sporting stayed hidden
+  // under Benfica until you zoomed a long way in.
+  function overlapGroups(clubs) {
     const groups = [];
     clubs.forEach(c => {
-      let group = groups.find(g => _kmBetween(g.center, c) < JITTER_RADIUS_KM);
-      if (!group) {
-        group = { center: { lat: c.lat, lon: c.lon }, members: [] };
-        groups.push(group);
+      let g = groups.find(g => _kmBetween(g.center, c) < JITTER_RADIUS_KM);
+      if (!g) {
+        g = { center: { lat: c.lat, lon: c.lon }, members: [] };
+        groups.push(g);
       }
-      group.members.push(c);
+      g.members.push(c);
     });
+    return groups.filter(g => g.members.length > 1);
+  }
+
+  // Fan a group out around its centre by a constant number of SCREEN
+  // pixels, so the separation looks the same at every zoom. Recomputed on
+  // zoom because a fixed pixel gap is a different distance each time.
+  function layoutOverlaps(groups, entriesByClub) {
+    const zoom = map.getZoom();
     groups.forEach(({ members }) => {
-      if (members.length < 2) return;
-      // keep the strongest (deepest run) club at the true location;
-      // ring the rest around it, radius growing gently with group size
-      members.sort((a, b) => a.bestDistFromFinal - b.bestDistFromFinal);
-      const radius = 0.012 + Math.min(members.length, 10) * 0.004;
-      const lat0 = members[0].lat;
-      members.forEach((c, i) => {
-        if (i === 0) return;
-        const angle = (2 * Math.PI * i) / members.length;
-        c.lat += radius * Math.sin(angle);
-        c.lon += (radius * Math.cos(angle)) / Math.cos(lat0 * Math.PI / 180);
+      const drawn = members.map(c => entriesByClub.get(c)).filter(Boolean);
+      if (drawn.length < 2) return;
+      const anchor = map.project([members[0].lat, members[0].lon], zoom);
+      // ring big enough to clear the largest marker in the group
+      const biggest = Math.max(...drawn.map(d => d.radius));
+      const ring = Math.max(13, biggest + 6) + (drawn.length > 4 ? drawn.length : 0);
+      drawn.forEach((entry, i) => {
+        const angle = (2 * Math.PI * i) / drawn.length - Math.PI / 2;
+        const at = map.unproject(
+          L.point(anchor.x + ring * Math.cos(angle), anchor.y + ring * Math.sin(angle)), zoom);
+        entry.marker.setLatLng(at);
+        if (entry.badge) entry.badge.setLatLng(at);
       });
     });
   }
@@ -368,12 +382,17 @@
     window.matchMedia('(pointer: coarse)').matches;
   const MARKER_SCALE = () => (isTouchLayout() ? 1.5 : 1);
 
-  function markerFor(club, hasWon, best) {
+  // Winners grow with how many titles they hold, so Real Madrid's 15
+  // reads at a glance against a one-off winner. sqrt keeps the top end
+  // from dwarfing everything -- 1 title is 9.0px, 15 is 14.7px.
+  const winnerRadius = titles => 7 + 2 * Math.sqrt(titles);
+
+  function markerFor(club, titles, best) {
     let fillColor, fillOpacity, radius;
     if (best.roundName === 'Final') {
-      fillColor = hasWon ? '#d4af37' : '#b9c2cf';
+      fillColor = titles > 0 ? '#d4af37' : '#b9c2cf';
       fillOpacity = 0.95;
-      radius = 7.5;
+      radius = titles > 0 ? winnerRadius(titles) : 7;
     } else {
       const tier = classifyTier(best.roundName);
       fillColor = '#5b9bd5';
@@ -464,7 +483,8 @@
         });
       });
 
-      jitterOverlaps(clubs);
+      const groups = overlapGroups(clubs);
+      let lastEntries = new Map();
 
       const markerLayer = L.layerGroup().addTo(map);
       const toggle = document.getElementById('hideQualifyingOnly');
@@ -490,9 +510,10 @@
           .sort((a, b) => rankOf(b.best) - rankOf(a.best));
 
         const points = [];
+        const entriesByClub = new Map();
         drawable.forEach(({ club, best }) => {
           const titles = titlesByName.get(club.name) || 0;
-          const m = markerFor(club, titles > 0, best);
+          const m = markerFor(club, titles, best);
           m.bindTooltip(`${club.name} — best: ${cleanRoundLabel(best.roundName)}`
             + ` (${countedAppearances(club, includeQualifying).length} seasons)`);
           m.on('click', () => {
@@ -504,16 +525,30 @@
             requestAnimationFrame(() => map.invalidateSize());
           });
           markerLayer.addLayer(m);
-          if (titles > 1) {
-            // separate non-interactive overlay -- bindTooltip allows only
-            // one per layer, and this must coexist with the hover tooltip
-            markerLayer.addLayer(L.marker([club.lat, club.lon], {
-              icon: L.divIcon({ className: 'title-count', html: String(titles), iconSize: [18, 18], iconAnchor: [9, 9] }),
+
+          // The title count goes INSIDE the circle, and only when the
+          // circle is big enough to hold it. The old badge was a fixed
+          // 18px box drawn over the club's point regardless of marker
+          // size, which is what was covering Sporting next to Benfica.
+          const radius = m.options.radius;
+          let badge = null;
+          if (titles > 1 && radius >= 9) {
+            const box = Math.round(radius * 2);
+            badge = L.marker([club.lat, club.lon], {
+              icon: L.divIcon({
+                className: 'title-count', html: String(titles),
+                iconSize: [box, box], iconAnchor: [box / 2, box / 2],
+              }),
               interactive: false,
-            }));
+            });
+            markerLayer.addLayer(badge);
           }
+          entriesByClub.set(club, { marker: m, badge, radius });
           points.push([club.lat, club.lon]);
         });
+
+        layoutOverlaps(groups, entriesByClub);
+        lastEntries = entriesByClub;
         return points;
       }
 
@@ -541,6 +576,8 @@
 
       const points = render();
       toggle.addEventListener('change', render);
+      // a fixed pixel fan-out has to be recomputed whenever the scale changes
+      map.on('zoomend', () => layoutOverlaps(groups, lastEntries));
 
       const fitAll = () => {
         if (!points.length) return;
