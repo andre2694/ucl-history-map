@@ -180,5 +180,60 @@
     "qid": "Q202163",
     "matchedLabel": "Luzhniki Stadium",
     "source": "wikidata"
+  },
+  "Allianz Arena||Munich": {
+    "lat": 48.218775,
+    "lon": 11.624752777778,
+    "qid": "Q127429",
+    "matchedLabel": "Allianz Arena",
+    "source": "wikidata"
+  },
+  "Estádio da Luz||Lisbon": {
+    "lat": 38.75277777777778,
+    "lon": -9.184722222222222,
+    "qid": "Q7875112",
+    "matchedLabel": "Estádio da Luz",
+    "source": "wikidata"
+  },
+  "Olympiastadion||Berlin": {
+    "lat": 52.514722222222,
+    "lon": 13.239444444444,
+    "qid": "Q151374",
+    "matchedLabel": "Berlin Olympic Stadium",
+    "source": "wikidata"
+  },
+  "Millennium Stadium||Cardiff": {
+    "lat": 51.478055555556,
+    "lon": -3.1825,
+    "qid": "Q204496",
+    "matchedLabel": "Millennium Stadium",
+    "source": "wikidata"
+  },
+  "NSC Olimpiyskiy Stadium||Kyiv": {
+    "lat": 50.4333,
+    "lon": 30.5219,
+    "source": "manual",
+    "matchedLabel": "NSC Olimpiyskiy Stadium"
+  },
+  "Metropolitano Stadium||Madrid": {
+    "lat": 40.436111,
+    "lon": -3.599444,
+    "qid": "Q1369687",
+    "matchedLabel": "Metropolitano Stadium",
+    "source": "wikidata"
+  },
+  "Estádio do Dragão||Porto": {
+    "lat": 41.161758,
+    "lon": -8.583933,
+    "qid": "Q271454",
+    "matchedLabel": "Estádio do Dragão",
+    "source": "wikidata"
+  },
+  "Puskás Aréna||Budapest": {
+    "lat": 47.503035,
+    "lon": 19.097929,
+    "qid": "Q39069592",
+    "matchedLabel": "Puskás Aréna",
+    "source": "wikidata"
   }
 }

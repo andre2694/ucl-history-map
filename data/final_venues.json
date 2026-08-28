@@ -1,0 +1,791 @@
+[
+  {
+    "venue": "Wembley Stadium",
+    "city": "London",
+    "lat": 51.555555555556,
+    "lon": -0.27972222222222,
+    "qid": "Q43279",
+    "matchedLabel": "Wembley Stadium",
+    "finalsHosted": 8,
+    "finals": [
+      {
+        "season": "1962–63",
+        "winner": "Milan",
+        "runnerUp": "Benfica",
+        "score": "2–1"
+      },
+      {
+        "season": "1967–68",
+        "winner": "Manchester United",
+        "runnerUp": "Benfica",
+        "score": "4–1"
+      },
+      {
+        "season": "1970–71",
+        "winner": "Ajax",
+        "runnerUp": "Panathinaikos",
+        "score": "2–0"
+      },
+      {
+        "season": "1977–78",
+        "winner": "Liverpool",
+        "runnerUp": "Club Brugge",
+        "score": "1–0"
+      },
+      {
+        "season": "1991–92",
+        "winner": "Barcelona",
+        "runnerUp": "Sampdoria",
+        "score": "1–0"
+      },
+      {
+        "season": "2010–11",
+        "winner": "Barcelona",
+        "runnerUp": "Manchester United",
+        "score": "3–1"
+      },
+      {
+        "season": "2012–13",
+        "winner": "Bayern Munich",
+        "runnerUp": "Borussia Dortmund",
+        "score": "2–1"
+      },
+      {
+        "season": "2023–24",
+        "winner": "Real Madrid",
+        "runnerUp": "Borussia Dortmund",
+        "score": "2–0"
+      }
+    ]
+  },
+  {
+    "venue": "Ernst-Happel-Stadion",
+    "city": "Vienna",
+    "lat": 48.20722222222222,
+    "lon": 16.420833333333334,
+    "qid": "Q185741",
+    "matchedLabel": "Ernst-Happel-Stadion",
+    "finalsHosted": 4,
+    "finals": [
+      {
+        "season": "1963–64",
+        "winner": "Inter Milan",
+        "runnerUp": "Real Madrid",
+        "score": "3–1"
+      },
+      {
+        "season": "1986–87",
+        "winner": "Porto",
+        "runnerUp": "Bayern Munich",
+        "score": "2–1"
+      },
+      {
+        "season": "1989–90",
+        "winner": "Milan",
+        "runnerUp": "Benfica",
+        "score": "1–0"
+      },
+      {
+        "season": "1994–95",
+        "winner": "Ajax",
+        "runnerUp": "Milan",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Heysel Stadium",
+    "city": "Brussels",
+    "lat": 50.895705555556,
+    "lon": 4.3340833333333,
+    "qid": "Q622671",
+    "matchedLabel": "King Baudouin Stadium",
+    "finalsHosted": 4,
+    "finals": [
+      {
+        "season": "1957–58",
+        "winner": "Real Madrid",
+        "runnerUp": "Milan",
+        "score": "3–2"
+      },
+      {
+        "season": "1965–66",
+        "winner": "Real Madrid",
+        "runnerUp": "Partizan",
+        "score": "2–1"
+      },
+      {
+        "season": "1973–74",
+        "winner": "Bayern Munich",
+        "runnerUp": "Atlético Madrid",
+        "score": "1–1, replay 4–0"
+      },
+      {
+        "season": "1984–85",
+        "winner": "Juventus",
+        "runnerUp": "Liverpool",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "San Siro",
+    "city": "Milan",
+    "lat": 45.47805555555556,
+    "lon": 9.123888888888889,
+    "qid": "Q133566",
+    "matchedLabel": "Giuseppe Meazza Stadium",
+    "finalsHosted": 4,
+    "finals": [
+      {
+        "season": "1964–65",
+        "winner": "Inter Milan",
+        "runnerUp": "Benfica",
+        "score": "1–0"
+      },
+      {
+        "season": "1969–70",
+        "winner": "Feyenoord",
+        "runnerUp": "Celtic",
+        "score": "2–1"
+      },
+      {
+        "season": "2000–01",
+        "winner": "Bayern Munich",
+        "runnerUp": "Valencia",
+        "score": "1–1 (pens)"
+      },
+      {
+        "season": "2015–16",
+        "winner": "Real Madrid",
+        "runnerUp": "Atlético Madrid",
+        "score": "1–1 (pens)"
+      }
+    ]
+  },
+  {
+    "venue": "Santiago Bernabéu",
+    "city": "Madrid",
+    "lat": 40.45306,
+    "lon": -3.68835,
+    "qid": "Q164027",
+    "matchedLabel": "Bernabéu",
+    "finalsHosted": 4,
+    "finals": [
+      {
+        "season": "1956–57",
+        "winner": "Real Madrid",
+        "runnerUp": "Fiorentina",
+        "score": "2–0"
+      },
+      {
+        "season": "1968–69",
+        "winner": "Milan",
+        "runnerUp": "Ajax",
+        "score": "4–1"
+      },
+      {
+        "season": "1979–80",
+        "winner": "Nottingham Forest",
+        "runnerUp": "Hamburger SV",
+        "score": "1–0"
+      },
+      {
+        "season": "2009–10",
+        "winner": "Inter Milan",
+        "runnerUp": "Bayern Munich",
+        "score": "2–0"
+      }
+    ]
+  },
+  {
+    "venue": "Stadio Olimpico",
+    "city": "Rome",
+    "lat": 41.93388888888889,
+    "lon": 12.454722222222223,
+    "qid": "Q159884",
+    "matchedLabel": "Stadio Olimpico",
+    "finalsHosted": 4,
+    "finals": [
+      {
+        "season": "1976–77",
+        "winner": "Liverpool",
+        "runnerUp": "Borussia Mönchengladbach",
+        "score": "3–1"
+      },
+      {
+        "season": "1983–84",
+        "winner": "Liverpool",
+        "runnerUp": "Roma",
+        "score": "1–1 (pens)"
+      },
+      {
+        "season": "1995–96",
+        "winner": "Juventus",
+        "runnerUp": "Ajax",
+        "score": "1–1 (pens)"
+      },
+      {
+        "season": "2008–09",
+        "winner": "Barcelona",
+        "runnerUp": "Manchester United",
+        "score": "2–0"
+      }
+    ]
+  },
+  {
+    "venue": "Hampden Park",
+    "city": "Glasgow",
+    "lat": 55.825863888889,
+    "lon": -4.2520027777778,
+    "qid": "Q193651",
+    "matchedLabel": "Hampden Park",
+    "finalsHosted": 3,
+    "finals": [
+      {
+        "season": "1959–60",
+        "winner": "Real Madrid",
+        "runnerUp": "Eintracht Frankfurt",
+        "score": "7–3"
+      },
+      {
+        "season": "1975–76",
+        "winner": "Bayern Munich",
+        "runnerUp": "Saint-Étienne",
+        "score": "1–0"
+      },
+      {
+        "season": "2001–02",
+        "winner": "Real Madrid",
+        "runnerUp": "Bayer Leverkusen",
+        "score": "2–1"
+      }
+    ]
+  },
+  {
+    "venue": "Olympiastadion",
+    "city": "Munich",
+    "lat": 48.173055555556,
+    "lon": 11.546666666667,
+    "qid": "Q131610",
+    "matchedLabel": "Munich Olympic Stadium",
+    "finalsHosted": 3,
+    "finals": [
+      {
+        "season": "1978–79",
+        "winner": "Nottingham Forest",
+        "runnerUp": "Malmö FF",
+        "score": "1–0"
+      },
+      {
+        "season": "1992–93",
+        "winner": "Marseille",
+        "runnerUp": "Milan",
+        "score": "1–0"
+      },
+      {
+        "season": "1996–97",
+        "winner": "Borussia Dortmund",
+        "runnerUp": "Juventus",
+        "score": "3–1"
+      }
+    ]
+  },
+  {
+    "venue": "Olympic Stadium",
+    "city": "Athens",
+    "lat": 52.514722222222,
+    "lon": 13.239444444444,
+    "qid": "Q151374",
+    "matchedLabel": "Berlin Olympic Stadium",
+    "finalsHosted": 3,
+    "finals": [
+      {
+        "season": "1982–83",
+        "winner": "Hamburger SV",
+        "runnerUp": "Juventus",
+        "score": "1–0"
+      },
+      {
+        "season": "1993–94",
+        "winner": "Milan",
+        "runnerUp": "Barcelona",
+        "score": "4–0"
+      },
+      {
+        "season": "2006–07",
+        "winner": "Milan",
+        "runnerUp": "Liverpool",
+        "score": "2–1"
+      }
+    ]
+  },
+  {
+    "venue": "Parc des Princes",
+    "city": "Paris",
+    "lat": 48.84145,
+    "lon": 2.25305,
+    "qid": "Q193431",
+    "matchedLabel": "Parc des Princes",
+    "finalsHosted": 3,
+    "finals": [
+      {
+        "season": "1955–56",
+        "winner": "Real Madrid",
+        "runnerUp": "Reims",
+        "score": "4–3"
+      },
+      {
+        "season": "1974–75",
+        "winner": "Bayern Munich",
+        "runnerUp": "Leeds United",
+        "score": "2–0"
+      },
+      {
+        "season": "1980–81",
+        "winner": "Liverpool",
+        "runnerUp": "Real Madrid",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Stade de France",
+    "city": "Saint-Denis",
+    "lat": 48.92444444444445,
+    "lon": 2.36,
+    "qid": "Q13205",
+    "matchedLabel": "Stade de France",
+    "finalsHosted": 3,
+    "finals": [
+      {
+        "season": "1999–2000",
+        "winner": "Real Madrid",
+        "runnerUp": "Valencia",
+        "score": "3–0"
+      },
+      {
+        "season": "2005–06",
+        "winner": "Barcelona",
+        "runnerUp": "Arsenal",
+        "score": "2–1"
+      },
+      {
+        "season": "2021–22",
+        "winner": "Real Madrid",
+        "runnerUp": "Liverpool",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Allianz Arena",
+    "city": "Munich",
+    "lat": 48.218775,
+    "lon": 11.624752777778,
+    "qid": "Q127429",
+    "matchedLabel": "Allianz Arena",
+    "finalsHosted": 2,
+    "finals": [
+      {
+        "season": "2011–12",
+        "winner": "Chelsea",
+        "runnerUp": "Bayern Munich",
+        "score": "1–1 (pens)"
+      },
+      {
+        "season": "2024–25",
+        "winner": "Paris Saint-Germain",
+        "runnerUp": "Inter Milan",
+        "score": "5–0"
+      }
+    ]
+  },
+  {
+    "venue": "Atatürk Olympic Stadium",
+    "city": "Istanbul",
+    "lat": 41.074472222222,
+    "lon": 28.765702777778,
+    "qid": "Q221122",
+    "matchedLabel": "Atatürk Olympic Stadium",
+    "finalsHosted": 2,
+    "finals": [
+      {
+        "season": "2004–05",
+        "winner": "Liverpool",
+        "runnerUp": "Milan",
+        "score": "3–3 (pens)"
+      },
+      {
+        "season": "2022–23",
+        "winner": "Manchester City",
+        "runnerUp": "Inter Milan",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Camp Nou",
+    "city": "Barcelona",
+    "lat": 41.380833333333335,
+    "lon": 2.122777777777778,
+    "qid": "Q159848",
+    "matchedLabel": "Camp Nou",
+    "finalsHosted": 2,
+    "finals": [
+      {
+        "season": "1988–89",
+        "winner": "Milan",
+        "runnerUp": "Steaua București",
+        "score": "4–0"
+      },
+      {
+        "season": "1998–99",
+        "winner": "Manchester United",
+        "runnerUp": "Bayern Munich",
+        "score": "2–1"
+      }
+    ]
+  },
+  {
+    "venue": "De Kuip",
+    "city": "Rotterdam",
+    "lat": 51.893894444444,
+    "lon": 4.5232527777778,
+    "qid": "Q330298",
+    "matchedLabel": "De Kuip",
+    "finalsHosted": 2,
+    "finals": [
+      {
+        "season": "1971–72",
+        "winner": "Ajax",
+        "runnerUp": "Inter Milan",
+        "score": "2–0"
+      },
+      {
+        "season": "1981–82",
+        "winner": "Aston Villa",
+        "runnerUp": "Bayern Munich",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Estádio da Luz",
+    "city": "Lisbon",
+    "lat": 38.75277777777778,
+    "lon": -9.184722222222222,
+    "qid": "Q7875112",
+    "matchedLabel": "Estádio da Luz",
+    "finalsHosted": 2,
+    "finals": [
+      {
+        "season": "2013–14",
+        "winner": "Real Madrid",
+        "runnerUp": "Atlético Madrid",
+        "score": "4–1"
+      },
+      {
+        "season": "2019–20",
+        "winner": "Bayern Munich",
+        "runnerUp": "Paris Saint-Germain",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Neckarstadion",
+    "city": "Stuttgart",
+    "lat": 48.792222,
+    "lon": 9.231944,
+    "qid": "Q152349",
+    "matchedLabel": "MHPArena",
+    "finalsHosted": 2,
+    "finals": [
+      {
+        "season": "1958–59",
+        "winner": "Real Madrid",
+        "runnerUp": "Reims",
+        "score": "2–0"
+      },
+      {
+        "season": "1987–88",
+        "winner": "PSV Eindhoven",
+        "runnerUp": "Benfica",
+        "score": "0–0 (pens)"
+      }
+    ]
+  },
+  {
+    "venue": "Amsterdam Arena",
+    "city": "Amsterdam",
+    "lat": 52.314166666667,
+    "lon": 4.9419444444444,
+    "qid": "Q207109",
+    "matchedLabel": "Johan Cruyff Arena",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "1997–98",
+        "winner": "Real Madrid",
+        "runnerUp": "Juventus",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Arena AufSchalke",
+    "city": "Gelsenkirchen",
+    "lat": 51.554502777778,
+    "lon": 7.0675888888889,
+    "qid": "Q150961",
+    "matchedLabel": "Arena AufSchalke",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2003–04",
+        "winner": "Porto",
+        "runnerUp": "Monaco",
+        "score": "3–0"
+      }
+    ]
+  },
+  {
+    "venue": "Estádio Nacional",
+    "city": "Lisbon",
+    "lat": 38.708806,
+    "lon": -9.260833,
+    "qid": "Q1327324",
+    "matchedLabel": "Estádio Nacional",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "1966–67",
+        "winner": "Celtic",
+        "runnerUp": "Inter Milan",
+        "score": "2–1"
+      }
+    ]
+  },
+  {
+    "venue": "Estádio do Dragão",
+    "city": "Porto",
+    "lat": 41.161758,
+    "lon": -8.583933,
+    "qid": "Q271454",
+    "matchedLabel": "Estádio do Dragão",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2020–21",
+        "winner": "Chelsea",
+        "runnerUp": "Manchester City",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Luzhniki Stadium",
+    "city": "Moscow",
+    "lat": 55.715833333333,
+    "lon": 37.553611111111,
+    "qid": "Q202163",
+    "matchedLabel": "Luzhniki Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2007–08",
+        "winner": "Manchester United",
+        "runnerUp": "Chelsea",
+        "score": "1–1 (pens)"
+      }
+    ]
+  },
+  {
+    "venue": "Metropolitano Stadium",
+    "city": "Madrid",
+    "lat": 40.436111,
+    "lon": -3.599444,
+    "qid": "Q1369687",
+    "matchedLabel": "Metropolitano Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2018–19",
+        "winner": "Liverpool",
+        "runnerUp": "Tottenham Hotspur",
+        "score": "2–0"
+      }
+    ]
+  },
+  {
+    "venue": "Millennium Stadium",
+    "city": "Cardiff",
+    "lat": 51.478055555556,
+    "lon": -3.1825,
+    "qid": "Q204496",
+    "matchedLabel": "Millennium Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2016–17",
+        "winner": "Real Madrid",
+        "runnerUp": "Juventus",
+        "score": "4–1"
+      }
+    ]
+  },
+  {
+    "venue": "NSC Olimpiyskiy Stadium",
+    "city": "Kyiv",
+    "lat": 50.4333,
+    "lon": 30.5219,
+    "qid": null,
+    "matchedLabel": "NSC Olimpiyskiy Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2017–18",
+        "winner": "Real Madrid",
+        "runnerUp": "Liverpool",
+        "score": "3–1"
+      }
+    ]
+  },
+  {
+    "venue": "Old Trafford",
+    "city": "Manchester",
+    "lat": 53.463055555556,
+    "lon": -2.2913888888889,
+    "qid": "Q83457",
+    "matchedLabel": "Old Trafford",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2002–03",
+        "winner": "Milan",
+        "runnerUp": "Juventus",
+        "score": "0–0 (pens)"
+      }
+    ]
+  },
+  {
+    "venue": "Olympiastadion",
+    "city": "Berlin",
+    "lat": 52.514722222222,
+    "lon": 13.239444444444,
+    "qid": "Q151374",
+    "matchedLabel": "Berlin Olympic Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2014–15",
+        "winner": "Barcelona",
+        "runnerUp": "Juventus",
+        "score": "3–1"
+      }
+    ]
+  },
+  {
+    "venue": "Olympisch Stadion",
+    "city": "Amsterdam",
+    "lat": 52.343419,
+    "lon": 4.854192,
+    "qid": "Q503319",
+    "matchedLabel": "Olympic Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "1961–62",
+        "winner": "Benfica",
+        "runnerUp": "Real Madrid",
+        "score": "5–3"
+      }
+    ]
+  },
+  {
+    "venue": "Puskás Aréna",
+    "city": "Budapest",
+    "lat": 47.503035,
+    "lon": 19.097929,
+    "qid": "Q39069592",
+    "matchedLabel": "Puskás Aréna",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "2025–26",
+        "winner": "Paris Saint-Germain",
+        "runnerUp": "Arsenal",
+        "score": "1–1 (pens)"
+      }
+    ]
+  },
+  {
+    "venue": "Ramón Sánchez Pizjuán",
+    "city": "Seville",
+    "lat": 37.383878,
+    "lon": -5.970467,
+    "qid": "Q275429",
+    "matchedLabel": "Ramón Sánchez Pizjuán Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "1985–86",
+        "winner": "Steaua București",
+        "runnerUp": "Barcelona",
+        "score": "0–0 (pens)"
+      }
+    ]
+  },
+  {
+    "venue": "Red Star Stadium",
+    "city": "Belgrade",
+    "lat": 44.78333333333333,
+    "lon": 20.46472222222222,
+    "qid": "Q478000",
+    "matchedLabel": "Rajko Mitić Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "1972–73",
+        "winner": "Ajax",
+        "runnerUp": "Juventus",
+        "score": "1–0"
+      }
+    ]
+  },
+  {
+    "venue": "Stadio San Nicola",
+    "city": "Bari",
+    "lat": 41.084736,
+    "lon": 16.840072,
+    "qid": "Q328698",
+    "matchedLabel": "Stadio San Nicola",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "1990–91",
+        "winner": "Red Star Belgrade",
+        "runnerUp": "Marseille",
+        "score": "0–0 (pens)"
+      }
+    ]
+  },
+  {
+    "venue": "Wankdorf Stadium",
+    "city": "Bern",
+    "lat": 46.962778,
+    "lon": 7.465,
+    "qid": "Q676004",
+    "matchedLabel": "Wankdorf Stadium",
+    "finalsHosted": 1,
+    "finals": [
+      {
+        "season": "1960–61",
+        "winner": "Benfica",
+        "runnerUp": "Barcelona",
+        "score": "3–2"
+      }
+    ]
+  }
+]

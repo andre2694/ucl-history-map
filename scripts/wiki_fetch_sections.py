@@ -63,13 +63,18 @@ def api(params):
                 time.sleep(DELAY)
                 return resp.json()
             last = f"HTTP {resp.status_code}"
-        time.sleep(min(60, 3 * (2 ** attempt)))
-    raise RuntimeError(f"Wikipedia API failed ({last}): {params.get('page')}")
+        time.sleep(min(120, 5 * (2 ** attempt)))
+    # Don't abort the whole run for one page. Wikipedia rate-limits hard
+    # over a long sequence of requests, and the cache is written per
+    # season, so returning None lets the run continue and a re-run pick up
+    # exactly what's still missing.
+    print(f"  ! giving up on {params.get('page')} ({last}) -- will retry on re-run")
+    return None
 
 
 def fetch_sections(page):
     data = api({"action": "parse", "page": page, "prop": "sections"})
-    if "error" in data:
+    if data is None or "error" in data:
         return None
     return [{"index": s["index"], "level": int(s["level"]), "line": s["line"]}
             for s in data["parse"]["sections"]]
@@ -90,6 +95,8 @@ def main():
             ko_sections = fetch_sections(ko_title)
             if ko_sections:
                 entry["knockout"] = {"title": ko_title, "sections": ko_sections}
+        if entry["main"]["sections"] is None:
+            continue  # leave uncached so a re-run retries it
         cache[label] = entry
         CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
         n_main = len(entry["main"]["sections"] or [])

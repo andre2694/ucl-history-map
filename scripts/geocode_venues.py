@@ -39,6 +39,19 @@ DELAY = 1.2
 
 VENUE_DESC_RE = re.compile(r"stadium|arena|sports venue|football ground|stadion", re.I)
 
+# Same building, recorded under the name it carried at the time. Merging
+# these keeps one marker per physical ground rather than two on the same
+# spot: Vienna's Praterstadion was renamed Ernst-Happel-Stadion in 1992,
+# so the four finals played there belong to a single venue.
+VENUE_ALIASES = {
+    ("Praterstadion", "Vienna"): ("Ernst-Happel-Stadion", "Vienna"),
+}
+
+# Wikidata search can't resolve these; coordinates verified by hand.
+MANUAL_COORDS = {
+    ("NSC Olimpiyskiy Stadium", "Kyiv"): (50.4333, 30.5219),
+}
+
 
 def _fold(s):
     return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
@@ -91,11 +104,18 @@ def main():
 
     venues = OrderedDict()
     for f in finals:
-        venues.setdefault((f["venue"], f["city"]), []).append(f)
+        key = (f["venue"], f["city"])
+        key = VENUE_ALIASES.get(key, key)
+        venues.setdefault(key, []).append(f)
 
     misses = []
     for (venue, city), hosted in venues.items():
         key = f"{venue}||{city}"
+        if (venue, city) in MANUAL_COORDS and "lat" not in cache.get(key, {}):
+            lat, lon = MANUAL_COORDS[(venue, city)]
+            cache[key] = {"lat": lat, "lon": lon, "source": "manual",
+                          "matchedLabel": venue}
+            CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
         if key not in cache:
             try:
                 cache[key] = geocode(venue, city) or {"error": "no match"}

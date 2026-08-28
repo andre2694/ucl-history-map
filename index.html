@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>European Cup &amp; Champions League — History Map</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
 <style>
   :root {
     --bg: #0b1220;
@@ -15,6 +15,7 @@
     --gold: #d4af37;
     --silver: #b9c2cf;
     --blue: #5b9bd5;
+    --venue: #e0574a;
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; margin: 0; }
@@ -51,6 +52,20 @@
   }
   .hide-toggle input { cursor: pointer; }
   .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  /* Venues use a diamond, not another circle: the circles already encode
+     how far a CLUB went, and a venue is a different kind of thing
+     entirely -- shape separates the two categories where another colour
+     would just look like one more round. */
+  .venue-dot {
+    width: 9px; height: 9px; display: inline-block;
+    background: var(--venue); transform: rotate(45deg);
+  }
+  .venue-marker div {
+    width: 100%; height: 100%;
+    background: var(--venue);
+    border: 1px solid #2a0f0c;
+    transform: rotate(45deg);
+  }
   #app { position: relative; }
   #detailWrap { flex: 1; display: flex; flex-direction: column; min-height: 0; }
   #detail { padding: 18px; overflow-y: auto; flex: 1; }
@@ -98,6 +113,7 @@
   #detail li .meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
   #detail li .meta a { color: #7fb0ff; text-decoration: none; }
   #detail li .meta a:hover { text-decoration: underline; }
+  #detail .venue-list li .season { color: var(--muted); font-size: 11px; }
   #detail li .scorers { color: var(--text); font-size: 11px; margin-top: 4px; opacity: 0.85; }
   .leaflet-popup-content-wrapper { background: var(--panel); color: var(--text); }
   .leaflet-popup-tip { background: var(--panel); }
@@ -203,6 +219,10 @@
         <input type="checkbox" id="hideQualifyingOnly">
         Include qualification rounds
       </label>
+      <label class="hide-toggle">
+        <input type="checkbox" id="showVenues">
+        Show final venues <i class="venue-dot"></i>
+      </label>
     </div>
     <div id="detailWrap">
       <button id="detailClose" type="button" aria-label="Close club details">&times;</button>
@@ -216,7 +236,7 @@
   </div>
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="vendor/leaflet/leaflet.js"></script>
 <script>
   // every club is somewhere between the Atlantic and the Caucasus/Central
   // Asia -- keep the map from panning/zooming out into empty ocean or
@@ -335,7 +355,7 @@
   }
 
   // Group clubs that sit on top of each other. The offsets themselves are
-  // applied in PIXEL space by layoutOverlaps() below, not here: the old
+  // applied by jitterOverlaps() below, not here: the old
   // version nudged coordinates by a fixed number of degrees (~2km), which
   // is well under one pixel at continental zoom, so Sporting stayed hidden
   // under Benfica until you zoomed a long way in.
@@ -352,24 +372,26 @@
     return groups.filter(g => g.members.length > 1);
   }
 
-  // Fan a group out around its centre by a constant number of SCREEN
-  // pixels, so the separation looks the same at every zoom. Recomputed on
-  // zoom because a fixed pixel gap is a different distance each time.
-  function layoutOverlaps(groups, entriesByClub) {
-    const zoom = map.getZoom();
-    groups.forEach(({ members }) => {
-      const drawn = members.map(c => entriesByClub.get(c)).filter(Boolean);
-      if (drawn.length < 2) return;
-      const anchor = map.project([members[0].lat, members[0].lon], zoom);
-      // ring big enough to clear the largest marker in the group
-      const biggest = Math.max(...drawn.map(d => d.radius));
-      const ring = Math.max(13, biggest + 6) + (drawn.length > 4 ? drawn.length : 0);
-      drawn.forEach((entry, i) => {
-        const angle = (2 * Math.PI * i) / drawn.length - Math.PI / 2;
-        const at = map.unproject(
-          L.point(anchor.x + ring * Math.cos(angle), anchor.y + ring * Math.sin(angle)), zoom);
-        entry.marker.setLatLng(at);
-        if (entry.badge) entry.badge.setLatLng(at);
+  // Fan overlapping clubs out onto a fixed ring measured in KILOMETRES,
+  // not pixels. A constant on-screen gap looks tidy but lies about
+  // geography when zoomed out -- 32px at zoom 4 is ~300km, which drew
+  // Sporting well outside Lisbon. A few km keeps every marker inside its
+  // own city at any zoom: the clubs separate as you zoom in, and simply
+  // overlap when zoomed far out, which is the honest failure mode.
+  const JITTER_RING_KM = 7;
+
+  function jitterOverlaps(clubs) {
+    overlapGroups(clubs).forEach(({ members }) => {
+      // the deepest run keeps the true position; the rest ring around it
+      members.sort((a, b) => a.bestDistFromFinal - b.bestDistFromFinal);
+      const lat0 = members[0].lat;
+      const dLat = JITTER_RING_KM / 111;
+      const dLon = JITTER_RING_KM / (111 * Math.cos(lat0 * Math.PI / 180));
+      members.forEach((c, i) => {
+        if (i === 0) return;
+        const angle = (2 * Math.PI * (i - 1)) / (members.length - 1) - Math.PI / 2;
+        c.lat += dLat * Math.sin(angle);
+        c.lon += dLon * Math.cos(angle);
       });
     });
   }
@@ -455,11 +477,28 @@
     `;
   }
 
+  function renderVenueDetail(v) {
+    const rows = v.finals.map(f => `<li>
+      <div class="season">${f.season}</div>
+      <div class="result win">🏆 ${f.winner}</div>
+      <div class="meta">beat ${f.runnerUp} — ${f.score}</div>
+    </li>`).join('');
+    document.getElementById('detail').innerHTML = `
+      <h2>${v.venue}</h2>
+      <div class="country">${v.city}</div>
+      <div class="best-badge" style="color:var(--venue);border-color:var(--venue)">Final venue</div>
+      <div class="stats">
+        <div class="stat"><div class="n">${v.finalsHosted}</div><div class="l">Finals hosted</div></div>
+      </div>
+      <ul class="venue-list">${rows}</ul>`;
+  }
+
   Promise.all([
     fetch('data/clubs_final.json').then(r => r.json()),
     fetch('data/clubs.json').then(r => r.json()),
+    fetch('data/final_venues.json').then(r => r.json()).catch(() => []),
   ])
-    .then(([clubs, finalsRich]) => {
+    .then(([clubs, finalsRich, venues]) => {
       const clubByName = new Map(clubs.map(c => [c.name, c]));
       const richByKey = new Map();
       const titlesByName = new Map();
@@ -483,8 +522,7 @@
         });
       });
 
-      const groups = overlapGroups(clubs);
-      let lastEntries = new Map();
+      jitterOverlaps(clubs);
 
       const markerLayer = L.layerGroup().addTo(map);
       const toggle = document.getElementById('hideQualifyingOnly');
@@ -510,7 +548,6 @@
           .sort((a, b) => rankOf(b.best) - rankOf(a.best));
 
         const points = [];
-        const entriesByClub = new Map();
         drawable.forEach(({ club, best }) => {
           const titles = titlesByName.get(club.name) || 0;
           const m = markerFor(club, titles, best);
@@ -543,12 +580,9 @@
             });
             markerLayer.addLayer(badge);
           }
-          entriesByClub.set(club, { marker: m, badge, radius });
           points.push([club.lat, club.lon]);
         });
 
-        layoutOverlaps(groups, entriesByClub);
-        lastEntries = entriesByClub;
         return points;
       }
 
@@ -574,10 +608,37 @@
         if (e.key === 'Escape') closeDetail();
       });
 
+      // ---- final venues (opt-in layer) ----------------------------
+      const venueLayer = L.layerGroup();
+      const venueToggle = document.getElementById('showVenues');
+      venues.forEach(v => {
+        // grows a little with how many finals it has hosted
+        const size = 11 + Math.min(v.finalsHosted, 8);
+        const m = L.marker([v.lat, v.lon], {
+          icon: L.divIcon({
+            className: 'venue-marker', html: '<div></div>',
+            iconSize: [size, size], iconAnchor: [size / 2, size / 2],
+          }),
+          zIndexOffset: 500,   // sit above the club circles
+        });
+        m.bindTooltip(`${v.venue}, ${v.city} — ${v.finalsHosted} final${v.finalsHosted === 1 ? '' : 's'}`);
+        m.on('click', () => {
+          renderVenueDetail(v);
+          detailWrap.classList.add('open');
+          app.classList.remove('sidebar-collapsed');
+          requestAnimationFrame(() => map.invalidateSize());
+        });
+        venueLayer.addLayer(m);
+      });
+      const applyVenues = () => {
+        if (venueToggle.checked) venueLayer.addTo(map);
+        else map.removeLayer(venueLayer);
+      };
+      applyVenues();
+      venueToggle.addEventListener('change', applyVenues);
+
       const points = render();
       toggle.addEventListener('change', render);
-      // a fixed pixel fan-out has to be recomputed whenever the scale changes
-      map.on('zoomend', () => layoutOverlaps(groups, lastEntries));
 
       const fitAll = () => {
         if (!points.length) return;
