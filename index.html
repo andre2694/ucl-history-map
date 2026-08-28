@@ -486,7 +486,12 @@
     const rows = v.finals.map(f => `<li>
       <div class="season">${f.season}</div>
       <div class="result win">🏆 ${f.winner}</div>
-      <div class="meta">beat ${f.runnerUp} — ${f.score}</div>
+      <div class="meta">beat ${f.runnerUp} — ${f.score}
+        ${f.wikiUrl ? ` · <a href="${f.wikiUrl}" target="_blank" rel="noopener">full match report ↗</a>` : ''}
+      </div>
+      ${f.winnerScorers ? `<div class="scorers">⚽ ${f.winner}: ${f.winnerScorers}</div>` : ''}
+      ${f.runnerUpScorers ? `<div class="scorers">⚽ ${f.runnerUp}: ${f.runnerUpScorers}</div>` : ''}
+      ${f.unassignedScorers ? `<div class="scorers">⚽ ${f.unassignedScorers}</div>` : ''}
     </li>`).join('');
     document.getElementById('detail').innerHTML = `
       <h2>${v.venue}</h2>

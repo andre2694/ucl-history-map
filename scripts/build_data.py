@@ -36,9 +36,18 @@ _SQUAD_HEADER_RE = re.compile(r"^(.+?)\s*\(trainer.*?\)\s*$", re.I)
 # Older pages use "Club: Player1, Player2, ..." instead of "Club (trainer X)".
 # Guarded to not collide with old-style goal lines, which always start with
 # a minute (a digit), never a letter.
-_SQUAD_HEADER_RE2 = re.compile(r"^[A-Za-zÀ-ÿ][\w\.\-À-ÿ ]{2,35}:\s")
+# The colon may end the line ("Liverpool:" with the XI on the next line),
+# so don't require whitespace after it -- that miss left the 2001-02 and
+# 2004-05 finals with no squads to attribute their scorers against.
+_SQUAD_HEADER_RE2 = re.compile(r"^[A-Za-zÀ-ÿ][\w\.\-À-ÿ ]{2,35}:(\s|$)")
 _END_OF_SQUADS_RE = re.compile(r"^(Referee|Attendance|Penalty|Index|NB:|Additional Match Details)", re.I)
 _COACH_LINE_RE = re.compile(r"^(Tr\.?|Trainer|Coach)\s*:", re.I)
+# "Label: ..." lines that are NOT a team's line-up. Without this, "yellow
+# cards: Salgado (45+2), ..." was taken as the first squad of the 2001-02
+# final, so its scorers had only bookings to match against.
+_NOT_A_SQUAD_RE = re.compile(
+    r"^((yellow|red)\s+cards?|penalt|referee|attendance|goals?|scorers?|"
+    r"booked|sent\s+off|note|nb)", re.I)
 _SKIP_RE = re.compile(r"(won|win) .* on penalties", re.I)
 _BRACKET_RE = re.compile(r"^\[(.+)\]$")
 _OLD_GOAL_RE = re.compile(r"^(\d+)['+,]*\s+[\d\-]+\s+([A-Za-z]{1,4}):\s*(.+)$")
@@ -57,6 +66,8 @@ _PEN_ANNOTATION_RE = re.compile(r"\s*\(?pen\.?\)?\s*$", re.I)
 
 
 def _is_squad_header(line: str) -> bool:
+    if _NOT_A_SQUAD_RE.match(line):
+        return False
     return bool(_SQUAD_HEADER_RE.match(line) or _SQUAD_HEADER_RE2.match(line))
 
 
@@ -104,6 +115,29 @@ def extract_scorers(start_year: int, winner: str, runner: str, winner_goals: int
     if len(chunk) < 2:
         return []
 
+    def _join_wrapped_brackets(lines):
+        """RSSSF wraps a long scorer list across lines:
+            [RAUL 8, ZIDANE 45;
+            LUCIO 14]
+        Neither half matches a [..] on one line, so all three of the
+        2001-02, 2004-05 and 2013-14 finals silently lost every scorer.
+        Glue an unclosed bracket to the lines that follow it."""
+        out, buf = [], None
+        for line in lines:
+            if buf is not None:
+                buf += " " + line
+                if "]" in line:
+                    out.append(buf)
+                    buf = None
+                continue
+            if line.startswith("[") and "]" not in line:
+                buf = line
+                continue
+            out.append(line)
+        if buf is not None:
+            out.append(buf)
+        return out
+
     goal_lines, squad_lines, squad_start = [], [], None
     for i, line in enumerate(chunk[1:]):
         if _is_squad_header(line):
@@ -126,7 +160,11 @@ def extract_scorers(start_year: int, winner: str, runner: str, winner_goals: int
         if _is_squad_header(line):
             current = _squad_header_name(line)
             tail = line.split(":", 1)[1] if ":" in line else ""
-            squads[current] = tail
+            # A club can head more than one block -- the XI, then again for
+            # the penalty shootout. Overwriting left Liverpool's 2004-05
+            # entry holding only its five shootout takers, so none of its
+            # actual scorers could be matched. Accumulate instead.
+            squads[current] = squads.get(current, "") + " " + tail
         elif current:
             squads[current] += " " + line
     header_side = {}
@@ -173,7 +211,7 @@ def extract_scorers(start_year: int, winner: str, runner: str, winner_goals: int
 
     # --- parse goal lines
     raw = []  # (minute, name, abbrev|None)
-    for line in goal_lines:
+    for line in _join_wrapped_brackets(goal_lines):
         m = _BRACKET_RE.match(line)
         if m:
             # RSSSF has (at least) three bracket sub-formats:

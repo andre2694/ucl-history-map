@@ -169,8 +169,8 @@
         "venue": "Estádio da Luz",
         "city": "Lisbon",
         "wikiUrl": "https://en.wikipedia.org/wiki/2014_UEFA_Champions_League_final",
-        "scorers": "",
-        "opponentScorers": "",
+        "scorers": "Godin 36'",
+        "opponentScorers": "Sergio Ramos 90+3' · Bale 110' · Marcelo 118' · Ronaldo (pen.) 120'",
         "unassignedScorers": ""
       },
       {
@@ -313,7 +313,7 @@
         "wikiUrl": "https://en.wikipedia.org/wiki/2002_UEFA_Champions_League_final",
         "scorers": "",
         "opponentScorers": "",
-        "unassignedScorers": ""
+        "unassignedScorers": "RAÚL González Blanco 8' · Zinédine ZIDANE 45' · Lucimar 'LÚCIO' da Silva Ferreira 14'"
       }
     ]
   },
@@ -1148,8 +1148,8 @@
         "venue": "Atatürk Olympic Stadium",
         "city": "Istanbul",
         "wikiUrl": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final",
-        "scorers": "",
-        "opponentScorers": "",
+        "scorers": "Steven Gerrard 54' · Vladimir Smicer 56' · Xabi Alonso 60'",
+        "opponentScorers": "Paolo Maldini 1' · Hernán Crespo 38', 43'",
         "unassignedScorers": ""
       },
       {
@@ -1491,8 +1491,8 @@
         "venue": "Atatürk Olympic Stadium",
         "city": "Istanbul",
         "wikiUrl": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final",
-        "scorers": "",
-        "opponentScorers": "",
+        "scorers": "Paolo Maldini 1' · Hernán Crespo 38', 43'",
+        "opponentScorers": "Steven Gerrard 54' · Vladimir Smicer 56' · Xabi Alonso 60'",
         "unassignedScorers": ""
       },
       {
@@ -1869,7 +1869,7 @@
         "wikiUrl": "https://en.wikipedia.org/wiki/2002_UEFA_Champions_League_final",
         "scorers": "",
         "opponentScorers": "",
-        "unassignedScorers": ""
+        "unassignedScorers": "RAÚL González Blanco 8' · Zinédine ZIDANE 45' · Lucimar 'LÚCIO' da Silva Ferreira 14'"
       },
       {
         "season": "2013–14",
@@ -1879,8 +1879,8 @@
         "venue": "Estádio da Luz",
         "city": "Lisbon",
         "wikiUrl": "https://en.wikipedia.org/wiki/2014_UEFA_Champions_League_final",
-        "scorers": "",
-        "opponentScorers": "",
+        "scorers": "Sergio Ramos 90+3' · Bale 110' · Marcelo 118' · Ronaldo (pen.) 120'",
+        "opponentScorers": "Godin 36'",
         "unassignedScorers": ""
       },
       {

@@ -98,8 +98,39 @@ def geocode(venue, city):
     return None
 
 
+def rich_finals_index():
+    """(club, season) -> that club's rich record for the final it played:
+    team-attributed scorers and the Wikipedia match report. Built by
+    build_data.py, so the venue view reuses exactly what the club view
+    shows rather than re-deriving it."""
+    path = DATA / "clubs.json"
+    if not path.exists():
+        return {}
+    index = {}
+    for club in json.loads(path.read_text(encoding="utf-8")):
+        for a in club["appearances"]:
+            index[(club["name"], a["season"])] = a
+    return index
+
+
+def _final_record(f, rich):
+    # the winner's own record carries both sides: "scorers" is theirs,
+    # "opponentScorers" the runner-up's
+    got = rich.get((f["winner"], f["season"]), {})
+    record = {"season": f["season"], "winner": f["winner"],
+              "runnerUp": f["runnerUp"], "score": f["score"]}
+    for src, dest in (("scorers", "winnerScorers"),
+                      ("opponentScorers", "runnerUpScorers"),
+                      ("unassignedScorers", "unassignedScorers"),
+                      ("wikiUrl", "wikiUrl")):
+        if got.get(src):
+            record[dest] = got[src]
+    return record
+
+
 def main():
     finals = json.loads((DATA / "finals_raw.json").read_text(encoding="utf-8"))
+    rich = rich_finals_index()
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
 
     venues = OrderedDict()
@@ -137,8 +168,7 @@ def main():
             "lat": hit["lat"], "lon": hit["lon"],
             "qid": hit.get("qid"), "matchedLabel": hit.get("matchedLabel"),
             "finalsHosted": len(hosted),
-            "finals": [{"season": f["season"], "winner": f["winner"],
-                        "runnerUp": f["runnerUp"], "score": f["score"]} for f in hosted],
+            "finals": [_final_record(f, rich) for f in hosted],
         })
     out.sort(key=lambda v: (-v["finalsHosted"], v["venue"]))
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
