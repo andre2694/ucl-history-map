@@ -58,7 +58,11 @@ def main():
         if hit and "lat" in hit:
             c["lat"], c["lon"] = hit["lat"], hit["lon"]
             c["geocodeSource"] = hit.get("source")
-            country = hit.get("country") or c.get("countryHint")
+            # Prefer the RSSSF association code over the geocoder's
+            # sovereign state: this competition is organised by football
+            # association, so Newcastle belongs to England and Linfield to
+            # Northern Ireland, not both to "United Kingdom".
+            country = c.get("countryHint") or hit.get("country")
             if country:
                 c["country"] = country
             c.pop("countryHint", None)

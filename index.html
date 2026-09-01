@@ -44,6 +44,15 @@
     padding: 10px 18px; border-bottom: 1px solid var(--border);
     font-size: 11px; color: var(--muted);
   }
+  .mode-switch { display: flex; gap: 0; margin-bottom: 10px; }
+  .mode-switch button {
+    flex: 1; padding: 6px 10px; font: inherit; font-size: 12px;
+    background: var(--bg); color: var(--muted);
+    border: 1px solid var(--border); cursor: pointer;
+  }
+  .mode-switch button:first-child { border-radius: 5px 0 0 5px; }
+  .mode-switch button:last-child { border-radius: 0 5px 5px 0; border-left: none; }
+  .mode-switch button.active { background: var(--panel); color: var(--text); font-weight: 600; }
   .legend-scale { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-bottom: 8px; }
   .legend-scale span { display: inline-flex; align-items: center; gap: 6px; }
   .hide-toggle {
@@ -126,6 +135,7 @@
   #detail li .scorers { color: var(--text); font-size: 11px; margin-top: 4px; opacity: 0.85; }
   .leaflet-popup-content-wrapper { background: var(--panel); color: var(--text); }
   .leaflet-popup-tip { background: var(--panel); }
+  .country-count { font-size: 13px; color: #17130a; }
   .title-count {
     background: transparent; border: none; box-shadow: none;
     display: flex; align-items: center; justify-content: center;
@@ -215,6 +225,10 @@
       <p>Every club that has ever entered, 1955–56 to present. Gold/silver = reached a final; blue tones = best-ever progress otherwise, brighter for a deeper run. Qualification rounds are excluded by default, so clubs are judged on the competition proper. Click a marker to drill into a club's history.</p>
     </header>
     <div class="legend">
+      <div class="mode-switch" role="group" aria-label="View mode">
+        <button type="button" id="modeClubs" class="active">Clubs</button>
+        <button type="button" id="modeCountries">Countries</button>
+      </div>
       <div class="legend-scale">
         <span><i class="dot" style="background:var(--gold)"></i> Winner</span>
         <span><i class="dot" style="background:var(--silver)"></i> Runner-up</span>
@@ -482,6 +496,58 @@
       btn.addEventListener('click', () => onPick(hits[+btn.dataset.i])));
   }
 
+  // One entry per country: its clubs pooled, positioned at the mean of
+  // their grounds. A true geographic centroid would drop Russia's marker
+  // in Siberia, thousands of km from any club that has ever entered --
+  // the mean of the actual clubs is both simpler and more honest about
+  // where a country's European football is played.
+  function aggregateByCountry(clubs, titlesByName, runnersUpByName, includeQualifying) {
+    const byCountry = new Map();
+    clubs.forEach(club => {
+      const best = bestAppearanceOf(club, includeQualifying);
+      if (!best || !club.country) return;
+      let e = byCountry.get(club.country);
+      if (!e) {
+        e = { country: club.country, clubs: [], titles: 0, runnersUp: 0,
+              lat: 0, lon: 0, best: null };
+        byCountry.set(club.country, e);
+      }
+      const titles = titlesByName.get(club.name) || 0;
+      e.clubs.push({ club, best, titles });
+      e.titles += titles;
+      e.runnersUp += runnersUpByName.get(club.name) || 0;
+      e.lat += club.lat; e.lon += club.lon;
+      if (!e.best || rankOf(best) < rankOf(e.best)) e.best = best;
+    });
+    return [...byCountry.values()].map(e => {
+      e.lat /= e.clubs.length; e.lon /= e.clubs.length;
+      e.clubs.sort((a, b) => (b.titles - a.titles) || (rankOf(a.best) - rankOf(b.best))
+                             || a.club.name.localeCompare(b.club.name));
+      return e;
+    });
+  }
+
+  function renderCountryDetail(entry, onPickClub) {
+    const rows = entry.clubs.map((c, i) => `<li>
+      <button type="button" class="pick" data-i="${i}">
+        <span>${c.club.name}</span>
+        <span class="pick-best">${c.titles ? '🏆'.repeat(Math.min(c.titles, 3))
+          + (c.titles > 3 ? `×${c.titles}` : '') + ' · ' : ''}${cleanRoundLabel(c.best.roundName)}</span>
+      </button></li>`).join('');
+    const el = document.getElementById('detail');
+    el.innerHTML = `
+      <h2>${entry.country}</h2>
+      <div class="country">${entry.clubs.length} club${entry.clubs.length === 1 ? '' : 's'} to have entered</div>
+      <div class="best-badge">Best result: ${cleanRoundLabel(entry.best.roundName)}</div>
+      <div class="stats">
+        <div class="stat"><div class="n">${entry.titles}</div><div class="l">Titles</div></div>
+        <div class="stat"><div class="n">${entry.runnersUp}</div><div class="l">Runner-up</div></div>
+      </div>
+      <ul class="chooser">${rows}</ul>`;
+    el.querySelectorAll('button.pick').forEach(b =>
+      b.addEventListener('click', () => onPickClub(entry.clubs[+b.dataset.i])));
+  }
+
   function renderVenueDetail(v) {
     const rows = v.finals.map(f => `<li>
       <div class="season">${f.season}</div>
@@ -507,13 +573,16 @@
     fetch('data/clubs_final.json').then(r => r.json()),
     fetch('data/clubs.json').then(r => r.json()),
     fetch('data/final_venues.json').then(r => r.json()).catch(() => []),
+    fetch('vendor/geo/uefa_countries.geojson').then(r => r.json()).catch(() => null),
   ])
-    .then(([clubs, finalsRich, venues]) => {
+    .then(([clubs, finalsRich, venues, countryShapes]) => {
       const clubByName = new Map(clubs.map(c => [c.name, c]));
       const richByKey = new Map();
       const titlesByName = new Map();
+      const runnersUpByName = new Map();
       finalsRich.forEach(c => {
         titlesByName.set(c.name, c.titles);
+        runnersUpByName.set(c.name, c.runnerUps);
         c.appearances.forEach(a => {
           richByKey.set(c.name + '||' + seasonKey(a.season), a);
           // RSSSF (the participation source) lags the actual football
@@ -537,10 +606,112 @@
       const toggle = document.getElementById('hideQualifyingOnly');
       const qualifyingSwatch = document.getElementById('qualifyingSwatch');
 
+      // shared by both views: bring the panel back whether it was
+      // dismissed on mobile or collapsed on desktop
+      const reveal = () => {
+        document.getElementById('detailWrap').classList.add('open');
+        document.getElementById('app').classList.remove('sidebar-collapsed');
+        requestAnimationFrame(() => map.invalidateSize());
+      };
+
+      let mode = 'clubs';
+      const modeButtons = { clubs: document.getElementById('modeClubs'),
+                            countries: document.getElementById('modeCountries') };
+
       // Markers are rebuilt (not merely hidden) whenever the setting
       // changes: excluding qualification changes each club's best result,
       // and therefore its tier colour and size, not just whether it shows.
       function render() {
+        return mode === 'countries' ? renderCountries() : renderClubs();
+      }
+
+      // One marker per country, coloured and sized by the same rules as a
+      // club so the two views read alike: gold when it has won the thing,
+      // growing with how many times.
+      // Country view: the SHAPE is filled, so the whole territory carries
+      // the colour. Natural Earth's map_units splits the UK into its four
+      // home nations, which matters here because they are separate
+      // football associations -- England's titles are not Scotland's.
+      // Microstates (Andorra, Malta, San Marino, Monaco, Gibraltar, Faroe
+      // Islands) have no polygon at this resolution and fall back to a
+      // small circle so they are still represented.
+      const GEO_RENAME = { 'Czech Republic': 'Czechia' };
+
+      function countryStyle(entry) {
+        const isFinal = entry.best.roundName === 'Final';
+        const tier = classifyTier(entry.best.roundName);
+        return {
+          fillColor: isFinal ? (entry.titles ? '#d4af37' : '#b9c2cf') : '#5b9bd5',
+          fillOpacity: isFinal ? 0.75 : Math.max(0.18, BLUE_TIERS[tier] * 0.8),
+          color: '#0b1220', weight: 1,
+        };
+      }
+
+      function renderCountries() {
+        const includeQualifying = toggle.checked;
+        markerLayer.clearLayers();
+        qualifyingSwatch.style.display = includeQualifying ? '' : 'none';
+        document.getElementById('detail').innerHTML =
+          '<p class="placeholder">Select a country on the map.</p>';
+        document.getElementById('detailWrap').classList.remove('open');
+
+        const entries = aggregateByCountry(clubs, titlesByName, runnersUpByName, includeQualifying);
+        const byGeoName = new Map(entries.map(e => [GEO_RENAME[e.country] || e.country, e]));
+        const points = [];
+
+        const open = entry => {
+          renderCountryDetail(entry, picked => {
+            renderDetail(picked.club, richByKey, titlesByName, includeQualifying);
+            reveal();
+          });
+          reveal();
+        };
+        const label = (entry, latlng) => {
+          if (!entry.titles) return;
+          markerLayer.addLayer(L.marker(latlng, {
+            icon: L.divIcon({ className: 'title-count country-count',
+                              html: String(entry.titles), iconSize: [26, 26], iconAnchor: [13, 13] }),
+            interactive: false,
+          }));
+        };
+
+        if (countryShapes) {
+          const layer = L.geoJSON(countryShapes, {
+            filter: f => byGeoName.has(f.properties.name),
+            style: f => countryStyle(byGeoName.get(f.properties.name)),
+            onEachFeature: (f, lyr) => {
+              const entry = byGeoName.get(f.properties.name);
+              lyr.bindTooltip(`${entry.country} — ${entry.titles} title`
+                + `${entry.titles === 1 ? '' : 's'}, ${entry.clubs.length} clubs`);
+              lyr.on('click', () => open(entry));
+              label(entry, lyr.getBounds().getCenter());
+              points.push([lyr.getBounds().getCenter().lat, lyr.getBounds().getCenter().lng]);
+            },
+          });
+          markerLayer.addLayer(layer);
+        }
+
+        // countries with no polygon: keep them on the map as a circle
+        const drawn = new Set(countryShapes
+          ? countryShapes.features.map(f => f.properties.name) : []);
+        entries.forEach(entry => {
+          if (drawn.has(GEO_RENAME[entry.country] || entry.country)) return;
+          const st = countryStyle(entry);
+          const m = L.circleMarker([entry.lat, entry.lon], {
+            radius: (entry.titles ? winnerRadius(entry.titles) : 6) * MARKER_SCALE(),
+            fillColor: st.fillColor, fillOpacity: 0.95, color: '#0b1220', weight: 1,
+          });
+          m.bindTooltip(`${entry.country} — ${entry.clubs.length} club`
+            + `${entry.clubs.length === 1 ? '' : 's'}`);
+          m.on('click', () => open(entry));
+          markerLayer.addLayer(m);
+          label(entry, [entry.lat, entry.lon]);
+          points.push([entry.lat, entry.lon]);
+        });
+        return points;
+      }
+
+      function renderClubs() {
         const includeQualifying = toggle.checked;
         markerLayer.clearLayers();
         qualifyingSwatch.style.display = includeQualifying ? '' : 'none';
@@ -563,13 +734,6 @@
           const m = markerFor(club, titles, best);
           m.bindTooltip(`${club.name} — best: ${cleanRoundLabel(best.roundName)}`
             + ` (${countedAppearances(club, includeQualifying).length} seasons)`);
-          const reveal = () => {
-            document.getElementById('detailWrap').classList.add('open');
-            // a click must always reveal what it selected, whether the
-            // panel was dismissed on mobile or collapsed on desktop
-            document.getElementById('app').classList.remove('sidebar-collapsed');
-            requestAnimationFrame(() => map.invalidateSize());
-          };
           const show = entry => {
             renderDetail(entry.club, richByKey, titlesByName, includeQualifying);
             reveal();
@@ -657,8 +821,22 @@
       applyVenues();
       venueToggle.addEventListener('change', applyVenues);
 
-      const points = render();
+      let points = render();
       toggle.addEventListener('change', render);
+
+      function setMode(next) {
+        if (next === mode) return;
+        mode = next;
+        Object.entries(modeButtons).forEach(([k, b]) => b.classList.toggle('active', k === next));
+        points = render();
+        // the two views span different extents, so refit
+        if (points.length) {
+          map.invalidateSize();
+          map.fitBounds(L.latLngBounds(points), { padding: [30, 30] });
+        }
+      }
+      modeButtons.clubs.addEventListener('click', () => setMode('clubs'));
+      modeButtons.countries.addEventListener('click', () => setMode('countries'));
 
       const fitAll = () => {
         if (!points.length) return;
