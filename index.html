@@ -635,8 +635,6 @@
       // Microstates (Andorra, Malta, San Marino, Monaco, Gibraltar, Faroe
       // Islands) have no polygon at this resolution and fall back to a
       // small circle so they are still represented.
-      const GEO_RENAME = { 'Czech Republic': 'Czechia' };
-
       function countryStyle(entry) {
         const isFinal = entry.best.roundName === 'Final';
         const tier = classifyTier(entry.best.roundName);
@@ -656,7 +654,7 @@
         document.getElementById('detailWrap').classList.remove('open');
 
         const entries = aggregateByCountry(clubs, titlesByName, runnersUpByName, includeQualifying);
-        const byGeoName = new Map(entries.map(e => [GEO_RENAME[e.country] || e.country, e]));
+        const byGeoName = new Map(entries.map(e => [e.country, e]));
         const points = [];
 
         const open = entry => {
@@ -666,8 +664,10 @@
           });
           reveal();
         };
+        const labelled = new Set();
         const label = (entry, latlng) => {
-          if (!entry.titles) return;
+          if (!entry.titles || labelled.has(entry.country)) return;
+          labelled.add(entry.country);
           markerLayer.addLayer(L.marker(latlng, {
             icon: L.divIcon({ className: 'title-count country-count',
                               html: String(entry.titles), iconSize: [26, 26], iconAnchor: [13, 13] }),
@@ -675,6 +675,7 @@
           }));
         };
 
+        const biggest = new Map();
         if (countryShapes) {
           const layer = L.geoJSON(countryShapes, {
             filter: f => byGeoName.has(f.properties.name),
@@ -684,18 +685,24 @@
               lyr.bindTooltip(`${entry.country} — ${entry.titles} title`
                 + `${entry.titles === 1 ? '' : 's'}, ${entry.clubs.length} clubs`);
               lyr.on('click', () => open(entry));
-              label(entry, lyr.getBounds().getCenter());
-              points.push([lyr.getBounds().getCenter().lat, lyr.getBounds().getCenter().lng]);
+              const b = lyr.getBounds();
+              // remember the biggest piece so the count lands on the
+              // mainland rather than on an outlying island
+              const area = (b.getNorth() - b.getSouth()) * (b.getEast() - b.getWest());
+              const prev = biggest.get(entry.country);
+              if (!prev || area > prev.area) biggest.set(entry.country, { area, at: b.getCenter() });
+              points.push([b.getCenter().lat, b.getCenter().lng]);
             },
           });
           markerLayer.addLayer(layer);
+          biggest.forEach((v, country) => label(byGeoName.get(country), v.at));
         }
 
         // countries with no polygon: keep them on the map as a circle
         const drawn = new Set(countryShapes
           ? countryShapes.features.map(f => f.properties.name) : []);
         entries.forEach(entry => {
-          if (drawn.has(GEO_RENAME[entry.country] || entry.country)) return;
+          if (drawn.has(entry.country)) return;
           const st = countryStyle(entry);
           const m = L.circleMarker([entry.lat, entry.lon], {
             radius: (entry.titles ? winnerRadius(entry.titles) : 6) * MARKER_SCALE(),
